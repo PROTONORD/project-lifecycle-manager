@@ -1,7 +1,5 @@
 # prototype-workflow-med-github
 
-### \#\# Hva som mangler
-
   * **Systemarkitektur:** En kort oversikt som forklarer den toveis dataflyten.
   * **Shopify API-oppsett:** Hvilke nøkler man trenger.
   * **Arbeidsflyten i praksis:**
