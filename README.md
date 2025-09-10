@@ -131,3 +131,26 @@ Skriptene må oppdateres til å bruke MinIO.
   * **Fusion 360 Add-in:** Utvikle et Add-in som kan laste opp filer direkte til MinIO og oppdatere `product.json`.
   * **Sikker fildeling:** Bruk MinIO til å generere midlertidige nedlastingslenker for betatestere.
   * **Lagerstyring:** Utvid skriptene til å kunne oppdatere lagerstatus i Shopify.
+
+## Del 7: Arkivering til Kunnskapsbase (Docmost) 📚
+Når et produkt er ferdigstilt, testet og ansett som "modent", blir den endelige dokumentasjonen overført fra det aktive GitHub-prosjektet til vår sentrale, søkbare kunnskapsbase i Docmost.
+
+Dette sikrer at vi bygger et permanent bibliotek over alle våre design, tilgjengelig for hele teamet, uavhengig av det aktive utviklingsløpet.
+
+Hvorfor Docmost?
+GitHub er vårt levende "verksted" for pågående utvikling, testing og samarbeid.
+
+Docmost er vårt ferdige "bibliotek" for publisert, versjonert og lett søkbar informasjon.
+
+Prosessen for overføring:
+Når et prosjekt skal arkiveres, følges disse stegene:
+
+Samle Dokumentasjon: All relevant informasjon fra prosjektets GitHub-repositorium – som hoved-README.md, monteringsguider, testresultater og designvalg – blir samlet.
+
+Opprett Struktur i Docmost: Et nytt "Space" eller en ny "Book" opprettes i Docmost for produktet.
+
+Lim inn Markdown: Innholdet fra .md-filene kopieres og limes direkte inn i Docmost-editoren. Plattformen formaterer teksten automatisk.
+
+Last opp Filer: Relevante bilder, PDF-er og andre endelige filer lastes opp direkte til Docmost-siden for å sikre at all informasjon er samlet på ett sted.
+
+Lenk Tilbake: En lenke til det opprinnelige GitHub-repositoriet legges ved i Docmost for de som trenger tilgang til den komplette, detaljerte endringshistorikken.
