@@ -1,9 +1,4 @@
 # prototype-workflow-med-github
-Nei, den mangler den viktigste delen vi diskuterte sist: **Shopify-integrasjonen**.
-
-Selve grunn-oppsettet for serveren og versjonskontrollen er perfekt beskrevet i det du har nå. Men for å gjøre guiden komplett og reflektere hele systemet, må du legge til delen om hvordan du synkroniserer data **til og fra Shopify**.
-
------
 
 ### \#\# Hva som mangler
 
