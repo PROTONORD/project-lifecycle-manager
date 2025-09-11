@@ -8,7 +8,7 @@ from .config import (
 )
 from .shopify_client import ShopifyClient
 
-def sync_product_to_shopify(product_dir: Path) -> bool:
+def sync_product_to_shopify(product_dir: Path, dry_run: bool = False) -> bool:
     """Sync a single product folder back to Shopify"""
     product_json_path = product_dir / "product.json"
     description_path = product_dir / "description.md"
@@ -69,6 +69,10 @@ def sync_product_to_shopify(product_dir: Path) -> bool:
                 update_data["variants"].append(variant_update)
         
         # Update product in Shopify
+        if dry_run:
+            print(f"🧪 DRY RUN: Would update product: {product_data.get('title')} (ID: {product_id})")
+            return True
+        
         updated_product = shopify_client.update_product(product_id, update_data)
         print(f"✅ Updated product: {updated_product.get('title')} (ID: {product_id})")
         
@@ -88,7 +92,7 @@ def sync_product_to_shopify(product_dir: Path) -> bool:
         print(f"Error updating product {product_data.get('title', 'Unknown')}: {e}")
         return False
 
-def sync_all_products() -> None:
+def sync_all_products(dry_run: bool = False) -> None:
     """Sync all products in the catalog to Shopify"""
     print("🔄 Starting sync to Shopify...")
     
@@ -116,7 +120,7 @@ def sync_all_products() -> None:
     
     for product_dir in product_dirs:
         print(f"\nSyncing: {product_dir.name}")
-        if sync_product_to_shopify(product_dir):
+        if sync_product_to_shopify(product_dir, dry_run):
             successful += 1
         else:
             failed += 1
@@ -125,7 +129,7 @@ def sync_all_products() -> None:
     print(f"   ✅ {successful} products updated successfully")
     print(f"   ❌ {failed} products failed to update")
 
-def sync_specific_product(handle: str) -> None:
+def sync_specific_product(handle: str, dry_run: bool = False) -> None:
     """Sync a specific product by handle"""
     validate()
     
@@ -142,8 +146,11 @@ def sync_specific_product(handle: str) -> None:
     
     print(f"🔄 Syncing product: {handle}")
     
-    if sync_product_to_shopify(product_dir):
-        print(f"✅ Successfully synced {handle}")
+    if sync_product_to_shopify(product_dir, dry_run):
+        if dry_run:
+            print(f"🧪 DRY RUN: Would successfully sync {handle}")
+        else:
+            print(f"✅ Successfully synced {handle}")
     else:
         print(f"❌ Failed to sync {handle}")
 

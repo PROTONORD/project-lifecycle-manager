@@ -1,0 +1,4 @@
+# Additional dependencies for webhook server and advanced features
+flask==3.0.0
+watchdog==4.0.1
+schedule==1.2.1

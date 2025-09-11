@@ -1,0 +1,9 @@
+# MinIO configuration
+MINIO_VOLUMES="/mnt/data"
+MINIO_OPTS="--console-address :9001"
+MINIO_ROOT_USER=minioadmin
+MINIO_ROOT_PASSWORD=minioadmin123
+
+# For production, change these credentials!
+# MINIO_ROOT_USER=your-secure-username
+# MINIO_ROOT_PASSWORD=your-secure-password-min-8-chars

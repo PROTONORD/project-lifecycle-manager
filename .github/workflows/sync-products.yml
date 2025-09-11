@@ -1,0 +1,139 @@
+name: Sync Products to Shopify
+
+on:
+  schedule:
+    # Run daily at 8 AM UTC
+    - cron: '0 8 * * *'
+  
+  # Allow manual triggering
+  workflow_dispatch:
+    inputs:
+      sync_mode:
+        description: 'Sync mode'
+        required: true
+        default: 'all'
+        type: choice
+        options:
+          - all
+          - modified-only
+      dry_run:
+        description: 'Dry run (test only)'
+        required: false
+        default: false
+        type: boolean
+
+jobs:
+  sync-products:
+    runs-on: ubuntu-latest
+    
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v4
+      with:
+        fetch-depth: 0  # Full history for change detection
+    
+    - name: Set up Python
+      uses: actions/setup-python@v4
+      with:
+        python-version: '3.12'
+    
+    - name: Cache Python dependencies
+      uses: actions/cache@v3
+      with:
+        path: ~/.cache/pip
+        key: ${{ runner.os }}-pip-${{ hashFiles('**/requirements.txt') }}
+        restore-keys: |
+          ${{ runner.os }}-pip-
+    
+    - name: Install dependencies
+      run: |
+        python -m pip install --upgrade pip
+        pip install -r requirements.txt
+    
+    - name: Validate configuration
+      env:
+        SHOPIFY_SHOP: ${{ secrets.SHOPIFY_SHOP }}
+        SHOPIFY_ACCESS_TOKEN: ${{ secrets.SHOPIFY_ACCESS_TOKEN }}
+        MINIO_ENDPOINT: ${{ secrets.MINIO_ENDPOINT }}
+        MINIO_ACCESS_KEY: ${{ secrets.MINIO_ACCESS_KEY }}
+        MINIO_SECRET_KEY: ${{ secrets.MINIO_SECRET_KEY }}
+        MINIO_BUCKET: ${{ secrets.MINIO_BUCKET }}
+        MINIO_SECURE: ${{ secrets.MINIO_SECURE }}
+      run: |
+        python setup/validate_config.py
+    
+    - name: Detect changed products
+      id: changes
+      run: |
+        # Find changed product.json files in the last 24 hours
+        changed_products=$(find catalog -name "product.json" -newer <(date -d '24 hours ago') 2>/dev/null | cut -d'/' -f2 | sort | uniq | tr '\n' ' ' || echo "")
+        echo "changed_products=$changed_products" >> $GITHUB_OUTPUT
+        echo "Found changed products: $changed_products"
+    
+    - name: Sync all products
+      if: ${{ github.event.inputs.sync_mode == 'all' || github.event_name == 'schedule' }}
+      env:
+        SHOPIFY_SHOP: ${{ secrets.SHOPIFY_SHOP }}
+        SHOPIFY_ACCESS_TOKEN: ${{ secrets.SHOPIFY_ACCESS_TOKEN }}
+        MINIO_ENDPOINT: ${{ secrets.MINIO_ENDPOINT }}
+        MINIO_ACCESS_KEY: ${{ secrets.MINIO_ACCESS_KEY }}
+        MINIO_SECRET_KEY: ${{ secrets.MINIO_SECRET_KEY }}
+        MINIO_BUCKET: ${{ secrets.MINIO_BUCKET }}
+        MINIO_SECURE: ${{ secrets.MINIO_SECURE }}
+      run: |
+        if [ "${{ github.event.inputs.dry_run }}" == "true" ]; then
+          echo "🧪 Dry run mode - no actual changes will be made"
+          python main.py sync --dry-run
+        else
+          python main.py sync
+        fi
+    
+    - name: Sync changed products only
+      if: ${{ github.event.inputs.sync_mode == 'modified-only' && steps.changes.outputs.changed_products != '' }}
+      env:
+        SHOPIFY_SHOP: ${{ secrets.SHOPIFY_SHOP }}
+        SHOPIFY_ACCESS_TOKEN: ${{ secrets.SHOPIFY_ACCESS_TOKEN }}
+        MINIO_ENDPOINT: ${{ secrets.MINIO_ENDPOINT }}
+        MINIO_ACCESS_KEY: ${{ secrets.MINIO_ACCESS_KEY }}
+        MINIO_SECRET_KEY: ${{ secrets.MINIO_SECRET_KEY }}
+        MINIO_BUCKET: ${{ secrets.MINIO_BUCKET }}
+        MINIO_SECURE: ${{ secrets.MINIO_SECURE }}
+      run: |
+        for product in ${{ steps.changes.outputs.changed_products }}; do
+          echo "Syncing changed product: $product"
+          if [ "${{ github.event.inputs.dry_run }}" == "true" ]; then
+            echo "🧪 Dry run mode - would sync $product"
+          else
+            python main.py sync "$product"
+          fi
+        done
+    
+    - name: Create summary
+      run: |
+        echo "## Sync Summary" >> $GITHUB_STEP_SUMMARY
+        echo "- **Mode**: ${{ github.event.inputs.sync_mode || 'scheduled' }}" >> $GITHUB_STEP_SUMMARY
+        echo "- **Dry Run**: ${{ github.event.inputs.dry_run || 'false' }}" >> $GITHUB_STEP_SUMMARY
+        echo "- **Changed Products**: ${{ steps.changes.outputs.changed_products || 'none detected' }}" >> $GITHUB_STEP_SUMMARY
+        echo "- **Timestamp**: $(date -u)" >> $GITHUB_STEP_SUMMARY
+        
+        # Get catalog status
+        python main.py status >> $GITHUB_STEP_SUMMARY || echo "Status check failed" >> $GITHUB_STEP_SUMMARY
+    
+    - name: Notify on failure
+      if: failure()
+      uses: actions/github-script@v6
+      with:
+        script: |
+          github.rest.issues.create({
+            owner: context.repo.owner,
+            repo: context.repo.repo,
+            title: '🚨 Product Sync Failed',
+            body: `The automated product sync failed on ${new Date().toISOString()}.
+            
+            **Workflow**: ${context.workflow}
+            **Run ID**: ${context.runId}
+            **Trigger**: ${context.eventName}
+            
+            Please check the workflow logs and resolve any issues.`,
+            labels: ['automation', 'sync-error']
+          });

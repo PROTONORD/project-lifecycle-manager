@@ -38,6 +38,11 @@ def main():
         nargs='?',
         help='Product handle to sync (optional, syncs all if not specified)'
     )
+    sync_parser.add_argument(
+        '--dry-run',
+        action='store_true',
+        help='Test sync without making actual changes'
+    )
     
     # New product command
     new_parser = subparsers.add_parser(
@@ -70,10 +75,10 @@ def main():
         elif args.command == 'sync':
             if args.handle:
                 from src.sync_to_shopify import sync_specific_product
-                sync_specific_product(args.handle)
+                sync_specific_product(args.handle, args.dry_run)
             else:
                 from src.sync_to_shopify import sync_all_products
-                sync_all_products()
+                sync_all_products(args.dry_run)
                 
         elif args.command == 'new':
             from src.new_product import create_new_product
