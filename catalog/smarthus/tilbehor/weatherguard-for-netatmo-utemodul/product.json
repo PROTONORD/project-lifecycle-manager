@@ -1,0 +1,53 @@
+{
+  "id": 9563055292697,
+  "title": "WeatherGuard for Netatmo utemodul",
+  "handle": "weatherguard-for-netatmo-utemodul",
+  "status": "archived",
+  "product_type": "Netatmo",
+  "vendor": "Fladby 3Dprint",
+  "tags": "Hjem, Netatmo, weatherguard",
+  "options": [
+    {
+      "id": 12033608089881,
+      "product_id": 9563055292697,
+      "name": "Farge",
+      "position": 1,
+      "values": [
+        "Hvit",
+        "Sort"
+      ]
+    }
+  ],
+  "variants": [
+    {
+      "id": 49241825378585,
+      "title": "Hvit",
+      "sku": "PWE-H-N-F-0181-S",
+      "price": "380.00",
+      "compare_at_price": null,
+      "barcode": "",
+      "weight": 350.0,
+      "weight_unit": "g",
+      "inventory_policy": "continue",
+      "taxable": true,
+      "requires_shipping": true
+    },
+    {
+      "id": 49241825345817,
+      "title": "Sort",
+      "sku": "PWE-S-N-F-0182-S",
+      "price": "380.00",
+      "compare_at_price": null,
+      "barcode": "",
+      "weight": 350.0,
+      "weight_unit": "g",
+      "inventory_policy": "continue",
+      "taxable": true,
+      "requires_shipping": true
+    }
+  ],
+  "body_html": "<p><strong>WeatherGuard for Netatmo Utemodul</strong></p>\n<p><strong>Forleng Levetiden og Forbedre nøyaktigheten til Din Netatmo Utemodul med WeatherGuard!</strong></p>\n<p>Ta vare på din Netatmo Utemodul med vår premium WeatherGuard beskyttelse. Designet for å skjerme Utemodulen mot tøffe værforhold, sørger WeatherGuard for at dine værdata alltid er pålitelige og nøyaktige. Denne beskyttelsen forlenger også levetiden til Utemodulen din, slik at du kan nyte mange flere år med presise målinger.</p>\n<p><strong>Hovedfunksjoner:</strong></p>\n<ul>\n<li>\n<p><strong>Overlegen Beskyttelse:</strong> WeatherGuard beskytter din Netatmo Utemodul mot regn, snø, hagl og skadelig sollys, som alle kan påvirke sensorens ytelse og nøyaktighet.</p>\n</li>\n<li>\n<p><strong>Holdbart Materiale:</strong> Laget av høy kvalitet, UV-bestandig materiale som sikrer langvarig beskyttelse og pålitelighet under enhver værtype.</p>\n</li>\n<li>\n<p><strong>Enkel Installasjon:</strong> WeatherGuard er utformet for å være enkel å montere, og krever ingen spesialverktøy. Den passer perfekt over din Netatmo Utemodul uten å hindre sensorens funksjonalitet.</p>\n</li>\n<li>\n<p><strong>Presis Passform:</strong> Spesielt tilpasset Netatmo Utemodul for å sikre en nøyaktig og sikker montering som ikke forstyrrer luftstrømmen eller målingene.</p>\n</li>\n</ul>\n<p><strong>Hvorfor velge WeatherGuard?</strong></p>\n<p>Med WeatherGuard gir du din Netatmo Utemodul den beskyttelsen den fortjener, slik at den kan fortsette å levere nøyaktige værdata under alle forhold. Enten du bruker værmålingene til personlig, landbruksmessig eller forskningsformål, vil WeatherGuard hjelpe deg med å opprettholde kvaliteten og påliteligheten til dataene dine.</p>\n<p><strong>Produktegenskaper:</strong></p>\n<ul>\n<li>Enkel og rask montering uten behov for verktøy</li>\n<li>Robust og slitesterk konstruksjon som tåler alle værforhold</li>\n<li>Designet for å komplementere Netatmo Utemodulens estetikk og funksjonalitet</li>\n</ul>\n<p><strong>Pakken Inneholder:</strong></p>\n<ul>\n<li>1 x WeatherGuard for Netatmo Utemodul</li>\n</ul>\n<p>Beskytt din Netatmo Utemodul mot elementene og sikre nøyaktige målinger året rundt med WeatherGuard. Dette essensielle tilbehøret er ideelt for alle som er avhengige av presise og pålitelige værdata.</p>\n<hr>\n<p>Gjør et smart valg for din Netatmo</p>\n<p> </p>\n<p><strong>Monteringsinstruks:</strong></p>\n<ul>\n<li>Topphetten løftes lett av basedelen slik at denne kan skrus fast til vegg med 2stk skruer 4,2mm i diameter eller mindre.</li>\n<li>Netatmo-modulen settes så i basedelen</li>\n<li>Topphetten tres over basedelen og montering er ferdig.</li>\n</ul>\n<p> </p>",
+  "image_count": 5,
+  "created_at": "2024-06-29T22:08:12+02:00",
+  "updated_at": "2025-03-10T15:11:43+01:00"
+}

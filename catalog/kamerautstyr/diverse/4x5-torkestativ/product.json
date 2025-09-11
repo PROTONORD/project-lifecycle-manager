@@ -1,0 +1,39 @@
+{
+  "id": 9795148775705,
+  "title": "4x5 tørkestativ",
+  "handle": "4x5-torkestativ",
+  "status": "active",
+  "product_type": "Kamerautstyr",
+  "vendor": "PROTONORD",
+  "tags": "4x5, Analog, Film, Largeformat, Linhof, Storformat",
+  "options": [
+    {
+      "id": 12304405594393,
+      "product_id": 9795148775705,
+      "name": "Color",
+      "position": 1,
+      "values": [
+        "Sort"
+      ]
+    }
+  ],
+  "variants": [
+    {
+      "id": 50091786993945,
+      "title": "Sort",
+      "sku": "PXT-S-K-P-0396-S",
+      "price": "380.00",
+      "compare_at_price": null,
+      "barcode": null,
+      "weight": 150.0,
+      "weight_unit": "g",
+      "inventory_policy": "deny",
+      "taxable": true,
+      "requires_shipping": true
+    }
+  ],
+  "body_html": "<p>Tørkestativ som kan tippes 45 grader og henges opp via hull i endene. <br><br>Tar 6stk 4x5 ark. <br>Ved ønske kan det lages for flere eller færre eller for f.eks glassplater. Ta kontakt</p>",
+  "image_count": 1,
+  "created_at": "2024-12-19T21:27:33+01:00",
+  "updated_at": "2025-02-11T14:40:08+01:00"
+}

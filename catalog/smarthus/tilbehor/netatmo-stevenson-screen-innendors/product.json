@@ -1,0 +1,39 @@
+{
+  "id": 9625461915929,
+  "title": "Netatmo Stevenson screen innendørs",
+  "handle": "netatmo-stevenson-screen-innendors",
+  "status": "active",
+  "product_type": "Smarthus",
+  "vendor": "PROTONORD",
+  "tags": "Hjem, Netatmo, smarthus",
+  "options": [
+    {
+      "id": 12096778895641,
+      "product_id": 9625461915929,
+      "name": "Title",
+      "position": 1,
+      "values": [
+        "Default Title"
+      ]
+    }
+  ],
+  "variants": [
+    {
+      "id": 49430709469465,
+      "title": "Default Title",
+      "sku": "PNE-N-P-0235-S",
+      "price": "386.00",
+      "compare_at_price": null,
+      "barcode": null,
+      "weight": 200.0,
+      "weight_unit": "g",
+      "inventory_policy": "continue",
+      "taxable": true,
+      "requires_shipping": true
+    }
+  ],
+  "body_html": "<p><strong> Værhus / Stevenson screen for å dekke over innendørs delen</strong></p>\n<p>Tilpasset Netatmo <span>smart værstasjon WiFi innendørs og luftkvalitetsmåler</span></p>\n<p>Hull for skruer (listeskruer passer utmerket)<br><br>Veggfeste medfølger men ingen festeskruer for vegg. </p>\n<p>Kan også monteres i hjørne</p>",
+  "image_count": 10,
+  "created_at": "2024-07-27T14:15:50+02:00",
+  "updated_at": "2025-08-12T18:47:23+02:00"
+}

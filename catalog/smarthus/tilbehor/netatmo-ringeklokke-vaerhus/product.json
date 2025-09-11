@@ -1,0 +1,39 @@
+{
+  "id": 8041966797081,
+  "title": "Netatmo ringeklokke værhus",
+  "handle": "netatmo-ringeklokke-vaerhus",
+  "status": "active",
+  "product_type": "Smarthus",
+  "vendor": "PROTONORD",
+  "tags": "Netatmo, ringeklokke, Smarthome, smarthus, Værhus",
+  "options": [
+    {
+      "id": 10224238035225,
+      "product_id": 8041966797081,
+      "name": "Color",
+      "position": 1,
+      "values": [
+        "Sort"
+      ]
+    }
+  ],
+  "variants": [
+    {
+      "id": 44235946131737,
+      "title": "Sort",
+      "sku": "PNE-S-V-P-0019-S",
+      "price": "162.00",
+      "compare_at_price": null,
+      "barcode": "",
+      "weight": 200.0,
+      "weight_unit": "g",
+      "inventory_policy": "deny",
+      "taxable": true,
+      "requires_shipping": true
+    }
+  ],
+  "body_html": "<p>Værhus som dekker Netatmo ringeklokke.</p>\n<p>Skyves ned over ringeklokke uten at man trenger å demontere eller bruke verktøy. <br>Printes i PETG</p>",
+  "image_count": 4,
+  "created_at": "2022-12-12T22:55:26+01:00",
+  "updated_at": "2025-05-26T02:49:08+02:00"
+}

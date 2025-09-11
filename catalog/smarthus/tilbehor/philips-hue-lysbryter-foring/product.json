@@ -1,0 +1,39 @@
+{
+  "id": 9568840974617,
+  "title": "Philips Hue lysbryter foring",
+  "handle": "philips-hue-lysbryter-foring",
+  "status": "active",
+  "product_type": "Smarthus",
+  "vendor": "PROTONORD",
+  "tags": "philips hue, smarthus",
+  "options": [
+    {
+      "id": 12029342122265,
+      "product_id": 9568840974617,
+      "name": "Title",
+      "position": 1,
+      "values": [
+        "Default Title"
+      ]
+    }
+  ],
+  "variants": [
+    {
+      "id": 49229403881753,
+      "title": "Default Title",
+      "sku": "PPH-S-P-0209-S",
+      "price": "320.00",
+      "compare_at_price": null,
+      "barcode": "",
+      "weight": 350.0,
+      "weight_unit": "g",
+      "inventory_policy": "deny",
+      "taxable": true,
+      "requires_shipping": true
+    }
+  ],
+  "body_html": "<p>Foring for å montere philips hue over original lysbryter. <br>Fjern frontramme og lysbryter vippedel og fest denne med de festeskruene som er til lysbryteren. </p>\n<!---->",
+  "image_count": 2,
+  "created_at": "2024-07-02T15:44:09+02:00",
+  "updated_at": "2025-07-23T05:37:38+02:00"
+}

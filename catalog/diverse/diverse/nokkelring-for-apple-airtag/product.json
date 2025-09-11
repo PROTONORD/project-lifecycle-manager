@@ -1,0 +1,81 @@
+{
+  "id": 8031409078553,
+  "title": "Nøkkelring for Apple airtag",
+  "handle": "nokkelring-for-apple-airtag",
+  "status": "active",
+  "product_type": "Diverse",
+  "vendor": "PROTONORD",
+  "tags": "Airtag, Apple, AR, Nøkkelring",
+  "options": [
+    {
+      "id": 10210141503769,
+      "product_id": 8031409078553,
+      "name": "Farge",
+      "position": 1,
+      "values": [
+        "Sort",
+        "Hvit",
+        "Rød",
+        "Oransje"
+      ]
+    }
+  ],
+  "variants": [
+    {
+      "id": 47424920617241,
+      "title": "Sort",
+      "sku": "PNØ-S-N-P-0010-S",
+      "price": "68.00",
+      "compare_at_price": null,
+      "barcode": "",
+      "weight": 4.0,
+      "weight_unit": "g",
+      "inventory_policy": "deny",
+      "taxable": true,
+      "requires_shipping": true
+    },
+    {
+      "id": 47424920650009,
+      "title": "Hvit",
+      "sku": "PNØ-H-N-P-0011-S",
+      "price": "68.00",
+      "compare_at_price": null,
+      "barcode": "",
+      "weight": 4.0,
+      "weight_unit": "g",
+      "inventory_policy": "deny",
+      "taxable": true,
+      "requires_shipping": true
+    },
+    {
+      "id": 47424920682777,
+      "title": "Rød",
+      "sku": "PNØ-R-N-P-0012-S",
+      "price": "68.00",
+      "compare_at_price": null,
+      "barcode": "",
+      "weight": 4.0,
+      "weight_unit": "g",
+      "inventory_policy": "deny",
+      "taxable": true,
+      "requires_shipping": true
+    },
+    {
+      "id": 47424920715545,
+      "title": "Oransje",
+      "sku": "PNØ-O-N-P-0013-S",
+      "price": "68.00",
+      "compare_at_price": null,
+      "barcode": "",
+      "weight": 4.0,
+      "weight_unit": "g",
+      "inventory_policy": "deny",
+      "taxable": true,
+      "requires_shipping": true
+    }
+  ],
+  "body_html": "<p>Apple airtag og klistremerke med refleks må kjøpes utenom. Kun holder som følger med. </p>",
+  "image_count": 2,
+  "created_at": "2022-12-03T17:16:34+01:00",
+  "updated_at": "2025-07-25T09:55:04+02:00"
+}

@@ -1,0 +1,39 @@
+{
+  "id": 9624851546393,
+  "title": "Netatmo Stevenson screen (værhus) værstasjon utedel",
+  "handle": "netatmo-stevenson-screen-vaerhus-vaerstasjon-utedel",
+  "status": "active",
+  "product_type": "Smarthus",
+  "vendor": "PROTONORD",
+  "tags": "Hjem, Netatmo, smarthus",
+  "options": [
+    {
+      "id": 12095750308121,
+      "product_id": 9624851546393,
+      "name": "Title",
+      "position": 1,
+      "values": [
+        "Default Title"
+      ]
+    }
+  ],
+  "variants": [
+    {
+      "id": 49429849178393,
+      "title": "Default Title",
+      "sku": "PNE-N-P-0234-S",
+      "price": "420.00",
+      "compare_at_price": null,
+      "barcode": null,
+      "weight": 200.0,
+      "weight_unit": "g",
+      "inventory_policy": "continue",
+      "taxable": true,
+      "requires_shipping": true
+    }
+  ],
+  "body_html": "<p><strong> Værhus / Stevenson screen for å beskytte utedelen ved utendørs montasje</strong><strong></strong></p>\n<p>Tilpasset Netatmo <span>smart værstasjon WiFi utedel</span></p>\n<p>Hull for skruer (listeskruer passer utmerket)<br><br>Veggfeste medfølger men ingen festeskruer for vegg. </p>",
+  "image_count": 5,
+  "created_at": "2024-07-27T07:48:39+02:00",
+  "updated_at": "2025-07-25T20:26:46+02:00"
+}

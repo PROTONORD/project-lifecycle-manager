@@ -1,0 +1,95 @@
+{
+  "id": 9082460504345,
+  "title": "Flaskeåpner",
+  "handle": "flaskeapner",
+  "status": "active",
+  "product_type": "Diverse",
+  "vendor": "PROTONORD",
+  "tags": "Flaskeåpner, hjelpemiddel",
+  "options": [
+    {
+      "id": 11450109493529,
+      "product_id": 9082460504345,
+      "name": "Størrelse",
+      "position": 1,
+      "values": [
+        "30mm",
+        "35mm",
+        "40mm",
+        "45mm",
+        "50mm"
+      ]
+    }
+  ],
+  "variants": [
+    {
+      "id": 47951189442841,
+      "title": "30mm",
+      "sku": "PFL-3-H-P-0059-S",
+      "price": "69.00",
+      "compare_at_price": null,
+      "barcode": "",
+      "weight": 30.0,
+      "weight_unit": "g",
+      "inventory_policy": "deny",
+      "taxable": true,
+      "requires_shipping": true
+    },
+    {
+      "id": 47951189475609,
+      "title": "35mm",
+      "sku": "PFL-3-H-P-0060-S",
+      "price": "69.00",
+      "compare_at_price": null,
+      "barcode": "",
+      "weight": 30.0,
+      "weight_unit": "g",
+      "inventory_policy": "deny",
+      "taxable": true,
+      "requires_shipping": true
+    },
+    {
+      "id": 47951189508377,
+      "title": "40mm",
+      "sku": "PFL-4-H-P-0061-S",
+      "price": "69.00",
+      "compare_at_price": null,
+      "barcode": "",
+      "weight": 30.0,
+      "weight_unit": "g",
+      "inventory_policy": "deny",
+      "taxable": true,
+      "requires_shipping": true
+    },
+    {
+      "id": 47951189541145,
+      "title": "45mm",
+      "sku": "PFL-4-H-P-0062-S",
+      "price": "69.00",
+      "compare_at_price": null,
+      "barcode": "",
+      "weight": 30.0,
+      "weight_unit": "g",
+      "inventory_policy": "deny",
+      "taxable": true,
+      "requires_shipping": true
+    },
+    {
+      "id": 47951189573913,
+      "title": "50mm",
+      "sku": "PFL-5-H-P-0063-S",
+      "price": "69.00",
+      "compare_at_price": null,
+      "barcode": "",
+      "weight": 30.0,
+      "weight_unit": "g",
+      "inventory_policy": "deny",
+      "taxable": true,
+      "requires_shipping": true
+    }
+  ],
+  "body_html": "Oversikt<br data-mce-fragment=\"1\">Flaskeåpneren er et 3D-printet hjelpemiddel designet for å åpne eller lukke plastskrukorker på drikkeflasker, rengjøringsprodukter, kondimenter, og mer. Bruk flaskeåpneren for å fjerne eller erstatte korker.<br><br>30mm er fin størrelse for fleste brusflasker og melkekartonger med skrukort. <br data-mce-fragment=\"1\"><br data-mce-fragment=\"1\">Denne enheten er tilgjengelig i fem forskjellige størrelser designet for å passe forskjellige korker. De forskjellige størrelsene er navngitt i henhold til omtrentlig diameter på korkene de kan åpne, målt i millimeter. Se størrelseskartet for flaskeåpneren for å bestemme din størrelse, eller kontakt din Maker for å diskutere hvilken størrelse som er riktig for deg.<br data-mce-fragment=\"1\"><br data-mce-fragment=\"1\">Hvordan bruke<br data-mce-fragment=\"1\">Plasser den tannede gripeflaten på toppen av lokket på beholderen, klem deretter håndtaket for å gripe lokket, vri enten beholderen eller enheten for å fjerne eller skru på lokket.<br data-mce-fragment=\"1\"><br data-mce-fragment=\"1\">Beskrivelse av handikaptype<br data-mce-fragment=\"1\">Brukere som har leddgikt, begrenset fingerferdighet eller andre relaterte funksjonshemminger kan finne dette nyttig.<br><br>Kan desinfiseres og vaskes med såpe. <br><br>Designet av Makers Making Change",
+  "image_count": 4,
+  "created_at": "2024-02-10T17:55:35+01:00",
+  "updated_at": "2025-03-10T15:12:01+01:00"
+}

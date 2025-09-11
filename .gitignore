@@ -18,6 +18,19 @@ Thumbs.db
 .vscode/
 .idea/
 *.swp
+
+# MinIO data - object storage files
+minio-data/
+
+# Binary files - stored in MinIO, only metadata in Git
+catalog/**/images/
+catalog/**/cad/
+catalog/**/documentation/
+
+# Keep metadata files
+!catalog/**/product.json
+!catalog/**/README.md
+!catalog/**/description.md
 *.swo
 
 # Logs

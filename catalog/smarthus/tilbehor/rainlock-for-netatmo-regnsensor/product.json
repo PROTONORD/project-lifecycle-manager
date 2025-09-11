@@ -1,0 +1,116 @@
+{
+  "id": 9563055751449,
+  "title": "Rainlock for Netatmo regnsensor",
+  "handle": "rainlock-for-netatmo-regnsensor",
+  "status": "active",
+  "product_type": "Smarthus",
+  "vendor": "Fladby 3Dprint",
+  "tags": "Hjem, Netatmo",
+  "options": [
+    {
+      "id": 12022840951065,
+      "product_id": 9563055751449,
+      "name": "Festeanordning",
+      "position": 1,
+      "values": [
+        "Strips",
+        "Skruer",
+        "Takmontering"
+      ]
+    },
+    {
+      "id": 12034548334873,
+      "product_id": 9563055751449,
+      "name": "Farge",
+      "position": 2,
+      "values": [
+        "Sort",
+        "Hvit"
+      ]
+    }
+  ],
+  "variants": [
+    {
+      "id": 49207387357465,
+      "title": "Strips / Sort",
+      "sku": "PRA-SS-N-F-0185-S",
+      "price": "120.00",
+      "compare_at_price": null,
+      "barcode": "",
+      "weight": 100.0,
+      "weight_unit": "g",
+      "inventory_policy": "continue",
+      "taxable": true,
+      "requires_shipping": true
+    },
+    {
+      "id": 49244461564185,
+      "title": "Strips / Hvit",
+      "sku": "PRA-SH-N-F-0186-S",
+      "price": "120.00",
+      "compare_at_price": null,
+      "barcode": "",
+      "weight": 100.0,
+      "weight_unit": "g",
+      "inventory_policy": "continue",
+      "taxable": true,
+      "requires_shipping": true
+    },
+    {
+      "id": 49207387390233,
+      "title": "Skruer / Sort",
+      "sku": "PRA-SS-N-F-0187-S",
+      "price": "120.00",
+      "compare_at_price": null,
+      "barcode": "",
+      "weight": 100.0,
+      "weight_unit": "g",
+      "inventory_policy": "continue",
+      "taxable": true,
+      "requires_shipping": true
+    },
+    {
+      "id": 49244461629721,
+      "title": "Skruer / Hvit",
+      "sku": "PRA-SH-N-F-0188-S",
+      "price": "120.00",
+      "compare_at_price": null,
+      "barcode": "",
+      "weight": 100.0,
+      "weight_unit": "g",
+      "inventory_policy": "continue",
+      "taxable": true,
+      "requires_shipping": true
+    },
+    {
+      "id": 49207387423001,
+      "title": "Takmontering / Sort",
+      "sku": "PRA-TS-N-F-0189-S",
+      "price": "120.00",
+      "compare_at_price": null,
+      "barcode": "",
+      "weight": 100.0,
+      "weight_unit": "g",
+      "inventory_policy": "continue",
+      "taxable": true,
+      "requires_shipping": true
+    },
+    {
+      "id": 49244461662489,
+      "title": "Takmontering / Hvit",
+      "sku": "PRA-TH-N-F-0190-S",
+      "price": "120.00",
+      "compare_at_price": null,
+      "barcode": "",
+      "weight": 100.0,
+      "weight_unit": "g",
+      "inventory_policy": "continue",
+      "taxable": true,
+      "requires_shipping": true
+    }
+  ],
+  "body_html": "<p><strong>RainLock for Netatmo Regnsensor</strong></p>\n<p><strong>Beskytt og Forleng Levetiden til Din Netatmo Regnsensor med RainLock!</strong></p>\n<p>RainLock er det ultimate tilbehøret for din Netatmo Regnsensor, designet for å sikre nøyaktige målinger og lette montering. </p>\n<p><strong>Hovedfunksjoner:</strong></p>\n<ul>\n<li>\n<p><strong>Slitesterkt Materiale:</strong> Laget av høy kvalitet og værbestandig materiale som tåler de tøffeste miljøforholdene. RainLock er designet for å vare lenge og beskytte sensoren din konsekvent.</p>\n</li>\n<li>\n<p><strong>Enkel Installering:</strong> RainLock er enkel å montere og krever ingen verktøy. Bare plasser dekselet over sensoren, og den er klar til bruk.</p>\n</li>\n<li>\n<p><strong>Perfekt Passform:</strong> Spesielt designet for Netatmo Regnsensor for å sikre en nøyaktig og sikker passform som ikke påvirker regnsensorens målefunksjoner.</p>\n</li>\n</ul>\n<ul>\n<li><strong></strong></li>\n</ul>\n<p><strong>Pakken Inneholder:</strong></p>\n<ul>\n<li>1 x RainLock for Netatmo Regnsensor</li>\n</ul>\n<p>Benytt Netatmo Regnsensor med RainLock og sørg for presise målinger, uansett værforhold. Denne beskytteren er ideell for både hjemmebrukere og profesjonelle som ønsker å sikre at deres værdata alltid er pålitelige.</p>\n<hr>\n<p>Forbedre ytelsen og holdbarheten til din Netatmo Regnsensor. Bestill RainLock i dag og opplev den tryggheten som følger med ekstra beskyttelse!</p>",
+  "image_count": 4,
+  "created_at": "2024-06-29T22:08:24+02:00",
+  "updated_at": "2025-07-25T06:45:45+02:00"
+}

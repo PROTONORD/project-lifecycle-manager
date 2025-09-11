@@ -1,0 +1,39 @@
+{
+  "id": 9692065988889,
+  "title": "Polestar 2 midtkonsoll festebrakett",
+  "handle": "polestar-2-midtkonsoll-festebrakett",
+  "status": "draft",
+  "product_type": "Tilbehør til kjøretøy",
+  "vendor": "PROTONORD",
+  "tags": "Polestar",
+  "options": [
+    {
+      "id": 12174938800409,
+      "product_id": 9692065988889,
+      "name": "Title",
+      "position": 1,
+      "values": [
+        "Default Title"
+      ]
+    }
+  ],
+  "variants": [
+    {
+      "id": 49624728568089,
+      "title": "Default Title",
+      "sku": "PUT-P-0255-S",
+      "price": "168.00",
+      "compare_at_price": null,
+      "barcode": null,
+      "weight": 0.0,
+      "weight_unit": "g",
+      "inventory_policy": "deny",
+      "taxable": true,
+      "requires_shipping": true
+    }
+  ],
+  "body_html": "<p>Festebrakett for koppholder, mobilholder m.m.</p>\n<p>Kommer i smal og bred utgave</p>\n<p>Fortsatt under utvikling men håper å ha den ferdig i løpet av september/oktober</p>\n<p>Kan festes øverst og ned til nedre midten av midtkonsollen høyre og venstre side</p>",
+  "image_count": 2,
+  "created_at": "2024-09-13T16:46:15+02:00",
+  "updated_at": "2025-03-10T15:11:48+01:00"
+}

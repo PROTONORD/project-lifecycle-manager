@@ -1,0 +1,39 @@
+{
+  "id": 8194274230553,
+  "title": "Vinholder blekksprut",
+  "handle": "vinholder-blekksprut",
+  "status": "active",
+  "product_type": "Diverse",
+  "vendor": "PROTONORD",
+  "tags": "Blekksprut, Vinholder",
+  "options": [
+    {
+      "id": 10411691606297,
+      "product_id": 8194274230553,
+      "name": "Title",
+      "position": 1,
+      "values": [
+        "Default Title"
+      ]
+    }
+  ],
+  "variants": [
+    {
+      "id": 44895802884377,
+      "title": "Default Title",
+      "sku": "PVI-V-P-0040-S",
+      "price": "1280.00",
+      "compare_at_price": null,
+      "barcode": "",
+      "weight": 1.0,
+      "weight_unit": "kg",
+      "inventory_policy": "deny",
+      "taxable": true,
+      "requires_shipping": true
+    }
+  ],
+  "body_html": "Vinholder formet som en blekksprut i en nydelig mørk blåfarge. Øynene i blåfarge med glitter.<br>Lages kun på bestilling og tar 1-2 dager å produsere.",
+  "image_count": 1,
+  "created_at": "2023-04-03T07:16:47+02:00",
+  "updated_at": "2025-03-10T15:11:59+01:00"
+}

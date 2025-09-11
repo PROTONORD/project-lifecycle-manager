@@ -1,0 +1,39 @@
+{
+  "id": 9568820429081,
+  "title": "Rullestol fotbrett reservedel",
+  "handle": "rullestol-fotbrett-reservedel",
+  "status": "active",
+  "product_type": "Diverse",
+  "vendor": "PROTONORD",
+  "tags": "reservedel, Rullestol",
+  "options": [
+    {
+      "id": 12029318988057,
+      "product_id": 9568820429081,
+      "name": "Title",
+      "position": 1,
+      "values": [
+        "Default Title"
+      ]
+    }
+  ],
+  "variants": [
+    {
+      "id": 49229232079129,
+      "title": "Default Title",
+      "sku": "PRU-R-P-0207-S",
+      "price": "820.00",
+      "compare_at_price": null,
+      "barcode": "",
+      "weight": 50.0,
+      "weight_unit": "g",
+      "inventory_policy": "deny",
+      "taxable": true,
+      "requires_shipping": true
+    }
+  ],
+  "body_html": "<p>Plastdel til fotbrettet knekker når man justerer festeskruen og denne delen selges ikke som en løs reservedel. </p>\n<p>Denne er utviklet i samarbeid med Universitetssykehuset Nord-Norge HF sengeverksted</p>\n<p>Vi har desverre ikke merke/modell på rullestolen men er det spørsmål så bare ta kontakt. Har dere lignende utfordringer og trenger design av ny reservedel så ta gjerne kontakt. </p>\n<p><span>Laget i sort PETG (</span><b data-mce-fragment=\"1\">Polyethylene terephthalate glycol)<br><br>Tåler vasking og spriting. </b></p>\n<!---->",
+  "image_count": 5,
+  "created_at": "2024-07-02T15:22:44+02:00",
+  "updated_at": "2025-03-10T15:12:10+01:00"
+}

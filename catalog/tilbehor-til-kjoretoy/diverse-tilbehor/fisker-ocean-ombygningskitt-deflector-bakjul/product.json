@@ -1,0 +1,95 @@
+{
+  "id": 9534398955801,
+  "title": "Fisker Ocean \"Aeroflap\" konverteringsett deflector bakjul",
+  "handle": "fisker-ocean-ombygningskitt-deflector-bakjul",
+  "status": "active",
+  "product_type": "Tilbehør til kjøretøy",
+  "vendor": "PROTONORD",
+  "tags": "AERO FLAP, aeroflap, Elbil, Elektrisk kjøretøy, FISKER, Fisker Ocean, Tilbehør",
+  "options": [
+    {
+      "id": 11990388244761,
+      "product_id": 9534398955801,
+      "name": "Side",
+      "position": 1,
+      "values": [
+        "Venstre braketter med deflector",
+        "Høyre braketter med deflector",
+        "Venstre deflector",
+        "Høyre deflector",
+        "Komplett sett"
+      ]
+    }
+  ],
+  "variants": [
+    {
+      "id": 49131680923929,
+      "title": "Venstre braketter med deflector",
+      "sku": "PFI-V-D-P-0158-S",
+      "price": "385.00",
+      "compare_at_price": null,
+      "barcode": null,
+      "weight": 300.0,
+      "weight_unit": "g",
+      "inventory_policy": "deny",
+      "taxable": true,
+      "requires_shipping": true
+    },
+    {
+      "id": 49131680956697,
+      "title": "Høyre braketter med deflector",
+      "sku": "PFI-H-D-P-0159-S",
+      "price": "385.00",
+      "compare_at_price": null,
+      "barcode": null,
+      "weight": 300.0,
+      "weight_unit": "g",
+      "inventory_policy": "deny",
+      "taxable": true,
+      "requires_shipping": true
+    },
+    {
+      "id": 49136030056729,
+      "title": "Venstre deflector",
+      "sku": "PFI-V-D-P-0160-S",
+      "price": "220.00",
+      "compare_at_price": null,
+      "barcode": null,
+      "weight": 300.0,
+      "weight_unit": "g",
+      "inventory_policy": "deny",
+      "taxable": true,
+      "requires_shipping": true
+    },
+    {
+      "id": 49136030089497,
+      "title": "Høyre deflector",
+      "sku": "PFI-H-D-P-0161-S",
+      "price": "220.00",
+      "compare_at_price": null,
+      "barcode": null,
+      "weight": 300.0,
+      "weight_unit": "g",
+      "inventory_policy": "deny",
+      "taxable": true,
+      "requires_shipping": true
+    },
+    {
+      "id": 49616007069977,
+      "title": "Komplett sett",
+      "sku": "PFI-K-D-P-0254-S",
+      "price": "720.00",
+      "compare_at_price": null,
+      "barcode": null,
+      "weight": 0.0,
+      "weight_unit": "g",
+      "inventory_policy": "deny",
+      "taxable": true,
+      "requires_shipping": true
+    }
+  ],
+  "body_html": "<p>Konverterer fra de spesielle front deflector også kalt aero flap eller aeroflap som gjerne knekker til montasjebraketter som fester en flat. Disse kan nå skiftes uten å måtte åpne opp.</p>\n<p>De originale er også veldig vanskelig å skaffe fra Fisker.</p>\n<p>Benytter de originale skruene for montasje og har en vinkling som gjør at vinden flyttes nedover mot bakken og under hjulene. </p>\n<p>Kommer med skruer for festing av skvettlapper.</p>\n<p>Selve deflektorene er laget i seigt materiale som tåler en del bruk. <br><br>Alt blir produsert når de bestilles og tar vanligvis 1-5 dager før de blir sendt</p>\n<p>Montasjevideo og bilder for montering kommer senere</p>",
+  "image_count": 5,
+  "created_at": "2024-06-17T22:17:58+02:00",
+  "updated_at": "2025-07-24T04:06:49+02:00"
+}

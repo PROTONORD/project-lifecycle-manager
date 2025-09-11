@@ -1,0 +1,39 @@
+{
+  "id": 9173332984089,
+  "title": "Deksel til Ikoflex 6x6 Novar-Anastigmat 75 3.5",
+  "handle": "deksel-til-ikoflex-6x6-novar-anastigmat-75-3-5",
+  "status": "draft",
+  "product_type": "Kamerautstyr",
+  "vendor": "PROTONORD",
+  "tags": "6x6, Analog, Film, IKOFLEX, Mellomformat",
+  "options": [
+    {
+      "id": 11562232414489,
+      "product_id": 9173332984089,
+      "name": "Title",
+      "position": 1,
+      "values": [
+        "Default Title"
+      ]
+    }
+  ],
+  "variants": [
+    {
+      "id": 48222999675161,
+      "title": "Default Title",
+      "sku": "PDE-K-P-0078-S",
+      "price": "122.00",
+      "compare_at_price": null,
+      "barcode": null,
+      "weight": 200.0,
+      "weight_unit": "g",
+      "inventory_policy": "deny",
+      "taxable": true,
+      "requires_shipping": true
+    }
+  ],
+  "body_html": "<p>Objektivdeksel for IKOFLEX 6x6 kamera</p>\n<p>Lages i TPU (gummi) som gjør den fleksibel og tåler mye bruk over tid. Hardfør.</p>\n<p>Sort farge med rød ring</p>",
+  "image_count": 9,
+  "created_at": "2024-03-22T19:56:30+01:00",
+  "updated_at": "2025-03-10T15:11:38+01:00"
+}

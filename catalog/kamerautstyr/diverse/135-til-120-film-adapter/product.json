@@ -1,0 +1,39 @@
+{
+  "id": 8047489253657,
+  "title": "135 til 120 film adapter",
+  "handle": "135-til-120-film-adapter",
+  "status": "active",
+  "product_type": "Kamerautstyr",
+  "vendor": "PROTONORD",
+  "tags": "4x5, Analog, Film, Largeformat, Linhof, Storformat",
+  "options": [
+    {
+      "product_id": 8047489253657,
+      "id": 10230982279449,
+      "name": "Color",
+      "position": 1,
+      "values": [
+        "Sort"
+      ]
+    }
+  ],
+  "variants": [
+    {
+      "id": 44257672823065,
+      "title": "Sort",
+      "sku": "PTI-S-K-P-0030-S",
+      "price": "59.90",
+      "compare_at_price": null,
+      "barcode": null,
+      "weight": 150.0,
+      "weight_unit": "g",
+      "inventory_policy": "deny",
+      "taxable": true,
+      "requires_shipping": true
+    }
+  ],
+  "body_html": "<p>Adapter som gjør at du kan sette 135 film i 120 mellomformat kamera eller bakstykke. <br><br></p>\n<p>Printes i sort, hvit eller glitter farger.</p>\n<p>Kun topp og bunn adapter som følger med.</p>\n<p>Bruk en tom 120 spole i motsatt ende.</p>",
+  "image_count": 5,
+  "created_at": "2022-12-17T13:26:21+01:00",
+  "updated_at": "2025-07-19T21:22:00+02:00"
+}

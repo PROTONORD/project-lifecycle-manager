@@ -1,0 +1,39 @@
+{
+  "id": 9840512794905,
+  "title": "Fisker Ocean ladeluke reservedel",
+  "handle": "fisker-ocean-ladeluke-reservedel",
+  "status": "active",
+  "product_type": "Tilbehør til kjøretøy",
+  "vendor": "PROTONORD",
+  "tags": "chargercover, Elbil, Elektrisk kjøretøy, FISKER, Fisker Ocean, Ladeluke, Ladeport, reservedel",
+  "options": [
+    {
+      "id": 12364023759129,
+      "product_id": 9840512794905,
+      "name": "Farge",
+      "position": 1,
+      "values": [
+        "Sort"
+      ]
+    }
+  ],
+  "variants": [
+    {
+      "id": 50316055839001,
+      "title": "Sort",
+      "sku": "PFI-S-T-P-0431-S",
+      "price": "4675.00",
+      "compare_at_price": null,
+      "barcode": "",
+      "weight": 300.0,
+      "weight_unit": "g",
+      "inventory_policy": "deny",
+      "taxable": true,
+      "requires_shipping": true
+    }
+  ],
+  "body_html": "<p>Erstatningsdel for ladeluke til Fisker Ocean<br><br></p>\n<p>Original ladeluke er 3dscannet med laserscanner og tegnet i CAD for så å bli tilpasset additive produksjon. <br><br>Blir testet av FOCN over en periode før den tilbys for salg. <br>Det er ca 2uker leveringstid på denne delen. </p>\n<p>Rundt kanten av det originale ytterdekselet anbefales det å legges en pakning som limes rundt på innsiden for å få en god tetting. <br>Forhåpentligvis kommer det montasjevideoer etterhvert. </p>",
+  "image_count": 5,
+  "created_at": "2025-02-06T20:10:30+01:00",
+  "updated_at": "2025-08-25T00:38:48+02:00"
+}

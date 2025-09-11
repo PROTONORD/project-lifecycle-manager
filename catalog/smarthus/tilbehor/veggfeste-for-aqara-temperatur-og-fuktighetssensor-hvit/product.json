@@ -1,0 +1,39 @@
+{
+  "id": 8070207242521,
+  "title": "Veggfeste for Aqara temperatur- og fuktighetssensor (hvit)",
+  "handle": "veggfeste-for-aqara-temperatur-og-fuktighetssensor-hvit",
+  "status": "active",
+  "product_type": "Smarthus",
+  "vendor": "PROTONORD",
+  "tags": "Aqara, Smarthome, smarthus",
+  "options": [
+    {
+      "id": 10260902019353,
+      "product_id": 8070207242521,
+      "name": "Title",
+      "position": 1,
+      "values": [
+        "Default Title"
+      ]
+    }
+  ],
+  "variants": [
+    {
+      "id": 44350074192153,
+      "title": "Default Title",
+      "sku": "PVE-S-P-0032-S",
+      "price": "246.00",
+      "compare_at_price": null,
+      "barcode": "",
+      "weight": 200.0,
+      "weight_unit": "g",
+      "inventory_policy": "deny",
+      "taxable": true,
+      "requires_shipping": true
+    }
+  ],
+  "body_html": "<p>Veggfeste med pent frontdeksel som har åpning for sensor. </p>\n<p>Selve sensoren dyttes inn bak frontdekselet, også skyves fronten ned på festepinner som skrues fast med to 3mm skruer. <br><br>Eksempelvis på skruer som passer meget bra er Biltema treskruer Art. 89-300 evt kortere utgave. </p>",
+  "image_count": 4,
+  "created_at": "2023-01-07T22:12:18+01:00",
+  "updated_at": "2025-03-10T15:11:58+01:00"
+}

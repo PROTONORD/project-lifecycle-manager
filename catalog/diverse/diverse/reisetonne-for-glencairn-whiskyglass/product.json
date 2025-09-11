@@ -1,0 +1,81 @@
+{
+  "id": 8349235314969,
+  "title": "Reisetønne for Glencairn whiskyglass",
+  "handle": "reisetonne-for-glencairn-whiskyglass",
+  "status": "active",
+  "product_type": "Diverse",
+  "vendor": "PROTONORD",
+  "tags": "Glencairn, glencairnglass, Reisefutural, Travel, whisky, whiskyglass",
+  "options": [
+    {
+      "id": 10585037013273,
+      "product_id": 8349235314969,
+      "name": "Color",
+      "position": 1,
+      "values": [
+        "Wood/Tre",
+        "Brun",
+        "Rosa",
+        "Sort"
+      ]
+    }
+  ],
+  "variants": [
+    {
+      "id": 45335012868377,
+      "title": "Wood/Tre",
+      "sku": "PRE-W-R-P-0042-S",
+      "price": "449.00",
+      "compare_at_price": null,
+      "barcode": "",
+      "weight": 400.0,
+      "weight_unit": "g",
+      "inventory_policy": "deny",
+      "taxable": true,
+      "requires_shipping": true
+    },
+    {
+      "id": 45334939861273,
+      "title": "Brun",
+      "sku": "PRE-B-R-P-0043-S",
+      "price": "449.00",
+      "compare_at_price": null,
+      "barcode": null,
+      "weight": 400.0,
+      "weight_unit": "g",
+      "inventory_policy": "deny",
+      "taxable": true,
+      "requires_shipping": true
+    },
+    {
+      "id": 45334939828505,
+      "title": "Rosa",
+      "sku": "PRE-R-R-P-0044-S",
+      "price": "449.00",
+      "compare_at_price": null,
+      "barcode": "",
+      "weight": 400.0,
+      "weight_unit": "g",
+      "inventory_policy": "deny",
+      "taxable": true,
+      "requires_shipping": true
+    },
+    {
+      "id": 45334939926809,
+      "title": "Sort",
+      "sku": "PRE-S-R-P-0045-S",
+      "price": "449.00",
+      "compare_at_price": null,
+      "barcode": null,
+      "weight": 400.0,
+      "weight_unit": "g",
+      "inventory_policy": "deny",
+      "taxable": true,
+      "requires_shipping": true
+    }
+  ],
+  "body_html": "<p>Tønna er tilbake og nå i flere farger. </p>\n<p>Designet er justert over flere år så den skal passe flere produsenter av Glencairn glasset siden noen er litt tykkere rundt midten og/eller sokkel.</p>\n<p>Lokket kan benyttes som coaster<br><br>Glasset den passer er kjent av de fleste whisky kjennere: <a title=\"US Patent 459156S1\" href=\"https://patents.google.com/patent/USD459156S1/en\" target=\"_blank\" rel=\"noopener noreferrer\">patentert av Raymond Davidson. <br><br><br></a></p>\n<p>Wood/Tre: <br>Resirkulert bruk av organisk avfall. Pga filamentets naturlige mikstur, så kan fargetonen variere noe mellom ruller og produksjonsbatcher.</p>\n<p>Ellers for all materiale brukt til å lage tønnene:<br><br>Filamentet er produsert i Europa, kommer på resirkulert pappspole og er pakket i eske av resirkulert papp.<br data-mce-fragment=\"1\"><br data-mce-fragment=\"1\">Biologisk nedbrytbar plast<br data-mce-fragment=\"1\">100% resirkulert innpakning og spole<br data-mce-fragment=\"1\">Produsert på en måte som gir mindre forsøpling</p>",
+  "image_count": 3,
+  "created_at": "2023-05-29T19:20:47+02:00",
+  "updated_at": "2025-08-20T04:44:04+02:00"
+}

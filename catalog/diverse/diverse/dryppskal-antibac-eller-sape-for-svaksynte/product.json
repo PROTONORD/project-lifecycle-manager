@@ -1,0 +1,53 @@
+{
+  "id": 9568789856537,
+  "title": "Dryppskål antibac eller såpe for svaksynte",
+  "handle": "dryppskal-antibac-eller-sape-for-svaksynte",
+  "status": "active",
+  "product_type": "Diverse",
+  "vendor": "PROTONORD",
+  "tags": "antibac, dryppskål, hjelpemidler, kontrastfarge, svaksynte",
+  "options": [
+    {
+      "id": 12029283926297,
+      "product_id": 9568789856537,
+      "name": "farge",
+      "position": 1,
+      "values": [
+        "Oransje",
+        "Sort"
+      ]
+    }
+  ],
+  "variants": [
+    {
+      "id": 49228973900057,
+      "title": "Oransje",
+      "sku": "PDR-O-T-P-0205-S",
+      "price": "363.00",
+      "compare_at_price": null,
+      "barcode": "",
+      "weight": 100.0,
+      "weight_unit": "g",
+      "inventory_policy": "deny",
+      "taxable": true,
+      "requires_shipping": true
+    },
+    {
+      "id": 49228973932825,
+      "title": "Sort",
+      "sku": "PDR-S-T-P-0206-S",
+      "price": "363.00",
+      "compare_at_price": null,
+      "barcode": "",
+      "weight": 100.0,
+      "weight_unit": "g",
+      "inventory_policy": "deny",
+      "taxable": true,
+      "requires_shipping": true
+    }
+  ],
+  "body_html": "<p>Dryppskål med avrundede former så man ikke har skarp kant som en laget i tynt metall. <br><br>Laget i kontrastfarge så den er lettere å se for svaksynte, men gjør også at den vises bedre fra hvit vegg og gjør folk oppmerksomme på å bruke den for renhold. </p>\n<section class=\"shopify-section section product-section\" id=\"shopify-section-template--23011065889049__main\">\n<div class=\"scheme-primary section-padding\">\n<div class=\"container-sm\">\n<div class=\"product-description product-detail-item rte fullwidth-description\" id=\"description-template--23011065889049__main\">\n<p><br>Laget i PETG (<b data-mce-fragment=\"1\">Polyethylene terephthalate glycol)<br><br>Tåler vasking og spriting. </b></p>\n</div>\n</div>\n</div>\n</section>\n<!---->",
+  "image_count": 3,
+  "created_at": "2024-07-02T14:53:11+02:00",
+  "updated_at": "2025-03-10T15:12:10+01:00"
+}

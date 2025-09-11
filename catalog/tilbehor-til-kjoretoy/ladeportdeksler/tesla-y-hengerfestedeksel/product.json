@@ -1,0 +1,39 @@
+{
+  "id": 9836011651353,
+  "title": "Tesla Y hengerfestedeksel",
+  "handle": "tesla-y-hengerfestedeksel",
+  "status": "active",
+  "product_type": "Tilbehør til kjøretøy",
+  "vendor": "PROTONORD",
+  "tags": "Deksel mot isdannelse elbil, Elbil, Elektrisk kjøretøy, Frost protection for EV, Snødeksel, tilhengerfeste, Vinterbeskyttelse elbil, Værbestandig deksel for elbil, værdeksel, Værdeksel elbil, Weather cover for EV, Winter protection for EV",
+  "options": [
+    {
+      "id": 12355743056153,
+      "product_id": 9836011651353,
+      "name": "farge",
+      "position": 1,
+      "values": [
+        "Sort"
+      ]
+    }
+  ],
+  "variants": [
+    {
+      "id": 50292701266201,
+      "title": "Sort",
+      "sku": "PTE-S-T-P-0429-S",
+      "price": "620.00",
+      "compare_at_price": null,
+      "barcode": null,
+      "weight": 800.0,
+      "weight_unit": "g",
+      "inventory_policy": "deny",
+      "taxable": true,
+      "requires_shipping": true
+    }
+  ],
+  "body_html": "<p>Deksel som står på mens hengerfeste står montert.</p>\n<p>Slipper støv og dritt inn mens man kjører.</p>\n<p>Enda under utvikling.</p>",
+  "image_count": 1,
+  "created_at": "2025-02-01T19:37:27+01:00",
+  "updated_at": "2025-02-07T17:14:27+01:00"
+}

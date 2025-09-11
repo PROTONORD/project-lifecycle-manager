@@ -1,0 +1,90 @@
+{
+  "id": 9783087333657,
+  "title": "Fisker Ocean skreddersydd tettelist for hjulbue",
+  "handle": "fisker-ocean-skreddersydd-tettelist-for-hjulbue",
+  "status": "active",
+  "product_type": "Tilbehør til kjøretøy",
+  "vendor": "PROTONORD",
+  "tags": "Elbil, Elektrisk kjøretøy, FISKER, Fisker Ocean, Oppbevaring, Tilbehør",
+  "options": [
+    {
+      "id": 12288986054937,
+      "product_id": 9783087333657,
+      "name": "farge",
+      "position": 1,
+      "values": [
+        "Sort"
+      ]
+    },
+    {
+      "id": 12288995066137,
+      "product_id": 9783087333657,
+      "name": "Versjon",
+      "position": 2,
+      "values": [
+        "Begge sider",
+        "Venstre",
+        "Høyre",
+        "Betatest enheter"
+      ]
+    }
+  ],
+  "variants": [
+    {
+      "id": 50007569727769,
+      "title": "Sort / Begge sider",
+      "sku": "PFI-S-T-P-0387-S-2",
+      "price": "430.00",
+      "compare_at_price": null,
+      "barcode": "",
+      "weight": 300.0,
+      "weight_unit": "g",
+      "inventory_policy": "deny",
+      "taxable": true,
+      "requires_shipping": true
+    },
+    {
+      "id": 50007538336025,
+      "title": "Sort / Venstre",
+      "sku": "PFI-S-T-P-0387-S",
+      "price": "250.00",
+      "compare_at_price": null,
+      "barcode": "",
+      "weight": 300.0,
+      "weight_unit": "g",
+      "inventory_policy": "deny",
+      "taxable": true,
+      "requires_shipping": true
+    },
+    {
+      "id": 50007569695001,
+      "title": "Sort / Høyre",
+      "sku": "PFI-S-T-P-0387-S-1",
+      "price": "250.00",
+      "compare_at_price": null,
+      "barcode": "",
+      "weight": 300.0,
+      "weight_unit": "g",
+      "inventory_policy": "deny",
+      "taxable": true,
+      "requires_shipping": true
+    },
+    {
+      "id": 50042599375129,
+      "title": "Sort / Betatest enheter",
+      "sku": "PFI-S-T-P-0387-S-2",
+      "price": "430.00",
+      "compare_at_price": null,
+      "barcode": "",
+      "weight": 300.0,
+      "weight_unit": "g",
+      "inventory_policy": "deny",
+      "taxable": true,
+      "requires_shipping": true
+    }
+  ],
+  "body_html": "<p>Tettelist for hjulbuen til Fisker Ocean som tetter lufteglippene som er i hjulbuen bakover.</p>\n<p>Reduserer kasting av skitt mot karrosseriet ved kjøring og er et godt supliment for skvettlapper.</p>\n<p>Disse er enda under testing av Fisker Ocean Club Norway medlem og vil mest sannsynlig være i betatesting periode på noen biler før de blir tilgjengelig for salg.</p>\n<p> </p>\n<p>Festes med en stk 3mm skrue hvor hver side som medfølger.</p>",
+  "image_count": 2,
+  "created_at": "2024-12-05T08:10:43+01:00",
+  "updated_at": "2025-07-23T11:12:07+02:00"
+}

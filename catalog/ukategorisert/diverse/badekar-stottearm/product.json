@@ -1,0 +1,39 @@
+{
+  "id": 8984062755097,
+  "title": "Badekar støttearm",
+  "handle": "badekar-stottearm",
+  "status": "active",
+  "product_type": "",
+  "vendor": "PROTONORD",
+  "tags": "",
+  "options": [
+    {
+      "id": 11322310754585,
+      "product_id": 8984062755097,
+      "name": "Title",
+      "position": 1,
+      "values": [
+        "Default Title"
+      ]
+    }
+  ],
+  "variants": [
+    {
+      "id": 47582263214361,
+      "title": "Default Title",
+      "sku": "PBA-P-0047-S",
+      "price": "199.00",
+      "compare_at_price": null,
+      "barcode": "",
+      "weight": 150.0,
+      "weight_unit": "g",
+      "inventory_policy": "deny",
+      "taxable": true,
+      "requires_shipping": true
+    }
+  ],
+  "body_html": "<p>Erstatningsdel for festearm til frontplate for badekar.</p>\n<p>Utviklet for Hurtigruten Svalbard og testet hos kunde.</p>\n<p>Produseres i sort PETG som tåler baderomsmiljø. Festes med strips etter at man klipser den fast. (strips medølger ikke)</p>",
+  "image_count": 4,
+  "created_at": "2023-12-16T21:16:04+01:00",
+  "updated_at": "2025-08-10T17:47:56+02:00"
+}

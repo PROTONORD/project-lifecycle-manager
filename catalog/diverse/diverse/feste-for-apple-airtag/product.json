@@ -1,0 +1,81 @@
+{
+  "id": 8985536364825,
+  "title": "Halsbånd eller reimfeste for Apple airtag",
+  "handle": "feste-for-apple-airtag",
+  "status": "draft",
+  "product_type": "Diverse",
+  "vendor": "PROTONORD",
+  "tags": "Airtag, Apple, AR, Nøkkelring",
+  "options": [
+    {
+      "id": 11324078129433,
+      "product_id": 8985536364825,
+      "name": "Farge",
+      "position": 1,
+      "values": [
+        "Sort",
+        "Hvit",
+        "Rød",
+        "Oransje"
+      ]
+    }
+  ],
+  "variants": [
+    {
+      "id": 47587677045017,
+      "title": "Sort",
+      "sku": "PHA-S-N-P-0051-S",
+      "price": "68.00",
+      "compare_at_price": null,
+      "barcode": null,
+      "weight": 20.0,
+      "weight_unit": "g",
+      "inventory_policy": "deny",
+      "taxable": true,
+      "requires_shipping": true
+    },
+    {
+      "id": 47587677077785,
+      "title": "Hvit",
+      "sku": "PHA-H-N-P-0052-S",
+      "price": "68.00",
+      "compare_at_price": null,
+      "barcode": null,
+      "weight": 20.0,
+      "weight_unit": "g",
+      "inventory_policy": "deny",
+      "taxable": true,
+      "requires_shipping": true
+    },
+    {
+      "id": 47587677110553,
+      "title": "Rød",
+      "sku": "PHA-R-N-P-0053-S",
+      "price": "68.00",
+      "compare_at_price": null,
+      "barcode": null,
+      "weight": 20.0,
+      "weight_unit": "g",
+      "inventory_policy": "deny",
+      "taxable": true,
+      "requires_shipping": true
+    },
+    {
+      "id": 47587677143321,
+      "title": "Oransje",
+      "sku": "PHA-O-N-P-0054-S",
+      "price": "68.00",
+      "compare_at_price": null,
+      "barcode": null,
+      "weight": 20.0,
+      "weight_unit": "g",
+      "inventory_policy": "deny",
+      "taxable": true,
+      "requires_shipping": true
+    }
+  ],
+  "body_html": "<p>Tres på reim eller halsbånd.</p>\n<p>Foldes sammen og klipses. ca 30mm bred åpning</p>\n<p>Produseres i PETG som tåler vasking, spriting.</p>\n<p>Oppvaskmaskin opp til 50grader</p>",
+  "image_count": 2,
+  "created_at": "2023-12-18T18:36:00+01:00",
+  "updated_at": "2025-03-10T15:11:35+01:00"
+}

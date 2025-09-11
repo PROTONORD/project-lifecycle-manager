@@ -1,0 +1,53 @@
+{
+  "id": 9177488490777,
+  "title": "Lomme kors",
+  "handle": "lomme-kors",
+  "status": "active",
+  "product_type": "",
+  "vendor": "PROTONORD",
+  "tags": "kors, kristendom, kross, lommekors",
+  "options": [
+    {
+      "id": 11566830125337,
+      "product_id": 9177488490777,
+      "name": "Farge",
+      "position": 1,
+      "values": [
+        "Rødt hjerte",
+        "Sort hjerte"
+      ]
+    }
+  ],
+  "variants": [
+    {
+      "id": 48230269550873,
+      "title": "Rødt hjerte",
+      "sku": "PLO-R-P-0080-S",
+      "price": "122.00",
+      "compare_at_price": null,
+      "barcode": null,
+      "weight": 20.0,
+      "weight_unit": "g",
+      "inventory_policy": "deny",
+      "taxable": true,
+      "requires_shipping": true
+    },
+    {
+      "id": 48230269583641,
+      "title": "Sort hjerte",
+      "sku": "PLO-S-P-0081-S",
+      "price": "122.00",
+      "compare_at_price": null,
+      "barcode": null,
+      "weight": 20.0,
+      "weight_unit": "g",
+      "inventory_policy": "deny",
+      "taxable": true,
+      "requires_shipping": true
+    }
+  ],
+  "body_html": "<p>Kors for å ha i lommen med nedsenket hjerte som passer for tommelen.</p>\n<p>Fin å ha med på tur, kirken eller når du trenger å stresse ned.</p>\n<p> </p>\n<p>Lages med materiale som har trefiber i seg (wood filament)</p>\n<p>Kan pusses og oljes</p>\n<p>Sort hjerte er med carbon fiber mens rødt hjerte er vanlig rød pla</p>\n<p> </p>",
+  "image_count": 4,
+  "created_at": "2024-03-24T08:26:10+01:00",
+  "updated_at": "2025-03-10T15:12:03+01:00"
+}

@@ -1,0 +1,6 @@
+<!-- Edit this file to change the product description -->
+
+<p><span data-mce-fragment="1">Holder for Apple airtag sporingsbrikke som passer de fleste sykkelseter.<br><br>Ved korrekt montasje vil den påklistrede refleksen vises bak sånn at holderen ser ut som en vanlig refleks,</span></p>
+<p><span data-mce-fragment="1">Holderen har plass til 1.stk Apple airtag (Følger ikke med)</span></p>
+<p><span data-mce-fragment="1">Vekt: 8.6 gram<br></span><span data-mce-fragment="1">Materiale: PETG (Polyethylene terephthalate glycol)<br><br>Passer de fleste sykkelseter med 7mm feste (Vekt er uten skruer og airtag)</span></p>
+<p><span data-mce-fragment="1"> Tåler rengjøring og varme samt kommer komplett med skruer og mutre.<br><br>Diskre montasje og lar deg lettere spore opp din eller barnas sykkel.<br><br> Lages i sort utgave, men kan produseres i andre farger.<br><br> Prisen er uten frakt og apple airtag. Produseres lokalt i Tromsø<br><br> Refleks er 3M kvalitet og skruer/mutre er fra Tyskland<br><br> Montasjeanvisning her: https://youtu.be/y28U_8bz6cM</span></p>

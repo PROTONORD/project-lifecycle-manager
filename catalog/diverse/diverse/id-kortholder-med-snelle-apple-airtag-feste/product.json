@@ -1,0 +1,137 @@
+{
+  "id": 9280363823385,
+  "title": "ID-Kortholder med snelle (apple airtag) feste",
+  "handle": "id-kortholder-med-snelle-apple-airtag-feste",
+  "status": "active",
+  "product_type": "Diverse",
+  "vendor": "PROTONORD",
+  "tags": "Airtag, Apple, appleairtag",
+  "options": [
+    {
+      "id": 11686616695065,
+      "product_id": 9280363823385,
+      "name": "Farge",
+      "position": 1,
+      "values": [
+        "Sort",
+        "Rød",
+        "Oransje",
+        "Rosa",
+        "Sort + ekstra holder",
+        "Rød + ekstra holder",
+        "Oransje + ekstra holder",
+        "Rosa + ekstra holder"
+      ]
+    }
+  ],
+  "variants": [
+    {
+      "id": 48512665190681,
+      "title": "Sort",
+      "sku": "PID-S-K-P-0115-S",
+      "price": "105.00",
+      "compare_at_price": null,
+      "barcode": null,
+      "weight": 100.0,
+      "weight_unit": "g",
+      "inventory_policy": "deny",
+      "taxable": true,
+      "requires_shipping": true
+    },
+    {
+      "id": 48512665223449,
+      "title": "Rød",
+      "sku": "PID-R-K-P-0116-S",
+      "price": "105.00",
+      "compare_at_price": null,
+      "barcode": null,
+      "weight": 100.0,
+      "weight_unit": "g",
+      "inventory_policy": "deny",
+      "taxable": true,
+      "requires_shipping": true
+    },
+    {
+      "id": 48512665256217,
+      "title": "Oransje",
+      "sku": "PID-O-K-P-0117-S",
+      "price": "105.00",
+      "compare_at_price": null,
+      "barcode": null,
+      "weight": 100.0,
+      "weight_unit": "g",
+      "inventory_policy": "deny",
+      "taxable": true,
+      "requires_shipping": true
+    },
+    {
+      "id": 48512665288985,
+      "title": "Rosa",
+      "sku": "PID-R-K-P-0118-S",
+      "price": "105.00",
+      "compare_at_price": null,
+      "barcode": null,
+      "weight": 100.0,
+      "weight_unit": "g",
+      "inventory_policy": "deny",
+      "taxable": true,
+      "requires_shipping": true
+    },
+    {
+      "id": 48598725099801,
+      "title": "Sort + ekstra holder",
+      "sku": "PID-S-K-P-0119-S",
+      "price": "199.00",
+      "compare_at_price": null,
+      "barcode": "",
+      "weight": 100.0,
+      "weight_unit": "g",
+      "inventory_policy": "deny",
+      "taxable": true,
+      "requires_shipping": true
+    },
+    {
+      "id": 48598725132569,
+      "title": "Rød + ekstra holder",
+      "sku": "PID-R-K-P-0120-S",
+      "price": "199.00",
+      "compare_at_price": null,
+      "barcode": "",
+      "weight": 100.0,
+      "weight_unit": "g",
+      "inventory_policy": "deny",
+      "taxable": true,
+      "requires_shipping": true
+    },
+    {
+      "id": 48598725165337,
+      "title": "Oransje + ekstra holder",
+      "sku": "PID-O-K-P-0121-S",
+      "price": "199.00",
+      "compare_at_price": null,
+      "barcode": "",
+      "weight": 100.0,
+      "weight_unit": "g",
+      "inventory_policy": "deny",
+      "taxable": true,
+      "requires_shipping": true
+    },
+    {
+      "id": 48598725198105,
+      "title": "Rosa + ekstra holder",
+      "sku": "PID-R-K-P-0122-S",
+      "price": "199.00",
+      "compare_at_price": null,
+      "barcode": "",
+      "weight": 100.0,
+      "weight_unit": "g",
+      "inventory_policy": "deny",
+      "taxable": true,
+      "requires_shipping": true
+    }
+  ],
+  "body_html": "<p>Klipses på med halssnor og følger med halssnor og snelle.</p>\n<p>Plass for ID kort og Apple airtag (følger ikke med)<br><br>Det er plass for to holdere på en snelle. </p>",
+  "image_count": 1,
+  "created_at": "2024-04-13T16:31:24+02:00",
+  "updated_at": "2025-07-20T20:40:23+02:00"
+}

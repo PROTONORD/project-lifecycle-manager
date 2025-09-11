@@ -1,0 +1,39 @@
+{
+  "id": 9563055554841,
+  "title": "SmartMount veggbrakett for Netatmo innemodul",
+  "handle": "smartmount-veggbrakett-for-netatmo-innemodul",
+  "status": "archived",
+  "product_type": "Netatmo",
+  "vendor": "Fladby 3Dprint",
+  "tags": "Hjem, Netatmo",
+  "options": [
+    {
+      "id": 12022840754457,
+      "product_id": 9563055554841,
+      "name": "Title",
+      "position": 1,
+      "values": [
+        "Default Title"
+      ]
+    }
+  ],
+  "variants": [
+    {
+      "id": 49207386538265,
+      "title": "Default Title",
+      "sku": "PSM-N-F-0184-S",
+      "price": "100.00",
+      "compare_at_price": "0.00",
+      "barcode": "",
+      "weight": 50.0,
+      "weight_unit": "g",
+      "inventory_policy": "continue",
+      "taxable": true,
+      "requires_shipping": true
+    }
+  ],
+  "body_html": "<p><strong>SmartMount Veggbrakett for Netatmo Innemodul</strong></p>\n<p><strong>Optimaliser Plasseringen av Din Netatmo Innemodul med SmartMount!</strong></p>\n<p>Med SmartMount Veggbrakett kan du enkelt og elegant plassere din Netatmo Innemodul på veggen, og dermed frigjøre plass på møbler og sikre optimal måling av luftkvalitet i hjemmet ditt. Vår spesialdesignede veggbrakett gir en trygg og stabil montering, samtidig som den komplementerer det moderne designet til Netatmo Innemodulen.</p>\n<p><strong>Hovedfunksjoner:</strong></p>\n<ul>\n<li>\n<p><strong>Presis Passform:</strong> SmartMount er spesifikt designet for Netatmo Innemodul og sikrer en perfekt passform som holder enheten sikkert på plass.</p>\n</li>\n<li>\n<p><strong>Stilig Design:</strong> Det minimalistiske og elegante designet smelter sømløst sammen med Netatmo Innemodulens estetikk og passer inn i enhver interiørstil.</p>\n</li>\n<li>\n<p><strong>Enkel Installering:</strong> SmartMount kommer med alt nødvendig monteringsutstyr og brukervennlige instruksjoner, slik at du kan montere braketten raskt og uten stress.</p>\n</li>\n<li>\n<p><strong>Optimal Plassering:</strong> Ved å montere din Netatmo Innemodul på veggen, kan du sikre at den måler luftkvaliteten mer nøyaktig, uten påvirkning fra gjenstander på bord eller hyller.</p>\n</li>\n</ul>\n<p><strong>Hvorfor velge SmartMount?</strong></p>\n<p>SmartMount Veggbrakett er den ideelle løsningen for deg som ønsker å optimalisere plass og funksjonalitet i hjemmet ditt. Den gir deg fleksibiliteten til å plassere Netatmo Innemodulen på det mest hensiktsmessige stedet, og legger til rette for bedre målinger og optimal ytelse.</p>\n<p><strong>Produktegenskaper:</strong></p>\n<ul>\n<li>Laget av holdbare materialer for langvarig bruk</li>\n<li>Sikrer stabil og sikker montering</li>\n<li>Diskré og stilrent utseende som passer til alle rom</li>\n</ul>\n<p><strong>Pakken Inneholder:</strong></p>\n<ul>\n<li>1 x SmartMount Veggbrakett for Netatmo Innemodul</li>\n</ul>\n<p>Forbedre funksjonaliteten og utseendet til din Netatmo Innemodul med SmartMount Veggbrakett. Denne praktiske og estetiske løsningen gjør det enklere enn noensinne å oppnå optimal luftkvalitet i hjemmet ditt.</p>\n<hr>\n<p>Gjør livet ditt litt lettere med en smart og stilfull montering. Bestill din SmartMount Veggbrakett for Netatmo Innemodul i dag!</p>",
+  "image_count": 1,
+  "created_at": "2024-06-29T22:08:18+02:00",
+  "updated_at": "2025-03-10T15:11:43+01:00"
+}

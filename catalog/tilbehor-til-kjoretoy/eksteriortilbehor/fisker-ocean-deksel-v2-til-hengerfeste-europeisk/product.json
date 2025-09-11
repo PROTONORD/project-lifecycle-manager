@@ -1,0 +1,81 @@
+{
+  "id": 9883684208921,
+  "title": "Fisker Ocean deksel V2 til hengerfeste Europeisk",
+  "handle": "fisker-ocean-deksel-v2-til-hengerfeste-europeisk",
+  "status": "active",
+  "product_type": "Tilbehør til kjøretøy",
+  "vendor": "PROTONORD",
+  "tags": "Elbil, Elektrisk kjøretøy, FISKER, Fisker Ocean, tilhengerfeste",
+  "options": [
+    {
+      "id": 12419774251289,
+      "product_id": 9883684208921,
+      "name": "Versjon",
+      "position": 1,
+      "values": [
+        "uten åpning for hengerfeste",
+        "med åpning for hengerfeste",
+        "venstre del med hull",
+        "venstre del uten hull"
+      ]
+    }
+  ],
+  "variants": [
+    {
+      "id": 50545913594137,
+      "title": "uten åpning for hengerfeste",
+      "sku": "PFI-SE-T-P-0450-S-1",
+      "price": "957.00",
+      "compare_at_price": null,
+      "barcode": "",
+      "weight": 300.0,
+      "weight_unit": "g",
+      "inventory_policy": "deny",
+      "taxable": true,
+      "requires_shipping": true
+    },
+    {
+      "id": 50545913626905,
+      "title": "med åpning for hengerfeste",
+      "sku": "PFI-SE-T-P-0450-S-2",
+      "price": "957.00",
+      "compare_at_price": null,
+      "barcode": "",
+      "weight": 300.0,
+      "weight_unit": "g",
+      "inventory_policy": "deny",
+      "taxable": true,
+      "requires_shipping": true
+    },
+    {
+      "id": 50545913659673,
+      "title": "venstre del med hull",
+      "sku": "PFI-SE-T-P-0450-S-3",
+      "price": "298.00",
+      "compare_at_price": null,
+      "barcode": "",
+      "weight": 100.0,
+      "weight_unit": "g",
+      "inventory_policy": "deny",
+      "taxable": true,
+      "requires_shipping": true
+    },
+    {
+      "id": 50545913692441,
+      "title": "venstre del uten hull",
+      "sku": "PFI-SE-T-P-0450-S-4",
+      "price": "298.00",
+      "compare_at_price": null,
+      "barcode": "",
+      "weight": 100.0,
+      "weight_unit": "g",
+      "inventory_policy": "deny",
+      "taxable": true,
+      "requires_shipping": true
+    }
+  ],
+  "body_html": "<p> </p>\n<p>Deksel til hengerfeste Fisker Ocean EU modell</p>\n<p>Ny modulær modell som kan bygges om etter behov. </p>\n<p>1. Heldekkende som tidligere men bedre passform</p>\n<p>2. Venstre side kan velges med hull for hengerfeste så den dekker åpningen mens du bruker hengerfeste</p>\n<p>3. Har du bestilt heldekkende er det mulig å bygge den om til en med hull. </p>\n<p>Vridelås på venstre og høyre side som låser dekselet<br><br>Kommer ferdig montert og klar for montasje.</p>\n<p>Utviklet i samarbeid med FOCN (Fisker Ocean Club Norway) etter at Fisker Ocean ikke ville levere deksel til EU stil hengerfeste.</p>\n<p>Dermed ble det utviklet et deksel som var mulig å produsere med tradisjonell 3dprinting innenfor en overkommelig salgbar pris.</p>\n<p><br>Alle deksler blir produsert når de bestilles og tar vanligvis 1-5 dager før de blir sendt<span><br></span><br>Laget i PETG (<b>Polyethylene terephthalate glycol)<br><br>Tåler vasking og spriting. </b> </p>",
+  "image_count": 7,
+  "created_at": "2025-03-16T22:39:56+01:00",
+  "updated_at": "2025-08-20T10:10:15+02:00"
+}

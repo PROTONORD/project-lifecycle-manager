@@ -1,0 +1,39 @@
+{
+  "id": 9590098755865,
+  "title": "Netatmo veggfeste som passer flere type modeller",
+  "handle": "netatmo-veggfeste-smart-vaerstasjon",
+  "status": "active",
+  "product_type": "Smarthus",
+  "vendor": "PROTONORD",
+  "tags": "Hjem, Netatmo, smarthus",
+  "options": [
+    {
+      "id": 12053451571481,
+      "product_id": 9590098755865,
+      "name": "Title",
+      "position": 1,
+      "values": [
+        "Default Title"
+      ]
+    }
+  ],
+  "variants": [
+    {
+      "id": 49294531068185,
+      "title": "Default Title",
+      "sku": "PNE-N-F-0232-S",
+      "price": "165.00",
+      "compare_at_price": null,
+      "barcode": null,
+      "weight": 100.0,
+      "weight_unit": "g",
+      "inventory_policy": "continue",
+      "taxable": true,
+      "requires_shipping": true
+    }
+  ],
+  "body_html": "<p><strong> Veggbrakett for Netatmo værstasjon</strong></p>\n<p><strong> </strong></p>\n<p>Passer følgende Netatmo:<br><br>Netatmo Smart værstasjon inne og utedel<br>Netatmo Smart innendørs kamera<br>Netatmo Smart Innendørs Luftkvalitetsmåler</p>\n<p>Veggfeste med ledningspor på hver side</p>\n<p>Passer også sammen med Smart værstasjon utedel med Værhus/Stevenson screen:<br><a href=\"https://www.protonord.no/products/netatmo-stevenson-screen-vaerhus-vaerstasjon-utedel\" target=\"_blank\" title=\"https://www.protonord.no/products/netatmo-stevenson-screen-vaerhus-vaerstasjon-utedel\" rel=\"noopener\">https://www.protonord.no/products/netatmo-stevenson-screen-vaerhus-vaerstasjon-utedel</a><br></p>\n<p>Hull for skruer (listeskruer passer utmerket)</p>\n<p> </p>\n<p> </p>",
+  "image_count": 2,
+  "created_at": "2024-07-11T20:26:04+02:00",
+  "updated_at": "2025-07-19T15:13:41+02:00"
+}

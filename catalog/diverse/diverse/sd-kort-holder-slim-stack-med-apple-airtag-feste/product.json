@@ -1,0 +1,81 @@
+{
+  "id": 9221242650905,
+  "title": "SD kort holder (slim stack) med apple airtag feste",
+  "handle": "sd-kort-holder-slim-stack-med-apple-airtag-feste",
+  "status": "draft",
+  "product_type": "Diverse",
+  "vendor": "PROTONORD",
+  "tags": "Airtag, Apple, appleairtag",
+  "options": [
+    {
+      "id": 11616513851673,
+      "product_id": 9221242650905,
+      "name": "Farge",
+      "position": 1,
+      "values": [
+        "Sort",
+        "Rød",
+        "Oransje",
+        "Rosa"
+      ]
+    }
+  ],
+  "variants": [
+    {
+      "id": 48331658756377,
+      "title": "Sort",
+      "sku": "PSD-S-K-P-0098-S",
+      "price": "125.00",
+      "compare_at_price": null,
+      "barcode": null,
+      "weight": 100.0,
+      "weight_unit": "g",
+      "inventory_policy": "deny",
+      "taxable": true,
+      "requires_shipping": true
+    },
+    {
+      "id": 48331658789145,
+      "title": "Rød",
+      "sku": "PSD-R-K-P-0099-S",
+      "price": "125.00",
+      "compare_at_price": null,
+      "barcode": null,
+      "weight": 100.0,
+      "weight_unit": "g",
+      "inventory_policy": "deny",
+      "taxable": true,
+      "requires_shipping": true
+    },
+    {
+      "id": 48331658821913,
+      "title": "Oransje",
+      "sku": "PSD-O-K-P-0100-S",
+      "price": "125.00",
+      "compare_at_price": null,
+      "barcode": null,
+      "weight": 100.0,
+      "weight_unit": "g",
+      "inventory_policy": "deny",
+      "taxable": true,
+      "requires_shipping": true
+    },
+    {
+      "id": 48331658854681,
+      "title": "Rosa",
+      "sku": "PSD-R-K-P-0101-S",
+      "price": "125.00",
+      "compare_at_price": null,
+      "barcode": null,
+      "weight": 100.0,
+      "weight_unit": "g",
+      "inventory_policy": "deny",
+      "taxable": true,
+      "requires_shipping": true
+    }
+  ],
+  "body_html": "<p>Klipses på med halssnor. </p>\n<p>Får plass til to full størrelse SD kort. </p>\n<p> </p>\n<p>https://youtube.com/shorts/Y37YzeGvCvg?feature=shared</p>",
+  "image_count": 2,
+  "created_at": "2024-04-01T22:30:48+02:00",
+  "updated_at": "2025-03-10T15:11:39+01:00"
+}

@@ -1,0 +1,1063 @@
+{
+  "total_products": 205,
+  "catalog_path": "/home/kau005/prototype-workflow-med-github/catalog",
+  "minio_bucket": "products",
+  "products": [
+    {
+      "handle": "135-til-120-film-adapter",
+      "directory": "catalog/135-til-120-film-adapter",
+      "shopify_id": 8047489253657
+    },
+    {
+      "handle": "3dscanning-av-bilmodell-vi-ikke-har",
+      "directory": "catalog/3dscanning-av-bilmodell-vi-ikke-har",
+      "shopify_id": 9237296906521
+    },
+    {
+      "handle": "4x5-torkestativ",
+      "directory": "catalog/4x5-torkestativ",
+      "shopify_id": 9795148775705
+    },
+    {
+      "handle": "audi-a3-sportback-e-tron-vaer-og-sno-deksel-for-ladeport",
+      "directory": "catalog/audi-a3-sportback-e-tron-vaer-og-sno-deksel-for-ladeport",
+      "shopify_id": 9748716028185
+    },
+    {
+      "handle": "audi-a3-tfsi-e-vaer-og-sno-deksel-for-ladeport",
+      "directory": "catalog/audi-a3-tfsi-e-vaer-og-sno-deksel-for-ladeport",
+      "shopify_id": 9748709900569
+    },
+    {
+      "handle": "audi-a6-avant-e-tron-vaer-og-sno-deksel-for-ladeport",
+      "directory": "catalog/audi-a6-avant-e-tron-vaer-og-sno-deksel-for-ladeport",
+      "shopify_id": 9841654726937
+    },
+    {
+      "handle": "audi-a6-tfsi-e-vaer-og-sno-deksel-for-ladeport",
+      "directory": "catalog/audi-a6-tfsi-e-vaer-og-sno-deksel-for-ladeport",
+      "shopify_id": 9748717273369
+    },
+    {
+      "handle": "audi-a7-tfsi-e-vaer-og-sno-deksel-for-ladeport",
+      "directory": "catalog/audi-a7-tfsi-e-vaer-og-sno-deksel-for-ladeport",
+      "shopify_id": 9748719730969
+    },
+    {
+      "handle": "audi-a8-tfsi-e-vaer-og-sno-deksel-for-ladeport",
+      "directory": "catalog/audi-a8-tfsi-e-vaer-og-sno-deksel-for-ladeport",
+      "shopify_id": 9748735590681
+    },
+    {
+      "handle": "audi-e-tron-gt-vaer-og-sno-deksel-for-ladeport",
+      "directory": "catalog/audi-e-tron-gt-vaer-og-sno-deksel-for-ladeport",
+      "shopify_id": 9748729069849
+    },
+    {
+      "handle": "audi-e-tron-q8-v2-vaer-og-sno-deksel-for-ladeport",
+      "directory": "catalog/audi-e-tron-q8-v2-vaer-og-sno-deksel-for-ladeport",
+      "shopify_id": 9890378875161
+    },
+    {
+      "handle": "audi-e-tron-quattro-50-55-v2-vaer-og-sno-deksel-for-ladeport",
+      "directory": "catalog/audi-e-tron-quattro-50-55-v2-vaer-og-sno-deksel-for-ladeport",
+      "shopify_id": 9889602928921
+    },
+    {
+      "handle": "audi-e-tron-deksel-for-ladeport",
+      "directory": "catalog/audi-e-tron-deksel-for-ladeport",
+      "shopify_id": 9102628978969
+    },
+    {
+      "handle": "audi-q3-tfsi-e-vaer-og-sno-deksel-for-ladeport",
+      "directory": "catalog/audi-q3-tfsi-e-vaer-og-sno-deksel-for-ladeport",
+      "shopify_id": 9748722057497
+    },
+    {
+      "handle": "audi-q4-las-vaer-og-snodeksel-v2-passer-bade-v1-og-v2",
+      "directory": "catalog/audi-q4-las-vaer-og-snodeksel-v2-passer-bade-v1-og-v2",
+      "shopify_id": 9229381042457
+    },
+    {
+      "handle": "audi-q4-e-tron-sno-deksel-extreme-for-ladeport",
+      "directory": "catalog/audi-q4-e-tron-sno-deksel-extreme-for-ladeport",
+      "shopify_id": 9116447801625
+    },
+    {
+      "handle": "audi-q4-e-tron-vaer-og-sno-deksel-v2-for-ladeport",
+      "directory": "catalog/audi-q4-e-tron-vaer-og-sno-deksel-v2-for-ladeport",
+      "shopify_id": 9229295091993
+    },
+    {
+      "handle": "audi-q4-e-tron-vaer-og-sno-deksel-v3-for-ladeport",
+      "directory": "catalog/audi-q4-e-tron-vaer-og-sno-deksel-v3-for-ladeport",
+      "shopify_id": 9868754518297
+    },
+    {
+      "handle": "audi-q5-tfsi-e-vaer-og-sno-deksel-for-ladeport",
+      "directory": "catalog/audi-q5-tfsi-e-vaer-og-sno-deksel-for-ladeport",
+      "shopify_id": 9748723466521
+    },
+    {
+      "handle": "audi-q6-e-tron-vaer-og-sno-deksel-for-ladeport",
+      "directory": "catalog/audi-q6-e-tron-vaer-og-sno-deksel-for-ladeport",
+      "shopify_id": 9748751155481
+    },
+    {
+      "handle": "audi-q7-tfsi-e-vaer-og-sno-deksel-for-ladeport",
+      "directory": "catalog/audi-q7-tfsi-e-vaer-og-sno-deksel-for-ladeport",
+      "shopify_id": 9748732903705
+    },
+    {
+      "handle": "audi-q8-e-tron-vaer-og-sno-deksel-for-ladeport",
+      "directory": "catalog/audi-q8-e-tron-vaer-og-sno-deksel-for-ladeport",
+      "shopify_id": 9695090147609
+    },
+    {
+      "handle": "badekar-stottearm",
+      "directory": "catalog/badekar-stottearm",
+      "shopify_id": 8984062755097
+    },
+    {
+      "handle": "bmw-330e-hybrid-vaer-og-sno-deksel-for-ladeport",
+      "directory": "catalog/bmw-330e-hybrid-vaer-og-sno-deksel-for-ladeport",
+      "shopify_id": 9728724369689
+    },
+    {
+      "handle": "bmw-i3-vaer-og-sno-deksel-for-ladeport",
+      "directory": "catalog/bmw-i3-vaer-og-sno-deksel-for-ladeport",
+      "shopify_id": 9705096020249
+    },
+    {
+      "handle": "bmw-i3-rex-plug-in-hybrid-i01-2013-2022-vaer-og-sno-deksel-for-ladeport",
+      "directory": "catalog/bmw-i3-rex-plug-in-hybrid-i01-2013-2022-vaer-og-sno-deksel-for-ladeport",
+      "shopify_id": 9715346374937
+    },
+    {
+      "handle": "bmw-i4-g26-2021-2024-deksel-for-ladeport",
+      "directory": "catalog/bmw-i4-g26-2021-2024-deksel-for-ladeport",
+      "shopify_id": 9093036441881
+    },
+    {
+      "handle": "bmw-i4-g26-2025-202-vaer-og-sno-deksel-for-ladeport",
+      "directory": "catalog/bmw-i4-g26-2025-202-vaer-og-sno-deksel-for-ladeport",
+      "shopify_id": 9818656833817
+    },
+    {
+      "handle": "bmw-i7-g70-2022-202-vaer-og-sno-deksel-for-ladeport-copy",
+      "directory": "catalog/bmw-i7-g70-2022-202-vaer-og-sno-deksel-for-ladeport-copy",
+      "shopify_id": 9715370164505
+    },
+    {
+      "handle": "bmw-ix-i20-2021-202-vaer-og-sno-deksel-for-ladeport",
+      "directory": "catalog/bmw-ix-i20-2021-202-vaer-og-sno-deksel-for-ladeport",
+      "shopify_id": 9107930251545
+    },
+    {
+      "handle": "bmw-ix1-u11-2022-202-vaer-og-sno-deksel-for-ladeport",
+      "directory": "catalog/bmw-ix1-u11-2022-202-vaer-og-sno-deksel-for-ladeport",
+      "shopify_id": 9715285393689
+    },
+    {
+      "handle": "bmw-ix2-2024-202-vaer-og-sno-deksel-for-ladeport",
+      "directory": "catalog/bmw-ix2-2024-202-vaer-og-sno-deksel-for-ladeport",
+      "shopify_id": 10016463192345
+    },
+    {
+      "handle": "bmw-ix3-g08-2020-202-vaer-og-sno-deksel-for-ladeport",
+      "directory": "catalog/bmw-ix3-g08-2020-202-vaer-og-sno-deksel-for-ladeport",
+      "shopify_id": 9715304464665
+    },
+    {
+      "handle": "bmw-x3-g01-plug-in-hybrid-vaer-og-sno-deksel-for-ladeport",
+      "directory": "catalog/bmw-x3-g01-plug-in-hybrid-vaer-og-sno-deksel-for-ladeport",
+      "shopify_id": 9883682832665
+    },
+    {
+      "handle": "bmw-x5-hybrid-vaer-og-sno-deksel-for-ladeport",
+      "directory": "catalog/bmw-x5-hybrid-vaer-og-sno-deksel-for-ladeport",
+      "shopify_id": 9793648427289
+    },
+    {
+      "handle": "byd-atto-3-vaer-og-sno-deksel-for-ladeport",
+      "directory": "catalog/byd-atto-3-vaer-og-sno-deksel-for-ladeport",
+      "shopify_id": 9849241010457
+    },
+    {
+      "handle": "byd-dolphin-vaer-og-sno-deksel-for-ladeport",
+      "directory": "catalog/byd-dolphin-vaer-og-sno-deksel-for-ladeport",
+      "shopify_id": 9675153342745
+    },
+    {
+      "handle": "byd-seal-u-vaer-og-sno-deksel-for-ladeport",
+      "directory": "catalog/byd-seal-u-vaer-og-sno-deksel-for-ladeport",
+      "shopify_id": 9676561416473
+    },
+    {
+      "handle": "byd-sealion-7-vaer-og-sno-deksel-for-ladeport",
+      "directory": "catalog/byd-sealion-7-vaer-og-sno-deksel-for-ladeport",
+      "shopify_id": 9797562564889
+    },
+    {
+      "handle": "byd-tang-vaer-og-sno-deksel-for-ladeport",
+      "directory": "catalog/byd-tang-vaer-og-sno-deksel-for-ladeport",
+      "shopify_id": 9720470634777
+    },
+    {
+      "handle": "byd-tang-hengerfeste-deksel",
+      "directory": "catalog/byd-tang-hengerfeste-deksel",
+      "shopify_id": 9829677138201
+    },
+    {
+      "handle": "cad-fil-av-135mm-film",
+      "directory": "catalog/cad-fil-av-135mm-film",
+      "shopify_id": 8031474549017
+    },
+    {
+      "handle": "ccs-deksel-for-tesla-model-3",
+      "directory": "catalog/ccs-deksel-for-tesla-model-3",
+      "shopify_id": 9563054899481
+    },
+    {
+      "handle": "citroen-ec4-x-vaer-og-sno-deksel-for-ladeport",
+      "directory": "catalog/citroen-ec4-x-vaer-og-sno-deksel-for-ladeport",
+      "shopify_id": 9512811921689
+    },
+    {
+      "handle": "cupra-born-vaer-og-sno-deksel-for-ladeport",
+      "directory": "catalog/cupra-born-vaer-og-sno-deksel-for-ladeport",
+      "shopify_id": 9722164150553
+    },
+    {
+      "handle": "deksel-til-elsykkel-turbo-tero-og-2-gen-turbo-vado-og-turbo-como-modeller",
+      "directory": "catalog/deksel-til-elsykkel-turbo-tero-og-2-gen-turbo-vado-og-turbo-como-modeller",
+      "shopify_id": 9805002604825
+    },
+    {
+      "handle": "deksel-til-ikoflex-6x6-novar-anastigmat-75-3-5",
+      "directory": "catalog/deksel-til-ikoflex-6x6-novar-anastigmat-75-3-5",
+      "shopify_id": 9173332984089
+    },
+    {
+      "handle": "kopi-linhof-4x5-objektivbrett",
+      "directory": "catalog/kopi-linhof-4x5-objektivbrett",
+      "shopify_id": 9162120102169
+    },
+    {
+      "handle": "dryppskal-antibac-eller-sape-for-svaksynte",
+      "directory": "catalog/dryppskal-antibac-eller-sape-for-svaksynte",
+      "shopify_id": 9568789856537
+    },
+    {
+      "handle": "easytrunk-tesla-model-3",
+      "directory": "catalog/easytrunk-tesla-model-3",
+      "shopify_id": 9563055358233
+    },
+    {
+      "handle": "festebraketter-for-netatmo-regnsensor-og-vindmaler",
+      "directory": "catalog/festebraketter-for-netatmo-regnsensor-og-vindmaler",
+      "shopify_id": 9580799263001
+    },
+    {
+      "handle": "fisker-ocean-ombygningskitt-deflector-bakjul",
+      "directory": "catalog/fisker-ocean-ombygningskitt-deflector-bakjul",
+      "shopify_id": 9534398955801
+    },
+    {
+      "handle": "fisker-ocean-bakre-skvettlapper-v2",
+      "directory": "catalog/fisker-ocean-bakre-skvettlapper-v2",
+      "shopify_id": 9563984757017
+    },
+    {
+      "handle": "fisker-ocean-deksel-til-hengerfeste-europeisk",
+      "directory": "catalog/fisker-ocean-deksel-til-hengerfeste-europeisk",
+      "shopify_id": 9401977536793
+    },
+    {
+      "handle": "fisker-ocean-deksel-v2-til-hengerfeste-europeisk",
+      "directory": "catalog/fisker-ocean-deksel-v2-til-hengerfeste-europeisk",
+      "shopify_id": 9883684208921
+    },
+    {
+      "handle": "fisker-ocean-skvettlapper-med-farge-inlegg",
+      "directory": "catalog/fisker-ocean-skvettlapper-med-farge-inlegg",
+      "shopify_id": 9558759899417
+    },
+    {
+      "handle": "fisker-ocean-komplett-sett-skvettlapper-v2",
+      "directory": "catalog/fisker-ocean-komplett-sett-skvettlapper-v2",
+      "shopify_id": 9573703090457
+    },
+    {
+      "handle": "fisker-ocean-ladeluke-reservedel",
+      "directory": "catalog/fisker-ocean-ladeluke-reservedel",
+      "shopify_id": 9840512794905
+    },
+    {
+      "handle": "fisker-ocean-oppbevaring-under-setet",
+      "directory": "catalog/fisker-ocean-oppbevaring-under-setet",
+      "shopify_id": 9709163348249
+    },
+    {
+      "handle": "fisker-ocean-skreddersydd-oppbevaring-for-senterkonsoll",
+      "directory": "catalog/fisker-ocean-skreddersydd-oppbevaring-for-senterkonsoll",
+      "shopify_id": 9532253765913
+    },
+    {
+      "handle": "fisker-ocean-skreddersydd-tettelist-for-hjulbue",
+      "directory": "catalog/fisker-ocean-skreddersydd-tettelist-for-hjulbue",
+      "shopify_id": 9783087333657
+    },
+    {
+      "handle": "fisker-vaer-og-sno-deksel-for-ladeport-kommer-snart",
+      "directory": "catalog/fisker-vaer-og-sno-deksel-for-ladeport-kommer-snart",
+      "shopify_id": 9376116048153
+    },
+    {
+      "handle": "fisker-ocean-extreme-vaer-og-sno-deksel-for-ladeport",
+      "directory": "catalog/fisker-ocean-extreme-vaer-og-sno-deksel-for-ladeport",
+      "shopify_id": 9833601433881
+    },
+    {
+      "handle": "fisker-ocean-vaerdeksel-til-ryggekamera",
+      "directory": "catalog/fisker-ocean-vaerdeksel-til-ryggekamera",
+      "shopify_id": 9820651225369
+    },
+    {
+      "handle": "flaskeapner",
+      "directory": "catalog/flaskeapner",
+      "shopify_id": 9082460504345
+    },
+    {
+      "handle": "ford-explorer-plug-in-hybrid-vaer-og-sno-deksel-for-ladeport",
+      "directory": "catalog/ford-explorer-plug-in-hybrid-vaer-og-sno-deksel-for-ladeport",
+      "shopify_id": 9810910478617
+    },
+    {
+      "handle": "ford-f-150-lightning-vaer-og-sno-deksel-for-ladeport",
+      "directory": "catalog/ford-f-150-lightning-vaer-og-sno-deksel-for-ladeport",
+      "shopify_id": 9742568587545
+    },
+    {
+      "handle": "ford-mustang-mach-e-vaer-og-sno-deksel-for-ladeport",
+      "directory": "catalog/ford-mustang-mach-e-vaer-og-sno-deksel-for-ladeport",
+      "shopify_id": 9797149393177
+    },
+    {
+      "handle": "forstorret-grep-for-sigma-fp-l-med-plass-for-apple-airtag",
+      "directory": "catalog/forstorret-grep-for-sigma-fp-l-med-plass-for-apple-airtag",
+      "shopify_id": 8032307872025
+    },
+    {
+      "handle": "frontdeksel-til-elko-ramme-for-aqara-temperatur-og-fuktighetssensor-hvit",
+      "directory": "catalog/frontdeksel-til-elko-ramme-for-aqara-temperatur-og-fuktighetssensor-hvit",
+      "shopify_id": 8075606098201
+    },
+    {
+      "handle": "gastol-reservedel-til-handtak-justering",
+      "directory": "catalog/gastol-reservedel-til-handtak-justering",
+      "shopify_id": 9568824066329
+    },
+    {
+      "handle": "feste-for-apple-airtag",
+      "directory": "catalog/feste-for-apple-airtag",
+      "shopify_id": 8985536364825
+    },
+    {
+      "handle": "hyundai-ioniq-electric-vaer-og-sno-deksel-for-ladeport",
+      "directory": "catalog/hyundai-ioniq-electric-vaer-og-sno-deksel-for-ladeport",
+      "shopify_id": 9698537734425
+    },
+    {
+      "handle": "hyundai-ioniq5-vaer-og-sno-deksel-for-ladeport",
+      "directory": "catalog/hyundai-ioniq5-vaer-og-sno-deksel-for-ladeport",
+      "shopify_id": 9252304847129
+    },
+    {
+      "handle": "hyundai-ioniq5-2025-vaer-og-sno-deksel-for-ladeport",
+      "directory": "catalog/hyundai-ioniq5-2025-vaer-og-sno-deksel-for-ladeport",
+      "shopify_id": 9852619882777
+    },
+    {
+      "handle": "hyundai-kona-1st-gen-vaer-og-sno-deksel-for-ladeport",
+      "directory": "catalog/hyundai-kona-1st-gen-vaer-og-sno-deksel-for-ladeport",
+      "shopify_id": 9751465263385
+    },
+    {
+      "handle": "id-kortholder-slim-stack-med-apple-airtag-feste",
+      "directory": "catalog/id-kortholder-slim-stack-med-apple-airtag-feste",
+      "shopify_id": 9220878532889
+    },
+    {
+      "handle": "id-kortholder-for-yubico-og-flere-id-kort",
+      "directory": "catalog/id-kortholder-for-yubico-og-flere-id-kort",
+      "shopify_id": 9178345505049
+    },
+    {
+      "handle": "id-kortholder-med-snelle-apple-airtag-feste",
+      "directory": "catalog/id-kortholder-med-snelle-apple-airtag-feste",
+      "shopify_id": 9280363823385
+    },
+    {
+      "handle": "jeep-avenger-vaer-og-sno-deksel-for-ladeport",
+      "directory": "catalog/jeep-avenger-vaer-og-sno-deksel-for-ladeport",
+      "shopify_id": 9684720288025
+    },
+    {
+      "handle": "jeep-wrangler-4xe-vaer-og-sno-deksel-for-ladeport",
+      "directory": "catalog/jeep-wrangler-4xe-vaer-og-sno-deksel-for-ladeport",
+      "shopify_id": 9684723663129
+    },
+    {
+      "handle": "kamerarens",
+      "directory": "catalog/kamerarens",
+      "shopify_id": 8653651411225
+    },
+    {
+      "handle": "kia-e-niro-vaer-og-sno-deksel-for-ladeport",
+      "directory": "catalog/kia-e-niro-vaer-og-sno-deksel-for-ladeport",
+      "shopify_id": 9698809512217
+    },
+    {
+      "handle": "kia-e-soul-vaer-og-sno-deksel-for-ladeport",
+      "directory": "catalog/kia-e-soul-vaer-og-sno-deksel-for-ladeport",
+      "shopify_id": 9167881732377
+    },
+    {
+      "handle": "kia-ev3-vaer-og-sno-deksel-for-ladeport",
+      "directory": "catalog/kia-ev3-vaer-og-sno-deksel-for-ladeport",
+      "shopify_id": 9771287281945
+    },
+    {
+      "handle": "kia-ev6-vaer-og-sno-deksel-for-ladeport",
+      "directory": "catalog/kia-ev6-vaer-og-sno-deksel-for-ladeport",
+      "shopify_id": 9778164597017
+    },
+    {
+      "handle": "kia-ev9-vaer-og-sno-deksel-for-ladeport",
+      "directory": "catalog/kia-ev9-vaer-og-sno-deksel-for-ladeport",
+      "shopify_id": 9780018118937
+    },
+    {
+      "handle": "kia-niro-ev-vaer-og-sno-deksel-for-ladeport",
+      "directory": "catalog/kia-niro-ev-vaer-og-sno-deksel-for-ladeport",
+      "shopify_id": 9616364765465
+    },
+    {
+      "handle": "kia-soul-vaer-og-sno-deksel-for-ladeport",
+      "directory": "catalog/kia-soul-vaer-og-sno-deksel-for-ladeport",
+      "shopify_id": 9378425995545
+    },
+    {
+      "handle": "kleshenger-til-dukkeklaer",
+      "directory": "catalog/kleshenger-til-dukkeklaer",
+      "shopify_id": 8026695598361
+    },
+    {
+      "handle": "koppholder-saab-ng9-3",
+      "directory": "catalog/koppholder-saab-ng9-3",
+      "shopify_id": 9060647567641
+    },
+    {
+      "handle": "koppholder-til-bergans-wiglo-telt",
+      "directory": "catalog/koppholder-til-bergans-wiglo-telt",
+      "shopify_id": 8132551475481
+    },
+    {
+      "handle": "ladestrompe-vaer-og-sno-for-ladekabel",
+      "directory": "catalog/ladestrompe-vaer-og-sno-for-ladekabel",
+      "shopify_id": 9829854282009
+    },
+    {
+      "handle": "lexus-nx-450h-vaer-og-sno-deksel-for-ladeport",
+      "directory": "catalog/lexus-nx-450h-vaer-og-sno-deksel-for-ladeport",
+      "shopify_id": 9751290085657
+    },
+    {
+      "handle": "lexus-rz-vaer-og-sno-deksel-for-ladeport",
+      "directory": "catalog/lexus-rz-vaer-og-sno-deksel-for-ladeport",
+      "shopify_id": 9840476389657
+    },
+    {
+      "handle": "lexus-ux300e-vaer-og-sno-deksel-for-ladeport",
+      "directory": "catalog/lexus-ux300e-vaer-og-sno-deksel-for-ladeport",
+      "shopify_id": 9678506557721
+    },
+    {
+      "handle": "lexus-ux300e-vaer-og-sno-deksel-for-ladeport-1",
+      "directory": "catalog/lexus-ux300e-vaer-og-sno-deksel-for-ladeport-1",
+      "shopify_id": 9883631616281
+    },
+    {
+      "handle": "linhof-4x5-objektivbrett",
+      "directory": "catalog/linhof-4x5-objektivbrett",
+      "shopify_id": 8030830002457
+    },
+    {
+      "handle": "lomme-kors",
+      "directory": "catalog/lomme-kors",
+      "shopify_id": 9177488490777
+    },
+    {
+      "handle": "lommebok-adapter-for-apple-airtag",
+      "directory": "catalog/lommebok-adapter-for-apple-airtag",
+      "shopify_id": 8071711228185
+    },
+    {
+      "handle": "mazda-mx-30-vaer-og-sno-deksel-for-ladeport",
+      "directory": "catalog/mazda-mx-30-vaer-og-sno-deksel-for-ladeport",
+      "shopify_id": 9848228872473
+    },
+    {
+      "handle": "mazda-xc-60-vaer-og-sno-deksel-for-ladeport",
+      "directory": "catalog/mazda-xc-60-vaer-og-sno-deksel-for-ladeport",
+      "shopify_id": 9767715864857
+    },
+    {
+      "handle": "mercedes-b-250-e-vaer-og-sno-deksel-for-ladeport",
+      "directory": "catalog/mercedes-b-250-e-vaer-og-sno-deksel-for-ladeport",
+      "shopify_id": 9751532077337
+    },
+    {
+      "handle": "mercedes-eqa-vaer-og-sno-deksel-for-ladeport",
+      "directory": "catalog/mercedes-eqa-vaer-og-sno-deksel-for-ladeport",
+      "shopify_id": 9762469609753
+    },
+    {
+      "handle": "mercedes-eqb-vaer-og-sno-deksel-for-ladeport",
+      "directory": "catalog/mercedes-eqb-vaer-og-sno-deksel-for-ladeport",
+      "shopify_id": 9793462599961
+    },
+    {
+      "handle": "mercedes-eqc-v2-vaer-og-sno-deksel-for-ladeport",
+      "directory": "catalog/mercedes-eqc-v2-vaer-og-sno-deksel-for-ladeport",
+      "shopify_id": 9857514504473
+    },
+    {
+      "handle": "mercedes-eqc400-vaer-og-sno-deksel-for-ladeport-kommer-snart",
+      "directory": "catalog/mercedes-eqc400-vaer-og-sno-deksel-for-ladeport-kommer-snart",
+      "shopify_id": 9252394139929
+    },
+    {
+      "handle": "mercedes-eqe-vaer-og-sno-deksel-for-ladeport",
+      "directory": "catalog/mercedes-eqe-vaer-og-sno-deksel-for-ladeport",
+      "shopify_id": 9654232252697
+    },
+    {
+      "handle": "mercedes-eqv-vaer-og-sno-deksel-for-ladeport",
+      "directory": "catalog/mercedes-eqv-vaer-og-sno-deksel-for-ladeport",
+      "shopify_id": 9774018756889
+    },
+    {
+      "handle": "mercedes-glc-x253-vaer-og-sno-deksel-for-ladeport",
+      "directory": "catalog/mercedes-glc-x253-vaer-og-sno-deksel-for-ladeport",
+      "shopify_id": 9732905271577
+    },
+    {
+      "handle": "mg4-vaer-og-sno-deksel-for-ladeport-copy",
+      "directory": "catalog/mg4-vaer-og-sno-deksel-for-ladeport-copy",
+      "shopify_id": 9749574975769
+    },
+    {
+      "handle": "mg-zs-ev-vaer-og-sno-deksel-for-ladeport",
+      "directory": "catalog/mg-zs-ev-vaer-og-sno-deksel-for-ladeport",
+      "shopify_id": 9734205669657
+    },
+    {
+      "handle": "mg4-vaer-og-sno-deksel-v1-for-ladeport",
+      "directory": "catalog/mg4-vaer-og-sno-deksel-v1-for-ladeport",
+      "shopify_id": 9252297474329
+    },
+    {
+      "handle": "mitsubishi-outlander-hybrid-vaer-og-sno-deksel-for-ladeport",
+      "directory": "catalog/mitsubishi-outlander-hybrid-vaer-og-sno-deksel-for-ladeport",
+      "shopify_id": 9797250318617
+    },
+    {
+      "handle": "netatmo-ringeklokke-vaerhus",
+      "directory": "catalog/netatmo-ringeklokke-vaerhus",
+      "shopify_id": 8041966797081
+    },
+    {
+      "handle": "netatmo-stevenson-screen-vaerhus-vaerstasjon-utedel",
+      "directory": "catalog/netatmo-stevenson-screen-vaerhus-vaerstasjon-utedel",
+      "shopify_id": 9624851546393
+    },
+    {
+      "handle": "netatmo-stevenson-screen-innendors",
+      "directory": "catalog/netatmo-stevenson-screen-innendors",
+      "shopify_id": 9625461915929
+    },
+    {
+      "handle": "netatmo-veggfeste-smart-vaerstasjon",
+      "directory": "catalog/netatmo-veggfeste-smart-vaerstasjon",
+      "shopify_id": 9590098755865
+    },
+    {
+      "handle": "nissan-ariya-vaer-og-sno-deksel-for-ladeport",
+      "directory": "catalog/nissan-ariya-vaer-og-sno-deksel-for-ladeport",
+      "shopify_id": 9460246118681
+    },
+    {
+      "handle": "nissan-leaf-ze0-v1-vaer-og-sno-deksel-for-ladeport",
+      "directory": "catalog/nissan-leaf-ze0-v1-vaer-og-sno-deksel-for-ladeport",
+      "shopify_id": 9727019942169
+    },
+    {
+      "handle": "nissan-leaf-ze1-v2-vaer-og-sno-deksel-for-ladeport",
+      "directory": "catalog/nissan-leaf-ze1-v2-vaer-og-sno-deksel-for-ladeport",
+      "shopify_id": 9727011881241
+    },
+    {
+      "handle": "nissan-leaf-snodeksel-for-ladeport",
+      "directory": "catalog/nissan-leaf-snodeksel-for-ladeport",
+      "shopify_id": 9107908591897
+    },
+    {
+      "handle": "nokkelring-for-apple-airtag",
+      "directory": "catalog/nokkelring-for-apple-airtag",
+      "shopify_id": 8031409078553
+    },
+    {
+      "handle": "opel-corsa-e-vaer-og-sno-deksel-for-ladeport",
+      "directory": "catalog/opel-corsa-e-vaer-og-sno-deksel-for-ladeport",
+      "shopify_id": 9751611506969
+    },
+    {
+      "handle": "peugeot-e-2008-vaer-og-sno-deksel-for-ladeport-kommer-snart",
+      "directory": "catalog/peugeot-e-2008-vaer-og-sno-deksel-for-ladeport-kommer-snart",
+      "shopify_id": 9252311990553
+    },
+    {
+      "handle": "peugeot-e-3008-vaer-og-sno-deksel-for-ladeport-kommer-snart",
+      "directory": "catalog/peugeot-e-3008-vaer-og-sno-deksel-for-ladeport-kommer-snart",
+      "shopify_id": 9275806384409
+    },
+    {
+      "handle": "philips-hue-lysbryter-foring",
+      "directory": "catalog/philips-hue-lysbryter-foring",
+      "shopify_id": 9568840974617
+    },
+    {
+      "handle": "phillips-hue-sensor-vegg-takfeste-73mm",
+      "directory": "catalog/phillips-hue-sensor-vegg-takfeste-73mm",
+      "shopify_id": 8040900854041
+    },
+    {
+      "handle": "polestar-2-koppholder",
+      "directory": "catalog/polestar-2-koppholder",
+      "shopify_id": 9955180577049
+    },
+    {
+      "handle": "polestar-2-midtkonsoll-festebrakett",
+      "directory": "catalog/polestar-2-midtkonsoll-festebrakett",
+      "shopify_id": 9692065988889
+    },
+    {
+      "handle": "polestar-2-vaer-og-sno-deksel-for-ladeport",
+      "directory": "catalog/polestar-2-vaer-og-sno-deksel-for-ladeport",
+      "shopify_id": 9685879128345
+    },
+    {
+      "handle": "polestar-3-vaer-og-sno-deksel-for-ladeport",
+      "directory": "catalog/polestar-3-vaer-og-sno-deksel-for-ladeport",
+      "shopify_id": 9809530913049
+    },
+    {
+      "handle": "polestar-4-vaer-og-sno-deksel-for-ladeport",
+      "directory": "catalog/polestar-4-vaer-og-sno-deksel-for-ladeport",
+      "shopify_id": 9797159911705
+    },
+    {
+      "handle": "porsche-panamera-4-e-hybrid-vaer-og-sno-deksel-for-ladeport",
+      "directory": "catalog/porsche-panamera-4-e-hybrid-vaer-og-sno-deksel-for-ladeport",
+      "shopify_id": 9663153570073
+    },
+    {
+      "handle": "posebaerer",
+      "directory": "catalog/posebaerer",
+      "shopify_id": 9082472071449
+    },
+    {
+      "handle": "printetjenester-av-andre-design",
+      "directory": "catalog/printetjenester-av-andre-design",
+      "shopify_id": 9231514829081
+    },
+    {
+      "handle": "px32-batteriadapter",
+      "directory": "catalog/px32-batteriadapter",
+      "shopify_id": 8052256178457
+    },
+    {
+      "handle": "rainlock-for-netatmo-regnsensor",
+      "directory": "catalog/rainlock-for-netatmo-regnsensor",
+      "shopify_id": 9563055751449
+    },
+    {
+      "handle": "reisetonne-for-glencairn-whiskyglass",
+      "directory": "catalog/reisetonne-for-glencairn-whiskyglass",
+      "shopify_id": 8349235314969
+    },
+    {
+      "handle": "renault-scenic-e-tech-vaer-og-sno-deksel-for-ladeport",
+      "directory": "catalog/renault-scenic-e-tech-vaer-og-sno-deksel-for-ladeport",
+      "shopify_id": 9708885508377
+    },
+    {
+      "handle": "retrolock-erstatningsprofiler-for-gamle-bns-vindusfester",
+      "directory": "catalog/retrolock-erstatningsprofiler-for-gamle-bns-vindusfester",
+      "shopify_id": 9563056046361
+    },
+    {
+      "handle": "retroslide-erstatning-for-gamle-bns-vindusslidesport",
+      "directory": "catalog/retroslide-erstatning-for-gamle-bns-vindusslidesport",
+      "shopify_id": 9684695908633
+    },
+    {
+      "handle": "rimor-endestykker-for-34x12xr19-profil",
+      "directory": "catalog/rimor-endestykker-for-34x12xr19-profil",
+      "shopify_id": 9937997136153
+    },
+    {
+      "handle": "rullestol-fotbrett-reservedel",
+      "directory": "catalog/rullestol-fotbrett-reservedel",
+      "shopify_id": 9568820429081
+    },
+    {
+      "handle": "ryobi-18v-batteri-veggholder",
+      "directory": "catalog/ryobi-18v-batteri-veggholder",
+      "shopify_id": 9807570239769
+    },
+    {
+      "handle": "sd-kort-holder-slim-stack-med-apple-airtag-feste",
+      "directory": "catalog/sd-kort-holder-slim-stack-med-apple-airtag-feste",
+      "shopify_id": 9221242650905
+    },
+    {
+      "handle": "segway-navimow-i105e-pigger",
+      "directory": "catalog/segway-navimow-i105e-pigger",
+      "shopify_id": 9684742373657
+    },
+    {
+      "handle": "skaplas-til-bobil",
+      "directory": "catalog/skaplas-til-bobil",
+      "shopify_id": 8984070324505
+    },
+    {
+      "handle": "skiftenokkel-m-skralle-8mm",
+      "directory": "catalog/skiftenokkel-m-skralle-8mm",
+      "shopify_id": 9659506032921
+    },
+    {
+      "handle": "skoda-enyaq-vaer-og-sno-deksel-for-ladeport",
+      "directory": "catalog/skoda-enyaq-vaer-og-sno-deksel-for-ladeport",
+      "shopify_id": 9488471556377
+    },
+    {
+      "handle": "safedrive-feste",
+      "directory": "catalog/safedrive-feste",
+      "shopify_id": 9913531105561
+    },
+    {
+      "handle": "smartmount-veggbrakett-for-netatmo-innemodul",
+      "directory": "catalog/smartmount-veggbrakett-for-netatmo-innemodul",
+      "shopify_id": 9563055554841
+    },
+    {
+      "handle": "spesialoppdrag",
+      "directory": "catalog/spesialoppdrag",
+      "shopify_id": 8045534282009
+    },
+    {
+      "handle": "type-2-deksel-i-tpu-gummi-for-ladeport",
+      "directory": "catalog/type-2-deksel-i-tpu-gummi-for-ladeport",
+      "shopify_id": 9343794151705
+    },
+    {
+      "handle": "subaru-solterra-vaer-og-sno-deksel-for-ladeport",
+      "directory": "catalog/subaru-solterra-vaer-og-sno-deksel-for-ladeport",
+      "shopify_id": 9701411160345
+    },
+    {
+      "handle": "suzuki-across-vaer-og-sno-deksel-for-ladeport",
+      "directory": "catalog/suzuki-across-vaer-og-sno-deksel-for-ladeport",
+      "shopify_id": 9246922965273
+    },
+    {
+      "handle": "sykkelsetefeste-for-apple-airtag-med-refleks",
+      "directory": "catalog/sykkelsetefeste-for-apple-airtag-med-refleks",
+      "shopify_id": 8012110889241
+    },
+    {
+      "handle": "tado-radiator-danfoss-overgang",
+      "directory": "catalog/tado-radiator-danfoss-overgang",
+      "shopify_id": 9756015624473
+    },
+    {
+      "handle": "tesla-s-vaer-og-sno-deksel-for-ladeport-kommer-snart",
+      "directory": "catalog/tesla-s-vaer-og-sno-deksel-for-ladeport-kommer-snart",
+      "shopify_id": 9252317724953
+    },
+    {
+      "handle": "tesla-y-sno-deksel-for-ladeport",
+      "directory": "catalog/tesla-y-sno-deksel-for-ladeport",
+      "shopify_id": 9130626416921
+    },
+    {
+      "handle": "tesla-y-hengerfestedeksel",
+      "directory": "catalog/tesla-y-hengerfestedeksel",
+      "shopify_id": 9836011651353
+    },
+    {
+      "handle": "tesla-y-vaer-og-sno-deksel-for-ladeport",
+      "directory": "catalog/tesla-y-vaer-og-sno-deksel-for-ladeport",
+      "shopify_id": 9826746401049
+    },
+    {
+      "handle": "toyota-bz4x-vaer-og-sno-deksel-for-ladeport",
+      "directory": "catalog/toyota-bz4x-vaer-og-sno-deksel-for-ladeport",
+      "shopify_id": 9701251219737
+    },
+    {
+      "handle": "toyota-proace-city-electric-vaer-og-sno-deksel-for-ladeport",
+      "directory": "catalog/toyota-proace-city-electric-vaer-og-sno-deksel-for-ladeport",
+      "shopify_id": 9788726640921
+    },
+    {
+      "handle": "toyota-proace-electric-vaer-og-sno-deksel-for-ladeport",
+      "directory": "catalog/toyota-proace-electric-vaer-og-sno-deksel-for-ladeport",
+      "shopify_id": 9724890054937
+    },
+    {
+      "handle": "toyota-rav4-hybrid-vaer-og-sno-deksel-for-ladeport",
+      "directory": "catalog/toyota-rav4-hybrid-vaer-og-sno-deksel-for-ladeport",
+      "shopify_id": 9246927913241
+    },
+    {
+      "handle": "tubeapner",
+      "directory": "catalog/tubeapner",
+      "shopify_id": 9082474823961
+    },
+    {
+      "handle": "torkestang-til-bergans-wiglo-telt",
+      "directory": "catalog/torkestang-til-bergans-wiglo-telt",
+      "shopify_id": 8132725768473
+    },
+    {
+      "handle": "ubiquti-unifi-ap-vaerhus",
+      "directory": "catalog/ubiquti-unifi-ap-vaerhus",
+      "shopify_id": 9545646080281
+    },
+    {
+      "handle": "veggfeste-for-aqara-temperatur-og-fuktighetssensor-hvit",
+      "directory": "catalog/veggfeste-for-aqara-temperatur-og-fuktighetssensor-hvit",
+      "shopify_id": 8070207242521
+    },
+    {
+      "handle": "veggoppheng-utvendig-for-dobbelstikk-stromkabel",
+      "directory": "catalog/veggoppheng-utvendig-for-dobbelstikk-stromkabel",
+      "shopify_id": 9812494745881
+    },
+    {
+      "handle": "vinholder-blekksprut",
+      "directory": "catalog/vinholder-blekksprut",
+      "shopify_id": 8194274230553
+    },
+    {
+      "handle": "vinholder-isbjorn",
+      "directory": "catalog/vinholder-isbjorn",
+      "shopify_id": 8194511929625
+    },
+    {
+      "handle": "volkswagen-arteon-ehybrid-vaer-og-sno-deksel-for-ladeport",
+      "directory": "catalog/volkswagen-arteon-ehybrid-vaer-og-sno-deksel-for-ladeport",
+      "shopify_id": 9722473939225
+    },
+    {
+      "handle": "volkswagen-e-up-vaer-og-sno-deksel-for-ladeport",
+      "directory": "catalog/volkswagen-e-up-vaer-og-sno-deksel-for-ladeport",
+      "shopify_id": 9722469286169
+    },
+    {
+      "handle": "volkswagen-golf-gte-vaer-og-sno-deksel-for-ladeport",
+      "directory": "catalog/volkswagen-golf-gte-vaer-og-sno-deksel-for-ladeport",
+      "shopify_id": 9722476855577
+    },
+    {
+      "handle": "vw-volkswagen-id3-vaer-og-sno-deksel-for-ladeport-kommer-snart",
+      "directory": "catalog/vw-volkswagen-id3-vaer-og-sno-deksel-for-ladeport-kommer-snart",
+      "shopify_id": 9321427566873
+    },
+    {
+      "handle": "volkswagen-id-4_id-5-ny-vaer-og-sno-deksel-for-ladeport",
+      "directory": "catalog/volkswagen-id-4_id-5-ny-vaer-og-sno-deksel-for-ladeport",
+      "shopify_id": 9849542803737
+    },
+    {
+      "handle": "vw-volkswagen-id4-solbrilleholder",
+      "directory": "catalog/vw-volkswagen-id4-solbrilleholder",
+      "shopify_id": 9709170491673
+    },
+    {
+      "handle": "vw-volkswagen-id4-sno-deksel-extreme-for-ladeport",
+      "directory": "catalog/vw-volkswagen-id4-sno-deksel-extreme-for-ladeport",
+      "shopify_id": 9116669673753
+    },
+    {
+      "handle": "kopi-vw-volkswagen-id5-vaer-og-sno-deksel-for-ladeport",
+      "directory": "catalog/kopi-vw-volkswagen-id5-vaer-og-sno-deksel-for-ladeport",
+      "shopify_id": 9717995438361
+    },
+    {
+      "handle": "volkswagen-id-7-v2-vaer-og-sno-deksel-for-ladeport",
+      "directory": "catalog/volkswagen-id-7-v2-vaer-og-sno-deksel-for-ladeport",
+      "shopify_id": 9873826873625
+    },
+    {
+      "handle": "volkswagen-id-7-vaer-og-sno-deksel-for-ladeport",
+      "directory": "catalog/volkswagen-id-7-vaer-og-sno-deksel-for-ladeport",
+      "shopify_id": 9729973944601
+    },
+    {
+      "handle": "volkswagen-id-buzz-vaer-og-sno-deksel-for-ladeport",
+      "directory": "catalog/volkswagen-id-buzz-vaer-og-sno-deksel-for-ladeport",
+      "shopify_id": 9830511149337
+    },
+    {
+      "handle": "volkswagen-vw-id-buzz-vaer-og-sno-deksel-for-ladeport-kommer-snart",
+      "directory": "catalog/volkswagen-vw-id-buzz-vaer-og-sno-deksel-for-ladeport-kommer-snart",
+      "shopify_id": 9275895152921
+    },
+    {
+      "handle": "volkswagen-tiguan-ehybrid-vaer-og-sno-deksel-for-ladeport",
+      "directory": "catalog/volkswagen-tiguan-ehybrid-vaer-og-sno-deksel-for-ladeport",
+      "shopify_id": 9722462208281
+    },
+    {
+      "handle": "kopi-volvo-ex30-ny-vaer-og-sno-deksel-for-ladeport",
+      "directory": "catalog/kopi-volvo-ex30-ny-vaer-og-sno-deksel-for-ladeport",
+      "shopify_id": 9859931832601
+    },
+    {
+      "handle": "volvo-ex30-vaer-og-sno-deksel-for-ladeport",
+      "directory": "catalog/volvo-ex30-vaer-og-sno-deksel-for-ladeport",
+      "shopify_id": 9725189652761
+    },
+    {
+      "handle": "volvo-xc40-ex40-c40-ec40-ny-vaer-og-sno-deksel-for-ladeport",
+      "directory": "catalog/volvo-xc40-ex40-c40-ec40-ny-vaer-og-sno-deksel-for-ladeport",
+      "shopify_id": 9859930751257
+    },
+    {
+      "handle": "volvo-v60-hybrid-vaer-og-sno-deksel-for-ladeport",
+      "directory": "catalog/volvo-v60-hybrid-vaer-og-sno-deksel-for-ladeport",
+      "shopify_id": 9568967786777
+    },
+    {
+      "handle": "volvo-v90-plug-in-hybrid-vaer-og-sno-deksel-for-ladeport",
+      "directory": "catalog/volvo-v90-plug-in-hybrid-vaer-og-sno-deksel-for-ladeport",
+      "shopify_id": 9790982816025
+    },
+    {
+      "handle": "kopi-volvo-xc40-vaer-og-sno-deksel-for-ladeport",
+      "directory": "catalog/kopi-volvo-xc40-vaer-og-sno-deksel-for-ladeport",
+      "shopify_id": 9587642040601
+    },
+    {
+      "handle": "volvo-xc40-koppholder-adapter",
+      "directory": "catalog/volvo-xc40-koppholder-adapter",
+      "shopify_id": 9580400804121
+    },
+    {
+      "handle": "volvo-xc40-vaer-og-sno-deksel-for-ladeport-2",
+      "directory": "catalog/volvo-xc40-vaer-og-sno-deksel-for-ladeport-2",
+      "shopify_id": 9513158344985
+    },
+    {
+      "handle": "volvo-xc60-vaer-og-sno-deksel-for-ladeport",
+      "directory": "catalog/volvo-xc60-vaer-og-sno-deksel-for-ladeport",
+      "shopify_id": 9790298915097
+    },
+    {
+      "handle": "volvo-xc90-plug-in-hybrid-vaer-og-sno-deksel-for-ladeport",
+      "directory": "catalog/volvo-xc90-plug-in-hybrid-vaer-og-sno-deksel-for-ladeport",
+      "shopify_id": 9790361829657
+    },
+    {
+      "handle": "vw-e-golf-vaer-og-sno-deksel-for-ladeport",
+      "directory": "catalog/vw-e-golf-vaer-og-sno-deksel-for-ladeport",
+      "shopify_id": 9175102357785
+    },
+    {
+      "handle": "passat-gte-hybrid-snodeksel-for-ladeport",
+      "directory": "catalog/passat-gte-hybrid-snodeksel-for-ladeport",
+      "shopify_id": 9071651389721
+    },
+    {
+      "handle": "vaerhus-deksel-lasesylinder",
+      "directory": "catalog/vaerhus-deksel-lasesylinder",
+      "shopify_id": 9835093098777
+    },
+    {
+      "handle": "ventilasjonsror-overgang-kvadrat-til-rund",
+      "directory": "catalog/ventilasjonsror-overgang-kvadrat-til-rund",
+      "shopify_id": 8984067342617
+    },
+    {
+      "handle": "weatherguard-for-netatmo-utemodul",
+      "directory": "catalog/weatherguard-for-netatmo-utemodul",
+      "shopify_id": 9563055292697
+    },
+    {
+      "handle": "xpeng-g6-vaer-og-sno-deksel-for-ladeport",
+      "directory": "catalog/xpeng-g6-vaer-og-sno-deksel-for-ladeport",
+      "shopify_id": 9774010859801
+    },
+    {
+      "handle": "xpeng-g9-vaer-og-sno-deksel-for-ladeport",
+      "directory": "catalog/xpeng-g9-vaer-og-sno-deksel-for-ladeport",
+      "shopify_id": 9808080535833
+    },
+    {
+      "handle": "yubico-yubikey-slim-stack-med-apple-airtag-feste",
+      "directory": "catalog/yubico-yubikey-slim-stack-med-apple-airtag-feste",
+      "shopify_id": 9220880466201
+    },
+    {
+      "handle": "zenitel-stentofon-spesialtilpasset-koblingsboks",
+      "directory": "catalog/zenitel-stentofon-spesialtilpasset-koblingsboks",
+      "shopify_id": 8984066097433
+    }
+  ],
+  "structure": "hierarchical",
+  "categories": {
+    "smarthus": {
+      "tilbehor": 15
+    },
+    "tilbehor-til-kjoretoy": {
+      "ladeportdeksler": 127,
+      "diverse-tilbehor": 10,
+      "eksteriortilbehor": 5,
+      "interiortilbehor": 5
+    },
+    "diverse": {
+      "diverse": 25
+    },
+    "kamerautstyr": {
+      "diverse": 5,
+      "beskyttelse": 2
+    },
+    "ukategorisert": {
+      "diverse": 8
+    },
+    "verktoy-og-oppbevaring": {
+      "diverse": 1
+    },
+    "hage-og-utendors": {
+      "diverse": 1
+    },
+    "sport-og-fritid": {
+      "diverse": 1
+    }
+  }
+}

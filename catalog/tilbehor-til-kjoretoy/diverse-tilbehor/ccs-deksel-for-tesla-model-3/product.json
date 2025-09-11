@@ -1,0 +1,81 @@
+{
+  "id": 9563054899481,
+  "title": "CCS deksel for Tesla Model 3",
+  "handle": "ccs-deksel-for-tesla-model-3",
+  "status": "active",
+  "product_type": "Tilbehør til kjøretøy",
+  "vendor": "Fladby 3Dprint",
+  "tags": "Model 3, Tesla",
+  "options": [
+    {
+      "id": 12022840099097,
+      "product_id": 9563054899481,
+      "name": "Type",
+      "position": 1,
+      "values": [
+        "Med vinger",
+        "Uten vinger",
+        "Med vinger og rød logo",
+        "Uten vinger og rød logo"
+      ]
+    }
+  ],
+  "variants": [
+    {
+      "id": 49207384211737,
+      "title": "Med vinger",
+      "sku": "PCC-M-D-F-0177-S",
+      "price": "100.00",
+      "compare_at_price": null,
+      "barcode": "",
+      "weight": 50.0,
+      "weight_unit": "g",
+      "inventory_policy": "continue",
+      "taxable": true,
+      "requires_shipping": true
+    },
+    {
+      "id": 49207384244505,
+      "title": "Uten vinger",
+      "sku": "PCC-U-D-F-0178-S",
+      "price": "100.00",
+      "compare_at_price": "0.00",
+      "barcode": "",
+      "weight": 50.0,
+      "weight_unit": "g",
+      "inventory_policy": "continue",
+      "taxable": true,
+      "requires_shipping": true
+    },
+    {
+      "id": 49207384277273,
+      "title": "Med vinger og rød logo",
+      "sku": "PCC-M-D-F-0179-S",
+      "price": "100.00",
+      "compare_at_price": "0.00",
+      "barcode": "",
+      "weight": 50.0,
+      "weight_unit": "g",
+      "inventory_policy": "continue",
+      "taxable": true,
+      "requires_shipping": true
+    },
+    {
+      "id": 49207384310041,
+      "title": "Uten vinger og rød logo",
+      "sku": "PCC-U-D-F-0180-S",
+      "price": "100.00",
+      "compare_at_price": "0.00",
+      "barcode": "",
+      "weight": 50.0,
+      "weight_unit": "g",
+      "inventory_policy": "continue",
+      "taxable": true,
+      "requires_shipping": true
+    }
+  ],
+  "body_html": "<p><strong>CCS Deksel for Tesla Model 3</strong></p>\n<p><strong>Beskytt ladekontakten på din Tesla Model 3 med stil og funksjonalitet!</strong></p>\n<p>Vårt tilpassede CCS Deksel er designet for å tilby optimal beskyttelse av ladekontakten på din Tesla Model 3. Dette beskytter kontakten mot støv, skitt og fuktighet, noe som bidrar til å forlenge levetiden og opprettholde effektiviteten til ladekontakten din.</p>\n<p><strong>Hovedfunksjoner:</strong></p>\n<ul>\n<li>\n<p><strong>Presis Passform:</strong> Dekselet er nøyaktig utformet for å passe perfekt på Tesla Model 3 sin CCS-ladekontakt, noe som gir en tett og sikker passform uten å være for vanskelig å installere eller fjerne.</p>\n</li>\n<li>\n<p><strong>Høy Kvalitet:</strong> Laget av slitesterkt og miljøvennlig materiale som tåler daglig bruk, temperaturvariasjoner og eksponering for forskjellige værforhold.</p>\n</li>\n<li>\n<p><strong>Enkelt å Bruke:</strong> Monteres og fjernes enkelt uten behov for verktøy, slik at du raskt kan beskytte ladekontakten etter bruk.</p>\n</li>\n<li>\n<p><strong>Stilrent Design:</strong> Med sitt minimalistiske og elegante utseende, komplementerer dekslet på en diskret måte utseendet på din Tesla Model 3 samtidig som det gir viktig funksjonalitet.</p>\n</li>\n</ul>\n<p><strong>Hvorfor velge vårt CCS Deksel?</strong></p>\n<p>Med et øye for detaljer og en dedikasjon til kvalitet, gir dette dekslet en perfekt kombinasjon av beskyttelse og estetisk appell. Det er det ideelle tilbehøret for Tesla-eiere som ønsker å vedlikeholde sine kjøretøy på best mulig måte.</p>\n<p>Beskyt din investering og sikr optimal ytelse for din Tesla Model 3 med vårt førsteklasses CCS Deksel.</p>\n<hr>\n<p>Sikre deg dette essensielle tilbehøret og gi ladekontakten din den beskyttelsen den fortjener. Bestill i dag og opplev forskjellen!</p>",
+  "image_count": 6,
+  "created_at": "2024-06-29T22:08:01+02:00",
+  "updated_at": "2025-07-22T11:25:10+02:00"
+}

@@ -1,0 +1,81 @@
+{
+  "id": 9220878532889,
+  "title": "ID-Kortholder (slim stack) med apple airtag feste",
+  "handle": "id-kortholder-slim-stack-med-apple-airtag-feste",
+  "status": "active",
+  "product_type": "Diverse",
+  "vendor": "PROTONORD",
+  "tags": "Airtag, Apple, appleairtag",
+  "options": [
+    {
+      "id": 11616099860761,
+      "product_id": 9220878532889,
+      "name": "Farge",
+      "position": 1,
+      "values": [
+        "Sort",
+        "Rød",
+        "Oransje",
+        "Rosa"
+      ]
+    }
+  ],
+  "variants": [
+    {
+      "id": 48329392685337,
+      "title": "Sort",
+      "sku": "PID-S-K-P-0090-S",
+      "price": "96.00",
+      "compare_at_price": null,
+      "barcode": null,
+      "weight": 100.0,
+      "weight_unit": "g",
+      "inventory_policy": "deny",
+      "taxable": true,
+      "requires_shipping": true
+    },
+    {
+      "id": 48329392718105,
+      "title": "Rød",
+      "sku": "PID-R-K-P-0091-S",
+      "price": "96.00",
+      "compare_at_price": null,
+      "barcode": null,
+      "weight": 100.0,
+      "weight_unit": "g",
+      "inventory_policy": "deny",
+      "taxable": true,
+      "requires_shipping": true
+    },
+    {
+      "id": 48329392750873,
+      "title": "Oransje",
+      "sku": "PID-O-K-P-0092-S",
+      "price": "96.00",
+      "compare_at_price": null,
+      "barcode": null,
+      "weight": 100.0,
+      "weight_unit": "g",
+      "inventory_policy": "deny",
+      "taxable": true,
+      "requires_shipping": true
+    },
+    {
+      "id": 48329392783641,
+      "title": "Rosa",
+      "sku": "PID-R-K-P-0093-S",
+      "price": "96.00",
+      "compare_at_price": null,
+      "barcode": null,
+      "weight": 100.0,
+      "weight_unit": "g",
+      "inventory_policy": "deny",
+      "taxable": true,
+      "requires_shipping": true
+    }
+  ],
+  "body_html": "<p>Klipses på med halssnor. </p>\n<p>Ekstra slim/tynn utgave som gjør det mulig å ha flere kortholdere på samme klips eller yubico/yubikey holder sammen med kortholder</p>\n<p> </p>\n<p>https://youtu.be/lsrihtCqDzQ?feature=shared</p>",
+  "image_count": 2,
+  "created_at": "2024-04-01T15:57:54+02:00",
+  "updated_at": "2025-08-05T06:56:26+02:00"
+}

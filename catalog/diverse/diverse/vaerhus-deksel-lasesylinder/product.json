@@ -1,0 +1,39 @@
+{
+  "id": 9835093098777,
+  "title": "Værhus deksel låsesylinder",
+  "handle": "vaerhus-deksel-lasesylinder",
+  "status": "active",
+  "product_type": "Diverse",
+  "vendor": "PROTONORD",
+  "tags": "Hjem, Låsesylinder, Værhus, Ytterdør",
+  "options": [
+    {
+      "id": 12354711978265,
+      "product_id": 9835093098777,
+      "name": "Farge",
+      "position": 1,
+      "values": [
+        "Sort"
+      ]
+    }
+  ],
+  "variants": [
+    {
+      "id": 50289170120985,
+      "title": "Sort",
+      "sku": "PVÆ-PS-D-F-0425-S",
+      "price": "468.00",
+      "compare_at_price": null,
+      "barcode": null,
+      "weight": 10.0,
+      "weight_unit": "g",
+      "inventory_policy": "continue",
+      "taxable": true,
+      "requires_shipping": true
+    }
+  ],
+  "body_html": "<p>Værhus for låsesylinder hvor den står utsatt for vær og vind.</p>\n<p>Båt, hytte, båthus eller vanlig ytterdør.</p>\n<p>Unngår at det kommer regn, snø, is som gjør det vanskelig å sette inn nøkkelen.</p>\n<p>Lett å montere og vrid av/på.</p>\n<p>Juster bakdelen ved montasje for å få rett motstand når man setter på lokket,</p>\n<p>bakre hettedelen er i gummimateriale som tåler kulde og støt.</p>\n<p>Lokket er i Polyethylene terephthalate</p>",
+  "image_count": 1,
+  "created_at": "2025-01-31T19:39:09+01:00",
+  "updated_at": "2025-07-19T02:29:58+02:00"
+}

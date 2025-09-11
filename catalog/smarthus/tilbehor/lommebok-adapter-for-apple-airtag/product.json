@@ -1,0 +1,81 @@
+{
+  "id": 8071711228185,
+  "title": "Lommebok adapter for Apple airtag",
+  "handle": "lommebok-adapter-for-apple-airtag",
+  "status": "archived",
+  "product_type": "Smarthus",
+  "vendor": "PROTONORD",
+  "tags": "Airtag, Apple, sporingsbrikke, Sykkel, Sykkelsete",
+  "options": [
+    {
+      "id": 10262834675993,
+      "product_id": 8071711228185,
+      "name": "Farge",
+      "position": 1,
+      "values": [
+        "Lilla/Rosa med glitter",
+        "Blå/Rosa med glitter",
+        "Hvit",
+        "Sort"
+      ]
+    }
+  ],
+  "variants": [
+    {
+      "id": 44359390462233,
+      "title": "Lilla/Rosa med glitter",
+      "sku": "PLO-L-M-P-0033-S",
+      "price": "122.00",
+      "compare_at_price": null,
+      "barcode": null,
+      "weight": 200.0,
+      "weight_unit": "g",
+      "inventory_policy": "deny",
+      "taxable": true,
+      "requires_shipping": true
+    },
+    {
+      "id": 44359442170137,
+      "title": "Blå/Rosa med glitter",
+      "sku": "PLO-B-M-P-0034-S",
+      "price": "122.00",
+      "compare_at_price": null,
+      "barcode": null,
+      "weight": 200.0,
+      "weight_unit": "g",
+      "inventory_policy": "deny",
+      "taxable": true,
+      "requires_shipping": true
+    },
+    {
+      "id": 44359442202905,
+      "title": "Hvit",
+      "sku": "PLO-H-M-P-0035-S",
+      "price": "122.00",
+      "compare_at_price": null,
+      "barcode": null,
+      "weight": 200.0,
+      "weight_unit": "g",
+      "inventory_policy": "deny",
+      "taxable": true,
+      "requires_shipping": true
+    },
+    {
+      "id": 44359442235673,
+      "title": "Sort",
+      "sku": "PLO-S-M-P-0036-S",
+      "price": "122.00",
+      "compare_at_price": null,
+      "barcode": null,
+      "weight": 200.0,
+      "weight_unit": "g",
+      "inventory_policy": "deny",
+      "taxable": true,
+      "requires_shipping": true
+    }
+  ],
+  "body_html": "<p><span data-mce-fragment=\"1\">Holder for Apple airtag sporingsbrikke som gjør at den passer lettere i lommer, vesker eller lommebok</span></p>\n<p><span data-mce-fragment=\"1\"><br></span><span data-mce-fragment=\"1\">Holderen har plass til 1.stk Apple airtag (Følger ikke med)</span></p>\n<p><span data-mce-fragment=\"1\">For å åpne opp holderen dytter man fra toppen for å løsne underplata.  Ikke vipp ut ved hjelp av kniv eller annet da festeklipsene kan knekke.</span></p>\n<p> </p>",
+  "image_count": 3,
+  "created_at": "2023-01-09T21:41:51+01:00",
+  "updated_at": "2025-02-07T10:58:30+01:00"
+}

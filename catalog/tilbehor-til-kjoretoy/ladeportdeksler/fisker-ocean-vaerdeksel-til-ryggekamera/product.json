@@ -1,0 +1,48 @@
+{
+  "id": 9820651225369,
+  "title": "Fisker Ocean værdeksel til ryggespeil kamera",
+  "handle": "fisker-ocean-vaerdeksel-til-ryggekamera",
+  "status": "active",
+  "product_type": "Tilbehør til kjøretøy",
+  "vendor": "PROTONORD",
+  "tags": "Elbil, Elektrisk kjøretøy, FISKER, Fisker Ocean, ryggekamera, værdeksel, Værdeksel elbil",
+  "options": [
+    {
+      "id": 12336850632985,
+      "product_id": 9820651225369,
+      "name": "farge",
+      "position": 1,
+      "values": [
+        "Sort"
+      ]
+    },
+    {
+      "id": 12336864755993,
+      "product_id": 9820651225369,
+      "name": "Versjon",
+      "position": 2,
+      "values": [
+        "Værdeksel"
+      ]
+    }
+  ],
+  "variants": [
+    {
+      "id": 50227054313753,
+      "title": "Sort / Værdeksel",
+      "sku": "PFI-S-T-P-0415-S",
+      "price": "280.00",
+      "compare_at_price": null,
+      "barcode": "",
+      "weight": 300.0,
+      "weight_unit": "g",
+      "inventory_policy": "deny",
+      "taxable": true,
+      "requires_shipping": true
+    }
+  ],
+  "body_html": "<p><strong>Optimal Beskyttelse for Din Elbil – Værdeksel til ryggespeil kamera</strong></p>",
+  "image_count": 2,
+  "created_at": "2025-01-16T16:56:12+01:00",
+  "updated_at": "2025-02-07T17:14:26+01:00"
+}

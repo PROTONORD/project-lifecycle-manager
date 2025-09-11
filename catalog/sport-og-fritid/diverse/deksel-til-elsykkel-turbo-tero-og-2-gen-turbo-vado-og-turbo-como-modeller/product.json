@@ -1,0 +1,39 @@
+{
+  "id": 9805002604825,
+  "title": "Deksel til Elsykkel Turbo Tero og 2.gen, Turbo Vado og Turbo Como modeller",
+  "handle": "deksel-til-elsykkel-turbo-tero-og-2-gen-turbo-vado-og-turbo-como-modeller",
+  "status": "active",
+  "product_type": "sykkel",
+  "vendor": "PROTONORD",
+  "tags": "Sykkel",
+  "options": [
+    {
+      "id": 12316553707801,
+      "product_id": 9805002604825,
+      "name": "Title",
+      "position": 1,
+      "values": [
+        "Default Title"
+      ]
+    }
+  ],
+  "variants": [
+    {
+      "id": 50156458508569,
+      "title": "Default Title",
+      "sku": "PDE-P-0404-S",
+      "price": "860.00",
+      "compare_at_price": null,
+      "barcode": "",
+      "weight": 250.0,
+      "weight_unit": "g",
+      "inventory_policy": "deny",
+      "taxable": true,
+      "requires_shipping": true
+    }
+  ],
+  "body_html": "<p>Deksel som benyttes ved vinterlagring eller når den parkeres på jobb, hjemme, byen når du tar ut batteriet. Dekselet settes inn og låses som originalt batteri. </p>\n<p>Har oppbevaring for Silica poser som unngår kondens og fukt når batteriet ikke er montert i sykkelen. Det være om den står på bilen når man kjører eller lagres. <br><br><strong>SILICA poser som er gjenbrukbare følger med. </strong></p>\n<p>Det er også plass for å feste GPS sporingsenhet eller annen sporingsbrikke som airtag, samung, eller tile. <br><br><span>Kompatibel med alle Turbo Tero og 2.genrasjon Turbo Vado og Turbo Como modeller som bruker specialized U2 batteri.</span></p>\n<h1 class=\"product-detail-information-area__product-name\"></h1>",
+  "image_count": 6,
+  "created_at": "2024-12-30T21:25:53+01:00",
+  "updated_at": "2025-02-11T14:38:14+01:00"
+}

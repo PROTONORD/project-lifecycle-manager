@@ -1,0 +1,39 @@
+{
+  "id": 8032307872025,
+  "title": "Forstørret grep for  SIGMA FP (L) med plass for Apple airtag",
+  "handle": "forstorret-grep-for-sigma-fp-l-med-plass-for-apple-airtag",
+  "status": "active",
+  "product_type": "Diverse",
+  "vendor": "PROTONORD",
+  "tags": "3dfil, Airtag, Apple, cad, Sigma, SigmaFP",
+  "options": [
+    {
+      "id": 10211289956633,
+      "product_id": 8032307872025,
+      "name": "Title",
+      "position": 1,
+      "values": [
+        "Default Title"
+      ]
+    }
+  ],
+  "variants": [
+    {
+      "id": 44195614687513,
+      "title": "Default Title",
+      "sku": "PFO-D-P-0015-S",
+      "price": "100.00",
+      "compare_at_price": null,
+      "barcode": "",
+      "weight": 100.0,
+      "weight_unit": "g",
+      "inventory_policy": "deny",
+      "taxable": true,
+      "requires_shipping": true
+    }
+  ],
+  "body_html": "Originalt grep er 3d scannet med lasercanner for så å endret i Fusion360 for å ha plass til Apple airtag. <br><br>Er med .step fil",
+  "image_count": 5,
+  "created_at": "2022-12-04T20:11:13+01:00",
+  "updated_at": "2025-03-10T15:11:57+01:00"
+}

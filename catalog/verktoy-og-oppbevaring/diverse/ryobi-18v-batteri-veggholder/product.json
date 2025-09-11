@@ -1,0 +1,39 @@
+{
+  "id": 9807570239769,
+  "title": "Ryobi 18v batteri veggholder",
+  "handle": "ryobi-18v-batteri-veggholder",
+  "status": "active",
+  "product_type": "Verktøy og Oppbevaring",
+  "vendor": "PROTONORD",
+  "tags": "",
+  "options": [
+    {
+      "product_id": 9807570239769,
+      "id": 12320167854361,
+      "name": "Title",
+      "position": 1,
+      "values": [
+        "Default Title"
+      ]
+    }
+  ],
+  "variants": [
+    {
+      "id": 50170198098201,
+      "title": "Default Title",
+      "sku": "PRY-P-0406-S",
+      "price": "246.00",
+      "compare_at_price": null,
+      "barcode": "",
+      "weight": 120.0,
+      "weight_unit": "g",
+      "inventory_policy": "deny",
+      "taxable": true,
+      "requires_shipping": true
+    }
+  ],
+  "body_html": "<p>Veggholder for 18V Ryobi batteri som gjør at du lett kan plassere batteriet i holder med batterisjekker mot front så det er lett å sjekke status før man tar et batteri. <br></p>",
+  "image_count": 2,
+  "created_at": "2025-01-03T14:37:17+01:00",
+  "updated_at": "2025-02-11T14:38:27+01:00"
+}

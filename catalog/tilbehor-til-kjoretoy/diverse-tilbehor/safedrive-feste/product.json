@@ -1,0 +1,39 @@
+{
+  "id": 9913531105561,
+  "title": "Skoda Enyaq Safedrive feste",
+  "handle": "safedrive-feste",
+  "status": "active",
+  "product_type": "Tilbehør til kjøretøy",
+  "vendor": "PROTONORD",
+  "tags": "Safedrive, Skoda, Skoda Enyaq",
+  "options": [
+    {
+      "id": 12456371847449,
+      "product_id": 9913531105561,
+      "name": "Bilmodell",
+      "position": 1,
+      "values": [
+        "Skoda Enyaq"
+      ]
+    }
+  ],
+  "variants": [
+    {
+      "id": 50670575255833,
+      "title": "Skoda Enyaq",
+      "sku": "PUT-P-0460-S",
+      "price": "397.00",
+      "compare_at_price": null,
+      "barcode": null,
+      "weight": 200.0,
+      "weight_unit": "g",
+      "inventory_policy": "deny",
+      "taxable": true,
+      "requires_shipping": true
+    }
+  ],
+  "body_html": "<p>Skreddersydd safedrive feste </p>\n<p>Ytterste del er i myk gummi som passer perfekt. Trenger ikke lim, tape eller skruer.</p>\n<p>Safedrive festes på med medfølgende dobbelsidig tape.</p>\n<p>Tilpasset hver enkelt bilmodell ved hjelp av 3dscanning</p>\n<p>https://safedrive.no/europa/<br><br><span>Tjenesten fungerer i hele Europa. Databasen består blant annet av over 100.000 registrerte fotobokser og varsler hverandre om f.eks dyr og hindringer i veien. </span><br><br></p>",
+  "image_count": 2,
+  "created_at": "2025-04-15T20:57:06+02:00",
+  "updated_at": "2025-08-10T07:30:49+02:00"
+}

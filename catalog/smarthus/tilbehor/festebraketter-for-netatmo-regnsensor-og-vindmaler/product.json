@@ -1,0 +1,132 @@
+{
+  "id": 9580799263001,
+  "title": "Festebraketter for Netatmo regnsensor og vindmåler",
+  "handle": "festebraketter-for-netatmo-regnsensor-og-vindmaler",
+  "status": "active",
+  "product_type": "Smarthus",
+  "vendor": "PROTONORD",
+  "tags": "Hjem, Netatmo, Netatmo regnmåler",
+  "options": [
+    {
+      "id": 12042856759577,
+      "product_id": 9580799263001,
+      "name": "Farge",
+      "position": 1,
+      "values": [
+        "Sort"
+      ]
+    },
+    {
+      "id": 12145288380697,
+      "product_id": 9580799263001,
+      "name": "Versjon",
+      "position": 2,
+      "values": [
+        "Komplett Adapterpakke regn og vindmåler med 50mm mastrør adapter",
+        "Komplett Adapterpakke regn og vindmåler",
+        "Lås med brakett",
+        "Lås",
+        "brakett",
+        "Kobling for vindmåler og regnsensor",
+        "50mm mastrør adapter"
+      ]
+    }
+  ],
+  "variants": [
+    {
+      "id": 49558777299225,
+      "title": "Sort / Komplett Adapterpakke regn og vindmåler med 50mm mastrør adapter",
+      "sku": "PVE-SS-N-F-0225-S",
+      "price": "999.00",
+      "compare_at_price": null,
+      "barcode": null,
+      "weight": 100.0,
+      "weight_unit": "g",
+      "inventory_policy": "deny",
+      "taxable": true,
+      "requires_shipping": true
+    },
+    {
+      "id": 49543662993689,
+      "title": "Sort / Komplett Adapterpakke regn og vindmåler",
+      "sku": "PVE-SS-N-F-0225-S-4",
+      "price": "699.00",
+      "compare_at_price": null,
+      "barcode": null,
+      "weight": 100.0,
+      "weight_unit": "g",
+      "inventory_policy": "deny",
+      "taxable": true,
+      "requires_shipping": true
+    },
+    {
+      "id": 49261797114137,
+      "title": "Sort / Lås med brakett",
+      "sku": "PVE-SS-N-F-0225-S",
+      "price": "399.00",
+      "compare_at_price": null,
+      "barcode": "",
+      "weight": 100.0,
+      "weight_unit": "g",
+      "inventory_policy": "deny",
+      "taxable": true,
+      "requires_shipping": true
+    },
+    {
+      "id": 49543662895385,
+      "title": "Sort / Lås",
+      "sku": "PVE-SS-N-F-0225-S-1",
+      "price": "160.00",
+      "compare_at_price": null,
+      "barcode": null,
+      "weight": 100.0,
+      "weight_unit": "g",
+      "inventory_policy": "deny",
+      "taxable": true,
+      "requires_shipping": true
+    },
+    {
+      "id": 49543662928153,
+      "title": "Sort / brakett",
+      "sku": "PVE-SS-N-F-0225-S-2",
+      "price": "246.00",
+      "compare_at_price": null,
+      "barcode": null,
+      "weight": 100.0,
+      "weight_unit": "g",
+      "inventory_policy": "deny",
+      "taxable": true,
+      "requires_shipping": true
+    },
+    {
+      "id": 49543662960921,
+      "title": "Sort / Kobling for vindmåler og regnsensor",
+      "sku": "PVE-SS-N-F-0225-S-3",
+      "price": "370.00",
+      "compare_at_price": null,
+      "barcode": null,
+      "weight": 100.0,
+      "weight_unit": "g",
+      "inventory_policy": "deny",
+      "taxable": true,
+      "requires_shipping": true
+    },
+    {
+      "id": 49558765502745,
+      "title": "Sort / 50mm mastrør adapter",
+      "sku": "PVE-SS-N-F-0225-S",
+      "price": "397.00",
+      "compare_at_price": null,
+      "barcode": null,
+      "weight": 100.0,
+      "weight_unit": "g",
+      "inventory_policy": "deny",
+      "taxable": true,
+      "requires_shipping": true
+    }
+  ],
+  "body_html": "<p> </p>\n<p><strong>PS!! Selve 50mm røret følger IKKE med og må kjøpes utenom</strong></p>\n<p><br>Skreddersydd feste/brakett med utforminger som passer perfekt til Netatmo regn og vindsensor</p>\n<p>Lås festes i regnsensor eller vindmåler og har en magnet for å låses mot brakett.</p>\n<p>Brakett har flere hull for festing mot veggfester, tak eller overganger.</p>\n<p>4x 5mm hull, 3x 3mm hull og 1x 6mm hull i senter.</p>\n<p>Det medfølger magneter og ved kjøp av adapter for sammenkobling av vind og regnsensor er det med 3x 3mm skruer.</p>\n<p>For å koble sammen regnsensor og vindmåler trenger man minimum 1x lås, 1x brakett og 1x adapter<br><br><strong>50mm røradapter passer f.eks røret man får kjøpt hos <a rel=\"noopener noreferrer\" title=\"https://www.kjell.com/no/produkter/lyd-og-bilde/tv-og-tilbehor/antenner-og-tilbehor/festemateriell/fester-stativer/veggfeste-i-aluminium-25-cm-p30963\" href=\"https://www.kjell.com/no/produkter/lyd-og-bilde/tv-og-tilbehor/antenner-og-tilbehor/festemateriell/fester-stativer/veggfeste-i-aluminium-25-cm-p30963\" target=\"_blank\">Kjell.com </a></strong></p>\n<ul>\n<li>\n<p><strong>Slitesterkt Materiale:</strong> Laget av høy kvalitet og værbestandig materiale som tåler de tøffeste miljøforholdene.</p>\n</li>\n<li>\n<p><strong>Enkel Installering:</strong> Veggfeset er enkel å montere og krever normale verktøy som skrutrekker eller bits</p>\n</li>\n<li>\n<p><strong>Perfekt Passform:</strong> Spesielt designet for Netatmo Regnsensor og vindmåler</p>\n</li>\n</ul>\n<p> </p>\n<p> </p>\n<p> </p>",
+  "image_count": 6,
+  "created_at": "2024-07-06T21:53:06+02:00",
+  "updated_at": "2025-07-25T10:55:05+02:00"
+}

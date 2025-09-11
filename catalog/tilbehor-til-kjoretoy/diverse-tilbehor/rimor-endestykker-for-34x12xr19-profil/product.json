@@ -1,0 +1,196 @@
+{
+  "id": 9937997136153,
+  "title": "Rimor endestykker for 34x12xR19 profil",
+  "handle": "rimor-endestykker-for-34x12xr19-profil",
+  "status": "active",
+  "product_type": "Tilbehør til kjøretøy",
+  "vendor": "Fladby 3Dprint",
+  "tags": "endestykke, Rimor, terminal",
+  "options": [
+    {
+      "id": 12488690762009,
+      "product_id": 9937997136153,
+      "name": "Variant",
+      "position": 1,
+      "values": [
+        "Venstre kort",
+        "Høyre kort",
+        "Venstre lang",
+        "Høyre lang"
+      ]
+    },
+    {
+      "id": 12492228165913,
+      "product_id": 9937997136153,
+      "name": "Farge",
+      "position": 2,
+      "values": [
+        "Hvit",
+        "Sort",
+        "Grå"
+      ]
+    }
+  ],
+  "variants": [
+    {
+      "id": 50813773971737,
+      "title": "Venstre kort / Hvit",
+      "sku": "PRI-SS-T-P-0461-S",
+      "price": "45.00",
+      "compare_at_price": null,
+      "barcode": null,
+      "weight": 300.0,
+      "weight_unit": "g",
+      "inventory_policy": "deny",
+      "taxable": true,
+      "requires_shipping": true
+    },
+    {
+      "id": 50813774004505,
+      "title": "Høyre kort / Hvit",
+      "sku": "PRI-SS-T-P-0462-S",
+      "price": "45.00",
+      "compare_at_price": null,
+      "barcode": null,
+      "weight": 300.0,
+      "weight_unit": "g",
+      "inventory_policy": "deny",
+      "taxable": true,
+      "requires_shipping": true
+    },
+    {
+      "id": 50813774037273,
+      "title": "Venstre lang / Hvit",
+      "sku": "PRI-DS-T-P-0463-S",
+      "price": "55.00",
+      "compare_at_price": null,
+      "barcode": null,
+      "weight": 300.0,
+      "weight_unit": "g",
+      "inventory_policy": "deny",
+      "taxable": true,
+      "requires_shipping": true
+    },
+    {
+      "id": 50813774070041,
+      "title": "Høyre lang / Hvit",
+      "sku": "PRI-DS-T-P-0464-S",
+      "price": "55.00",
+      "compare_at_price": null,
+      "barcode": null,
+      "weight": 300.0,
+      "weight_unit": "g",
+      "inventory_policy": "deny",
+      "taxable": true,
+      "requires_shipping": true
+    },
+    {
+      "id": 50831851520281,
+      "title": "Venstre kort / Sort",
+      "sku": "PRI-SS-T-P-0461-S-1",
+      "price": "45.00",
+      "compare_at_price": null,
+      "barcode": null,
+      "weight": 300.0,
+      "weight_unit": "g",
+      "inventory_policy": "deny",
+      "taxable": true,
+      "requires_shipping": true
+    },
+    {
+      "id": 50831851553049,
+      "title": "Venstre kort / Grå",
+      "sku": "PRI-SS-T-P-0461-S-2",
+      "price": "45.00",
+      "compare_at_price": null,
+      "barcode": null,
+      "weight": 300.0,
+      "weight_unit": "g",
+      "inventory_policy": "deny",
+      "taxable": true,
+      "requires_shipping": true
+    },
+    {
+      "id": 50831851585817,
+      "title": "Høyre kort / Sort",
+      "sku": "PRI-SS-T-P-0461-S-3",
+      "price": "45.00",
+      "compare_at_price": null,
+      "barcode": null,
+      "weight": 300.0,
+      "weight_unit": "g",
+      "inventory_policy": "deny",
+      "taxable": true,
+      "requires_shipping": true
+    },
+    {
+      "id": 50831851618585,
+      "title": "Høyre kort / Grå",
+      "sku": "PRI-SS-T-P-0461-S-4",
+      "price": "45.00",
+      "compare_at_price": null,
+      "barcode": null,
+      "weight": 300.0,
+      "weight_unit": "g",
+      "inventory_policy": "deny",
+      "taxable": true,
+      "requires_shipping": true
+    },
+    {
+      "id": 50831851651353,
+      "title": "Venstre lang / Sort",
+      "sku": "PRI-SS-T-P-0461-S-5",
+      "price": "45.00",
+      "compare_at_price": null,
+      "barcode": null,
+      "weight": 300.0,
+      "weight_unit": "g",
+      "inventory_policy": "deny",
+      "taxable": true,
+      "requires_shipping": true
+    },
+    {
+      "id": 50831851684121,
+      "title": "Venstre lang / Grå",
+      "sku": "PRI-SS-T-P-0461-S-6",
+      "price": "45.00",
+      "compare_at_price": null,
+      "barcode": null,
+      "weight": 300.0,
+      "weight_unit": "g",
+      "inventory_policy": "deny",
+      "taxable": true,
+      "requires_shipping": true
+    },
+    {
+      "id": 50831851716889,
+      "title": "Høyre lang / Sort",
+      "sku": "PRI-SS-T-P-0461-S-7",
+      "price": "45.00",
+      "compare_at_price": null,
+      "barcode": null,
+      "weight": 300.0,
+      "weight_unit": "g",
+      "inventory_policy": "deny",
+      "taxable": true,
+      "requires_shipping": true
+    },
+    {
+      "id": 50831851749657,
+      "title": "Høyre lang / Grå",
+      "sku": "PRI-SS-T-P-0461-S-8",
+      "price": "45.00",
+      "compare_at_price": null,
+      "barcode": null,
+      "weight": 300.0,
+      "weight_unit": "g",
+      "inventory_policy": "deny",
+      "taxable": true,
+      "requires_shipping": true
+    }
+  ],
+  "body_html": "<p>Avdekning for 34x12xR19 profiler.<br>Man har Kort og lang versjon, samt høyre og venstre.</p>\n<p>Tetteplugg medfølger, denne må limes fast.<br><br><br>Produktet er produsert i PETG og leveres i GRÅ farge dersom ikke annet kommenteres under bestilling (Ved andre farger kan det være lengre leveringstid).</p>",
+  "image_count": 4,
+  "created_at": "2025-05-21T17:52:18+02:00",
+  "updated_at": "2025-05-26T14:13:45+02:00"
+}

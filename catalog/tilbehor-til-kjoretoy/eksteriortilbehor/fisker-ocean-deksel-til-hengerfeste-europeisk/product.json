@@ -1,0 +1,53 @@
+{
+  "id": 9401977536793,
+  "title": "Fisker Ocean deksel til hengerfeste Europeisk (UTGÅENDE MODELL)",
+  "handle": "fisker-ocean-deksel-til-hengerfeste-europeisk",
+  "status": "archived",
+  "product_type": "Tilbehør til kjøretøy",
+  "vendor": "PROTONORD",
+  "tags": "Elbil, Elektrisk kjøretøy, FISKER, Fisker Ocean, tilhengerfeste",
+  "options": [
+    {
+      "id": 12196153524505,
+      "product_id": 9401977536793,
+      "name": "Type",
+      "position": 1,
+      "values": [
+        "Enkel lås",
+        "Dobbel lås"
+      ]
+    }
+  ],
+  "variants": [
+    {
+      "id": 48799879266585,
+      "title": "Enkel lås",
+      "sku": "PFI-S-D-P-0145-S",
+      "price": "980.00",
+      "compare_at_price": null,
+      "barcode": "",
+      "weight": 300.0,
+      "weight_unit": "g",
+      "inventory_policy": "deny",
+      "taxable": true,
+      "requires_shipping": true
+    },
+    {
+      "id": 49681978851609,
+      "title": "Dobbel lås",
+      "sku": "PFI-S-D-P-0145-S",
+      "price": "1080.00",
+      "compare_at_price": null,
+      "barcode": null,
+      "weight": 300.0,
+      "weight_unit": "g",
+      "inventory_policy": "deny",
+      "taxable": true,
+      "requires_shipping": true
+    }
+  ],
+  "body_html": "<p> </p>\n<p>Deksel til hengerfeste Fisker Ocean EU modell</p>\n<p>Vridelås som låser dekselet<br><br>Kommer ferdig montert og klar for montasje.</p>\n<p>Utviklet i samarbeid med FOCN (Fisker Ocean Club Norway) etter at Fisker Ocean ikke ville levere deksel til EU stil hengerfeste.</p>\n<p>Dermed ble det utviklet et deksel som var mulig å produsere med tradisjonell 3dprinting innenfor en overkommelig salgbar pris.</p>\n<p>Dekselet er på ingen måte en perfekt løsning, men den tetter nede hvor luft og skitt kommer fra undersiden av bilen med en enkel lås som gjør den lett å ta av og på.</p>\n<p>mellomrom på hver side øverst er helt normalt og hindrer ikke funksjonen til dekselet.</p>\n<p><br>Alle deksler blir produsert når de bestilles og tar vanligvis 1-5 dager før de blir sendt<span><br></span><br>Laget i PETG (<b>Polyethylene terephthalate glycol)<br><br>Tåler vasking og spriting. </b></p>\n<p> </p>\n<p><b>Hvordan settes den på:</b></p>\n<p><a href=\"https://youtube.com/shorts/0qa7w_W0b1U?si=Lgs7xxtphvkOaGgB\" target=\"_blank\" title=\"Hvordan settes den på plass\" rel=\"noopener noreferrer\"><b>https://youtube.com/shorts/0qa7w_W0b1U?si=Lgs7xxtphvkOaGgB</b></a></p>\n<p> </p>\n<p><b>Hvordan monterer man den sammen:</b></p>\n<p><a href=\"https://youtu.be/ExAaRdFNuH0?si=d21YHo2od6keBqQQ\" target=\"_blank\" rel=\"noopener noreferrer\"><b>https://youtu.be/ExAaRdFNuH0?si=d21YHo2od6keBqQQ</b></a></p>\n<p> </p>",
+  "image_count": 6,
+  "created_at": "2024-05-09T21:59:10+02:00",
+  "updated_at": "2025-08-20T10:10:36+02:00"
+}

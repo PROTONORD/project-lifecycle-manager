@@ -1,0 +1,39 @@
+{
+  "id": 9709163348249,
+  "title": "Fisker Ocean oppbevaring under setet",
+  "handle": "fisker-ocean-oppbevaring-under-setet",
+  "status": "archived",
+  "product_type": "Tilbehør til kjøretøy",
+  "vendor": "Yurik Accessories",
+  "tags": "Elbil, Elektrisk kjøretøy, FISKER, Fisker Ocean, oppbvearing",
+  "options": [
+    {
+      "id": 12195166093593,
+      "product_id": 9709163348249,
+      "name": "farge",
+      "position": 1,
+      "values": [
+        "Sort"
+      ]
+    }
+  ],
+  "variants": [
+    {
+      "id": 49678560297241,
+      "title": "Sort",
+      "sku": "PFI-S-D-P-0265-S",
+      "price": "600.00",
+      "compare_at_price": null,
+      "barcode": null,
+      "weight": 300.0,
+      "weight_unit": "g",
+      "inventory_policy": "deny",
+      "taxable": true,
+      "requires_shipping": true
+    }
+  ],
+  "body_html": "<p>Oppbevaringsskuffen hjelper deg med å organisere og nå gjenstander som er lagret i oppbevaringsrommet under setet.</p>\n<p>Dette produktet er laget i samarbeid med Mountain Ranger. Link til hans YouTube-kanal:</p>\n<p><a rel=\"noopener\" href=\"https://www.youtube.com/@MTNRanger\" target=\"_new\"><span>https</span><span>://www</span><span>.youtube</span><span>.com</span><span>/@MTNRanger</span></a></p>",
+  "image_count": 2,
+  "created_at": "2024-09-27T20:31:47+02:00",
+  "updated_at": "2025-03-10T15:11:49+01:00"
+}

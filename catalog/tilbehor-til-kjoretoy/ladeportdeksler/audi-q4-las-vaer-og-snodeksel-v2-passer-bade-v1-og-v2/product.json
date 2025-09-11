@@ -1,0 +1,39 @@
+{
+  "id": 9229381042457,
+  "title": "Audi Q4 E-tron LÅS vær og snødeksel V2 (passer både V1 og V2)",
+  "handle": "audi-q4-las-vaer-og-snodeksel-v2-passer-bade-v1-og-v2",
+  "status": "archived",
+  "product_type": "Tilbehør til kjøretøy",
+  "vendor": "PROTONORD",
+  "tags": "AudiQ4, Elbil, Elektrisk kjøretøy, kjøretøy, ladeportdeksel",
+  "options": [
+    {
+      "id": 11626102227225,
+      "product_id": 9229381042457,
+      "name": "Title",
+      "position": 1,
+      "values": [
+        "Default Title"
+      ]
+    }
+  ],
+  "variants": [
+    {
+      "id": 48369675174169,
+      "title": "Default Title",
+      "sku": "PAU-D-P-0103-S",
+      "price": "40.00",
+      "compare_at_price": null,
+      "barcode": "",
+      "weight": 500.0,
+      "weight_unit": "g",
+      "inventory_policy": "deny",
+      "taxable": true,
+      "requires_shipping": true
+    }
+  ],
+  "body_html": "<p>Vi lanserte ny versjon av snødeksel til Audi Q4 E-Tron hvor den nye låsen med skrue istedenfor klips passer både V1 og V2.</p>\n<p>Har du kjøpt V1 og plages med løs klips kan du oppgradere til V2</p>\n<p> </p>\n<p><iframe title=\"YouTube video player\" src=\"https://www.youtube.com/embed/eDx4SYrqS8k?si=-eNNbioa2JRKzsgN\" height=\"315\" width=\"560\" allowfullscreen=\"\" referrerpolicy=\"strict-origin-when-cross-origin\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" frameborder=\"0\"></iframe></p>",
+  "image_count": 2,
+  "created_at": "2024-04-04T10:03:45+02:00",
+  "updated_at": "2025-03-12T08:59:33+01:00"
+}

@@ -1,0 +1,39 @@
+{
+  "id": 9587642040601,
+  "title": "Volvo XC40 Multifeste for interiør",
+  "handle": "kopi-volvo-xc40-vaer-og-sno-deksel-for-ladeport",
+  "status": "draft",
+  "product_type": "Tilbehør til kjøretøy",
+  "vendor": "PROTONORD",
+  "tags": "adapter, Ekstrautstyr, Elbil, Elektrisk kjøretøy, Overgang, Tilbehør, Volvo, Volvo XC40",
+  "options": [
+    {
+      "id": 12050558058777,
+      "product_id": 9587642040601,
+      "name": "Title",
+      "position": 1,
+      "values": [
+        "Default Title"
+      ]
+    }
+  ],
+  "variants": [
+    {
+      "id": 49285104402713,
+      "title": "Default Title",
+      "sku": "P(K-D-P-0231-S",
+      "price": "160.00",
+      "compare_at_price": null,
+      "barcode": null,
+      "weight": 200.0,
+      "weight_unit": "g",
+      "inventory_policy": "deny",
+      "taxable": true,
+      "requires_shipping": true
+    }
+  ],
+  "body_html": "<p><span data-mce-fragment=\"1\"></span><span data-mce-fragment=\"1\">Multifeste som passer i hull for netting som er to steder i bilen.</span></p>\n<p><span data-mce-fragment=\"1\">En bak i bagasjerom og en ved baksetene.</span></p>\n<p><span data-mce-fragment=\"1\">Disse er ikke i bruk om man har vanlig 5seter utgave uten nett og kan dermed brukes til andre ting.</span></p>\n<p><span data-mce-fragment=\"1\">Denne settes inn og festes hvor den har en M5 mutter som kan brukes til mye forskjellig som Quadlock, Gopro, magnet m.m</span></p>\n<p><span data-mce-fragment=\"1\">Ønsker du å overvåke hunde eller katteburet som står baki bilen er det nå mulig å sette inn multifeste også skru fast et kamera som f.eks går trådløst til mobilen.</span></p>\n<p><span data-mce-fragment=\"1\">Fleksibel arm fordi du skal filme mens du kjører eller ønsker et kamera som filmer ut bakruten? Dette og mye mere er nå mulig med dette multifestet.</span></p>\n<p><span data-mce-fragment=\"1\">Flere utgaver kommer, og bare send oss en melding om du/dere har spesielle ønsker.<br></span></p>\n<p>Følger med 1stk M3 skrue og mutter for festing og 1stk M5 mutter.</p>\n<p>Kommer ferdig montert</p>\n<p>Laget i PETG (<b data-mce-fragment=\"1\">Polyethylene terephthalate glycol)<br><br>Tåler vasking og spriting. </b></p>",
+  "image_count": 2,
+  "created_at": "2024-07-10T22:26:47+02:00",
+  "updated_at": "2025-03-10T15:11:45+01:00"
+}

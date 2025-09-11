@@ -1,0 +1,39 @@
+{
+  "id": 8132551475481,
+  "title": "Koppholder til Bergans Wiglo telt",
+  "handle": "koppholder-til-bergans-wiglo-telt",
+  "status": "active",
+  "product_type": "",
+  "vendor": "PROTONORD",
+  "tags": "",
+  "options": [
+    {
+      "id": 10337094926617,
+      "product_id": 8132551475481,
+      "name": "Color",
+      "position": 1,
+      "values": [
+        "Sort"
+      ]
+    }
+  ],
+  "variants": [
+    {
+      "id": 44628994392345,
+      "title": "Sort",
+      "sku": "PKO-S-P-0038-S",
+      "price": "399.00",
+      "compare_at_price": null,
+      "barcode": "",
+      "weight": 300.0,
+      "weight_unit": "g",
+      "inventory_policy": "deny",
+      "taxable": true,
+      "requires_shipping": true
+    }
+  ],
+  "body_html": "<p>Holder som kan klipses på senterstang til Bergans Wiglo telt.</p>\n<p>Passer nederst på stangen i Wiglo LT4.</p>\n<p>Passer kopper eller bokser også er det en liten ekstra plass for småting som fyrstikker eller annet.</p>",
+  "image_count": 2,
+  "created_at": "2023-02-26T15:16:11+01:00",
+  "updated_at": "2025-03-10T15:11:58+01:00"
+}

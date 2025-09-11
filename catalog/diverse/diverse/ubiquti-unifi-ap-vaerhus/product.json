@@ -1,0 +1,39 @@
+{
+  "id": 9545646080281,
+  "title": "Ubiquti Unifi AP Værhus",
+  "handle": "ubiquti-unifi-ap-vaerhus",
+  "status": "active",
+  "product_type": "Diverse",
+  "vendor": "PROTONORD",
+  "tags": "Aksesspunkt, Nettverk, Ubiquiti, Unifi, Værhus",
+  "options": [
+    {
+      "id": 12003648569625,
+      "product_id": 9545646080281,
+      "name": "Title",
+      "position": 1,
+      "values": [
+        "Default Title"
+      ]
+    }
+  ],
+  "variants": [
+    {
+      "id": 49164311331097,
+      "title": "Default Title",
+      "sku": "PUB-V-P-0166-S",
+      "price": "920.00",
+      "compare_at_price": null,
+      "barcode": "",
+      "weight": 350.0,
+      "weight_unit": "g",
+      "inventory_policy": "deny",
+      "taxable": true,
+      "requires_shipping": true
+    }
+  ],
+  "body_html": "<p>Værhus for utendørs montering av Ubiquiti aksesspunkt</p>\n<p>To av festehullene passer med papp platen med vater som medfølger i esken.</p>\n<p>Alle festehullene er tett bakerst med tynn hinne som perforeres av festeskruen.</p>\n<p>For bedrifter som driver montasje av Ubiquiti ta kontakt med oss for fakturering og volumpris</p>\n<p>Det finnes også en dekkplate som dekker midtre del av basen. Denne blir tilgjengelig senere.</p>\n<p>Testet på  den større AC-HD. Skal også passe med U6 long range og U7 </p>\n<p>Har spor som passer montasjeplate og gjør plasseringen helt perfekt.</p>\n<p>Åpning på siden med plugg for låsen mot festeplaten </p>\n<p>Kan lakkeres med plastlakk</p>\n<p> </p>\n<p><a href=\"https://www.instagram.com/reel/C8kjR-MMiuS/?igsh=NTZkYjA0NHg0Zng0\" target=\"_blank\" title=\"Instagram video\" rel=\"noopener noreferrer\">https://www.instagram.com/reel/C8kjR-MMiuS/?igsh=NTZkYjA0NHg0Zng0</a></p>",
+  "image_count": 5,
+  "created_at": "2024-06-23T21:38:48+02:00",
+  "updated_at": "2025-03-10T15:12:08+01:00"
+}

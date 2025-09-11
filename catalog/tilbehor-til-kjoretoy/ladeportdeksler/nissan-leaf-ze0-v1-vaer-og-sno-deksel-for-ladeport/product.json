@@ -1,0 +1,39 @@
+{
+  "id": 9727019942169,
+  "title": "Nissan Leaf (ZE0) V1  vær og snø deksel for ladeport",
+  "handle": "nissan-leaf-ze0-v1-vaer-og-sno-deksel-for-ladeport",
+  "status": "active",
+  "product_type": "Tilbehør til kjøretøy",
+  "vendor": "PROTONORD",
+  "tags": "chargercover, Elbil, Elektrisk kjøretøy, ladeportdeksel, Leaf, Nissan, Nissan Leaf, Snødeksel, værdeksel",
+  "options": [
+    {
+      "id": 12218577289497,
+      "product_id": 9727019942169,
+      "name": "farge",
+      "position": 1,
+      "values": [
+        "Sort"
+      ]
+    }
+  ],
+  "variants": [
+    {
+      "id": 49808126738713,
+      "title": "Sort",
+      "sku": "PNI-S-T-P-0294-S",
+      "price": "0.00",
+      "compare_at_price": null,
+      "barcode": null,
+      "weight": 800.0,
+      "weight_unit": "g",
+      "inventory_policy": "deny",
+      "taxable": true,
+      "requires_shipping": true
+    }
+  ],
+  "body_html": "<p>Akkurat nå har vi dessverre ikke et vær- og snødeksel klart for din elbilmodell, men vi jobber stadig med å utvikle nye deksler. Vi trenger din hjelp til å gjøre dette mulig!</p>\n<p>Hvis du eier denne bilmodellen, har du en unik mulighet til å være med på utviklingen av et skreddersydd deksel.<br><br>Det eneste du trenger å gjøre, er å komme innom oss for en 3D-scanning av bilen din. Selve scanningen tar kun 15-20 minutter, og etter at scanningen er fullført, starter vi designfasen hvor vi tegner og utvikler et deksel som passer perfekt til din bil.<br><br>Legg 3dscanning i handlekurv og \"bestill\" scanning. Vi tar så kontakt med deg basert på kontaktinfo du har lagt inn ved bestilling. </p>\n<p>Du må være i nærheten av Tromsø eller Oslo for å kunne komme innom for scanning.</p>\n<p>Når testmodellen er klar, vil vi invitere deg tilbake for å teste passformen. Ved behov vil vi justere dekselet til det sitter som det skal. Som takk for hjelpen får du et gratis deksel til din elbil når designet er ferdigstilt.</p>\n<p><strong>Hvordan det fungerer:</strong></p>\n<ol>\n<li>Kom innom for en rask 3D-scanning (tar ca. 15-20 minutter).</li>\n<li>Vi designer og utvikler et tilpasset deksel for din bilmodell.</li>\n<li>Du kommer tilbake for å teste passformen – og hjelper oss med eventuelle justeringer.</li>\n<li>Når dekselet er perfekt tilpasset, får du det gratis som takk for hjelpen!</li>\n</ol>\n<p>Takk for at du hjelper oss med å utvide vårt sortiment og tilby enda flere elbileiere optimal beskyttelse!</p>\n<p><span><br><a href=\"https://www.protonord.no/products/3dscanning-av-bilmodell-vi-ikke-har?_pos=1&amp;amp;_psq=3dscan&amp;amp;_ss=e&amp;amp;_v=1.0\" title=\"https://www.protonord.no/products/3dscanning-av-bilmodell-vi-ikke-har?_pos=1&amp;amp;_psq=3dscan&amp;amp;_ss=e&amp;amp;_v=1.0\" rel=\"noopener noreferrer\" target=\"_blank\">3dscanning Norge</a><br><a href=\"https://3dkatten.se/en-no/products/3d-skanning-av-bilmodeller-vi-inte-har-finspang\" title=\"https://3dkatten.se/en-no/products/3d-skanning-av-bilmodeller-vi-inte-har-finspang\" rel=\"noopener noreferrer\" target=\"_blank\">3dscanning Sverige</a></span></p>\n<p><a href=\"https://www.yurikaccessories.com/en-fi/products/ev-charging-port-weather-cover-for-your-car-free-product-when-we-3d-scan-your-carlimited-availability\" title=\"https://www.yurikaccessories.com/en-fi/products/ev-charging-port-weather-cover-for-your-car-free-product-when-we-3d-scan-your-carlimited-availability\" rel=\"noopener noreferrer\" target=\"_blank\"><span>3dscanning USA</span></a></p>",
+  "image_count": 1,
+  "created_at": "2024-10-15T10:51:00+02:00",
+  "updated_at": "2025-03-10T15:12:19+01:00"
+}

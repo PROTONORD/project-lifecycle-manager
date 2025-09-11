@@ -1,0 +1,67 @@
+{
+  "id": 9162120102169,
+  "title": "Deksel til objektiv 4x5 8x10 o.l.",
+  "handle": "kopi-linhof-4x5-objektivbrett",
+  "status": "draft",
+  "product_type": "Kamerautstyr",
+  "vendor": "PROTONORD",
+  "tags": "4x5, Analog, Film, Largeformat, Linhof, Storformat",
+  "options": [
+    {
+      "id": 11546926809369,
+      "product_id": 9162120102169,
+      "name": "Size",
+      "position": 1,
+      "values": [
+        "110mm",
+        "80mm",
+        "93mm"
+      ]
+    }
+  ],
+  "variants": [
+    {
+      "id": 48192618725657,
+      "title": "110mm",
+      "sku": "PDE-1-K-P-0074-S",
+      "price": "340.00",
+      "compare_at_price": null,
+      "barcode": null,
+      "weight": 200.0,
+      "weight_unit": "g",
+      "inventory_policy": "deny",
+      "taxable": true,
+      "requires_shipping": true
+    },
+    {
+      "id": 48192618758425,
+      "title": "80mm",
+      "sku": "PDE-8-K-P-0075-S",
+      "price": "280.00",
+      "compare_at_price": null,
+      "barcode": null,
+      "weight": 200.0,
+      "weight_unit": "g",
+      "inventory_policy": "deny",
+      "taxable": true,
+      "requires_shipping": true
+    },
+    {
+      "id": 48202280665369,
+      "title": "93mm",
+      "sku": "PDE-9-K-P-0076-S",
+      "price": "298.00",
+      "compare_at_price": null,
+      "barcode": null,
+      "weight": 200.0,
+      "weight_unit": "g",
+      "inventory_policy": "deny",
+      "taxable": true,
+      "requires_shipping": true
+    }
+  ],
+  "body_html": "<p>Objektivdeksel for storformat optikk med og uten copal eller tilsvarende lukkere.</p>\n<p>Kan også passe messing objektiver eller annen optikk.</p>\n<p>Lages i TPU som gjør den fleksibel og tåler mye bruk over tid. Hardfør.</p>\n<p>Sort farge med rød ring.</p>\n<p> </p>\n<p>Kan lage andre størrelser enn listet opp, men trenger da diameter på originaldeksel.</p>\n<p>Står som oftest inne i deksel eventuelt mål med skyvelær.</p>\n<p>Er objektivet 110mm diameter lager vi de 0.5mm større for å få den passelig lett å ta av og på uten at den faller av.</p>\n<p>For å være helt sikker trenger vi objektivet tilsendt om vi ikke har rett dimensjon til ditt objektiv.</p>\n<p> </p>\n<p>110mm og 80mm er testet på front og bak element for Rodenstock 360mm f6.8. </p>",
+  "image_count": 3,
+  "created_at": "2024-03-18T17:32:09+01:00",
+  "updated_at": "2025-03-10T15:11:37+01:00"
+}

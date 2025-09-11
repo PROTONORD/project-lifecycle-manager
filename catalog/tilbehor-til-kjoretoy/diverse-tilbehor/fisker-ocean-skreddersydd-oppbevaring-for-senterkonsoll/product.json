@@ -1,0 +1,39 @@
+{
+  "id": 9532253765913,
+  "title": "Fisker Ocean skreddersydd oppbevaring for senterkonsoll",
+  "handle": "fisker-ocean-skreddersydd-oppbevaring-for-senterkonsoll",
+  "status": "active",
+  "product_type": "Tilbehør til kjøretøy",
+  "vendor": "PROTONORD",
+  "tags": "Elbil, Elektrisk kjøretøy, FISKER, Fisker Ocean, Oppbevaring, Tilbehør",
+  "options": [
+    {
+      "id": 11987505643801,
+      "product_id": 9532253765913,
+      "name": "farge",
+      "position": 1,
+      "values": [
+        "Sort"
+      ]
+    }
+  ],
+  "variants": [
+    {
+      "id": 49123421389081,
+      "title": "Sort",
+      "sku": "PFI-S-D-P-0155-S",
+      "price": "796.00",
+      "compare_at_price": null,
+      "barcode": "",
+      "weight": 300.0,
+      "weight_unit": "g",
+      "inventory_policy": "deny",
+      "taxable": true,
+      "requires_shipping": true
+    }
+  ],
+  "body_html": "<p> </p>\n<p>Skreddersydd oppbevaring som passer perfekt til senterkonsollen i Fisker Ocean.</p>\n<p>Nå er det endelig slutt på fomling dypt nede for å finne husnøklene eller andre ting.</p>\n<p>Bilen er 3dscannet så oppbevaringen sitter stødig uten å bevege seg sideveis.</p>\n<p>Originale brettet kan foldes opp som vanlig.</p>\n<p>God plass for å ta tak i brettet og folde den opp selv om  oppbevaringen er helt inntil.</p>\n<p>Denne versjonen blokkerer USB portene, men det kommer versjon med hull for usb senere.</p>\n<p> </p>\n<p>Kommer ferdig montert og klar for montasje.</p>\n<p><br>Alt blir produsert når de bestilles og tar vanligvis 1-5 dager før de blir sendt<span><br></span><br>Laget i PETG (<b>Polyethylene terephthalate glycol)<br><br>Tåler vasking og spriting. </b></p>",
+  "image_count": 3,
+  "created_at": "2024-06-16T16:58:07+02:00",
+  "updated_at": "2025-07-21T15:42:31+02:00"
+}

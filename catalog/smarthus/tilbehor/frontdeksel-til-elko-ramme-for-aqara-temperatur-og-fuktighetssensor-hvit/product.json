@@ -1,0 +1,39 @@
+{
+  "id": 8075606098201,
+  "title": "Frontdeksel til Elko ramme for Aqara temperatur- og fuktighetssensor (hvit)",
+  "handle": "frontdeksel-til-elko-ramme-for-aqara-temperatur-og-fuktighetssensor-hvit",
+  "status": "active",
+  "product_type": "Smarthus",
+  "vendor": "PROTONORD",
+  "tags": "Aqara, elko, Smarthome, smarthus",
+  "options": [
+    {
+      "id": 10267681718553,
+      "product_id": 8075606098201,
+      "name": "Title",
+      "position": 1,
+      "values": [
+        "Default Title"
+      ]
+    }
+  ],
+  "variants": [
+    {
+      "id": 44377096061209,
+      "title": "Default Title",
+      "sku": "PFR-S-P-0037-S",
+      "price": "255.00",
+      "compare_at_price": null,
+      "barcode": null,
+      "weight": 200.0,
+      "weight_unit": "g",
+      "inventory_policy": "deny",
+      "taxable": true,
+      "requires_shipping": true
+    }
+  ],
+  "body_html": "<p>Veggfeste med pent frontdeksel som har åpning for sensor. </p>\n<p>Selve sensoren dyttes inn bak frontdekselet, også skyves fronten ned på festeplaten bak som kan skrues fast mot vegg med to 3mm skruer.</p>\n<p>Passer Elko rammer og har en hvitfarge som stemmer godt med Elko hvitfarge<br><br>Eksempelvis på skruer som passer meget bra er Biltema treskruer Art. 89-300 evt kortere utgave. </p>",
+  "image_count": 3,
+  "created_at": "2023-01-13T07:17:10+01:00",
+  "updated_at": "2025-03-10T15:11:58+01:00"
+}

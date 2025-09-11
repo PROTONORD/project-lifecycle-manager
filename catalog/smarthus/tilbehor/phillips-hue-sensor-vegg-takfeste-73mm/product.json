@@ -1,0 +1,76 @@
+{
+  "id": 8040900854041,
+  "title": "Philips Hue sensor vegg/takfeste 73mm",
+  "handle": "phillips-hue-sensor-vegg-takfeste-73mm",
+  "status": "active",
+  "product_type": "Smarthus",
+  "vendor": "PROTONORD",
+  "tags": "Hue, Phillips, PhillipsHue, Smarthome, smarthus",
+  "options": [
+    {
+      "id": 10222591344921,
+      "product_id": 8040900854041,
+      "name": "Farge",
+      "position": 1,
+      "values": [
+        "Hvit"
+      ]
+    },
+    {
+      "id": 12025626853657,
+      "product_id": 8040900854041,
+      "name": "Modell",
+      "position": 2,
+      "values": [
+        "Festebrakett u/deksel",
+        "Festebrakett m/deksel",
+        "Frontdeksel"
+      ]
+    }
+  ],
+  "variants": [
+    {
+      "id": 44230332252441,
+      "title": "Hvit / Festebrakett u/deksel",
+      "sku": "PPH-HF-B-P-0016-S",
+      "price": "199.00",
+      "compare_at_price": null,
+      "barcode": "",
+      "weight": 200.0,
+      "weight_unit": "g",
+      "inventory_policy": "deny",
+      "taxable": true,
+      "requires_shipping": true
+    },
+    {
+      "id": 49217567031577,
+      "title": "Hvit / Festebrakett m/deksel",
+      "sku": "PPH-HF-B-P-0017-S",
+      "price": "390.00",
+      "compare_at_price": null,
+      "barcode": "",
+      "weight": 200.0,
+      "weight_unit": "g",
+      "inventory_policy": "deny",
+      "taxable": true,
+      "requires_shipping": true
+    },
+    {
+      "id": 49217567064345,
+      "title": "Hvit / Frontdeksel",
+      "sku": "PPH-HF-B-P-0018-S",
+      "price": "220.00",
+      "compare_at_price": null,
+      "barcode": "",
+      "weight": 200.0,
+      "weight_unit": "g",
+      "inventory_policy": "deny",
+      "taxable": true,
+      "requires_shipping": true
+    }
+  ],
+  "body_html": "<p>Passer 73mm hull som vanligvis er for vegg og takbokser. </p>\n<p>Følger med magnet og skruer.<br><br>Braketten er med skruer, mens dekselet har magnet.<br>Kjøper du kun brakett uten frontdeksel får du kun med skruer.<br><br>frontdeksel kan lakkes ved behov. </p>",
+  "image_count": 3,
+  "created_at": "2022-12-11T20:07:40+01:00",
+  "updated_at": "2025-03-10T15:11:57+01:00"
+}

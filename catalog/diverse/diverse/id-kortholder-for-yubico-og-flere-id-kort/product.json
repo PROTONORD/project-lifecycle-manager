@@ -1,0 +1,144 @@
+{
+  "id": 9178345505049,
+  "title": "ID-Kortholder for Yubico og flere ID-kort",
+  "handle": "id-kortholder-for-yubico-og-flere-id-kort",
+  "status": "active",
+  "product_type": "Diverse",
+  "vendor": "PROTONORD",
+  "tags": "adgangskort, IDkort",
+  "options": [
+    {
+      "id": 11567710830873,
+      "product_id": 9178345505049,
+      "name": "Stil",
+      "position": 1,
+      "values": [
+        "Yubico Fido2 usb holder",
+        "1 ID kortholder",
+        "Krok og hylse for Yubico holder + 3 kortholder eller 4 kortholdere uten Yubico holder",
+        "Krok og hylse for Yubico holder + 5 kortholder eller 6 kortholdere uten Yubico holder"
+      ]
+    },
+    {
+      "id": 11568179872025,
+      "product_id": 9178345505049,
+      "name": "Farge",
+      "position": 2,
+      "values": [
+        "Sort",
+        "Rød",
+        "Oransje"
+      ]
+    }
+  ],
+  "variants": [
+    {
+      "id": 48231618248985,
+      "title": "Yubico Fido2 usb holder / Sort",
+      "sku": "PID-YS-K-P-0082-S",
+      "price": "115.00",
+      "compare_at_price": null,
+      "barcode": null,
+      "weight": 100.0,
+      "weight_unit": "g",
+      "inventory_policy": "deny",
+      "taxable": true,
+      "requires_shipping": true
+    },
+    {
+      "id": 48232417001753,
+      "title": "Yubico Fido2 usb holder / Rød",
+      "sku": "PID-YR-K-P-0083-S",
+      "price": "115.00",
+      "compare_at_price": null,
+      "barcode": null,
+      "weight": 100.0,
+      "weight_unit": "g",
+      "inventory_policy": "deny",
+      "taxable": true,
+      "requires_shipping": true
+    },
+    {
+      "id": 48232417034521,
+      "title": "Yubico Fido2 usb holder / Oransje",
+      "sku": "PID-YO-K-P-0084-S",
+      "price": "115.00",
+      "compare_at_price": null,
+      "barcode": null,
+      "weight": 100.0,
+      "weight_unit": "g",
+      "inventory_policy": "deny",
+      "taxable": true,
+      "requires_shipping": true
+    },
+    {
+      "id": 48231646789913,
+      "title": "1 ID kortholder / Sort",
+      "sku": "PID-1S-K-P-0085-S",
+      "price": "92.00",
+      "compare_at_price": null,
+      "barcode": "",
+      "weight": 100.0,
+      "weight_unit": "g",
+      "inventory_policy": "deny",
+      "taxable": true,
+      "requires_shipping": true
+    },
+    {
+      "id": 48232417067289,
+      "title": "1 ID kortholder / Rød",
+      "sku": "PID-1R-K-P-0086-S",
+      "price": "92.00",
+      "compare_at_price": null,
+      "barcode": null,
+      "weight": 100.0,
+      "weight_unit": "g",
+      "inventory_policy": "deny",
+      "taxable": true,
+      "requires_shipping": true
+    },
+    {
+      "id": 48232417100057,
+      "title": "1 ID kortholder / Oransje",
+      "sku": "PID-1O-K-P-0087-S",
+      "price": "92.00",
+      "compare_at_price": null,
+      "barcode": null,
+      "weight": 100.0,
+      "weight_unit": "g",
+      "inventory_policy": "deny",
+      "taxable": true,
+      "requires_shipping": true
+    },
+    {
+      "id": 48231642267929,
+      "title": "Krok og hylse for Yubico holder + 3 kortholder eller 4 kortholdere uten Yubico holder / Sort",
+      "sku": "PID-KS-K-P-0088-S",
+      "price": "40.00",
+      "compare_at_price": null,
+      "barcode": "",
+      "weight": 100.0,
+      "weight_unit": "g",
+      "inventory_policy": "deny",
+      "taxable": true,
+      "requires_shipping": true
+    },
+    {
+      "id": 48232400421145,
+      "title": "Krok og hylse for Yubico holder + 5 kortholder eller 6 kortholdere uten Yubico holder / Sort",
+      "sku": "PID-KS-K-P-0089-S",
+      "price": "40.00",
+      "compare_at_price": null,
+      "barcode": null,
+      "weight": 100.0,
+      "weight_unit": "g",
+      "inventory_policy": "deny",
+      "taxable": true,
+      "requires_shipping": true
+    }
+  ],
+  "body_html": "<p>Modulært system hvor du kan ha flere id-kort samlet og bakerste har plass for en Yubico Fido2 usb.<br><br>Yubico holder og 1stk id-kort holder kan klipses på vanlig krok for bånd rundt halsen. <br><br>Skal man ha flere enn Yubico og 1 id-kort må man ha krok for Yubico og maks 3 kort eller Yubico og maks 5 kort. <br><br>Det er fint mulig å ha 2 kortholdere med en krok for maks 3.</p>\n<p>Se flere bilder og video for instruksjoner hvordan man setter sammen </p>\n<p>https://youtu.be/5GgnSGZlLzI?feature=shared</p>",
+  "image_count": 14,
+  "created_at": "2024-03-24T14:32:25+01:00",
+  "updated_at": "2025-03-10T15:12:03+01:00"
+}

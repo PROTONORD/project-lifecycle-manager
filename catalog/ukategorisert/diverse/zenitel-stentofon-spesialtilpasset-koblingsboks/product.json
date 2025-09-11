@@ -1,0 +1,39 @@
+{
+  "id": 8984066097433,
+  "title": "Zenitel Turbine spesialtilpasset koblingsboks",
+  "handle": "zenitel-stentofon-spesialtilpasset-koblingsboks",
+  "status": "active",
+  "product_type": "",
+  "vendor": "PROTONORD",
+  "tags": "",
+  "options": [
+    {
+      "id": 11322314359065,
+      "product_id": 8984066097433,
+      "name": "Title",
+      "position": 1,
+      "values": [
+        "Default Title"
+      ]
+    }
+  ],
+  "variants": [
+    {
+      "id": 47582281728281,
+      "title": "Default Title",
+      "sku": "PZE-P-0048-S",
+      "price": "7800.00",
+      "compare_at_price": null,
+      "barcode": "",
+      "weight": 700.0,
+      "weight_unit": "g",
+      "inventory_policy": "deny",
+      "taxable": true,
+      "requires_shipping": true
+    }
+  ],
+  "body_html": "<p>Montasjeboks for Zenitel Stentofon Turbine stasjon spesialtilpasset til stolpe.</p>\n<p>Utviklet for Universitetssykehuset Nord-Norge HF</p>\n<p>Prisen inkuderer tilpassinger for annen type innfesting.</p>\n<p>Monstasje ble utført av Gk Elektro</p>\n<p>Medfølger borremal.</p>",
+  "image_count": 5,
+  "created_at": "2023-12-16T21:32:02+01:00",
+  "updated_at": "2025-08-17T06:42:18+02:00"
+}

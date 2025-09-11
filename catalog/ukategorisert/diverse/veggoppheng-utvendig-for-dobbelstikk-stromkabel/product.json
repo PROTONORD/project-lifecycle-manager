@@ -1,0 +1,39 @@
+{
+  "id": 9812494745881,
+  "title": "Veggoppheng utvendig for dobbelstikk strømkabel",
+  "handle": "veggoppheng-utvendig-for-dobbelstikk-stromkabel",
+  "status": "active",
+  "product_type": "",
+  "vendor": "PROTONORD",
+  "tags": "Oppheng, Strømkabel, Veggfeste",
+  "options": [
+    {
+      "id": 12326247465241,
+      "product_id": 9812494745881,
+      "name": "Title",
+      "position": 1,
+      "values": [
+        "Default Title"
+      ]
+    }
+  ],
+  "variants": [
+    {
+      "id": 50190419427609,
+      "title": "Default Title",
+      "sku": "PVE-D-P-0413-S",
+      "price": "395.00",
+      "compare_at_price": null,
+      "barcode": null,
+      "weight": 200.0,
+      "weight_unit": "g",
+      "inventory_policy": "continue",
+      "taxable": true,
+      "requires_shipping": true
+    }
+  ],
+  "body_html": "<p>Vegghoppheng for strømkabel eller annet som passer for dobbel stikkontakt med 100mm bredde.<br><br>Trengs det for andre stikkontakter så ta kontakt med oss for å tilpasse produktet til andre bredder. </p>\n<ul></ul>\n<p> </p>",
+  "image_count": 2,
+  "created_at": "2025-01-09T16:25:22+01:00",
+  "updated_at": "2025-07-19T09:55:43+02:00"
+}

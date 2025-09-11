@@ -1,0 +1,39 @@
+{
+  "id": 8132725768473,
+  "title": "Tørkestang til Bergans Wiglo telt",
+  "handle": "torkestang-til-bergans-wiglo-telt",
+  "status": "active",
+  "product_type": "",
+  "vendor": "PROTONORD",
+  "tags": "",
+  "options": [
+    {
+      "id": 10337303331097,
+      "product_id": 8132725768473,
+      "name": "Color",
+      "position": 1,
+      "values": [
+        "Sort"
+      ]
+    }
+  ],
+  "variants": [
+    {
+      "id": 44630002827545,
+      "title": "Sort",
+      "sku": "PTØ-S-P-0039-S",
+      "price": "199.00",
+      "compare_at_price": null,
+      "barcode": null,
+      "weight": 300.0,
+      "weight_unit": "g",
+      "inventory_policy": "deny",
+      "taxable": true,
+      "requires_shipping": true
+    }
+  ],
+  "body_html": "<p>Tørkestang som kan klipses på senterstang til Bergans Wiglo telt.</p>\n<p>Passer nest øverst på stangen i Wiglo LT4.</p>\n<p> </p>\n<p>Perfekt for å tørke klær, sokker m.m evt lykt</p>",
+  "image_count": 2,
+  "created_at": "2023-02-26T20:24:07+01:00",
+  "updated_at": "2025-07-20T02:45:22+02:00"
+}

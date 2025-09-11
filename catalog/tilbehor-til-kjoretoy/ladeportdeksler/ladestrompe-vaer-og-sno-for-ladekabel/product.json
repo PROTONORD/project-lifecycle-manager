@@ -1,0 +1,39 @@
+{
+  "id": 9829854282009,
+  "title": "Ladestrømpe vær og snø for ladekabel",
+  "handle": "ladestrompe-vaer-og-sno-for-ladekabel",
+  "status": "active",
+  "product_type": "Tilbehør til kjøretøy",
+  "vendor": "Fladby 3Dprint",
+  "tags": "Anti-icing cover for EV charging port, Beskyttelse for elbil mot snø, Beskyttelse mot frost elbil, Best snow protection for EV charging port in winter, Beste snøbeskyttelse for elbil ladeport om vinteren, chargercover, Charging EV outdoors in snow and frost, Charging port cover against rain, Charging port cover against snow, Charging port insulation for EV, Charging port protection against weather, Cover for charging in bad weather, Deksel mot isdannelse elbil, Deksel til lading under dårlige værforhold, Elbil, Elbil ladeport frostbeskyttelse, Elbil ladeportbeskyttelse for ekstreme værforhold, Elbil lading uten værproblemer, Elektrisk kjøretøy, EV charging port cover, EV charging port protection, EV charging port protection for extreme weather, EV charging without weather problems, Frost protection for EV, Frost protection for EV charging port, Hold ladeport fri for snø, How to prevent icing on EV charging port, How to protect EV charging port in winter, Hvilket ladeportdeksel fungerer best i snø, Hvordan beskytte elbil ladeport i vinter, Hvordan unngå isdannelse på ladeport til elbil, Insulation for EV charging in cold weather, Isolasjon for elbil lading i kulde, Keep charging port free of snow, Lade elbil ute i snø og frost, Ladeport beskyttelse mot vær og vind, Ladeport deksel elbil, Ladeport isolering elbil, Ladeport varmebeskyttelse, Ladeportbeskyttelse elbil, ladeportdeksel, Ladeportdeksel mot regn, Ladeportdeksel mot snø, Løsning for å hindre snø i ladeporten, Prevent snow on EV charging port, Protection for EV against snow, Sealing around EV charging port, Snow protection for EV charging port, Snow-free EV charging, Snøbeskyttelse elbil ladeport, Snødeksel, Snøfritt elbil lading, Solution to prevent snow in the charging port, Tetting rundt ladeport elbil, Unngå snø på elbil ladeport, Vinterbeskyttelse elbil, Værbestandig deksel for elbil, værdeksel, Værdeksel elbil, Weather cover for EV, Weatherproof cover for EV, Which charging port cover works best in snow, Winter protection for EV",
+  "options": [
+    {
+      "id": 12347999060249,
+      "product_id": 9829854282009,
+      "name": "farge",
+      "position": 1,
+      "values": [
+        "Sort"
+      ]
+    }
+  ],
+  "variants": [
+    {
+      "id": 50267443331353,
+      "title": "Sort",
+      "sku": "PLA-TS-T-P-0421-S",
+      "price": "80.00",
+      "compare_at_price": null,
+      "barcode": null,
+      "weight": 80.0,
+      "weight_unit": "g",
+      "inventory_policy": "deny",
+      "taxable": true,
+      "requires_shipping": true
+    }
+  ],
+  "body_html": "<p>Strømpe for å tre over ladehåndtak så det ikke kommer snø inn gjennom åpningen til vær og snødeksel.</p>\n<p>Hullet til snødekselet må ha en viss størrelse for at ladeplugg skal gå gjennom og ved puddersnø eller snø som blåser sideveis kan det komme snø gjennom åpningen hvor ladeplugg står.</p>\n<p>For å få best mulig beskyttelse mot regn og snø anbefales det å spraye eller behandle den med impregneringsmiddel.</p>",
+  "image_count": 4,
+  "created_at": "2025-01-24T23:41:48+01:00",
+  "updated_at": "2025-09-11T09:43:01+02:00"
+}

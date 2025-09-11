@@ -1,0 +1,95 @@
+{
+  "id": 8030830002457,
+  "title": "Linhof 4x5 objektivbrett",
+  "handle": "linhof-4x5-objektivbrett",
+  "status": "active",
+  "product_type": "Kamerautstyr",
+  "vendor": "PROTONORD",
+  "tags": "4x5, Analog, Film, Largeformat, Linhof, Storformat",
+  "options": [
+    {
+      "id": 10209373782297,
+      "product_id": 8030830002457,
+      "name": "Size",
+      "position": 1,
+      "values": [
+        "Copal 00",
+        "Copal 0",
+        "Copal 1",
+        "Copal 3",
+        "Custom"
+      ]
+    }
+  ],
+  "variants": [
+    {
+      "id": 44188662890777,
+      "title": "Copal 00",
+      "sku": "PLI-C-K-P-0005-S",
+      "price": "240.00",
+      "compare_at_price": null,
+      "barcode": "",
+      "weight": 200.0,
+      "weight_unit": "g",
+      "inventory_policy": "deny",
+      "taxable": true,
+      "requires_shipping": true
+    },
+    {
+      "id": 44188662923545,
+      "title": "Copal 0",
+      "sku": "PLI-C-K-P-0006-S",
+      "price": "240.00",
+      "compare_at_price": null,
+      "barcode": "",
+      "weight": 200.0,
+      "weight_unit": "g",
+      "inventory_policy": "deny",
+      "taxable": true,
+      "requires_shipping": true
+    },
+    {
+      "id": 44188662956313,
+      "title": "Copal 1",
+      "sku": "PLI-C-K-P-0007-S",
+      "price": "240.00",
+      "compare_at_price": null,
+      "barcode": "",
+      "weight": 200.0,
+      "weight_unit": "g",
+      "inventory_policy": "deny",
+      "taxable": true,
+      "requires_shipping": true
+    },
+    {
+      "id": 44188662989081,
+      "title": "Copal 3",
+      "sku": "PLI-C-K-P-0008-S",
+      "price": "240.00",
+      "compare_at_price": null,
+      "barcode": "",
+      "weight": 200.0,
+      "weight_unit": "g",
+      "inventory_policy": "deny",
+      "taxable": true,
+      "requires_shipping": true
+    },
+    {
+      "id": 44188663021849,
+      "title": "Custom",
+      "sku": "PLI-C-K-P-0009-S",
+      "price": "240.00",
+      "compare_at_price": null,
+      "barcode": "",
+      "weight": 200.0,
+      "weight_unit": "g",
+      "inventory_policy": "deny",
+      "taxable": true,
+      "requires_shipping": true
+    }
+  ],
+  "body_html": "Objektivbrett som passer storformat kamera med linhof type montasje eller adapter.<br><br>Printes i PETG<br><br>Velger du custom størrelse så må du spesifisere størrelsen i kommentarfelt på ordren.",
+  "image_count": 1,
+  "created_at": "2022-12-02T22:55:22+01:00",
+  "updated_at": "2025-03-10T15:11:56+01:00"
+}

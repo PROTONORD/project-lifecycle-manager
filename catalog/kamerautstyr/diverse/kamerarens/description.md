@@ -1,0 +1,3 @@
+<!-- Edit this file to change the product description -->
+
+<p>Rensing av kamerahus og objektiver for privatkunder. Priser er pr kamerahus og/eller objektiv.<br>Det er kun glass som renses på objektiv, så det renses ikke gummi, plast o.l.<br>Kamerahus så er det kun sensor som renses, og ikke speilhus, speil, diopter.<br><br>Må leveres og hentes i Ishavsvegen 69b 9010 Tromsø. Leveringstider er gjerne etter 15:00 i ukedager og stort sett ferdig til neste dag eller senere samme kveld. <br>Avtales ved levering. <br><br>Viktig å legge ved kontakt informasjon som mobilnummer og riktig e-post adresse. <br><br><strong>Husk følgende:</strong><br><br><strong>1: Fullt oppladet batteri</strong><br><strong>2: Minnekort i kamerahuset (tas testbilder før og etter rens)</strong><br></p>

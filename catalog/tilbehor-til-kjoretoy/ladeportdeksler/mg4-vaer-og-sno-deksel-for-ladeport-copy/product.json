@@ -1,0 +1,39 @@
+{
+  "id": 9749574975769,
+  "title": "MG Marvel R",
+  "handle": "mg4-vaer-og-sno-deksel-for-ladeport-copy",
+  "status": "active",
+  "product_type": "Tilbehør til kjøretøy",
+  "vendor": "PROTONORD",
+  "tags": "chargercover, Elbil, Elektrisk kjøretøy, ladeportdeksel, Marvel R, Snødeksel, værdeksel",
+  "options": [
+    {
+      "id": 12419716514073,
+      "product_id": 9749574975769,
+      "name": "Title",
+      "position": 1,
+      "values": [
+        "Default Title"
+      ]
+    }
+  ],
+  "variants": [
+    {
+      "id": 49887266504985,
+      "title": "Default Title",
+      "sku": "PMG-S-T-P-0324-S",
+      "price": "417.00",
+      "compare_at_price": null,
+      "barcode": null,
+      "weight": 300.0,
+      "weight_unit": "g",
+      "inventory_policy": "deny",
+      "taxable": true,
+      "requires_shipping": true
+    }
+  ],
+  "body_html": "<p><strong>Optimal Beskyttelse for Din Elbil – Vær- og Snødeksel til Ladeporten</strong></p>\n<div class=\"my-2\"><br></div>\n<p>Gi ladeporten på din elbil den beste beskyttelsen mot vinterens utfordringer. Våre vær- og snødeksler gir deg sikkerhet og trygghet ved å hindre is, snø og smuss i å trenge inn, slik at irriterende ladeproblemer blir historie. I motsetning til bensin- og dieselbiler, hvor tankluken hovedsakelig holdes lukket, er ladeporten på elbiler ofte åpen og dermed mer utsatt for både vær og vind.</p>\n<div class=\"my-2\"><br></div>\n<p><strong>Egenskaper:</strong></p>\n<div class=\"my-2\"><br></div>\n<ul>\n<li>\n<p><strong>Ekstra Robust Beskyttelse: </strong>Produsert i holdbart PETG-materiale, er vårt deksel skapt for å stå imot de tøffeste værforhold, og dermed beskytte ladeporten din mot regn, snø, is og annen påvirkning fra elementene.</p>\n</li>\n<li>\n<p><strong>Enkel Bruk: </strong>Vårt pålitelige låsesystem sørger for en sikker festing til ladeporten, enten det er vrilås, friksjonslås eller skyvelås.</p>\n</li>\n<li>\n<p><strong>Lett Installasjon: </strong>Designet for rask og problemfri montering; bare skyv dekselet på plass, og ladeporten er øyeblikkelig beskyttet.</p>\n</li>\n<li>\n<p><strong>Komplett og Klar for Montasje: </strong>Våre deksler leveres ferdig montert og klar til installasjon, slik at du umiddelbart kan beskytte din elbil.</p>\n</li>\n<li>\n<p><strong>Rask Levering: </strong>Dekslene produseres på bestilling og sendes normalt ut innen 1-5 dager, slik at du kan nyte hurtig og pålitelig beskyttelse.</p>\n</li>\n</ul>\n<div class=\"my-2\"><br></div>\n<p>Vårt vær- og snødeksel er også en smart investering som forlenger ladeportens levetid og ytelse. Beskytt ladeporten mot ytre påkjenninger og oppretthold funksjonaliteten, uansett værforhold.</p>\n<div class=\"my-2\"><br></div>\n<p>Bestill ditt ladeportdeksel i dag, og opplev forskjellen en beskyttet ladeport kan gjøre gjennom vintermånedene!</p>",
+  "image_count": 3,
+  "created_at": "2024-11-01T07:20:11+01:00",
+  "updated_at": "2025-07-23T19:56:24+02:00"
+}
