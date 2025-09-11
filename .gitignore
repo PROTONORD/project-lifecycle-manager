@@ -1,0 +1,32 @@
+# Python virtual environment
+.venv/
+venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+
+# Environment variables
+.env
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Logs
+*.log
+
+# Keep catalog structure but ignore large files
+catalog/*/images/*.jpg
+catalog/*/images/*.png
+catalog/*/images/*.webp
+catalog/*/cad/*.step
+catalog/*/cad/*.stl
+catalog/*/cad/*.dwg

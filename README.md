@@ -1,4 +1,111 @@
-# prototype-workflow-med-github
+# # prototype-workflow-med-github
+
+## Komplett Guide for Automatisert CAD til E-handel med MinIO
+
+Dette dokumentet beskriver A-til-Å-oppsettet for et helautomatisert system som håndterer CAD-design fra idé til publisert produkt i en Shopify-butikk. Systemet er bygget rundt en sentral server som bruker **MinIO** for robust fillagring, og **GitHub** som den definitive sannhetskilden (*Single Source of Truth*) for all produktinformasjon og designhistorikk.
+
+## 🚀 Kom i gang (Quick Start)
+
+### 1. Installer og sett opp miljø
+
+```bash
+# Klon prosjektet
+git clone https://github.com/PROTONORD/prototype-workflow-med-github.git
+cd prototype-workflow-med-github
+
+# Opprett Python virtuelt miljø
+python3 -m venv .venv
+source .venv/bin/activate  # Linux/Mac
+# eller .venv\Scripts\activate  # Windows
+
+# Installer avhengigheter
+pip install -r requirements.txt
+```
+
+### 2. Konfigurer miljøvariabler
+
+```bash
+# Kopier eksempel-konfigurasjon
+cp .env.example .env
+
+# Rediger .env med dine legitimasjoner
+nano .env
+```
+
+Fyll inn disse verdiene i `.env`:
+- `SHOPIFY_SHOP` - Din Shopify-butikk URL (minbutikk.myshopify.com)
+- `SHOPIFY_ACCESS_TOKEN` - Admin API tilgangstoken fra Custom App
+- `MINIO_ENDPOINT` - MinIO server adresse (f.eks. localhost:9000)
+- `MINIO_ACCESS_KEY` / `MINIO_SECRET_KEY` - MinIO legitimasjoner
+- `MINIO_BUCKET` - Bucket navn for fillagring (f.eks. "products")
+
+### 3. Kjør bootstrap for å importere eksisterende produkter
+
+```bash
+python main.py bootstrap
+```
+
+Dette oppretter:
+- Lokal mappestruktur i `catalog/`
+- Produktfiler med metadata (`product.json`, `description.md`)
+- Bilder lagret i MinIO
+- Git-klar struktur
+
+### 4. Bruk systemet
+
+```bash
+# Vis status
+python main.py status
+
+# Opprett nytt produkt
+python main.py new "Mitt Nye Produkt" --type "Elektronikk" --vendor "ACME Corp"
+
+# Synkroniser endringer til Shopify
+python main.py sync
+
+# Synkroniser spesifikt produkt
+python main.py sync produkt-handle
+```
+
+### 5. Arbeidsflyt
+
+1. **Bootstrap**: Import eksisterende produkter fra Shopify
+2. **Rediger**: Endre `product.json` eller `description.md` filer
+3. **Last opp**: Legg til filer i MinIO via web-grensesnitt
+4. **Synkroniser**: Push endringer tilbake til Shopify
+5. **Commit**: Lagre endringer i Git for versjonskontroll
+
+## 📁 Prosjektstruktur
+
+```
+prototype-workflow-med-github/
+├── src/                     # Python kildekode
+│   ├── config.py           # Miljøkonfigurasjon
+│   ├── shopify_client.py   # Shopify API klient
+│   ├── minio_client.py     # MinIO objekt-lagring klient
+│   ├── bootstrap_catalog.py # Import produkter fra Shopify
+│   ├── sync_to_shopify.py  # Synkroniser til Shopify
+│   └── new_product.py      # Opprett nye produkter
+├── main.py                 # Hoved CLI-grensesnitt
+├── requirements.txt        # Python avhengigheter
+├── .env.example           # Eksempel miljøkonfigurasjon
+├── .gitignore            # Git ignore-fil
+├── QUICKSTART.md         # Detaljert oppstartsguide
+└── README.md             # Denne filen
+
+# Etter bootstrap:
+catalog/                   # Produktkatalog (opprettet automatisk)
+├── produkt-1/
+│   ├── product.json      # Shopify produktdata
+│   ├── description.md    # Redigerbar beskrivelse
+│   ├── README.md        # Produktdokumentasjon
+│   ├── images/          # Produktbilder (i MinIO)
+│   ├── cad/            # CAD-filer (i MinIO)
+│   └── documentation/   # Tilleggsdokumentasjon
+└── catalog_summary.json  # Oversikt over katalog
+```
+
+---rototype-workflow-med-github
 
 # \#\# Komplett Guide for Automatisert CAD til E-handel med MinIO
 
@@ -6,7 +113,7 @@ Dette dokumentet beskriver A-til-Å-oppsettet for et helautomatisert system som 
 
 -----
 
-### \#\# Innholdsfortegnelse
+### Innholdsfortegnelse
 
 1.  **Systemarkitektur: En oversikt**
 2.  **Del 1: Grunnoppsett av Server**
@@ -156,15 +263,6 @@ Last opp Filer: Relevante bilder, PDF-er og andre endelige filer lastes opp dire
 Lenk Tilbake: En lenke til det opprinnelige GitHub-repositoriet legges ved i Docmost for de som trenger tilgang til den komplette, detaljerte endringshistorikken.
 
 
-Ja, det er en veldig god idé. En kildeliste gjør prosjektdokumentasjonen din mye mer profesjonell og nyttig, både for deg selv og for andre som ser på den. Det viser hvilke byggeklosser systemet består av.
-
-Her er et forslag til en komplett kildeseksjon som du kan lime rett inn i `README.md`-filen din. Den inkluderer Shopify-APIet og alle de andre sentrale teknologiene vi har diskutert.
-
------
-
-**(Lim inn dette i `prototype-workflow-med-github/README.md`)**
-
------
 
 ### \#\# Kilder og Nyttige Ressurser 📚
 
@@ -182,7 +280,7 @@ Denne seksjonen inneholder lenker til den offisielle dokumentasjonen og hovedsid
 #### API-er for Datautveksling
 
   * **[Shopify API](https://shopify.dev/docs/api)** - For programmatisk håndtering av produkter, kunder og ordre i nettbutikken.
-  * **[Fiken API](https://www.google.com/search?q=https://fiken.no/api/dokumentasjon/)** - For automatisert opprettelse av kunder og fakturaer i regnskapssystemet.
+  * **[Fiken API](https://fiken.no/api/dokumentasjon/)** - For automatisert opprettelse av kunder og fakturaer i regnskapssystemet.
   * **[Brønnøysundregistrene (Enhetsregisteret API)](https://data.brreg.no/enhetsregisteret/api/docs/index.html)** - For å hente og validere offisiell informasjon om norske foretak.
   * **[Stripe API](https://stripe.com/docs/api)** - For å håndtere betalinger og abonnenter.
   * **[NewsAPI.org](https://newsapi.org/)** - Et eksempel på en API for å hente nyhetsartikler for omdømmeanalyse.
