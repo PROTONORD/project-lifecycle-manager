@@ -22,15 +22,34 @@ Thumbs.db
 # MinIO data - object storage files
 minio-data/
 
-# Binary files - stored in MinIO, only metadata in Git
-catalog/**/images/
-catalog/**/cad/
-catalog/**/documentation/
+# Actual files - only references allowed in Git
+# Images
+catalog/**/images/*.jpg
+catalog/**/images/*.jpeg
+catalog/**/images/*.png
+catalog/**/images/*.gif
+catalog/**/images/*.webp
 
-# Keep metadata files
-!catalog/**/product.json
+# CAD files
+catalog/**/cad/*.step
+catalog/**/cad/*.stp
+catalog/**/cad/*.stl
+catalog/**/cad/*.dwg
+catalog/**/cad/*.3mf
+catalog/**/cad/*.obj
+catalog/**/cad/*.iges
+
+# Documentation files  
+catalog/**/documentation/*.pdf
+catalog/**/documentation/*.doc
+catalog/**/documentation/*.docx
+
+# Allow README files and metadata in folders
 !catalog/**/README.md
+!catalog/**/product.json
 !catalog/**/description.md
+!catalog/**/files.json
+!catalog/**/FILES.md
 *.swo
 
 # Logs
