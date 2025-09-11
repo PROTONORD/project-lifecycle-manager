@@ -154,3 +154,47 @@ Lim inn Markdown: Innholdet fra .md-filene kopieres og limes direkte inn i Docmo
 Last opp Filer: Relevante bilder, PDF-er og andre endelige filer lastes opp direkte til Docmost-siden for å sikre at all informasjon er samlet på ett sted.
 
 Lenk Tilbake: En lenke til det opprinnelige GitHub-repositoriet legges ved i Docmost for de som trenger tilgang til den komplette, detaljerte endringshistorikken.
+
+
+Ja, det er en veldig god idé. En kildeliste gjør prosjektdokumentasjonen din mye mer profesjonell og nyttig, både for deg selv og for andre som ser på den. Det viser hvilke byggeklosser systemet består av.
+
+Her er et forslag til en komplett kildeseksjon som du kan lime rett inn i `README.md`-filen din. Den inkluderer Shopify-APIet og alle de andre sentrale teknologiene vi har diskutert.
+
+-----
+
+**(Lim inn dette i `prototype-workflow-med-github/README.md`)**
+
+-----
+
+### \#\# Kilder og Nyttige Ressurser 📚
+
+Denne seksjonen inneholder lenker til den offisielle dokumentasjonen og hovedsidene for de sentrale teknologiene og tjenestene som brukes i dette prosjektet.
+
+#### Plattformer og Kjernekomponenter
+
+  * **[Git](https://git-scm.com/)** - Det distribuerte versjonskontrollsystemet som ligger i bunn for alt.
+  * **[GitHub](https://docs.github.com/)** - Plattformen for kodelagring, samarbeid og automatisering.
+  * **[Python](https://www.python.org/)** - Hovedspråket som brukes for alle automatiseringsskript.
+  * **[MinIO](https://min.io/)** - Selv-hostet, S3-kompatibel objektlagring for alle store filer.
+  * **[Tailscale](https://tailscale.com/)** - Verktøyet som bygger det sikre, private nettverket mellom enhetene.
+  * **[Docmost](https://docmost.com/)** - Den selv-hostede kunnskapsbasen for endelig produktdokumentasjon.
+
+#### API-er for Datautveksling
+
+  * **[Shopify API](https://shopify.dev/docs/api)** - For programmatisk håndtering av produkter, kunder og ordre i nettbutikken.
+  * **[Fiken API](https://www.google.com/search?q=https://fiken.no/api/dokumentasjon/)** - For automatisert opprettelse av kunder og fakturaer i regnskapssystemet.
+  * **[Brønnøysundregistrene (Enhetsregisteret API)](https://data.brreg.no/enhetsregisteret/api/docs/index.html)** - For å hente og validere offisiell informasjon om norske foretak.
+  * **[Stripe API](https://stripe.com/docs/api)** - For å håndtere betalinger og abonnenter.
+  * **[NewsAPI.org](https://newsapi.org/)** - Et eksempel på en API for å hente nyhetsartikler for omdømmeanalyse.
+
+#### Python-biblioteker (Et utvalg)
+
+  * **[MinIO Python Client](https://min.io/docs/minio/linux/developers/python/API.html)** - For å kommunisere med MinIO-serveren.
+  * **[PyGithub](https://pygithub.readthedocs.io/en/latest/)** - For å interagere med GitHub API.
+  * **[ShopifyAPI for Python](https://github.com/Shopify/shopify_python_api)** - For å interagere med Shopify API.
+
+#### Frontend- og Backend-rammeverk
+
+  * **[FastAPI](https://fastapi.tiangolo.com/)** - Et moderne og raskt Python-rammeverk for å bygge backend-APIer.
+  * **[Next.js](https://nextjs.org/)** - Et populært React-rammeverk for å bygge den klient-vendte nettbutikken.
+
