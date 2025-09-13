@@ -138,9 +138,9 @@ const ProtoNordHome = () => {
             <p>Vi kan til og med forbedre designet for å forhindre at de går i stykker på samme sted som originalen.</p>
           </div>
           <div className={styles.serviceCard}>
-            <div className={styles.serviceIcon}>🌍</div>
-            <h3>Globalt samarbeid</h3>
-            <p>Fleksibelt produksjonsoppsett med samarbeidspartnere i USA, EU og Norge.</p>
+            <div className={styles.serviceIcon}>�🇴</div>
+            <h3>Lokalproduksjon</h3>
+            <p>Norskproduserte løsninger med fokus på kvalitet, bærekraft og lokal verdiskapning.</p>
           </div>
         </div>
       </section>
