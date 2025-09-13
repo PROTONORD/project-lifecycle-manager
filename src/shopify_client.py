@@ -140,6 +140,31 @@ class ShopifyClient:
             
         return products
 
+    def get_shop_info(self) -> Dict:
+        """Get shop information including logo and other assets"""
+        url = f"{self.base_url}/shop.json"
+        response = self.session.get(url)
+        response.raise_for_status()
+        return response.json().get("shop", {})
+
+    def get_themes(self) -> List[Dict]:
+        """Get all themes for the shop"""
+        url = f"{self.base_url}/themes.json"
+        response = self.session.get(url)
+        response.raise_for_status()
+        return response.json().get("themes", [])
+
+    def get_theme_assets(self, theme_id: int, asset_key: str = None) -> Dict:
+        """Get theme assets (can be used to find favicon or logo files)"""
+        url = f"{self.base_url}/themes/{theme_id}/assets.json"
+        params = {}
+        if asset_key:
+            params["asset[key]"] = asset_key
+        
+        response = self.session.get(url, params=params)
+        response.raise_for_status()
+        return response.json()
+
     def _parse_next_link(self, link_header: str) -> Optional[str]:
         """Parse the next URL from Link header (RFC5988)"""
         for part in link_header.split(","):
