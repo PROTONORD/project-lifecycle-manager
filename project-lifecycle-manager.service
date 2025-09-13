@@ -5,7 +5,7 @@ After=network.target
 [Service]
 Type=simple
 User=kau005
-WorkingDirectory=/home/kau005/prototype-workflow-med-github
+WorkingDirectory=/home/kau005/project-lifecycle-manager
 ExecStart=/usr/bin/npm start
 Restart=always
 RestartSec=10
