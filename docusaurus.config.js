@@ -45,13 +45,7 @@ const config = {
           editUrl:
             'https://github.com/PROTONORD/prototype-workflow-med-github/tree/main/',
         },
-        blog: {
-          showReadingTime: true,
-          // Please change this to your repo.
-          // Remove this to remove the "edit this page" links.
-          editUrl:
-            'https://github.com/PROTONORD/prototype-workflow-med-github/tree/main/',
-        },
+        blog: false,
         theme: {
           customCss: './src/css/custom.css',
         },
@@ -78,8 +72,7 @@ const config = {
             label: 'Dokumentasjon',
           },
           {to: '/cloud-files', label: '☁️ Cloud Files', position: 'left'},
-          {to: '/blog', label: 'Blog', position: 'left'},
-          {to: '/cloud-files', label: 'Cloud Files', position: 'left'},
+          {to: '/shopify', label: '🛍️ Shopify', position: 'left'},
           {
             href: 'https://github.com/PROTONORD/prototype-workflow-med-github',
             label: 'GitHub',
@@ -94,12 +87,12 @@ const config = {
             title: 'Dokumentasjon',
             items: [
               {
-                label: 'Kom i gang',
-                to: '/docs/intro',
+                label: 'Hjem',
+                to: '/',
               },
               {
                 label: 'Cloud Storage',
-                to: '/docs/cloud-storage',
+                to: '/cloud-storage',
               },
             ],
           },
@@ -116,8 +109,8 @@ const config = {
             title: 'Mer',
             items: [
               {
-                label: 'Blog',
-                to: '/blog',
+                label: 'Cloud Files',
+                to: '/cloud-files',
               },
             ],
           },

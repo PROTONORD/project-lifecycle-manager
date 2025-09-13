@@ -1,10 +1,11 @@
 {
-  "last_updated": "2025-09-13T08:45:31.177150",
+  "last_updated": "2025-09-13T08:54:55.502032",
+  "sync_mode": "automated",
   "organization": "ProtoNord",
   "clouds": {
     "jottacloud": {
       "name": "Jottacloud",
-      "tree_structure": "[  24]  /\n├── [   0]  dokumenter\n└── [  24]  test_dokument.txt\n\n1 directories, 1 files\n",
+      "tree_structure": "/\n├── dokumenter\n└── test_dokument.txt\n\n1 directories, 1 files\n",
       "protonord_files": [
         {
           "Path": "test_dokument.txt",
@@ -22,13 +23,11 @@
           "ModTime": "2000-01-01T00:00:00Z",
           "IsDir": true
         }
-      ],
-      "base_path": "protonord",
-      "last_sync": "2025-09-13T08:45:31.961316"
+      ]
     },
     "gdrive": {
       "name": "Google Drive",
-      "tree_structure": "[  18]  /\n├── [   0]  bilder\n└── [  18]  gdrive_test.md\n\n1 directories, 1 files\n",
+      "tree_structure": "/\n├── bilder\n└── gdrive_test.md\n\n1 directories, 1 files\n",
       "protonord_files": [
         {
           "Path": "bilder",
@@ -48,9 +47,7 @@
           "IsDir": false,
           "ID": "17ltB-Ab459UKvh1nYMLgGNyDDgHE5JnO"
         }
-      ],
-      "base_path": "protonord",
-      "last_sync": "2025-09-13T08:45:34.954671"
+      ]
     }
   }
 }
