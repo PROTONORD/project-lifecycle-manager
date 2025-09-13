@@ -134,7 +134,7 @@
 }
 
 .statCard {
-  background-color: white;
+  background-color: var(--ifm-background-surface-color);
   padding: 1.5rem;
   border-radius: 8px;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
@@ -142,6 +142,14 @@
   align-items: center;
   gap: 1rem;
   transition: transform 0.3s ease;
+  border: 1px solid var(--ifm-color-emphasis-200);
+}
+
+/* Dark mode support for stat cards */
+[data-theme='dark'] .statCard {
+  background-color: var(--ifm-color-emphasis-100);
+  border: 1px solid var(--ifm-color-emphasis-300);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
 }
 
 .statCard:hover {
@@ -186,16 +194,28 @@
 }
 
 .productCard {
-  background-color: white;
+  background-color: var(--ifm-background-surface-color);
   border-radius: 8px;
   overflow: hidden;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
   transition: transform 0.3s ease;
+  border: 1px solid var(--ifm-color-emphasis-200);
 }
 
 .productCard:hover {
   transform: translateY(-2px);
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+/* Dark mode support for Shopify product cards */
+[data-theme='dark'] .productCard {
+  background-color: var(--ifm-color-emphasis-100);
+  border: 1px solid var(--ifm-color-emphasis-300);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
+}
+
+[data-theme='dark'] .productCard:hover {
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.4);
 }
 
 .productImageContainer {
@@ -261,8 +281,13 @@
 }
 
 .imageBtn:hover:not(:disabled) {
-  background-color: white;
+  background-color: var(--ifm-background-surface-color);
   transform: scale(1.1);
+}
+
+/* Dark mode support for image buttons */
+[data-theme='dark'] .imageBtn:hover:not(:disabled) {
+  background-color: var(--ifm-color-emphasis-200);
 }
 
 .imageBtn:disabled {
@@ -532,11 +557,21 @@
 }
 
 .orderCard {
-  background-color: white;
+  background-color: var(--ifm-background-surface-color);
   padding: 1.5rem;
   border-radius: 8px;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
   border-left: 4px solid var(--ifm-color-primary);
+  border: 1px solid var(--ifm-color-emphasis-200);
+  border-left: 4px solid var(--ifm-color-primary);
+}
+
+/* Dark mode support for order cards */
+[data-theme='dark'] .orderCard {
+  background-color: var(--ifm-color-emphasis-100);
+  border: 1px solid var(--ifm-color-emphasis-300);
+  border-left: 4px solid var(--ifm-color-primary);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
 }
 
 .orderHeader {
@@ -597,11 +632,21 @@
 }
 
 .collectionCard {
-  background-color: white;
+  background-color: var(--ifm-background-surface-color);
   padding: 1rem;
   border-radius: 6px;
   box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
   border-left: 3px solid var(--ifm-color-primary);
+  border: 1px solid var(--ifm-color-emphasis-200);
+  border-left: 3px solid var(--ifm-color-primary);
+}
+
+/* Dark mode support for collection cards */
+[data-theme='dark'] .collectionCard {
+  background-color: var(--ifm-color-emphasis-100);
+  border: 1px solid var(--ifm-color-emphasis-300);
+  border-left: 3px solid var(--ifm-color-primary);
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
 }
 
 .collectionCard h5 {

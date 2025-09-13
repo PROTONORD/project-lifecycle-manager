@@ -98,11 +98,19 @@
 }
 
 .statCard {
-  background: white;
+  background: var(--ifm-background-surface-color);
   padding: 2rem;
   border-radius: 12px;
   text-align: center;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  border: 1px solid var(--ifm-color-emphasis-200);
+}
+
+/* Dark mode support for stat cards */
+[data-theme='dark'] .statCard {
+  background: var(--ifm-color-emphasis-100);
+  border: 1px solid var(--ifm-color-emphasis-300);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
 }
 
 .statNumber {
@@ -194,16 +202,28 @@
 }
 
 .productCard {
-  background: white;
+  background: var(--ifm-background-surface-color);
   border-radius: 12px;
   overflow: hidden;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
   transition: transform 0.3s ease;
+  border: 1px solid var(--ifm-color-emphasis-200);
 }
 
 .productCard:hover {
   transform: translateY(-4px);
   box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+}
+
+/* Dark mode support for product cards */
+[data-theme='dark'] .productCard {
+  background: var(--ifm-color-emphasis-100);
+  border: 1px solid var(--ifm-color-emphasis-300);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+}
+
+[data-theme='dark'] .productCard:hover {
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.4);
 }
 
 .productImageContainer {
@@ -273,6 +293,17 @@
   color: var(--ifm-color-warning-dark);
 }
 
+/* Dark mode support for product status */
+[data-theme='dark'] .productStatus.active {
+  background-color: var(--ifm-color-success-dark);
+  color: var(--ifm-color-success-lighter);
+}
+
+[data-theme='dark'] .productStatus.inactive {
+  background-color: var(--ifm-color-warning-dark);
+  color: var(--ifm-color-warning-lighter);
+}
+
 /* Services Section */
 .services {
   padding: 4rem 2rem;
@@ -294,17 +325,29 @@
 }
 
 .serviceCard {
-  background: white;
+  background: var(--ifm-background-surface-color);
   padding: 2rem;
   border-radius: 12px;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
   text-align: center;
   transition: transform 0.3s ease;
+  border: 1px solid var(--ifm-color-emphasis-200);
 }
 
 .serviceCard:hover {
   transform: translateY(-2px);
   box-shadow: 0 6px 16px rgba(0, 0, 0, 0.15);
+}
+
+/* Dark mode support for service cards */
+[data-theme='dark'] .serviceCard {
+  background: var(--ifm-color-emphasis-100);
+  border: 1px solid var(--ifm-color-emphasis-300);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+}
+
+[data-theme='dark'] .serviceCard:hover {
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.4);
 }
 
 .serviceIcon {
@@ -401,12 +444,20 @@
 }
 
 .processStep {
-  background: white;
+  background: var(--ifm-background-surface-color);
   padding: 2rem;
   border-radius: 12px;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
   text-align: center;
   position: relative;
+  border: 1px solid var(--ifm-color-emphasis-200);
+}
+
+/* Dark mode support for process steps */
+[data-theme='dark'] .processStep {
+  background: var(--ifm-color-emphasis-100);
+  border: 1px solid var(--ifm-color-emphasis-300);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
 }
 
 .stepNumber {
@@ -438,6 +489,22 @@
   padding: 3rem 2rem 1rem;
   background-color: var(--ifm-color-emphasis-800);
   color: white;
+}
+
+/* Dark mode support for footer */
+[data-theme='dark'] .footer {
+  background-color: var(--ifm-color-black);
+  color: var(--ifm-color-gray-100);
+  border-top: 1px solid var(--ifm-color-emphasis-300);
+}
+
+[data-theme='dark'] .footerInfo h3,
+[data-theme='dark'] .footerLinks h3 {
+  color: var(--ifm-color-gray-100);
+}
+
+[data-theme='dark'] .footerBottom {
+  border-top: 1px solid var(--ifm-color-emphasis-300);
 }
 
 .footerContent {
