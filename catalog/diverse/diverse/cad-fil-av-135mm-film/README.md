@@ -2,24 +2,31 @@
 
 **Handle:** `cad-fil-av-135mm-film`  
 **Status:** active  
-**Type:** Diverse  
-**Vendor:** PROTONORD  
-**Shopify ID:** 8031474549017  
+**Leverandør:** PROTONORD
 
-## Folder Structure
+## 📁 Filstruktur (Lagret i MinIO)
 
-- `product.json` - Product data synchronized with Shopify
-- `description.md` - Editable product description (HTML)
-- `images/` - Product images (stored in MinIO)
-- `cad/` - CAD files and technical drawings (stored in MinIO)
-- `documentation/` - Additional documentation and notes
+Alle produktfiler er lagret i MinIO object storage og kan nås via:
 
-## Editing
+### 🔗 Direktelenker:
+- **Produktdata:** [product.json](http://127.0.0.1:9000/products/cad-fil-av-135mm-film/product.json)
+- **Beskrivelse:** [description.md](http://127.0.0.1:9000/products/cad-fil-av-135mm-film/description.md)
+- **Bilder:** [images/](http://127.0.0.1:9000/products/cad-fil-av-135mm-film/images/)
+- **CAD-filer:** [cad-files/](http://127.0.0.1:9000/products/cad-fil-av-135mm-film/cad-files/)
+- **Dokumentasjon:** [documentation/](http://127.0.0.1:9000/products/cad-fil-av-135mm-film/documentation/)
 
-1. Edit `product.json` or `description.md` to change product info
-2. Upload files to MinIO using the web interface or CLI
-3. Run sync script to push changes back to Shopify
+### 📊 MinIO Web Interface:
+Tilgang til filer via MinIO web interface på:
+`http://127.0.0.1:9000:9001`
 
-## Variants
+**Mappe:** `products/cad-fil-av-135mm-film/`
 
-- **Default Title** (SKU: PCA-D-P-0014-S) - $5.00
+### 🔄 Synkronisering:
+- **GitHub → MinIO:** Referanser og metadata
+- **MinIO → Shopify:** Produktdata og bilder synkroniseres automatisk
+- **Last oppdatert:** 2025-09-11 19:45:25
+
+## 💡 Redigering:
+1. **Bilder/CAD-filer:** Last opp direkte til MinIO via web interface
+2. **Produktdata:** Rediger JSON-filer i MinIO og kjør synkronisering
+3. **Synkroniser til Shopify:** `python tools/sync_product_data.py --to-shopify --product cad-fil-av-135mm-film`

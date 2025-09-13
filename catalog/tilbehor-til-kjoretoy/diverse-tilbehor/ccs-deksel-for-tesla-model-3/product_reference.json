@@ -1,0 +1,20 @@
+{
+  "product_id": 9563054899481,
+  "handle": "ccs-deksel-for-tesla-model-3",
+  "title": "CCS deksel for Tesla Model 3",
+  "status": "active",
+  "vendor": "Fladby 3Dprint",
+  "last_updated": "2025-09-11T19:45:25.967600",
+  "minio_location": {
+    "bucket": "products",
+    "path": "ccs-deksel-for-tesla-model-3",
+    "full_data_url": "http://127.0.0.1:9000/products/ccs-deksel-for-tesla-model-3/"
+  },
+  "files": {
+    "product_json": "http://127.0.0.1:9000/products/ccs-deksel-for-tesla-model-3/product.json",
+    "description": "http://127.0.0.1:9000/products/ccs-deksel-for-tesla-model-3/description.md",
+    "images": "http://127.0.0.1:9000/products/ccs-deksel-for-tesla-model-3/images/",
+    "cad_files": "http://127.0.0.1:9000/products/ccs-deksel-for-tesla-model-3/cad-files/",
+    "documentation": "http://127.0.0.1:9000/products/ccs-deksel-for-tesla-model-3/documentation/"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "product_id": 9343794151705,
+  "handle": "type-2-deksel-i-tpu-gummi-for-ladeport",
+  "title": "Støvdeksel Type 2 i TPU/Gummi for ladeport",
+  "status": "active",
+  "vendor": "PROTONORD",
+  "last_updated": "2025-09-11T19:45:25.786432",
+  "minio_location": {
+    "bucket": "products",
+    "path": "type-2-deksel-i-tpu-gummi-for-ladeport",
+    "full_data_url": "http://127.0.0.1:9000/products/type-2-deksel-i-tpu-gummi-for-ladeport/"
+  },
+  "files": {
+    "product_json": "http://127.0.0.1:9000/products/type-2-deksel-i-tpu-gummi-for-ladeport/product.json",
+    "description": "http://127.0.0.1:9000/products/type-2-deksel-i-tpu-gummi-for-ladeport/description.md",
+    "images": "http://127.0.0.1:9000/products/type-2-deksel-i-tpu-gummi-for-ladeport/images/",
+    "cad_files": "http://127.0.0.1:9000/products/type-2-deksel-i-tpu-gummi-for-ladeport/cad-files/",
+    "documentation": "http://127.0.0.1:9000/products/type-2-deksel-i-tpu-gummi-for-ladeport/documentation/"
+  }
+}

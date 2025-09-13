@@ -1,0 +1,20 @@
+{
+  "product_id": 9795148775705,
+  "handle": "4x5-torkestativ",
+  "title": "4x5 tørkestativ",
+  "status": "active",
+  "vendor": "PROTONORD",
+  "last_updated": "2025-09-11T19:45:25.984172",
+  "minio_location": {
+    "bucket": "products",
+    "path": "4x5-torkestativ",
+    "full_data_url": "http://127.0.0.1:9000/products/4x5-torkestativ/"
+  },
+  "files": {
+    "product_json": "http://127.0.0.1:9000/products/4x5-torkestativ/product.json",
+    "description": "http://127.0.0.1:9000/products/4x5-torkestativ/description.md",
+    "images": "http://127.0.0.1:9000/products/4x5-torkestativ/images/",
+    "cad_files": "http://127.0.0.1:9000/products/4x5-torkestativ/cad-files/",
+    "documentation": "http://127.0.0.1:9000/products/4x5-torkestativ/documentation/"
+  }
+}

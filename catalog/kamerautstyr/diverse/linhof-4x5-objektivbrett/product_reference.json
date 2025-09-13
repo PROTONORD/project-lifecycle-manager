@@ -1,0 +1,20 @@
+{
+  "product_id": 8030830002457,
+  "handle": "linhof-4x5-objektivbrett",
+  "title": "Linhof 4x5 objektivbrett",
+  "status": "active",
+  "vendor": "PROTONORD",
+  "last_updated": "2025-09-11T19:45:25.982280",
+  "minio_location": {
+    "bucket": "products",
+    "path": "linhof-4x5-objektivbrett",
+    "full_data_url": "http://127.0.0.1:9000/products/linhof-4x5-objektivbrett/"
+  },
+  "files": {
+    "product_json": "http://127.0.0.1:9000/products/linhof-4x5-objektivbrett/product.json",
+    "description": "http://127.0.0.1:9000/products/linhof-4x5-objektivbrett/description.md",
+    "images": "http://127.0.0.1:9000/products/linhof-4x5-objektivbrett/images/",
+    "cad_files": "http://127.0.0.1:9000/products/linhof-4x5-objektivbrett/cad-files/",
+    "documentation": "http://127.0.0.1:9000/products/linhof-4x5-objektivbrett/documentation/"
+  }
+}

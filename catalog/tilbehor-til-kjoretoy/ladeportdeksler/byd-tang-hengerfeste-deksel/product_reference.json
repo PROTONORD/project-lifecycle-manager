@@ -1,0 +1,20 @@
+{
+  "product_id": 9829677138201,
+  "handle": "byd-tang-hengerfeste-deksel",
+  "title": "BYD TANG Hengerfeste deksel",
+  "status": "active",
+  "vendor": "PROTONORD",
+  "last_updated": "2025-09-11T19:45:25.776126",
+  "minio_location": {
+    "bucket": "products",
+    "path": "byd-tang-hengerfeste-deksel",
+    "full_data_url": "http://127.0.0.1:9000/products/byd-tang-hengerfeste-deksel/"
+  },
+  "files": {
+    "product_json": "http://127.0.0.1:9000/products/byd-tang-hengerfeste-deksel/product.json",
+    "description": "http://127.0.0.1:9000/products/byd-tang-hengerfeste-deksel/description.md",
+    "images": "http://127.0.0.1:9000/products/byd-tang-hengerfeste-deksel/images/",
+    "cad_files": "http://127.0.0.1:9000/products/byd-tang-hengerfeste-deksel/cad-files/",
+    "documentation": "http://127.0.0.1:9000/products/byd-tang-hengerfeste-deksel/documentation/"
+  }
+}

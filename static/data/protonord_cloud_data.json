@@ -1,0 +1,56 @@
+{
+  "last_updated": "2025-09-13T08:45:31.177150",
+  "organization": "ProtoNord",
+  "clouds": {
+    "jottacloud": {
+      "name": "Jottacloud",
+      "tree_structure": "[  24]  /\n├── [   0]  dokumenter\n└── [  24]  test_dokument.txt\n\n1 directories, 1 files\n",
+      "protonord_files": [
+        {
+          "Path": "test_dokument.txt",
+          "Name": "test_dokument.txt",
+          "Size": 24,
+          "MimeType": "text/plain; charset=utf-8",
+          "ModTime": "2025-09-13T08:44:18Z",
+          "IsDir": false
+        },
+        {
+          "Path": "dokumenter",
+          "Name": "dokumenter",
+          "Size": -1,
+          "MimeType": "inode/directory",
+          "ModTime": "2000-01-01T00:00:00Z",
+          "IsDir": true
+        }
+      ],
+      "base_path": "protonord",
+      "last_sync": "2025-09-13T08:45:31.961316"
+    },
+    "gdrive": {
+      "name": "Google Drive",
+      "tree_structure": "[  18]  /\n├── [   0]  bilder\n└── [  18]  gdrive_test.md\n\n1 directories, 1 files\n",
+      "protonord_files": [
+        {
+          "Path": "bilder",
+          "Name": "bilder",
+          "Size": 0,
+          "MimeType": "inode/directory",
+          "ModTime": "2025-09-13T08:44:37.626Z",
+          "IsDir": true,
+          "ID": "1XGzvK2NWCpIEZobkGTCuxn0AGDrVmM79"
+        },
+        {
+          "Path": "gdrive_test.md",
+          "Name": "gdrive_test.md",
+          "Size": 18,
+          "MimeType": "text/markdown",
+          "ModTime": "2025-09-13T08:44:25.942Z",
+          "IsDir": false,
+          "ID": "17ltB-Ab459UKvh1nYMLgGNyDDgHE5JnO"
+        }
+      ],
+      "base_path": "protonord",
+      "last_sync": "2025-09-13T08:45:34.954671"
+    }
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "product_id": 9116447801625,
+  "handle": "audi-q4-e-tron-sno-deksel-extreme-for-ladeport",
+  "title": "Audi Q4 E-Tron vær og snø deksel V1 for ladeport",
+  "status": "archived",
+  "vendor": "PROTONORD",
+  "last_updated": "2025-09-11T19:45:25.832902",
+  "minio_location": {
+    "bucket": "products",
+    "path": "audi-q4-e-tron-sno-deksel-extreme-for-ladeport",
+    "full_data_url": "http://127.0.0.1:9000/products/audi-q4-e-tron-sno-deksel-extreme-for-ladeport/"
+  },
+  "files": {
+    "product_json": "http://127.0.0.1:9000/products/audi-q4-e-tron-sno-deksel-extreme-for-ladeport/product.json",
+    "description": "http://127.0.0.1:9000/products/audi-q4-e-tron-sno-deksel-extreme-for-ladeport/description.md",
+    "images": "http://127.0.0.1:9000/products/audi-q4-e-tron-sno-deksel-extreme-for-ladeport/images/",
+    "cad_files": "http://127.0.0.1:9000/products/audi-q4-e-tron-sno-deksel-extreme-for-ladeport/cad-files/",
+    "documentation": "http://127.0.0.1:9000/products/audi-q4-e-tron-sno-deksel-extreme-for-ladeport/documentation/"
+  }
+}

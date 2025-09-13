@@ -1,0 +1,20 @@
+{
+  "product_id": 9684695908633,
+  "handle": "retroslide-erstatning-for-gamle-bns-vindusslidesport",
+  "title": "RetroSlide - Erstatning for gamle BNS-G vindusslidespor",
+  "status": "active",
+  "vendor": "Fladby 3Dprint",
+  "last_updated": "2025-09-11T19:45:25.666640",
+  "minio_location": {
+    "bucket": "products",
+    "path": "retroslide-erstatning-for-gamle-bns-vindusslidesport",
+    "full_data_url": "http://127.0.0.1:9000/products/retroslide-erstatning-for-gamle-bns-vindusslidesport/"
+  },
+  "files": {
+    "product_json": "http://127.0.0.1:9000/products/retroslide-erstatning-for-gamle-bns-vindusslidesport/product.json",
+    "description": "http://127.0.0.1:9000/products/retroslide-erstatning-for-gamle-bns-vindusslidesport/description.md",
+    "images": "http://127.0.0.1:9000/products/retroslide-erstatning-for-gamle-bns-vindusslidesport/images/",
+    "cad_files": "http://127.0.0.1:9000/products/retroslide-erstatning-for-gamle-bns-vindusslidesport/cad-files/",
+    "documentation": "http://127.0.0.1:9000/products/retroslide-erstatning-for-gamle-bns-vindusslidesport/documentation/"
+  }
+}

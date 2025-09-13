@@ -1,0 +1,20 @@
+{
+  "product_id": 9231514829081,
+  "handle": "printetjenester-av-andre-design",
+  "title": "Printetjenester av andre design",
+  "status": "active",
+  "vendor": "PROTONORD",
+  "last_updated": "2025-09-11T19:45:25.641593",
+  "minio_location": {
+    "bucket": "products",
+    "path": "printetjenester-av-andre-design",
+    "full_data_url": "http://127.0.0.1:9000/products/printetjenester-av-andre-design/"
+  },
+  "files": {
+    "product_json": "http://127.0.0.1:9000/products/printetjenester-av-andre-design/product.json",
+    "description": "http://127.0.0.1:9000/products/printetjenester-av-andre-design/description.md",
+    "images": "http://127.0.0.1:9000/products/printetjenester-av-andre-design/images/",
+    "cad_files": "http://127.0.0.1:9000/products/printetjenester-av-andre-design/cad-files/",
+    "documentation": "http://127.0.0.1:9000/products/printetjenester-av-andre-design/documentation/"
+  }
+}

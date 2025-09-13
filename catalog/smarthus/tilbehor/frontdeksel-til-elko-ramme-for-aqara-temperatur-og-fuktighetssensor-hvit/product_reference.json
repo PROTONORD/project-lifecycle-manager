@@ -1,0 +1,20 @@
+{
+  "product_id": 8075606098201,
+  "handle": "frontdeksel-til-elko-ramme-for-aqara-temperatur-og-fuktighetssensor-hvit",
+  "title": "Frontdeksel til Elko ramme for Aqara temperatur- og fuktighetssensor (hvit)",
+  "status": "active",
+  "vendor": "PROTONORD",
+  "last_updated": "2025-09-11T19:45:25.993850",
+  "minio_location": {
+    "bucket": "products",
+    "path": "frontdeksel-til-elko-ramme-for-aqara-temperatur-og-fuktighetssensor-hvit",
+    "full_data_url": "http://127.0.0.1:9000/products/frontdeksel-til-elko-ramme-for-aqara-temperatur-og-fuktighetssensor-hvit/"
+  },
+  "files": {
+    "product_json": "http://127.0.0.1:9000/products/frontdeksel-til-elko-ramme-for-aqara-temperatur-og-fuktighetssensor-hvit/product.json",
+    "description": "http://127.0.0.1:9000/products/frontdeksel-til-elko-ramme-for-aqara-temperatur-og-fuktighetssensor-hvit/description.md",
+    "images": "http://127.0.0.1:9000/products/frontdeksel-til-elko-ramme-for-aqara-temperatur-og-fuktighetssensor-hvit/images/",
+    "cad_files": "http://127.0.0.1:9000/products/frontdeksel-til-elko-ramme-for-aqara-temperatur-og-fuktighetssensor-hvit/cad-files/",
+    "documentation": "http://127.0.0.1:9000/products/frontdeksel-til-elko-ramme-for-aqara-temperatur-og-fuktighetssensor-hvit/documentation/"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "product_id": 9684742373657,
+  "handle": "segway-navimow-i105e-pigger",
+  "title": "Segway navimow pigger",
+  "status": "active",
+  "vendor": "PROTONORD",
+  "last_updated": "2025-09-11T19:45:25.691422",
+  "minio_location": {
+    "bucket": "products",
+    "path": "segway-navimow-i105e-pigger",
+    "full_data_url": "http://127.0.0.1:9000/products/segway-navimow-i105e-pigger/"
+  },
+  "files": {
+    "product_json": "http://127.0.0.1:9000/products/segway-navimow-i105e-pigger/product.json",
+    "description": "http://127.0.0.1:9000/products/segway-navimow-i105e-pigger/description.md",
+    "images": "http://127.0.0.1:9000/products/segway-navimow-i105e-pigger/images/",
+    "cad_files": "http://127.0.0.1:9000/products/segway-navimow-i105e-pigger/cad-files/",
+    "documentation": "http://127.0.0.1:9000/products/segway-navimow-i105e-pigger/documentation/"
+  }
+}

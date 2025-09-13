@@ -1,0 +1,20 @@
+{
+  "product_id": 9558759899417,
+  "handle": "fisker-ocean-skvettlapper-med-farge-inlegg",
+  "title": "Fisker Ocean Front Skvettlapper v2",
+  "status": "active",
+  "vendor": "PROTONORD",
+  "last_updated": "2025-09-11T19:45:25.697785",
+  "minio_location": {
+    "bucket": "products",
+    "path": "fisker-ocean-skvettlapper-med-farge-inlegg",
+    "full_data_url": "http://127.0.0.1:9000/products/fisker-ocean-skvettlapper-med-farge-inlegg/"
+  },
+  "files": {
+    "product_json": "http://127.0.0.1:9000/products/fisker-ocean-skvettlapper-med-farge-inlegg/product.json",
+    "description": "http://127.0.0.1:9000/products/fisker-ocean-skvettlapper-med-farge-inlegg/description.md",
+    "images": "http://127.0.0.1:9000/products/fisker-ocean-skvettlapper-med-farge-inlegg/images/",
+    "cad_files": "http://127.0.0.1:9000/products/fisker-ocean-skvettlapper-med-farge-inlegg/cad-files/",
+    "documentation": "http://127.0.0.1:9000/products/fisker-ocean-skvettlapper-med-farge-inlegg/documentation/"
+  }
+}

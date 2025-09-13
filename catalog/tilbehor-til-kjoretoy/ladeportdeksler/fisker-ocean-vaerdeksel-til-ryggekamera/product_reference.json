@@ -1,0 +1,20 @@
+{
+  "product_id": 9820651225369,
+  "handle": "fisker-ocean-vaerdeksel-til-ryggekamera",
+  "title": "Fisker Ocean værdeksel til ryggespeil kamera",
+  "status": "active",
+  "vendor": "PROTONORD",
+  "last_updated": "2025-09-11T19:45:25.881330",
+  "minio_location": {
+    "bucket": "products",
+    "path": "fisker-ocean-vaerdeksel-til-ryggekamera",
+    "full_data_url": "http://127.0.0.1:9000/products/fisker-ocean-vaerdeksel-til-ryggekamera/"
+  },
+  "files": {
+    "product_json": "http://127.0.0.1:9000/products/fisker-ocean-vaerdeksel-til-ryggekamera/product.json",
+    "description": "http://127.0.0.1:9000/products/fisker-ocean-vaerdeksel-til-ryggekamera/description.md",
+    "images": "http://127.0.0.1:9000/products/fisker-ocean-vaerdeksel-til-ryggekamera/images/",
+    "cad_files": "http://127.0.0.1:9000/products/fisker-ocean-vaerdeksel-til-ryggekamera/cad-files/",
+    "documentation": "http://127.0.0.1:9000/products/fisker-ocean-vaerdeksel-til-ryggekamera/documentation/"
+  }
+}

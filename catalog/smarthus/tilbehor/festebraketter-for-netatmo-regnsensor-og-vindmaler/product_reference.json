@@ -1,0 +1,20 @@
+{
+  "product_id": 9580799263001,
+  "handle": "festebraketter-for-netatmo-regnsensor-og-vindmaler",
+  "title": "Festebraketter for Netatmo regnsensor og vindmåler",
+  "status": "active",
+  "vendor": "PROTONORD",
+  "last_updated": "2025-09-11T19:45:25.995554",
+  "minio_location": {
+    "bucket": "products",
+    "path": "festebraketter-for-netatmo-regnsensor-og-vindmaler",
+    "full_data_url": "http://127.0.0.1:9000/products/festebraketter-for-netatmo-regnsensor-og-vindmaler/"
+  },
+  "files": {
+    "product_json": "http://127.0.0.1:9000/products/festebraketter-for-netatmo-regnsensor-og-vindmaler/product.json",
+    "description": "http://127.0.0.1:9000/products/festebraketter-for-netatmo-regnsensor-og-vindmaler/description.md",
+    "images": "http://127.0.0.1:9000/products/festebraketter-for-netatmo-regnsensor-og-vindmaler/images/",
+    "cad_files": "http://127.0.0.1:9000/products/festebraketter-for-netatmo-regnsensor-og-vindmaler/cad-files/",
+    "documentation": "http://127.0.0.1:9000/products/festebraketter-for-netatmo-regnsensor-og-vindmaler/documentation/"
+  }
+}

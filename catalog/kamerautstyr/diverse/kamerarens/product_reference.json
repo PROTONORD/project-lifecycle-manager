@@ -1,0 +1,20 @@
+{
+  "product_id": 8653651411225,
+  "handle": "kamerarens",
+  "title": "Kamerarens",
+  "status": "active",
+  "vendor": "PROTONORD",
+  "last_updated": "2025-09-11T19:45:25.980373",
+  "minio_location": {
+    "bucket": "products",
+    "path": "kamerarens",
+    "full_data_url": "http://127.0.0.1:9000/products/kamerarens/"
+  },
+  "files": {
+    "product_json": "http://127.0.0.1:9000/products/kamerarens/product.json",
+    "description": "http://127.0.0.1:9000/products/kamerarens/description.md",
+    "images": "http://127.0.0.1:9000/products/kamerarens/images/",
+    "cad_files": "http://127.0.0.1:9000/products/kamerarens/cad-files/",
+    "documentation": "http://127.0.0.1:9000/products/kamerarens/documentation/"
+  }
+}

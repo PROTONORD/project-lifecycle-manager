@@ -2,37 +2,31 @@
 
 **Handle:** `fisker-ocean-skvettlapper-med-farge-inlegg`  
 **Status:** active  
-**Type:** Tilbehør til kjøretøy  
-**Vendor:** PROTONORD  
-**Shopify ID:** 9558759899417  
+**Leverandør:** PROTONORD
 
-## Folder Structure
+## 📁 Filstruktur (Lagret i MinIO)
 
-- `product.json` - Product data synchronized with Shopify
-- `description.md` - Editable product description (HTML)
-- `images/` - Product images (stored in MinIO)
-- `cad/` - CAD files and technical drawings (stored in MinIO)
-- `documentation/` - Additional documentation and notes
+Alle produktfiler er lagret i MinIO object storage og kan nås via:
 
-## Editing
+### 🔗 Direktelenker:
+- **Produktdata:** [product.json](http://127.0.0.1:9000/products/fisker-ocean-skvettlapper-med-farge-inlegg/product.json)
+- **Beskrivelse:** [description.md](http://127.0.0.1:9000/products/fisker-ocean-skvettlapper-med-farge-inlegg/description.md)
+- **Bilder:** [images/](http://127.0.0.1:9000/products/fisker-ocean-skvettlapper-med-farge-inlegg/images/)
+- **CAD-filer:** [cad-files/](http://127.0.0.1:9000/products/fisker-ocean-skvettlapper-med-farge-inlegg/cad-files/)
+- **Dokumentasjon:** [documentation/](http://127.0.0.1:9000/products/fisker-ocean-skvettlapper-med-farge-inlegg/documentation/)
 
-1. Edit `product.json` or `description.md` to change product info
-2. Upload files to MinIO using the web interface or CLI
-3. Run sync script to push changes back to Shopify
+### 📊 MinIO Web Interface:
+Tilgang til filer via MinIO web interface på:
+`http://127.0.0.1:9000:9001`
 
-## Variants
+**Mappe:** `products/fisker-ocean-skvettlapper-med-farge-inlegg/`
 
-- **Skvettlapp FR u/farge / Sort** (SKU: PFI-SS-D-P-0167-S) - $399.00
-- **Skvettlapp FL u/farge / Sort** (SKU: PFI-SS-D-P-0168-S) - $399.00
-- **Skvettlapp FR m/farge / Oransje** (SKU: PFI-SO-D-P-0169-S) - $495.00
-- **Skvettlapp FR m/farge / Carbonfiber purpur** (SKU: PFI-SR-D-P-0170-S) - $599.00
-- **Skvettlapp FR m/farge / Carbonfiber sort** (SKU: PFI-SC-D-P-0221-S) - $599.00
-- **Skvettlapp FL m/farge / Oransje** (SKU: PFI-SO-D-P-0171-S) - $495.00
-- **Skvettlapp FL m/farge / Carbonfiber purpur** (SKU: PFI-SR-D-P-0172-S) - $599.00
-- **Skvettlapp FL m/farge / Carbonfiber sort** (SKU: PFI-SC-D-P-0222-S) - $599.00
-- **Farge innlegg FR / Oransje** (SKU: PFI-FO-D-P-0173-S) - $120.00
-- **Farge innlegg FR / Carbonfiber purpur** (SKU: PFI-FR-D-P-0174-S) - $220.00
-- **Farge innlegg FR / Carbonfiber sort** (SKU: PFI-FC-D-P-0223-S) - $220.00
-- **Farge innlegg FL / Oransje** (SKU: PFI-FO-D-P-0175-S) - $120.00
-- **Farge innlegg FL / Carbonfiber purpur** (SKU: PFI-FR-D-P-0176-S) - $220.00
-- **Farge innlegg FL / Carbonfiber sort** (SKU: PFI-FC-D-P-0224-S) - $220.00
+### 🔄 Synkronisering:
+- **GitHub → MinIO:** Referanser og metadata
+- **MinIO → Shopify:** Produktdata og bilder synkroniseres automatisk
+- **Last oppdatert:** 2025-09-11 19:45:25
+
+## 💡 Redigering:
+1. **Bilder/CAD-filer:** Last opp direkte til MinIO via web interface
+2. **Produktdata:** Rediger JSON-filer i MinIO og kjør synkronisering
+3. **Synkroniser til Shopify:** `python tools/sync_product_data.py --to-shopify --product fisker-ocean-skvettlapper-med-farge-inlegg`

@@ -1,0 +1,20 @@
+{
+  "product_id": 9082474823961,
+  "handle": "tubeapner",
+  "title": "Tubeåpner",
+  "status": "active",
+  "vendor": "PROTONORD",
+  "last_updated": "2025-09-11T19:45:25.647322",
+  "minio_location": {
+    "bucket": "products",
+    "path": "tubeapner",
+    "full_data_url": "http://127.0.0.1:9000/products/tubeapner/"
+  },
+  "files": {
+    "product_json": "http://127.0.0.1:9000/products/tubeapner/product.json",
+    "description": "http://127.0.0.1:9000/products/tubeapner/description.md",
+    "images": "http://127.0.0.1:9000/products/tubeapner/images/",
+    "cad_files": "http://127.0.0.1:9000/products/tubeapner/cad-files/",
+    "documentation": "http://127.0.0.1:9000/products/tubeapner/documentation/"
+  }
+}

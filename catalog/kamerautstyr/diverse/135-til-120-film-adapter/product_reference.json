@@ -1,0 +1,20 @@
+{
+  "product_id": 8047489253657,
+  "handle": "135-til-120-film-adapter",
+  "title": "135 til 120 film adapter",
+  "status": "active",
+  "vendor": "PROTONORD",
+  "last_updated": "2025-09-11T19:45:25.987653",
+  "minio_location": {
+    "bucket": "products",
+    "path": "135-til-120-film-adapter",
+    "full_data_url": "http://127.0.0.1:9000/products/135-til-120-film-adapter/"
+  },
+  "files": {
+    "product_json": "http://127.0.0.1:9000/products/135-til-120-film-adapter/product.json",
+    "description": "http://127.0.0.1:9000/products/135-til-120-film-adapter/description.md",
+    "images": "http://127.0.0.1:9000/products/135-til-120-film-adapter/images/",
+    "cad_files": "http://127.0.0.1:9000/products/135-til-120-film-adapter/cad-files/",
+    "documentation": "http://127.0.0.1:9000/products/135-til-120-film-adapter/documentation/"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "product_id": 9955180577049,
+  "handle": "polestar-2-koppholder",
+  "title": "Polestar 2 Koppholder",
+  "status": "active",
+  "vendor": "PROTONORD",
+  "last_updated": "2025-09-11T19:45:25.708933",
+  "minio_location": {
+    "bucket": "products",
+    "path": "polestar-2-koppholder",
+    "full_data_url": "http://127.0.0.1:9000/products/polestar-2-koppholder/"
+  },
+  "files": {
+    "product_json": "http://127.0.0.1:9000/products/polestar-2-koppholder/product.json",
+    "description": "http://127.0.0.1:9000/products/polestar-2-koppholder/description.md",
+    "images": "http://127.0.0.1:9000/products/polestar-2-koppholder/images/",
+    "cad_files": "http://127.0.0.1:9000/products/polestar-2-koppholder/cad-files/",
+    "documentation": "http://127.0.0.1:9000/products/polestar-2-koppholder/documentation/"
+  }
+}

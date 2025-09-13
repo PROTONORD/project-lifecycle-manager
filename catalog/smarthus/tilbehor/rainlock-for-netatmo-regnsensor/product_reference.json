@@ -1,0 +1,20 @@
+{
+  "product_id": 9563055751449,
+  "handle": "rainlock-for-netatmo-regnsensor",
+  "title": "Rainlock for Netatmo regnsensor",
+  "status": "active",
+  "vendor": "Fladby 3Dprint",
+  "last_updated": "2025-09-11T19:45:26.011596",
+  "minio_location": {
+    "bucket": "products",
+    "path": "rainlock-for-netatmo-regnsensor",
+    "full_data_url": "http://127.0.0.1:9000/products/rainlock-for-netatmo-regnsensor/"
+  },
+  "files": {
+    "product_json": "http://127.0.0.1:9000/products/rainlock-for-netatmo-regnsensor/product.json",
+    "description": "http://127.0.0.1:9000/products/rainlock-for-netatmo-regnsensor/description.md",
+    "images": "http://127.0.0.1:9000/products/rainlock-for-netatmo-regnsensor/images/",
+    "cad_files": "http://127.0.0.1:9000/products/rainlock-for-netatmo-regnsensor/cad-files/",
+    "documentation": "http://127.0.0.1:9000/products/rainlock-for-netatmo-regnsensor/documentation/"
+  }
+}

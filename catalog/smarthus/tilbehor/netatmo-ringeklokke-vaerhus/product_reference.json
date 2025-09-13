@@ -1,0 +1,20 @@
+{
+  "product_id": 8041966797081,
+  "handle": "netatmo-ringeklokke-vaerhus",
+  "title": "Netatmo ringeklokke værhus",
+  "status": "active",
+  "vendor": "PROTONORD",
+  "last_updated": "2025-09-11T19:45:26.000624",
+  "minio_location": {
+    "bucket": "products",
+    "path": "netatmo-ringeklokke-vaerhus",
+    "full_data_url": "http://127.0.0.1:9000/products/netatmo-ringeklokke-vaerhus/"
+  },
+  "files": {
+    "product_json": "http://127.0.0.1:9000/products/netatmo-ringeklokke-vaerhus/product.json",
+    "description": "http://127.0.0.1:9000/products/netatmo-ringeklokke-vaerhus/description.md",
+    "images": "http://127.0.0.1:9000/products/netatmo-ringeklokke-vaerhus/images/",
+    "cad_files": "http://127.0.0.1:9000/products/netatmo-ringeklokke-vaerhus/cad-files/",
+    "documentation": "http://127.0.0.1:9000/products/netatmo-ringeklokke-vaerhus/documentation/"
+  }
+}

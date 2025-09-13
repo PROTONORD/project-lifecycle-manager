@@ -1028,36 +1028,5 @@
       "directory": "catalog/zenitel-stentofon-spesialtilpasset-koblingsboks",
       "shopify_id": 8984066097433
     }
-  ],
-  "structure": "hierarchical",
-  "categories": {
-    "smarthus": {
-      "tilbehor": 15
-    },
-    "tilbehor-til-kjoretoy": {
-      "ladeportdeksler": 127,
-      "diverse-tilbehor": 10,
-      "eksteriortilbehor": 5,
-      "interiortilbehor": 5
-    },
-    "diverse": {
-      "diverse": 25
-    },
-    "kamerautstyr": {
-      "diverse": 5,
-      "beskyttelse": 2
-    },
-    "ukategorisert": {
-      "diverse": 8
-    },
-    "verktoy-og-oppbevaring": {
-      "diverse": 1
-    },
-    "hage-og-utendors": {
-      "diverse": 1
-    },
-    "sport-og-fritid": {
-      "diverse": 1
-    }
-  }
+  ]
 }

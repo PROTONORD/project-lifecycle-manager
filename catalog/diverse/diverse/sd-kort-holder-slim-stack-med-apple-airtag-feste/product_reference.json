@@ -1,0 +1,20 @@
+{
+  "product_id": 9221242650905,
+  "handle": "sd-kort-holder-slim-stack-med-apple-airtag-feste",
+  "title": "SD kort holder (slim stack) med apple airtag feste",
+  "status": "draft",
+  "vendor": "PROTONORD",
+  "last_updated": "2025-09-11T19:45:25.661649",
+  "minio_location": {
+    "bucket": "products",
+    "path": "sd-kort-holder-slim-stack-med-apple-airtag-feste",
+    "full_data_url": "http://127.0.0.1:9000/products/sd-kort-holder-slim-stack-med-apple-airtag-feste/"
+  },
+  "files": {
+    "product_json": "http://127.0.0.1:9000/products/sd-kort-holder-slim-stack-med-apple-airtag-feste/product.json",
+    "description": "http://127.0.0.1:9000/products/sd-kort-holder-slim-stack-med-apple-airtag-feste/description.md",
+    "images": "http://127.0.0.1:9000/products/sd-kort-holder-slim-stack-med-apple-airtag-feste/images/",
+    "cad_files": "http://127.0.0.1:9000/products/sd-kort-holder-slim-stack-med-apple-airtag-feste/cad-files/",
+    "documentation": "http://127.0.0.1:9000/products/sd-kort-holder-slim-stack-med-apple-airtag-feste/documentation/"
+  }
+}

@@ -2,25 +2,31 @@
 
 **Handle:** `kamerarens`  
 **Status:** active  
-**Type:** Kamerautstyr  
-**Vendor:** PROTONORD  
-**Shopify ID:** 8653651411225  
+**Leverandør:** PROTONORD
 
-## Folder Structure
+## 📁 Filstruktur (Lagret i MinIO)
 
-- `product.json` - Product data synchronized with Shopify
-- `description.md` - Editable product description (HTML)
-- `images/` - Product images (stored in MinIO)
-- `cad/` - CAD files and technical drawings (stored in MinIO)
-- `documentation/` - Additional documentation and notes
+Alle produktfiler er lagret i MinIO object storage og kan nås via:
 
-## Editing
+### 🔗 Direktelenker:
+- **Produktdata:** [product.json](http://127.0.0.1:9000/products/kamerarens/product.json)
+- **Beskrivelse:** [description.md](http://127.0.0.1:9000/products/kamerarens/description.md)
+- **Bilder:** [images/](http://127.0.0.1:9000/products/kamerarens/images/)
+- **CAD-filer:** [cad-files/](http://127.0.0.1:9000/products/kamerarens/cad-files/)
+- **Dokumentasjon:** [documentation/](http://127.0.0.1:9000/products/kamerarens/documentation/)
 
-1. Edit `product.json` or `description.md` to change product info
-2. Upload files to MinIO using the web interface or CLI
-3. Run sync script to push changes back to Shopify
+### 📊 MinIO Web Interface:
+Tilgang til filer via MinIO web interface på:
+`http://127.0.0.1:9000:9001`
 
-## Variants
+**Mappe:** `products/kamerarens/`
 
-- **Kamerahus** (SKU: PKA-T-P-0046-S-1) - $650.00
-- **Objektiv** (SKU: PKA-T-P-0046-S-2) - $280.00
+### 🔄 Synkronisering:
+- **GitHub → MinIO:** Referanser og metadata
+- **MinIO → Shopify:** Produktdata og bilder synkroniseres automatisk
+- **Last oppdatert:** 2025-09-11 19:45:25
+
+## 💡 Redigering:
+1. **Bilder/CAD-filer:** Last opp direkte til MinIO via web interface
+2. **Produktdata:** Rediger JSON-filer i MinIO og kjør synkronisering
+3. **Synkroniser til Shopify:** `python tools/sync_product_data.py --to-shopify --product kamerarens`

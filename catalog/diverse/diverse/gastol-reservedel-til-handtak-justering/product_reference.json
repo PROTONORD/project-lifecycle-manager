@@ -1,0 +1,20 @@
+{
+  "product_id": 9568824066329,
+  "handle": "gastol-reservedel-til-handtak-justering",
+  "title": "Gåstol reservedel til håndtak justering",
+  "status": "active",
+  "vendor": "PROTONORD",
+  "last_updated": "2025-09-11T19:45:25.659947",
+  "minio_location": {
+    "bucket": "products",
+    "path": "gastol-reservedel-til-handtak-justering",
+    "full_data_url": "http://127.0.0.1:9000/products/gastol-reservedel-til-handtak-justering/"
+  },
+  "files": {
+    "product_json": "http://127.0.0.1:9000/products/gastol-reservedel-til-handtak-justering/product.json",
+    "description": "http://127.0.0.1:9000/products/gastol-reservedel-til-handtak-justering/description.md",
+    "images": "http://127.0.0.1:9000/products/gastol-reservedel-til-handtak-justering/images/",
+    "cad_files": "http://127.0.0.1:9000/products/gastol-reservedel-til-handtak-justering/cad-files/",
+    "documentation": "http://127.0.0.1:9000/products/gastol-reservedel-til-handtak-justering/documentation/"
+  }
+}

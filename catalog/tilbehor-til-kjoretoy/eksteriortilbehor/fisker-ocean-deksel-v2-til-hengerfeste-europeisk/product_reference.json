@@ -1,0 +1,20 @@
+{
+  "product_id": 9883684208921,
+  "handle": "fisker-ocean-deksel-v2-til-hengerfeste-europeisk",
+  "title": "Fisker Ocean deksel V2 til hengerfeste Europeisk",
+  "status": "active",
+  "vendor": "PROTONORD",
+  "last_updated": "2025-09-11T19:45:25.699623",
+  "minio_location": {
+    "bucket": "products",
+    "path": "fisker-ocean-deksel-v2-til-hengerfeste-europeisk",
+    "full_data_url": "http://127.0.0.1:9000/products/fisker-ocean-deksel-v2-til-hengerfeste-europeisk/"
+  },
+  "files": {
+    "product_json": "http://127.0.0.1:9000/products/fisker-ocean-deksel-v2-til-hengerfeste-europeisk/product.json",
+    "description": "http://127.0.0.1:9000/products/fisker-ocean-deksel-v2-til-hengerfeste-europeisk/description.md",
+    "images": "http://127.0.0.1:9000/products/fisker-ocean-deksel-v2-til-hengerfeste-europeisk/images/",
+    "cad_files": "http://127.0.0.1:9000/products/fisker-ocean-deksel-v2-til-hengerfeste-europeisk/cad-files/",
+    "documentation": "http://127.0.0.1:9000/products/fisker-ocean-deksel-v2-til-hengerfeste-europeisk/documentation/"
+  }
+}

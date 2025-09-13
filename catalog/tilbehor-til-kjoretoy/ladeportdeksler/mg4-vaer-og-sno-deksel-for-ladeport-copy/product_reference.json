@@ -1,0 +1,20 @@
+{
+  "product_id": 9749574975769,
+  "handle": "mg4-vaer-og-sno-deksel-for-ladeport-copy",
+  "title": "MG Marvel R",
+  "status": "active",
+  "vendor": "PROTONORD",
+  "last_updated": "2025-09-11T19:45:25.808246",
+  "minio_location": {
+    "bucket": "products",
+    "path": "mg4-vaer-og-sno-deksel-for-ladeport-copy",
+    "full_data_url": "http://127.0.0.1:9000/products/mg4-vaer-og-sno-deksel-for-ladeport-copy/"
+  },
+  "files": {
+    "product_json": "http://127.0.0.1:9000/products/mg4-vaer-og-sno-deksel-for-ladeport-copy/product.json",
+    "description": "http://127.0.0.1:9000/products/mg4-vaer-og-sno-deksel-for-ladeport-copy/description.md",
+    "images": "http://127.0.0.1:9000/products/mg4-vaer-og-sno-deksel-for-ladeport-copy/images/",
+    "cad_files": "http://127.0.0.1:9000/products/mg4-vaer-og-sno-deksel-for-ladeport-copy/cad-files/",
+    "documentation": "http://127.0.0.1:9000/products/mg4-vaer-og-sno-deksel-for-ladeport-copy/documentation/"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "product_id": 9545646080281,
+  "handle": "ubiquti-unifi-ap-vaerhus",
+  "title": "Ubiquti Unifi AP Værhus",
+  "status": "active",
+  "vendor": "PROTONORD",
+  "last_updated": "2025-09-11T19:45:25.635580",
+  "minio_location": {
+    "bucket": "products",
+    "path": "ubiquti-unifi-ap-vaerhus",
+    "full_data_url": "http://127.0.0.1:9000/products/ubiquti-unifi-ap-vaerhus/"
+  },
+  "files": {
+    "product_json": "http://127.0.0.1:9000/products/ubiquti-unifi-ap-vaerhus/product.json",
+    "description": "http://127.0.0.1:9000/products/ubiquti-unifi-ap-vaerhus/description.md",
+    "images": "http://127.0.0.1:9000/products/ubiquti-unifi-ap-vaerhus/images/",
+    "cad_files": "http://127.0.0.1:9000/products/ubiquti-unifi-ap-vaerhus/cad-files/",
+    "documentation": "http://127.0.0.1:9000/products/ubiquti-unifi-ap-vaerhus/documentation/"
+  }
+}

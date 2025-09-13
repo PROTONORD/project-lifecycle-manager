@@ -1,0 +1,20 @@
+{
+  "product_id": 9178345505049,
+  "handle": "id-kortholder-for-yubico-og-flere-id-kort",
+  "title": "ID-Kortholder for Yubico og flere ID-kort",
+  "status": "active",
+  "vendor": "PROTONORD",
+  "last_updated": "2025-09-11T19:45:25.656424",
+  "minio_location": {
+    "bucket": "products",
+    "path": "id-kortholder-for-yubico-og-flere-id-kort",
+    "full_data_url": "http://127.0.0.1:9000/products/id-kortholder-for-yubico-og-flere-id-kort/"
+  },
+  "files": {
+    "product_json": "http://127.0.0.1:9000/products/id-kortholder-for-yubico-og-flere-id-kort/product.json",
+    "description": "http://127.0.0.1:9000/products/id-kortholder-for-yubico-og-flere-id-kort/description.md",
+    "images": "http://127.0.0.1:9000/products/id-kortholder-for-yubico-og-flere-id-kort/images/",
+    "cad_files": "http://127.0.0.1:9000/products/id-kortholder-for-yubico-og-flere-id-kort/cad-files/",
+    "documentation": "http://127.0.0.1:9000/products/id-kortholder-for-yubico-og-flere-id-kort/documentation/"
+  }
+}

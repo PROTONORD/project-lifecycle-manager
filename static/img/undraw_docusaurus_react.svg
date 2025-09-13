@@ -1,0 +1,10 @@
+<svg viewBox="0 0 300 300" xmlns="http://www.w3.org/2000/svg">
+  <rect width="300" height="300" fill="#1a8870"/>
+  <text x="150" y="150" text-anchor="middle" dominant-baseline="middle" fill="white" font-size="20" font-family="Arial">
+    Documentation
+  </text>
+  <rect x="50" y="50" width="200" height="140" fill="white" opacity="0.2" rx="10"/>
+  <line x1="70" y1="80" x2="230" y2="80" stroke="white" stroke-width="2"/>
+  <line x1="70" y1="110" x2="200" y2="110" stroke="white" stroke-width="2"/>
+  <line x1="70" y1="140" x2="180" y2="140" stroke="white" stroke-width="2"/>
+</svg>

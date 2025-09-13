@@ -1,0 +1,20 @@
+{
+  "product_id": 8026695598361,
+  "handle": "kleshenger-til-dukkeklaer",
+  "title": "Kleshenger til dukkeklær",
+  "status": "active",
+  "vendor": "PROTONORD",
+  "last_updated": "2025-09-11T19:45:25.670155",
+  "minio_location": {
+    "bucket": "products",
+    "path": "kleshenger-til-dukkeklaer",
+    "full_data_url": "http://127.0.0.1:9000/products/kleshenger-til-dukkeklaer/"
+  },
+  "files": {
+    "product_json": "http://127.0.0.1:9000/products/kleshenger-til-dukkeklaer/product.json",
+    "description": "http://127.0.0.1:9000/products/kleshenger-til-dukkeklaer/description.md",
+    "images": "http://127.0.0.1:9000/products/kleshenger-til-dukkeklaer/images/",
+    "cad_files": "http://127.0.0.1:9000/products/kleshenger-til-dukkeklaer/cad-files/",
+    "documentation": "http://127.0.0.1:9000/products/kleshenger-til-dukkeklaer/documentation/"
+  }
+}

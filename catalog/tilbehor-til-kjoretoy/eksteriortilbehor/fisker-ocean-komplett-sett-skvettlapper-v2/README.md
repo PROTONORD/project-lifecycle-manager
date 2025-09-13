@@ -2,30 +2,31 @@
 
 **Handle:** `fisker-ocean-komplett-sett-skvettlapper-v2`  
 **Status:** active  
-**Type:** Tilbehør til kjøretøy  
-**Vendor:** PROTONORD  
-**Shopify ID:** 9573703090457  
+**Leverandør:** PROTONORD
 
-## Folder Structure
+## 📁 Filstruktur (Lagret i MinIO)
 
-- `product.json` - Product data synchronized with Shopify
-- `description.md` - Editable product description (HTML)
-- `images/` - Product images (stored in MinIO)
-- `cad/` - CAD files and technical drawings (stored in MinIO)
-- `documentation/` - Additional documentation and notes
+Alle produktfiler er lagret i MinIO object storage og kan nås via:
 
-## Editing
+### 🔗 Direktelenker:
+- **Produktdata:** [product.json](http://127.0.0.1:9000/products/fisker-ocean-komplett-sett-skvettlapper-v2/product.json)
+- **Beskrivelse:** [description.md](http://127.0.0.1:9000/products/fisker-ocean-komplett-sett-skvettlapper-v2/description.md)
+- **Bilder:** [images/](http://127.0.0.1:9000/products/fisker-ocean-komplett-sett-skvettlapper-v2/images/)
+- **CAD-filer:** [cad-files/](http://127.0.0.1:9000/products/fisker-ocean-komplett-sett-skvettlapper-v2/cad-files/)
+- **Dokumentasjon:** [documentation/](http://127.0.0.1:9000/products/fisker-ocean-komplett-sett-skvettlapper-v2/documentation/)
 
-1. Edit `product.json` or `description.md` to change product info
-2. Upload files to MinIO using the web interface or CLI
-3. Run sync script to push changes back to Shopify
+### 📊 MinIO Web Interface:
+Tilgang til filer via MinIO web interface på:
+`http://127.0.0.1:9000:9001`
 
-## Variants
+**Mappe:** `products/fisker-ocean-komplett-sett-skvettlapper-v2/`
 
-- **Skvettlapp komplett u/farge / Sort** (SKU: PFI-SS-D-P-0211-S) - $1590.00
-- **Skvettlapp komplett m/farge / Carbonfiber sort** (SKU: PFI-SC-D-P-0213-S) - $1998.00
-- **Skvettlapp komplett m/farge / Oransje** (SKU: PFI-SO-D-P-0212-S) - $1895.00
-- **Skvettlapp komplett m/farge / Carbonfiber purpur** (SKU: PFI-SC-D-P-0216-S) - $1998.00
-- **Farge innlegg komplett / Carbonfiber sort** (SKU: PFI-FC-D-P-0215-S) - $520.00
-- **Farge innlegg komplett / Oransje** (SKU: PFI-FO-D-P-0214-S) - $480.00
-- **Farge innlegg komplett / Carbonfiber purpur** (SKU: PFI-FC-D-P-0217-S) - $520.00
+### 🔄 Synkronisering:
+- **GitHub → MinIO:** Referanser og metadata
+- **MinIO → Shopify:** Produktdata og bilder synkroniseres automatisk
+- **Last oppdatert:** 2025-09-11 19:45:25
+
+## 💡 Redigering:
+1. **Bilder/CAD-filer:** Last opp direkte til MinIO via web interface
+2. **Produktdata:** Rediger JSON-filer i MinIO og kjør synkronisering
+3. **Synkroniser til Shopify:** `python tools/sync_product_data.py --to-shopify --product fisker-ocean-komplett-sett-skvettlapper-v2`

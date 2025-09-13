@@ -1,0 +1,20 @@
+{
+  "product_id": 9624851546393,
+  "handle": "netatmo-stevenson-screen-vaerhus-vaerstasjon-utedel",
+  "title": "Netatmo Stevenson screen (værhus) værstasjon utedel",
+  "status": "active",
+  "vendor": "PROTONORD",
+  "last_updated": "2025-09-11T19:45:26.006207",
+  "minio_location": {
+    "bucket": "products",
+    "path": "netatmo-stevenson-screen-vaerhus-vaerstasjon-utedel",
+    "full_data_url": "http://127.0.0.1:9000/products/netatmo-stevenson-screen-vaerhus-vaerstasjon-utedel/"
+  },
+  "files": {
+    "product_json": "http://127.0.0.1:9000/products/netatmo-stevenson-screen-vaerhus-vaerstasjon-utedel/product.json",
+    "description": "http://127.0.0.1:9000/products/netatmo-stevenson-screen-vaerhus-vaerstasjon-utedel/description.md",
+    "images": "http://127.0.0.1:9000/products/netatmo-stevenson-screen-vaerhus-vaerstasjon-utedel/images/",
+    "cad_files": "http://127.0.0.1:9000/products/netatmo-stevenson-screen-vaerhus-vaerstasjon-utedel/cad-files/",
+    "documentation": "http://127.0.0.1:9000/products/netatmo-stevenson-screen-vaerhus-vaerstasjon-utedel/documentation/"
+  }
+}

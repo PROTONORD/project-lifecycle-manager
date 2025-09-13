@@ -1,0 +1,20 @@
+{
+  "product_id": 8194274230553,
+  "handle": "vinholder-blekksprut",
+  "title": "Vinholder blekksprut",
+  "status": "active",
+  "vendor": "PROTONORD",
+  "last_updated": "2025-09-11T19:45:25.637679",
+  "minio_location": {
+    "bucket": "products",
+    "path": "vinholder-blekksprut",
+    "full_data_url": "http://127.0.0.1:9000/products/vinholder-blekksprut/"
+  },
+  "files": {
+    "product_json": "http://127.0.0.1:9000/products/vinholder-blekksprut/product.json",
+    "description": "http://127.0.0.1:9000/products/vinholder-blekksprut/description.md",
+    "images": "http://127.0.0.1:9000/products/vinholder-blekksprut/images/",
+    "cad_files": "http://127.0.0.1:9000/products/vinholder-blekksprut/cad-files/",
+    "documentation": "http://127.0.0.1:9000/products/vinholder-blekksprut/documentation/"
+  }
+}

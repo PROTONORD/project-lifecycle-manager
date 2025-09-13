@@ -2,27 +2,31 @@
 
 **Handle:** `ccs-deksel-for-tesla-model-3`  
 **Status:** active  
-**Type:** Tilbehør til kjøretøy  
-**Vendor:** Fladby 3Dprint  
-**Shopify ID:** 9563054899481  
+**Leverandør:** Fladby 3Dprint
 
-## Folder Structure
+## 📁 Filstruktur (Lagret i MinIO)
 
-- `product.json` - Product data synchronized with Shopify
-- `description.md` - Editable product description (HTML)
-- `images/` - Product images (stored in MinIO)
-- `cad/` - CAD files and technical drawings (stored in MinIO)
-- `documentation/` - Additional documentation and notes
+Alle produktfiler er lagret i MinIO object storage og kan nås via:
 
-## Editing
+### 🔗 Direktelenker:
+- **Produktdata:** [product.json](http://127.0.0.1:9000/products/ccs-deksel-for-tesla-model-3/product.json)
+- **Beskrivelse:** [description.md](http://127.0.0.1:9000/products/ccs-deksel-for-tesla-model-3/description.md)
+- **Bilder:** [images/](http://127.0.0.1:9000/products/ccs-deksel-for-tesla-model-3/images/)
+- **CAD-filer:** [cad-files/](http://127.0.0.1:9000/products/ccs-deksel-for-tesla-model-3/cad-files/)
+- **Dokumentasjon:** [documentation/](http://127.0.0.1:9000/products/ccs-deksel-for-tesla-model-3/documentation/)
 
-1. Edit `product.json` or `description.md` to change product info
-2. Upload files to MinIO using the web interface or CLI
-3. Run sync script to push changes back to Shopify
+### 📊 MinIO Web Interface:
+Tilgang til filer via MinIO web interface på:
+`http://127.0.0.1:9000:9001`
 
-## Variants
+**Mappe:** `products/ccs-deksel-for-tesla-model-3/`
 
-- **Med vinger** (SKU: PCC-M-D-F-0177-S) - $100.00
-- **Uten vinger** (SKU: PCC-U-D-F-0178-S) - $100.00
-- **Med vinger og rød logo** (SKU: PCC-M-D-F-0179-S) - $100.00
-- **Uten vinger og rød logo** (SKU: PCC-U-D-F-0180-S) - $100.00
+### 🔄 Synkronisering:
+- **GitHub → MinIO:** Referanser og metadata
+- **MinIO → Shopify:** Produktdata og bilder synkroniseres automatisk
+- **Last oppdatert:** 2025-09-11 19:45:25
+
+## 💡 Redigering:
+1. **Bilder/CAD-filer:** Last opp direkte til MinIO via web interface
+2. **Produktdata:** Rediger JSON-filer i MinIO og kjør synkronisering
+3. **Synkroniser til Shopify:** `python tools/sync_product_data.py --to-shopify --product ccs-deksel-for-tesla-model-3`

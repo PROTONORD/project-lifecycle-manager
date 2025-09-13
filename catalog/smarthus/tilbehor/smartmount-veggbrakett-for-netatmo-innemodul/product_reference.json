@@ -1,0 +1,20 @@
+{
+  "product_id": 9563055554841,
+  "handle": "smartmount-veggbrakett-for-netatmo-innemodul",
+  "title": "SmartMount veggbrakett for Netatmo innemodul",
+  "status": "archived",
+  "vendor": "Fladby 3Dprint",
+  "last_updated": "2025-09-11T19:45:26.009603",
+  "minio_location": {
+    "bucket": "products",
+    "path": "smartmount-veggbrakett-for-netatmo-innemodul",
+    "full_data_url": "http://127.0.0.1:9000/products/smartmount-veggbrakett-for-netatmo-innemodul/"
+  },
+  "files": {
+    "product_json": "http://127.0.0.1:9000/products/smartmount-veggbrakett-for-netatmo-innemodul/product.json",
+    "description": "http://127.0.0.1:9000/products/smartmount-veggbrakett-for-netatmo-innemodul/description.md",
+    "images": "http://127.0.0.1:9000/products/smartmount-veggbrakett-for-netatmo-innemodul/images/",
+    "cad_files": "http://127.0.0.1:9000/products/smartmount-veggbrakett-for-netatmo-innemodul/cad-files/",
+    "documentation": "http://127.0.0.1:9000/products/smartmount-veggbrakett-for-netatmo-innemodul/documentation/"
+  }
+}

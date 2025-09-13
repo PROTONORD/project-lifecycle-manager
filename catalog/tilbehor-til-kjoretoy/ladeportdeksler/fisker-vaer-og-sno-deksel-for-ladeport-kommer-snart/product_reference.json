@@ -1,0 +1,20 @@
+{
+  "product_id": 9376116048153,
+  "handle": "fisker-vaer-og-sno-deksel-for-ladeport-kommer-snart",
+  "title": "Fisker Ocean vær og snø deksel for ladeport",
+  "status": "draft",
+  "vendor": "PROTONORD",
+  "last_updated": "2025-09-11T19:45:25.898029",
+  "minio_location": {
+    "bucket": "products",
+    "path": "fisker-vaer-og-sno-deksel-for-ladeport-kommer-snart",
+    "full_data_url": "http://127.0.0.1:9000/products/fisker-vaer-og-sno-deksel-for-ladeport-kommer-snart/"
+  },
+  "files": {
+    "product_json": "http://127.0.0.1:9000/products/fisker-vaer-og-sno-deksel-for-ladeport-kommer-snart/product.json",
+    "description": "http://127.0.0.1:9000/products/fisker-vaer-og-sno-deksel-for-ladeport-kommer-snart/description.md",
+    "images": "http://127.0.0.1:9000/products/fisker-vaer-og-sno-deksel-for-ladeport-kommer-snart/images/",
+    "cad_files": "http://127.0.0.1:9000/products/fisker-vaer-og-sno-deksel-for-ladeport-kommer-snart/cad-files/",
+    "documentation": "http://127.0.0.1:9000/products/fisker-vaer-og-sno-deksel-for-ladeport-kommer-snart/documentation/"
+  }
+}

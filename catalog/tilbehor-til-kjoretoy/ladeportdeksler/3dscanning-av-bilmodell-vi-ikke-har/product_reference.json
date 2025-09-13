@@ -1,0 +1,20 @@
+{
+  "product_id": 9237296906521,
+  "handle": "3dscanning-av-bilmodell-vi-ikke-har",
+  "title": "3dscanning av bilmodell vi ikke har (Tromsø og Oslo v/Lier)",
+  "status": "active",
+  "vendor": "PROTONORD",
+  "last_updated": "2025-09-11T19:45:25.763502",
+  "minio_location": {
+    "bucket": "products",
+    "path": "3dscanning-av-bilmodell-vi-ikke-har",
+    "full_data_url": "http://127.0.0.1:9000/products/3dscanning-av-bilmodell-vi-ikke-har/"
+  },
+  "files": {
+    "product_json": "http://127.0.0.1:9000/products/3dscanning-av-bilmodell-vi-ikke-har/product.json",
+    "description": "http://127.0.0.1:9000/products/3dscanning-av-bilmodell-vi-ikke-har/description.md",
+    "images": "http://127.0.0.1:9000/products/3dscanning-av-bilmodell-vi-ikke-har/images/",
+    "cad_files": "http://127.0.0.1:9000/products/3dscanning-av-bilmodell-vi-ikke-har/cad-files/",
+    "documentation": "http://127.0.0.1:9000/products/3dscanning-av-bilmodell-vi-ikke-har/documentation/"
+  }
+}

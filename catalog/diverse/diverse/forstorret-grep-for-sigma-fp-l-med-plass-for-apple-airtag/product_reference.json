@@ -1,0 +1,20 @@
+{
+  "product_id": 8032307872025,
+  "handle": "forstorret-grep-for-sigma-fp-l-med-plass-for-apple-airtag",
+  "title": "Forstørret grep for  SIGMA FP (L) med plass for Apple airtag",
+  "status": "active",
+  "vendor": "PROTONORD",
+  "last_updated": "2025-09-11T19:45:25.664992",
+  "minio_location": {
+    "bucket": "products",
+    "path": "forstorret-grep-for-sigma-fp-l-med-plass-for-apple-airtag",
+    "full_data_url": "http://127.0.0.1:9000/products/forstorret-grep-for-sigma-fp-l-med-plass-for-apple-airtag/"
+  },
+  "files": {
+    "product_json": "http://127.0.0.1:9000/products/forstorret-grep-for-sigma-fp-l-med-plass-for-apple-airtag/product.json",
+    "description": "http://127.0.0.1:9000/products/forstorret-grep-for-sigma-fp-l-med-plass-for-apple-airtag/description.md",
+    "images": "http://127.0.0.1:9000/products/forstorret-grep-for-sigma-fp-l-med-plass-for-apple-airtag/images/",
+    "cad_files": "http://127.0.0.1:9000/products/forstorret-grep-for-sigma-fp-l-med-plass-for-apple-airtag/cad-files/",
+    "documentation": "http://127.0.0.1:9000/products/forstorret-grep-for-sigma-fp-l-med-plass-for-apple-airtag/documentation/"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "product_id": 9275895152921,
+  "handle": "volkswagen-vw-id-buzz-vaer-og-sno-deksel-for-ladeport-kommer-snart",
+  "title": "VolksWagen ID.Buzz vær og snø deksel for ladeport (utgått)",
+  "status": "archived",
+  "vendor": "PROTONORD",
+  "last_updated": "2025-09-11T19:45:25.836470",
+  "minio_location": {
+    "bucket": "products",
+    "path": "volkswagen-vw-id-buzz-vaer-og-sno-deksel-for-ladeport-kommer-snart",
+    "full_data_url": "http://127.0.0.1:9000/products/volkswagen-vw-id-buzz-vaer-og-sno-deksel-for-ladeport-kommer-snart/"
+  },
+  "files": {
+    "product_json": "http://127.0.0.1:9000/products/volkswagen-vw-id-buzz-vaer-og-sno-deksel-for-ladeport-kommer-snart/product.json",
+    "description": "http://127.0.0.1:9000/products/volkswagen-vw-id-buzz-vaer-og-sno-deksel-for-ladeport-kommer-snart/description.md",
+    "images": "http://127.0.0.1:9000/products/volkswagen-vw-id-buzz-vaer-og-sno-deksel-for-ladeport-kommer-snart/images/",
+    "cad_files": "http://127.0.0.1:9000/products/volkswagen-vw-id-buzz-vaer-og-sno-deksel-for-ladeport-kommer-snart/cad-files/",
+    "documentation": "http://127.0.0.1:9000/products/volkswagen-vw-id-buzz-vaer-og-sno-deksel-for-ladeport-kommer-snart/documentation/"
+  }
+}

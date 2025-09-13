@@ -1,0 +1,20 @@
+{
+  "product_id": 9275806384409,
+  "handle": "peugeot-e-3008-vaer-og-sno-deksel-for-ladeport-kommer-snart",
+  "title": "Peugeot E-3008 Hybrid vær og snø deksel for ladeport",
+  "status": "active",
+  "vendor": "PROTONORD",
+  "last_updated": "2025-09-11T19:45:25.806506",
+  "minio_location": {
+    "bucket": "products",
+    "path": "peugeot-e-3008-vaer-og-sno-deksel-for-ladeport-kommer-snart",
+    "full_data_url": "http://127.0.0.1:9000/products/peugeot-e-3008-vaer-og-sno-deksel-for-ladeport-kommer-snart/"
+  },
+  "files": {
+    "product_json": "http://127.0.0.1:9000/products/peugeot-e-3008-vaer-og-sno-deksel-for-ladeport-kommer-snart/product.json",
+    "description": "http://127.0.0.1:9000/products/peugeot-e-3008-vaer-og-sno-deksel-for-ladeport-kommer-snart/description.md",
+    "images": "http://127.0.0.1:9000/products/peugeot-e-3008-vaer-og-sno-deksel-for-ladeport-kommer-snart/images/",
+    "cad_files": "http://127.0.0.1:9000/products/peugeot-e-3008-vaer-og-sno-deksel-for-ladeport-kommer-snart/cad-files/",
+    "documentation": "http://127.0.0.1:9000/products/peugeot-e-3008-vaer-og-sno-deksel-for-ladeport-kommer-snart/documentation/"
+  }
+}

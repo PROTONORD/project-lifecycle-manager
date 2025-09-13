@@ -1,0 +1,20 @@
+{
+  "product_id": 9937997136153,
+  "handle": "rimor-endestykker-for-34x12xr19-profil",
+  "title": "Rimor endestykker for 34x12xR19 profil",
+  "status": "active",
+  "vendor": "Fladby 3Dprint",
+  "last_updated": "2025-09-11T19:45:25.973363",
+  "minio_location": {
+    "bucket": "products",
+    "path": "rimor-endestykker-for-34x12xr19-profil",
+    "full_data_url": "http://127.0.0.1:9000/products/rimor-endestykker-for-34x12xr19-profil/"
+  },
+  "files": {
+    "product_json": "http://127.0.0.1:9000/products/rimor-endestykker-for-34x12xr19-profil/product.json",
+    "description": "http://127.0.0.1:9000/products/rimor-endestykker-for-34x12xr19-profil/description.md",
+    "images": "http://127.0.0.1:9000/products/rimor-endestykker-for-34x12xr19-profil/images/",
+    "cad_files": "http://127.0.0.1:9000/products/rimor-endestykker-for-34x12xr19-profil/cad-files/",
+    "documentation": "http://127.0.0.1:9000/products/rimor-endestykker-for-34x12xr19-profil/documentation/"
+  }
+}

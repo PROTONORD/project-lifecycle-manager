@@ -1,0 +1,20 @@
+{
+  "product_id": 9812494745881,
+  "handle": "veggoppheng-utvendig-for-dobbelstikk-stromkabel",
+  "title": "Veggoppheng utvendig for dobbelstikk strømkabel",
+  "status": "active",
+  "vendor": "PROTONORD",
+  "last_updated": "2025-09-11T19:45:25.676683",
+  "minio_location": {
+    "bucket": "products",
+    "path": "veggoppheng-utvendig-for-dobbelstikk-stromkabel",
+    "full_data_url": "http://127.0.0.1:9000/products/veggoppheng-utvendig-for-dobbelstikk-stromkabel/"
+  },
+  "files": {
+    "product_json": "http://127.0.0.1:9000/products/veggoppheng-utvendig-for-dobbelstikk-stromkabel/product.json",
+    "description": "http://127.0.0.1:9000/products/veggoppheng-utvendig-for-dobbelstikk-stromkabel/description.md",
+    "images": "http://127.0.0.1:9000/products/veggoppheng-utvendig-for-dobbelstikk-stromkabel/images/",
+    "cad_files": "http://127.0.0.1:9000/products/veggoppheng-utvendig-for-dobbelstikk-stromkabel/cad-files/",
+    "documentation": "http://127.0.0.1:9000/products/veggoppheng-utvendig-for-dobbelstikk-stromkabel/documentation/"
+  }
+}

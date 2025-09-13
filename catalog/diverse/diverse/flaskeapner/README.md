@@ -2,28 +2,31 @@
 
 **Handle:** `flaskeapner`  
 **Status:** active  
-**Type:** Diverse  
-**Vendor:** PROTONORD  
-**Shopify ID:** 9082460504345  
+**Leverandør:** PROTONORD
 
-## Folder Structure
+## 📁 Filstruktur (Lagret i MinIO)
 
-- `product.json` - Product data synchronized with Shopify
-- `description.md` - Editable product description (HTML)
-- `images/` - Product images (stored in MinIO)
-- `cad/` - CAD files and technical drawings (stored in MinIO)
-- `documentation/` - Additional documentation and notes
+Alle produktfiler er lagret i MinIO object storage og kan nås via:
 
-## Editing
+### 🔗 Direktelenker:
+- **Produktdata:** [product.json](http://127.0.0.1:9000/products/flaskeapner/product.json)
+- **Beskrivelse:** [description.md](http://127.0.0.1:9000/products/flaskeapner/description.md)
+- **Bilder:** [images/](http://127.0.0.1:9000/products/flaskeapner/images/)
+- **CAD-filer:** [cad-files/](http://127.0.0.1:9000/products/flaskeapner/cad-files/)
+- **Dokumentasjon:** [documentation/](http://127.0.0.1:9000/products/flaskeapner/documentation/)
 
-1. Edit `product.json` or `description.md` to change product info
-2. Upload files to MinIO using the web interface or CLI
-3. Run sync script to push changes back to Shopify
+### 📊 MinIO Web Interface:
+Tilgang til filer via MinIO web interface på:
+`http://127.0.0.1:9000:9001`
 
-## Variants
+**Mappe:** `products/flaskeapner/`
 
-- **30mm** (SKU: PFL-3-H-P-0059-S) - $69.00
-- **35mm** (SKU: PFL-3-H-P-0060-S) - $69.00
-- **40mm** (SKU: PFL-4-H-P-0061-S) - $69.00
-- **45mm** (SKU: PFL-4-H-P-0062-S) - $69.00
-- **50mm** (SKU: PFL-5-H-P-0063-S) - $69.00
+### 🔄 Synkronisering:
+- **GitHub → MinIO:** Referanser og metadata
+- **MinIO → Shopify:** Produktdata og bilder synkroniseres automatisk
+- **Last oppdatert:** 2025-09-11 19:45:25
+
+## 💡 Redigering:
+1. **Bilder/CAD-filer:** Last opp direkte til MinIO via web interface
+2. **Produktdata:** Rediger JSON-filer i MinIO og kjør synkronisering
+3. **Synkroniser til Shopify:** `python tools/sync_product_data.py --to-shopify --product flaskeapner`

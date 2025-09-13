@@ -1,0 +1,10 @@
+<svg viewBox="0 0 300 300" xmlns="http://www.w3.org/2000/svg">
+  <rect width="300" height="300" fill="#25c2a0"/>
+  <text x="150" y="150" text-anchor="middle" dominant-baseline="middle" fill="white" font-size="24" font-family="Arial">
+    Sync
+  </text>
+  <circle cx="150" cy="80" r="15" fill="white"/>
+  <line x1="150" y1="95" x2="150" y2="205" stroke="white" stroke-width="3"/>
+  <circle cx="150" cy="220" r="15" fill="white"/>
+  <path d="M 135 200 L 150 185 L 165 200" stroke="white" stroke-width="3" fill="none"/>
+</svg>

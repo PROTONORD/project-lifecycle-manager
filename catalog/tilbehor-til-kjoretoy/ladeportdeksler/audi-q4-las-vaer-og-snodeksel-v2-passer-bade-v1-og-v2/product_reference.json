@@ -1,0 +1,20 @@
+{
+  "product_id": 9229381042457,
+  "handle": "audi-q4-las-vaer-og-snodeksel-v2-passer-bade-v1-og-v2",
+  "title": "Audi Q4 E-tron LÅS vær og snødeksel V2 (passer både V1 og V2)",
+  "status": "archived",
+  "vendor": "PROTONORD",
+  "last_updated": "2025-09-11T19:45:25.823786",
+  "minio_location": {
+    "bucket": "products",
+    "path": "audi-q4-las-vaer-og-snodeksel-v2-passer-bade-v1-og-v2",
+    "full_data_url": "http://127.0.0.1:9000/products/audi-q4-las-vaer-og-snodeksel-v2-passer-bade-v1-og-v2/"
+  },
+  "files": {
+    "product_json": "http://127.0.0.1:9000/products/audi-q4-las-vaer-og-snodeksel-v2-passer-bade-v1-og-v2/product.json",
+    "description": "http://127.0.0.1:9000/products/audi-q4-las-vaer-og-snodeksel-v2-passer-bade-v1-og-v2/description.md",
+    "images": "http://127.0.0.1:9000/products/audi-q4-las-vaer-og-snodeksel-v2-passer-bade-v1-og-v2/images/",
+    "cad_files": "http://127.0.0.1:9000/products/audi-q4-las-vaer-og-snodeksel-v2-passer-bade-v1-og-v2/cad-files/",
+    "documentation": "http://127.0.0.1:9000/products/audi-q4-las-vaer-og-snodeksel-v2-passer-bade-v1-og-v2/documentation/"
+  }
+}

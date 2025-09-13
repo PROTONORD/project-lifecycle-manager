@@ -1,0 +1,15 @@
+<svg width="40" height="40" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg">
+  <!-- Grønn bakgrunn -->
+  <rect width="40" height="40" rx="8" fill="#2e7d32"/>
+  
+  <!-- Tre-ikon -->
+  <path d="M20 8 L16 16 L24 16 Z" fill="#4caf50"/>
+  <path d="M20 12 L14 20 L26 20 Z" fill="#66bb6a"/>
+  <path d="M20 16 L12 24 L28 24 Z" fill="#81c784"/>
+  
+  <!-- Stamme -->
+  <rect x="18" y="24" width="4" height="8" fill="#8d6e63"/>
+  
+  <!-- Skogstua initialene "S" -->
+  <text x="20" y="36" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="6" font-weight="bold">S</text>
+</svg>

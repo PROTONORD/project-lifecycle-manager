@@ -1,0 +1,20 @@
+{
+  "product_id": 9692065988889,
+  "handle": "polestar-2-midtkonsoll-festebrakett",
+  "title": "Polestar 2 midtkonsoll festebrakett",
+  "status": "draft",
+  "vendor": "PROTONORD",
+  "last_updated": "2025-09-11T19:45:25.705441",
+  "minio_location": {
+    "bucket": "products",
+    "path": "polestar-2-midtkonsoll-festebrakett",
+    "full_data_url": "http://127.0.0.1:9000/products/polestar-2-midtkonsoll-festebrakett/"
+  },
+  "files": {
+    "product_json": "http://127.0.0.1:9000/products/polestar-2-midtkonsoll-festebrakett/product.json",
+    "description": "http://127.0.0.1:9000/products/polestar-2-midtkonsoll-festebrakett/description.md",
+    "images": "http://127.0.0.1:9000/products/polestar-2-midtkonsoll-festebrakett/images/",
+    "cad_files": "http://127.0.0.1:9000/products/polestar-2-midtkonsoll-festebrakett/cad-files/",
+    "documentation": "http://127.0.0.1:9000/products/polestar-2-midtkonsoll-festebrakett/documentation/"
+  }
+}

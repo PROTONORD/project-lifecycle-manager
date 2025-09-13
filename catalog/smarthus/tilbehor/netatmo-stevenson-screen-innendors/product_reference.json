@@ -1,0 +1,20 @@
+{
+  "product_id": 9625461915929,
+  "handle": "netatmo-stevenson-screen-innendors",
+  "title": "Netatmo Stevenson screen innendørs",
+  "status": "active",
+  "vendor": "PROTONORD",
+  "last_updated": "2025-09-11T19:45:25.998950",
+  "minio_location": {
+    "bucket": "products",
+    "path": "netatmo-stevenson-screen-innendors",
+    "full_data_url": "http://127.0.0.1:9000/products/netatmo-stevenson-screen-innendors/"
+  },
+  "files": {
+    "product_json": "http://127.0.0.1:9000/products/netatmo-stevenson-screen-innendors/product.json",
+    "description": "http://127.0.0.1:9000/products/netatmo-stevenson-screen-innendors/description.md",
+    "images": "http://127.0.0.1:9000/products/netatmo-stevenson-screen-innendors/images/",
+    "cad_files": "http://127.0.0.1:9000/products/netatmo-stevenson-screen-innendors/cad-files/",
+    "documentation": "http://127.0.0.1:9000/products/netatmo-stevenson-screen-innendors/documentation/"
+  }
+}

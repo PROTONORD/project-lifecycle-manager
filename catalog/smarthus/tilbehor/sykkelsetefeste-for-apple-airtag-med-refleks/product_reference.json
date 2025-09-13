@@ -1,0 +1,20 @@
+{
+  "product_id": 8012110889241,
+  "handle": "sykkelsetefeste-for-apple-airtag-med-refleks",
+  "title": "Sykkelsetefeste for Apple airtag med refleks",
+  "status": "active",
+  "vendor": "PROTONORD",
+  "last_updated": "2025-09-11T19:45:26.007897",
+  "minio_location": {
+    "bucket": "products",
+    "path": "sykkelsetefeste-for-apple-airtag-med-refleks",
+    "full_data_url": "http://127.0.0.1:9000/products/sykkelsetefeste-for-apple-airtag-med-refleks/"
+  },
+  "files": {
+    "product_json": "http://127.0.0.1:9000/products/sykkelsetefeste-for-apple-airtag-med-refleks/product.json",
+    "description": "http://127.0.0.1:9000/products/sykkelsetefeste-for-apple-airtag-med-refleks/description.md",
+    "images": "http://127.0.0.1:9000/products/sykkelsetefeste-for-apple-airtag-med-refleks/images/",
+    "cad_files": "http://127.0.0.1:9000/products/sykkelsetefeste-for-apple-airtag-med-refleks/cad-files/",
+    "documentation": "http://127.0.0.1:9000/products/sykkelsetefeste-for-apple-airtag-med-refleks/documentation/"
+  }
+}

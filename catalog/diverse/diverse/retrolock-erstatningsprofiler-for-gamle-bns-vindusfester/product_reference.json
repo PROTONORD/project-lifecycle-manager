@@ -1,0 +1,20 @@
+{
+  "product_id": 9563056046361,
+  "handle": "retrolock-erstatningsprofiler-for-gamle-bns-vindusfester",
+  "title": "RetroLock - Erstatningsprofiler for gamle BNS vindusfester",
+  "status": "active",
+  "vendor": "Fladby 3Dprint",
+  "last_updated": "2025-09-11T19:45:25.645425",
+  "minio_location": {
+    "bucket": "products",
+    "path": "retrolock-erstatningsprofiler-for-gamle-bns-vindusfester",
+    "full_data_url": "http://127.0.0.1:9000/products/retrolock-erstatningsprofiler-for-gamle-bns-vindusfester/"
+  },
+  "files": {
+    "product_json": "http://127.0.0.1:9000/products/retrolock-erstatningsprofiler-for-gamle-bns-vindusfester/product.json",
+    "description": "http://127.0.0.1:9000/products/retrolock-erstatningsprofiler-for-gamle-bns-vindusfester/description.md",
+    "images": "http://127.0.0.1:9000/products/retrolock-erstatningsprofiler-for-gamle-bns-vindusfester/images/",
+    "cad_files": "http://127.0.0.1:9000/products/retrolock-erstatningsprofiler-for-gamle-bns-vindusfester/cad-files/",
+    "documentation": "http://127.0.0.1:9000/products/retrolock-erstatningsprofiler-for-gamle-bns-vindusfester/documentation/"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "product_id": 9783087333657,
+  "handle": "fisker-ocean-skreddersydd-tettelist-for-hjulbue",
+  "title": "Fisker Ocean skreddersydd tettelist for hjulbue",
+  "status": "active",
+  "vendor": "PROTONORD",
+  "last_updated": "2025-09-11T19:45:25.965752",
+  "minio_location": {
+    "bucket": "products",
+    "path": "fisker-ocean-skreddersydd-tettelist-for-hjulbue",
+    "full_data_url": "http://127.0.0.1:9000/products/fisker-ocean-skreddersydd-tettelist-for-hjulbue/"
+  },
+  "files": {
+    "product_json": "http://127.0.0.1:9000/products/fisker-ocean-skreddersydd-tettelist-for-hjulbue/product.json",
+    "description": "http://127.0.0.1:9000/products/fisker-ocean-skreddersydd-tettelist-for-hjulbue/description.md",
+    "images": "http://127.0.0.1:9000/products/fisker-ocean-skreddersydd-tettelist-for-hjulbue/images/",
+    "cad_files": "http://127.0.0.1:9000/products/fisker-ocean-skreddersydd-tettelist-for-hjulbue/cad-files/",
+    "documentation": "http://127.0.0.1:9000/products/fisker-ocean-skreddersydd-tettelist-for-hjulbue/documentation/"
+  }
+}

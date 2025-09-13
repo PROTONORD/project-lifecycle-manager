@@ -1,0 +1,20 @@
+{
+  "product_id": 9722164150553,
+  "handle": "cupra-born-vaer-og-sno-deksel-for-ladeport",
+  "title": "Cupra Born vær og snø deksel for ladeport",
+  "status": "active",
+  "vendor": "PROTONORD",
+  "last_updated": "2025-09-11T19:45:25.765253",
+  "minio_location": {
+    "bucket": "products",
+    "path": "cupra-born-vaer-og-sno-deksel-for-ladeport",
+    "full_data_url": "http://127.0.0.1:9000/products/cupra-born-vaer-og-sno-deksel-for-ladeport/"
+  },
+  "files": {
+    "product_json": "http://127.0.0.1:9000/products/cupra-born-vaer-og-sno-deksel-for-ladeport/product.json",
+    "description": "http://127.0.0.1:9000/products/cupra-born-vaer-og-sno-deksel-for-ladeport/description.md",
+    "images": "http://127.0.0.1:9000/products/cupra-born-vaer-og-sno-deksel-for-ladeport/images/",
+    "cad_files": "http://127.0.0.1:9000/products/cupra-born-vaer-og-sno-deksel-for-ladeport/cad-files/",
+    "documentation": "http://127.0.0.1:9000/products/cupra-born-vaer-og-sno-deksel-for-ladeport/documentation/"
+  }
+}

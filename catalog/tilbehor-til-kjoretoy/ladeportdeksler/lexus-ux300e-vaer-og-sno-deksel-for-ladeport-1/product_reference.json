@@ -1,0 +1,20 @@
+{
+  "product_id": 9883631616281,
+  "handle": "lexus-ux300e-vaer-og-sno-deksel-for-ladeport-1",
+  "title": "Lexus UX300e vær og snø deksel for ladeport",
+  "status": "active",
+  "vendor": "PROTONORD",
+  "last_updated": "2025-09-11T19:45:25.715113",
+  "minio_location": {
+    "bucket": "products",
+    "path": "lexus-ux300e-vaer-og-sno-deksel-for-ladeport-1",
+    "full_data_url": "http://127.0.0.1:9000/products/lexus-ux300e-vaer-og-sno-deksel-for-ladeport-1/"
+  },
+  "files": {
+    "product_json": "http://127.0.0.1:9000/products/lexus-ux300e-vaer-og-sno-deksel-for-ladeport-1/product.json",
+    "description": "http://127.0.0.1:9000/products/lexus-ux300e-vaer-og-sno-deksel-for-ladeport-1/description.md",
+    "images": "http://127.0.0.1:9000/products/lexus-ux300e-vaer-og-sno-deksel-for-ladeport-1/images/",
+    "cad_files": "http://127.0.0.1:9000/products/lexus-ux300e-vaer-og-sno-deksel-for-ladeport-1/cad-files/",
+    "documentation": "http://127.0.0.1:9000/products/lexus-ux300e-vaer-og-sno-deksel-for-ladeport-1/documentation/"
+  }
+}

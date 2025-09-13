@@ -1,0 +1,20 @@
+{
+  "product_id": 9060647567641,
+  "handle": "koppholder-saab-ng9-3",
+  "title": "Koppholder Saab NG9-3",
+  "status": "active",
+  "vendor": "PROTONORD",
+  "last_updated": "2025-09-11T19:45:25.712556",
+  "minio_location": {
+    "bucket": "products",
+    "path": "koppholder-saab-ng9-3",
+    "full_data_url": "http://127.0.0.1:9000/products/koppholder-saab-ng9-3/"
+  },
+  "files": {
+    "product_json": "http://127.0.0.1:9000/products/koppholder-saab-ng9-3/product.json",
+    "description": "http://127.0.0.1:9000/products/koppholder-saab-ng9-3/description.md",
+    "images": "http://127.0.0.1:9000/products/koppholder-saab-ng9-3/images/",
+    "cad_files": "http://127.0.0.1:9000/products/koppholder-saab-ng9-3/cad-files/",
+    "documentation": "http://127.0.0.1:9000/products/koppholder-saab-ng9-3/documentation/"
+  }
+}

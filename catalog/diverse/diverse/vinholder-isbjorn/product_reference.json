@@ -1,0 +1,20 @@
+{
+  "product_id": 8194511929625,
+  "handle": "vinholder-isbjorn",
+  "title": "Vinholder Isbjørn",
+  "status": "active",
+  "vendor": "PROTONORD",
+  "last_updated": "2025-09-11T19:45:25.627004",
+  "minio_location": {
+    "bucket": "products",
+    "path": "vinholder-isbjorn",
+    "full_data_url": "http://127.0.0.1:9000/products/vinholder-isbjorn/"
+  },
+  "files": {
+    "product_json": "http://127.0.0.1:9000/products/vinholder-isbjorn/product.json",
+    "description": "http://127.0.0.1:9000/products/vinholder-isbjorn/description.md",
+    "images": "http://127.0.0.1:9000/products/vinholder-isbjorn/images/",
+    "cad_files": "http://127.0.0.1:9000/products/vinholder-isbjorn/cad-files/",
+    "documentation": "http://127.0.0.1:9000/products/vinholder-isbjorn/documentation/"
+  }
+}

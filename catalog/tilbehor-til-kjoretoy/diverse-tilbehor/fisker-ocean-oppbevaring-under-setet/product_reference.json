@@ -1,0 +1,20 @@
+{
+  "product_id": 9709163348249,
+  "handle": "fisker-ocean-oppbevaring-under-setet",
+  "title": "Fisker Ocean oppbevaring under setet",
+  "status": "archived",
+  "vendor": "Yurik Accessories",
+  "last_updated": "2025-09-11T19:45:25.975096",
+  "minio_location": {
+    "bucket": "products",
+    "path": "fisker-ocean-oppbevaring-under-setet",
+    "full_data_url": "http://127.0.0.1:9000/products/fisker-ocean-oppbevaring-under-setet/"
+  },
+  "files": {
+    "product_json": "http://127.0.0.1:9000/products/fisker-ocean-oppbevaring-under-setet/product.json",
+    "description": "http://127.0.0.1:9000/products/fisker-ocean-oppbevaring-under-setet/description.md",
+    "images": "http://127.0.0.1:9000/products/fisker-ocean-oppbevaring-under-setet/images/",
+    "cad_files": "http://127.0.0.1:9000/products/fisker-ocean-oppbevaring-under-setet/cad-files/",
+    "documentation": "http://127.0.0.1:9000/products/fisker-ocean-oppbevaring-under-setet/documentation/"
+  }
+}

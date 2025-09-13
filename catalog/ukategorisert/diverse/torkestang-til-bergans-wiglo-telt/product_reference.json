@@ -1,0 +1,20 @@
+{
+  "product_id": 8132725768473,
+  "handle": "torkestang-til-bergans-wiglo-telt",
+  "title": "Tørkestang til Bergans Wiglo telt",
+  "status": "active",
+  "vendor": "PROTONORD",
+  "last_updated": "2025-09-11T19:45:25.686837",
+  "minio_location": {
+    "bucket": "products",
+    "path": "torkestang-til-bergans-wiglo-telt",
+    "full_data_url": "http://127.0.0.1:9000/products/torkestang-til-bergans-wiglo-telt/"
+  },
+  "files": {
+    "product_json": "http://127.0.0.1:9000/products/torkestang-til-bergans-wiglo-telt/product.json",
+    "description": "http://127.0.0.1:9000/products/torkestang-til-bergans-wiglo-telt/description.md",
+    "images": "http://127.0.0.1:9000/products/torkestang-til-bergans-wiglo-telt/images/",
+    "cad_files": "http://127.0.0.1:9000/products/torkestang-til-bergans-wiglo-telt/cad-files/",
+    "documentation": "http://127.0.0.1:9000/products/torkestang-til-bergans-wiglo-telt/documentation/"
+  }
+}

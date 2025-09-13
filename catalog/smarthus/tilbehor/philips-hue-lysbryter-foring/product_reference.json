@@ -1,0 +1,20 @@
+{
+  "product_id": 9568840974617,
+  "handle": "philips-hue-lysbryter-foring",
+  "title": "Philips Hue lysbryter foring",
+  "status": "active",
+  "vendor": "PROTONORD",
+  "last_updated": "2025-09-11T19:45:26.004532",
+  "minio_location": {
+    "bucket": "products",
+    "path": "philips-hue-lysbryter-foring",
+    "full_data_url": "http://127.0.0.1:9000/products/philips-hue-lysbryter-foring/"
+  },
+  "files": {
+    "product_json": "http://127.0.0.1:9000/products/philips-hue-lysbryter-foring/product.json",
+    "description": "http://127.0.0.1:9000/products/philips-hue-lysbryter-foring/description.md",
+    "images": "http://127.0.0.1:9000/products/philips-hue-lysbryter-foring/images/",
+    "cad_files": "http://127.0.0.1:9000/products/philips-hue-lysbryter-foring/cad-files/",
+    "documentation": "http://127.0.0.1:9000/products/philips-hue-lysbryter-foring/documentation/"
+  }
+}

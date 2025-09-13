@@ -1,0 +1,20 @@
+{
+  "product_id": 9807570239769,
+  "handle": "ryobi-18v-batteri-veggholder",
+  "title": "Ryobi 18v batteri veggholder",
+  "status": "active",
+  "vendor": "PROTONORD",
+  "last_updated": "2025-09-11T19:45:25.693484",
+  "minio_location": {
+    "bucket": "products",
+    "path": "ryobi-18v-batteri-veggholder",
+    "full_data_url": "http://127.0.0.1:9000/products/ryobi-18v-batteri-veggholder/"
+  },
+  "files": {
+    "product_json": "http://127.0.0.1:9000/products/ryobi-18v-batteri-veggholder/product.json",
+    "description": "http://127.0.0.1:9000/products/ryobi-18v-batteri-veggholder/description.md",
+    "images": "http://127.0.0.1:9000/products/ryobi-18v-batteri-veggholder/images/",
+    "cad_files": "http://127.0.0.1:9000/products/ryobi-18v-batteri-veggholder/cad-files/",
+    "documentation": "http://127.0.0.1:9000/products/ryobi-18v-batteri-veggholder/documentation/"
+  }
+}

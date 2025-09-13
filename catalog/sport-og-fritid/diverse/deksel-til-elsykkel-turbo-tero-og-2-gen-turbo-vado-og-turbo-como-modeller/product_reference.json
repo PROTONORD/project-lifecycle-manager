@@ -1,0 +1,20 @@
+{
+  "product_id": 9805002604825,
+  "handle": "deksel-til-elsykkel-turbo-tero-og-2-gen-turbo-vado-og-turbo-como-modeller",
+  "title": "Deksel til Elsykkel Turbo Tero og 2.gen, Turbo Vado og Turbo Como modeller",
+  "status": "active",
+  "vendor": "PROTONORD",
+  "last_updated": "2025-09-11T19:45:25.978240",
+  "minio_location": {
+    "bucket": "products",
+    "path": "deksel-til-elsykkel-turbo-tero-og-2-gen-turbo-vado-og-turbo-como-modeller",
+    "full_data_url": "http://127.0.0.1:9000/products/deksel-til-elsykkel-turbo-tero-og-2-gen-turbo-vado-og-turbo-como-modeller/"
+  },
+  "files": {
+    "product_json": "http://127.0.0.1:9000/products/deksel-til-elsykkel-turbo-tero-og-2-gen-turbo-vado-og-turbo-como-modeller/product.json",
+    "description": "http://127.0.0.1:9000/products/deksel-til-elsykkel-turbo-tero-og-2-gen-turbo-vado-og-turbo-como-modeller/description.md",
+    "images": "http://127.0.0.1:9000/products/deksel-til-elsykkel-turbo-tero-og-2-gen-turbo-vado-og-turbo-como-modeller/images/",
+    "cad_files": "http://127.0.0.1:9000/products/deksel-til-elsykkel-turbo-tero-og-2-gen-turbo-vado-og-turbo-como-modeller/cad-files/",
+    "documentation": "http://127.0.0.1:9000/products/deksel-til-elsykkel-turbo-tero-og-2-gen-turbo-vado-og-turbo-como-modeller/documentation/"
+  }
+}

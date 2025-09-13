@@ -2,24 +2,31 @@
 
 **Handle:** `skaplas-til-bobil`  
 **Status:** active  
-**Type:**   
-**Vendor:** PROTONORD  
-**Shopify ID:** 8984070324505  
+**Leverandør:** PROTONORD
 
-## Folder Structure
+## 📁 Filstruktur (Lagret i MinIO)
 
-- `product.json` - Product data synchronized with Shopify
-- `description.md` - Editable product description (HTML)
-- `images/` - Product images (stored in MinIO)
-- `cad/` - CAD files and technical drawings (stored in MinIO)
-- `documentation/` - Additional documentation and notes
+Alle produktfiler er lagret i MinIO object storage og kan nås via:
 
-## Editing
+### 🔗 Direktelenker:
+- **Produktdata:** [product.json](http://127.0.0.1:9000/products/skaplas-til-bobil/product.json)
+- **Beskrivelse:** [description.md](http://127.0.0.1:9000/products/skaplas-til-bobil/description.md)
+- **Bilder:** [images/](http://127.0.0.1:9000/products/skaplas-til-bobil/images/)
+- **CAD-filer:** [cad-files/](http://127.0.0.1:9000/products/skaplas-til-bobil/cad-files/)
+- **Dokumentasjon:** [documentation/](http://127.0.0.1:9000/products/skaplas-til-bobil/documentation/)
 
-1. Edit `product.json` or `description.md` to change product info
-2. Upload files to MinIO using the web interface or CLI
-3. Run sync script to push changes back to Shopify
+### 📊 MinIO Web Interface:
+Tilgang til filer via MinIO web interface på:
+`http://127.0.0.1:9000:9001`
 
-## Variants
+**Mappe:** `products/skaplas-til-bobil/`
 
-- **Default Title** (SKU: PSK-P-0050-S) - $126.00
+### 🔄 Synkronisering:
+- **GitHub → MinIO:** Referanser og metadata
+- **MinIO → Shopify:** Produktdata og bilder synkroniseres automatisk
+- **Last oppdatert:** 2025-09-11 19:45:25
+
+## 💡 Redigering:
+1. **Bilder/CAD-filer:** Last opp direkte til MinIO via web interface
+2. **Produktdata:** Rediger JSON-filer i MinIO og kjør synkronisering
+3. **Synkroniser til Shopify:** `python tools/sync_product_data.py --to-shopify --product skaplas-til-bobil`

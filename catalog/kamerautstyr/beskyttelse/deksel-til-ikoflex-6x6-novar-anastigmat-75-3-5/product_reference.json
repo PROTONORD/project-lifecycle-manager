@@ -1,0 +1,20 @@
+{
+  "product_id": 9173332984089,
+  "handle": "deksel-til-ikoflex-6x6-novar-anastigmat-75-3-5",
+  "title": "Deksel til Ikoflex 6x6 Novar-Anastigmat 75 3.5",
+  "status": "draft",
+  "vendor": "PROTONORD",
+  "last_updated": "2025-09-11T19:45:25.990130",
+  "minio_location": {
+    "bucket": "products",
+    "path": "deksel-til-ikoflex-6x6-novar-anastigmat-75-3-5",
+    "full_data_url": "http://127.0.0.1:9000/products/deksel-til-ikoflex-6x6-novar-anastigmat-75-3-5/"
+  },
+  "files": {
+    "product_json": "http://127.0.0.1:9000/products/deksel-til-ikoflex-6x6-novar-anastigmat-75-3-5/product.json",
+    "description": "http://127.0.0.1:9000/products/deksel-til-ikoflex-6x6-novar-anastigmat-75-3-5/description.md",
+    "images": "http://127.0.0.1:9000/products/deksel-til-ikoflex-6x6-novar-anastigmat-75-3-5/images/",
+    "cad_files": "http://127.0.0.1:9000/products/deksel-til-ikoflex-6x6-novar-anastigmat-75-3-5/cad-files/",
+    "documentation": "http://127.0.0.1:9000/products/deksel-til-ikoflex-6x6-novar-anastigmat-75-3-5/documentation/"
+  }
+}

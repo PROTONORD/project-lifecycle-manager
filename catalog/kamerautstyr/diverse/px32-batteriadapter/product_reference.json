@@ -1,0 +1,20 @@
+{
+  "product_id": 8052256178457,
+  "handle": "px32-batteriadapter",
+  "title": "PX32 batteriadapter",
+  "status": "active",
+  "vendor": "PROTONORD",
+  "last_updated": "2025-09-11T19:45:25.985907",
+  "minio_location": {
+    "bucket": "products",
+    "path": "px32-batteriadapter",
+    "full_data_url": "http://127.0.0.1:9000/products/px32-batteriadapter/"
+  },
+  "files": {
+    "product_json": "http://127.0.0.1:9000/products/px32-batteriadapter/product.json",
+    "description": "http://127.0.0.1:9000/products/px32-batteriadapter/description.md",
+    "images": "http://127.0.0.1:9000/products/px32-batteriadapter/images/",
+    "cad_files": "http://127.0.0.1:9000/products/px32-batteriadapter/cad-files/",
+    "documentation": "http://127.0.0.1:9000/products/px32-batteriadapter/documentation/"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "product_id": 9659506032921,
+  "handle": "skiftenokkel-m-skralle-8mm",
+  "title": "Skiftenøkkel m/skralle 8mm",
+  "status": "active",
+  "vendor": "Fladby 3Dprint",
+  "last_updated": "2025-09-11T19:45:25.963963",
+  "minio_location": {
+    "bucket": "products",
+    "path": "skiftenokkel-m-skralle-8mm",
+    "full_data_url": "http://127.0.0.1:9000/products/skiftenokkel-m-skralle-8mm/"
+  },
+  "files": {
+    "product_json": "http://127.0.0.1:9000/products/skiftenokkel-m-skralle-8mm/product.json",
+    "description": "http://127.0.0.1:9000/products/skiftenokkel-m-skralle-8mm/description.md",
+    "images": "http://127.0.0.1:9000/products/skiftenokkel-m-skralle-8mm/images/",
+    "cad_files": "http://127.0.0.1:9000/products/skiftenokkel-m-skralle-8mm/cad-files/",
+    "documentation": "http://127.0.0.1:9000/products/skiftenokkel-m-skralle-8mm/documentation/"
+  }
+}

@@ -2,27 +2,31 @@
 
 **Handle:** `feste-for-apple-airtag`  
 **Status:** draft  
-**Type:** Diverse  
-**Vendor:** PROTONORD  
-**Shopify ID:** 8985536364825  
+**Leverandør:** PROTONORD
 
-## Folder Structure
+## 📁 Filstruktur (Lagret i MinIO)
 
-- `product.json` - Product data synchronized with Shopify
-- `description.md` - Editable product description (HTML)
-- `images/` - Product images (stored in MinIO)
-- `cad/` - CAD files and technical drawings (stored in MinIO)
-- `documentation/` - Additional documentation and notes
+Alle produktfiler er lagret i MinIO object storage og kan nås via:
 
-## Editing
+### 🔗 Direktelenker:
+- **Produktdata:** [product.json](http://127.0.0.1:9000/products/feste-for-apple-airtag/product.json)
+- **Beskrivelse:** [description.md](http://127.0.0.1:9000/products/feste-for-apple-airtag/description.md)
+- **Bilder:** [images/](http://127.0.0.1:9000/products/feste-for-apple-airtag/images/)
+- **CAD-filer:** [cad-files/](http://127.0.0.1:9000/products/feste-for-apple-airtag/cad-files/)
+- **Dokumentasjon:** [documentation/](http://127.0.0.1:9000/products/feste-for-apple-airtag/documentation/)
 
-1. Edit `product.json` or `description.md` to change product info
-2. Upload files to MinIO using the web interface or CLI
-3. Run sync script to push changes back to Shopify
+### 📊 MinIO Web Interface:
+Tilgang til filer via MinIO web interface på:
+`http://127.0.0.1:9000:9001`
 
-## Variants
+**Mappe:** `products/feste-for-apple-airtag/`
 
-- **Sort** (SKU: PHA-S-N-P-0051-S) - $68.00
-- **Hvit** (SKU: PHA-H-N-P-0052-S) - $68.00
-- **Rød** (SKU: PHA-R-N-P-0053-S) - $68.00
-- **Oransje** (SKU: PHA-O-N-P-0054-S) - $68.00
+### 🔄 Synkronisering:
+- **GitHub → MinIO:** Referanser og metadata
+- **MinIO → Shopify:** Produktdata og bilder synkroniseres automatisk
+- **Last oppdatert:** 2025-09-11 19:45:25
+
+## 💡 Redigering:
+1. **Bilder/CAD-filer:** Last opp direkte til MinIO via web interface
+2. **Produktdata:** Rediger JSON-filer i MinIO og kjør synkronisering
+3. **Synkroniser til Shopify:** `python tools/sync_product_data.py --to-shopify --product feste-for-apple-airtag`

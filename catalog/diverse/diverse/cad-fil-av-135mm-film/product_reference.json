@@ -1,0 +1,20 @@
+{
+  "product_id": 8031474549017,
+  "handle": "cad-fil-av-135mm-film",
+  "title": "CAD fil av 135mm film",
+  "status": "active",
+  "vendor": "PROTONORD",
+  "last_updated": "2025-09-11T19:45:25.649204",
+  "minio_location": {
+    "bucket": "products",
+    "path": "cad-fil-av-135mm-film",
+    "full_data_url": "http://127.0.0.1:9000/products/cad-fil-av-135mm-film/"
+  },
+  "files": {
+    "product_json": "http://127.0.0.1:9000/products/cad-fil-av-135mm-film/product.json",
+    "description": "http://127.0.0.1:9000/products/cad-fil-av-135mm-film/description.md",
+    "images": "http://127.0.0.1:9000/products/cad-fil-av-135mm-film/images/",
+    "cad_files": "http://127.0.0.1:9000/products/cad-fil-av-135mm-film/cad-files/",
+    "documentation": "http://127.0.0.1:9000/products/cad-fil-av-135mm-film/documentation/"
+  }
+}

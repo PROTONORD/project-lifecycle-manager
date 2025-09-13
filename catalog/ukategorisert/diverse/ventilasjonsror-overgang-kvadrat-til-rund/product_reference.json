@@ -1,0 +1,20 @@
+{
+  "product_id": 8984067342617,
+  "handle": "ventilasjonsror-overgang-kvadrat-til-rund",
+  "title": "Wallair N15865 Ventilasjonsovergang flat til rund 125mm",
+  "status": "active",
+  "vendor": "PROTONORD",
+  "last_updated": "2025-09-11T19:45:25.680031",
+  "minio_location": {
+    "bucket": "products",
+    "path": "ventilasjonsror-overgang-kvadrat-til-rund",
+    "full_data_url": "http://127.0.0.1:9000/products/ventilasjonsror-overgang-kvadrat-til-rund/"
+  },
+  "files": {
+    "product_json": "http://127.0.0.1:9000/products/ventilasjonsror-overgang-kvadrat-til-rund/product.json",
+    "description": "http://127.0.0.1:9000/products/ventilasjonsror-overgang-kvadrat-til-rund/description.md",
+    "images": "http://127.0.0.1:9000/products/ventilasjonsror-overgang-kvadrat-til-rund/images/",
+    "cad_files": "http://127.0.0.1:9000/products/ventilasjonsror-overgang-kvadrat-til-rund/cad-files/",
+    "documentation": "http://127.0.0.1:9000/products/ventilasjonsror-overgang-kvadrat-til-rund/documentation/"
+  }
+}

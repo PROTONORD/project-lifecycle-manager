@@ -2,29 +2,31 @@
 
 **Handle:** `rainlock-for-netatmo-regnsensor`  
 **Status:** active  
-**Type:** Smarthus  
-**Vendor:** Fladby 3Dprint  
-**Shopify ID:** 9563055751449  
+**Leverandør:** Fladby 3Dprint
 
-## Folder Structure
+## 📁 Filstruktur (Lagret i MinIO)
 
-- `product.json` - Product data synchronized with Shopify
-- `description.md` - Editable product description (HTML)
-- `images/` - Product images (stored in MinIO)
-- `cad/` - CAD files and technical drawings (stored in MinIO)
-- `documentation/` - Additional documentation and notes
+Alle produktfiler er lagret i MinIO object storage og kan nås via:
 
-## Editing
+### 🔗 Direktelenker:
+- **Produktdata:** [product.json](http://127.0.0.1:9000/products/rainlock-for-netatmo-regnsensor/product.json)
+- **Beskrivelse:** [description.md](http://127.0.0.1:9000/products/rainlock-for-netatmo-regnsensor/description.md)
+- **Bilder:** [images/](http://127.0.0.1:9000/products/rainlock-for-netatmo-regnsensor/images/)
+- **CAD-filer:** [cad-files/](http://127.0.0.1:9000/products/rainlock-for-netatmo-regnsensor/cad-files/)
+- **Dokumentasjon:** [documentation/](http://127.0.0.1:9000/products/rainlock-for-netatmo-regnsensor/documentation/)
 
-1. Edit `product.json` or `description.md` to change product info
-2. Upload files to MinIO using the web interface or CLI
-3. Run sync script to push changes back to Shopify
+### 📊 MinIO Web Interface:
+Tilgang til filer via MinIO web interface på:
+`http://127.0.0.1:9000:9001`
 
-## Variants
+**Mappe:** `products/rainlock-for-netatmo-regnsensor/`
 
-- **Strips / Sort** (SKU: PRA-SS-N-F-0185-S) - $120.00
-- **Strips / Hvit** (SKU: PRA-SH-N-F-0186-S) - $120.00
-- **Skruer / Sort** (SKU: PRA-SS-N-F-0187-S) - $120.00
-- **Skruer / Hvit** (SKU: PRA-SH-N-F-0188-S) - $120.00
-- **Takmontering / Sort** (SKU: PRA-TS-N-F-0189-S) - $120.00
-- **Takmontering / Hvit** (SKU: PRA-TH-N-F-0190-S) - $120.00
+### 🔄 Synkronisering:
+- **GitHub → MinIO:** Referanser og metadata
+- **MinIO → Shopify:** Produktdata og bilder synkroniseres automatisk
+- **Last oppdatert:** 2025-09-11 19:45:26
+
+## 💡 Redigering:
+1. **Bilder/CAD-filer:** Last opp direkte til MinIO via web interface
+2. **Produktdata:** Rediger JSON-filer i MinIO og kjør synkronisering
+3. **Synkroniser til Shopify:** `python tools/sync_product_data.py --to-shopify --product rainlock-for-netatmo-regnsensor`

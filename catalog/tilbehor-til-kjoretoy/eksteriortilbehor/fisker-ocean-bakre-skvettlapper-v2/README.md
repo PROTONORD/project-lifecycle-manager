@@ -2,37 +2,31 @@
 
 **Handle:** `fisker-ocean-bakre-skvettlapper-v2`  
 **Status:** active  
-**Type:** Tilbehør til kjøretøy  
-**Vendor:** PROTONORD  
-**Shopify ID:** 9563984757017  
+**Leverandør:** PROTONORD
 
-## Folder Structure
+## 📁 Filstruktur (Lagret i MinIO)
 
-- `product.json` - Product data synchronized with Shopify
-- `description.md` - Editable product description (HTML)
-- `images/` - Product images (stored in MinIO)
-- `cad/` - CAD files and technical drawings (stored in MinIO)
-- `documentation/` - Additional documentation and notes
+Alle produktfiler er lagret i MinIO object storage og kan nås via:
 
-## Editing
+### 🔗 Direktelenker:
+- **Produktdata:** [product.json](http://127.0.0.1:9000/products/fisker-ocean-bakre-skvettlapper-v2/product.json)
+- **Beskrivelse:** [description.md](http://127.0.0.1:9000/products/fisker-ocean-bakre-skvettlapper-v2/description.md)
+- **Bilder:** [images/](http://127.0.0.1:9000/products/fisker-ocean-bakre-skvettlapper-v2/images/)
+- **CAD-filer:** [cad-files/](http://127.0.0.1:9000/products/fisker-ocean-bakre-skvettlapper-v2/cad-files/)
+- **Dokumentasjon:** [documentation/](http://127.0.0.1:9000/products/fisker-ocean-bakre-skvettlapper-v2/documentation/)
 
-1. Edit `product.json` or `description.md` to change product info
-2. Upload files to MinIO using the web interface or CLI
-3. Run sync script to push changes back to Shopify
+### 📊 MinIO Web Interface:
+Tilgang til filer via MinIO web interface på:
+`http://127.0.0.1:9000:9001`
 
-## Variants
+**Mappe:** `products/fisker-ocean-bakre-skvettlapper-v2/`
 
-- **Skvettlapp BR u/farge / Sort** (SKU: PFI-SS-D-P-0195-S) - $399.00
-- **Skvettlapp BL u/farge / Sort** (SKU: PFI-SS-D-P-0196-S) - $399.00
-- **Skvettlapp BR m/farge / Oransje** (SKU: PFI-SO-D-P-0197-S) - $495.00
-- **Skvettlapp BR m/farge / Carbonfiber purpur** (SKU: PFI-SS-D-P-0195-S-3) - $599.00
-- **Skvettlapp BR m/farge / Carbonfiber sort** (SKU: PFI-SR-D-P-0198-S) - $599.00
-- **Skvettlapp BL m/farge / Oransje** (SKU: PFI-SO-D-P-0199-S) - $495.00
-- **Skvettlapp BL m/farge / Carbonfiber purpur** (SKU: PFI-SS-D-P-0195-S-4) - $599.00
-- **Skvettlapp BL m/farge / Carbonfiber sort** (SKU: PFI-SR-D-P-0200-S) - $599.00
-- **Farge innlegg BR / Oransje** (SKU: PFI-FO-D-P-0201-S) - $120.00
-- **Farge innlegg BR / Carbonfiber purpur** (SKU: PFI-SS-D-P-0195-S-5) - $220.00
-- **Farge innlegg BR / Carbonfiber sort** (SKU: PFI-FR-D-P-0202-S) - $220.00
-- **Farge innlegg BL / Oransje** (SKU: PFI-FO-D-P-0203-S) - $120.00
-- **Farge innlegg BL / Carbonfiber purpur** (SKU: PFI-SS-D-P-0195-S-6) - $220.00
-- **Farge innlegg BL / Carbonfiber sort** (SKU: PFI-FR-D-P-0204-S) - $220.00
+### 🔄 Synkronisering:
+- **GitHub → MinIO:** Referanser og metadata
+- **MinIO → Shopify:** Produktdata og bilder synkroniseres automatisk
+- **Last oppdatert:** 2025-09-11 19:45:25
+
+## 💡 Redigering:
+1. **Bilder/CAD-filer:** Last opp direkte til MinIO via web interface
+2. **Produktdata:** Rediger JSON-filer i MinIO og kjør synkronisering
+3. **Synkroniser til Shopify:** `python tools/sync_product_data.py --to-shopify --product fisker-ocean-bakre-skvettlapper-v2`

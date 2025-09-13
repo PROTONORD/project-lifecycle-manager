@@ -1,0 +1,20 @@
+{
+  "product_id": 9082472071449,
+  "handle": "posebaerer",
+  "title": "Posebærer",
+  "status": "active",
+  "vendor": "PROTONORD",
+  "last_updated": "2025-09-11T19:45:25.643582",
+  "minio_location": {
+    "bucket": "products",
+    "path": "posebaerer",
+    "full_data_url": "http://127.0.0.1:9000/products/posebaerer/"
+  },
+  "files": {
+    "product_json": "http://127.0.0.1:9000/products/posebaerer/product.json",
+    "description": "http://127.0.0.1:9000/products/posebaerer/description.md",
+    "images": "http://127.0.0.1:9000/products/posebaerer/images/",
+    "cad_files": "http://127.0.0.1:9000/products/posebaerer/cad-files/",
+    "documentation": "http://127.0.0.1:9000/products/posebaerer/documentation/"
+  }
+}

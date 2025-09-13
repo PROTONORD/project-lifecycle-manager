@@ -1,0 +1,20 @@
+{
+  "product_id": 9563055292697,
+  "handle": "weatherguard-for-netatmo-utemodul",
+  "title": "WeatherGuard for Netatmo utemodul",
+  "status": "archived",
+  "vendor": "Fladby 3Dprint",
+  "last_updated": "2025-09-11T19:45:26.018929",
+  "minio_location": {
+    "bucket": "products",
+    "path": "weatherguard-for-netatmo-utemodul",
+    "full_data_url": "http://127.0.0.1:9000/products/weatherguard-for-netatmo-utemodul/"
+  },
+  "files": {
+    "product_json": "http://127.0.0.1:9000/products/weatherguard-for-netatmo-utemodul/product.json",
+    "description": "http://127.0.0.1:9000/products/weatherguard-for-netatmo-utemodul/description.md",
+    "images": "http://127.0.0.1:9000/products/weatherguard-for-netatmo-utemodul/images/",
+    "cad_files": "http://127.0.0.1:9000/products/weatherguard-for-netatmo-utemodul/cad-files/",
+    "documentation": "http://127.0.0.1:9000/products/weatherguard-for-netatmo-utemodul/documentation/"
+  }
+}

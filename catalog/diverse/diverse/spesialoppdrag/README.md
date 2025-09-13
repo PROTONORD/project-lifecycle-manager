@@ -2,35 +2,31 @@
 
 **Handle:** `spesialoppdrag`  
 **Status:** active  
-**Type:** Diverse  
-**Vendor:** PROTONORD  
-**Shopify ID:** 8045534282009  
+**Leverandør:** PROTONORD
 
-## Folder Structure
+## 📁 Filstruktur (Lagret i MinIO)
 
-- `product.json` - Product data synchronized with Shopify
-- `description.md` - Editable product description (HTML)
-- `images/` - Product images (stored in MinIO)
-- `cad/` - CAD files and technical drawings (stored in MinIO)
-- `documentation/` - Additional documentation and notes
+Alle produktfiler er lagret i MinIO object storage og kan nås via:
 
-## Editing
+### 🔗 Direktelenker:
+- **Produktdata:** [product.json](http://127.0.0.1:9000/products/spesialoppdrag/product.json)
+- **Beskrivelse:** [description.md](http://127.0.0.1:9000/products/spesialoppdrag/description.md)
+- **Bilder:** [images/](http://127.0.0.1:9000/products/spesialoppdrag/images/)
+- **CAD-filer:** [cad-files/](http://127.0.0.1:9000/products/spesialoppdrag/cad-files/)
+- **Dokumentasjon:** [documentation/](http://127.0.0.1:9000/products/spesialoppdrag/documentation/)
 
-1. Edit `product.json` or `description.md` to change product info
-2. Upload files to MinIO using the web interface or CLI
-3. Run sync script to push changes back to Shopify
+### 📊 MinIO Web Interface:
+Tilgang til filer via MinIO web interface på:
+`http://127.0.0.1:9000:9001`
 
-## Variants
+**Mappe:** `products/spesialoppdrag/`
 
-- **100** (SKU: PSP-1-T-P-0020-S) - $100.00
-- **150** (SKU: PSP-1-T-P-0021-S) - $150.00
-- **200** (SKU: PSP-2-T-P-0022-S) - $200.00
-- **250** (SKU: PSP-2-T-P-0023-S) - $250.00
-- **300** (SKU: PSP-3-T-P-0024-S) - $300.00
-- **350** (SKU: PSP-3-T-P-0025-S) - $350.00
-- **400** (SKU: PSP-4-T-P-0026-S) - $400.00
-- **450** (SKU: PSP-4-T-P-0027-S) - $450.00
-- **480** (SKU: PSP-4-T-P-0028-S) - $480.00
-- **500** (SKU: PSP-5-T-P-0029-S) - $500.00
-- **700** (SKU: PSP-7-D-P-0379-S) - $700.00
-- **800** (SKU: PSP-8-D-P-0380-S) - $800.00
+### 🔄 Synkronisering:
+- **GitHub → MinIO:** Referanser og metadata
+- **MinIO → Shopify:** Produktdata og bilder synkroniseres automatisk
+- **Last oppdatert:** 2025-09-11 19:45:25
+
+## 💡 Redigering:
+1. **Bilder/CAD-filer:** Last opp direkte til MinIO via web interface
+2. **Produktdata:** Rediger JSON-filer i MinIO og kjør synkronisering
+3. **Synkroniser til Shopify:** `python tools/sync_product_data.py --to-shopify --product spesialoppdrag`

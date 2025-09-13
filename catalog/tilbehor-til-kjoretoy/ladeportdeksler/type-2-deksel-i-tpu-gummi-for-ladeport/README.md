@@ -2,24 +2,31 @@
 
 **Handle:** `type-2-deksel-i-tpu-gummi-for-ladeport`  
 **Status:** active  
-**Type:** Tilbehør til kjøretøy  
-**Vendor:** PROTONORD  
-**Shopify ID:** 9343794151705  
+**Leverandør:** PROTONORD
 
-## Folder Structure
+## 📁 Filstruktur (Lagret i MinIO)
 
-- `product.json` - Product data synchronized with Shopify
-- `description.md` - Editable product description (HTML)
-- `images/` - Product images (stored in MinIO)
-- `cad/` - CAD files and technical drawings (stored in MinIO)
-- `documentation/` - Additional documentation and notes
+Alle produktfiler er lagret i MinIO object storage og kan nås via:
 
-## Editing
+### 🔗 Direktelenker:
+- **Produktdata:** [product.json](http://127.0.0.1:9000/products/type-2-deksel-i-tpu-gummi-for-ladeport/product.json)
+- **Beskrivelse:** [description.md](http://127.0.0.1:9000/products/type-2-deksel-i-tpu-gummi-for-ladeport/description.md)
+- **Bilder:** [images/](http://127.0.0.1:9000/products/type-2-deksel-i-tpu-gummi-for-ladeport/images/)
+- **CAD-filer:** [cad-files/](http://127.0.0.1:9000/products/type-2-deksel-i-tpu-gummi-for-ladeport/cad-files/)
+- **Dokumentasjon:** [documentation/](http://127.0.0.1:9000/products/type-2-deksel-i-tpu-gummi-for-ladeport/documentation/)
 
-1. Edit `product.json` or `description.md` to change product info
-2. Upload files to MinIO using the web interface or CLI
-3. Run sync script to push changes back to Shopify
+### 📊 MinIO Web Interface:
+Tilgang til filer via MinIO web interface på:
+`http://127.0.0.1:9000:9001`
 
-## Variants
+**Mappe:** `products/type-2-deksel-i-tpu-gummi-for-ladeport/`
 
-- **Sort** (SKU: PST-S-D-P-0124-S) - $299.00
+### 🔄 Synkronisering:
+- **GitHub → MinIO:** Referanser og metadata
+- **MinIO → Shopify:** Produktdata og bilder synkroniseres automatisk
+- **Last oppdatert:** 2025-09-11 19:45:25
+
+## 💡 Redigering:
+1. **Bilder/CAD-filer:** Last opp direkte til MinIO via web interface
+2. **Produktdata:** Rediger JSON-filer i MinIO og kjør synkronisering
+3. **Synkroniser til Shopify:** `python tools/sync_product_data.py --to-shopify --product type-2-deksel-i-tpu-gummi-for-ladeport`

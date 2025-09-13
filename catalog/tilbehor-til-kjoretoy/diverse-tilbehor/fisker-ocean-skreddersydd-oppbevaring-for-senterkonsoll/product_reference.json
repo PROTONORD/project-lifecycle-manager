@@ -1,0 +1,20 @@
+{
+  "product_id": 9532253765913,
+  "handle": "fisker-ocean-skreddersydd-oppbevaring-for-senterkonsoll",
+  "title": "Fisker Ocean skreddersydd oppbevaring for senterkonsoll",
+  "status": "active",
+  "vendor": "PROTONORD",
+  "last_updated": "2025-09-11T19:45:25.962184",
+  "minio_location": {
+    "bucket": "products",
+    "path": "fisker-ocean-skreddersydd-oppbevaring-for-senterkonsoll",
+    "full_data_url": "http://127.0.0.1:9000/products/fisker-ocean-skreddersydd-oppbevaring-for-senterkonsoll/"
+  },
+  "files": {
+    "product_json": "http://127.0.0.1:9000/products/fisker-ocean-skreddersydd-oppbevaring-for-senterkonsoll/product.json",
+    "description": "http://127.0.0.1:9000/products/fisker-ocean-skreddersydd-oppbevaring-for-senterkonsoll/description.md",
+    "images": "http://127.0.0.1:9000/products/fisker-ocean-skreddersydd-oppbevaring-for-senterkonsoll/images/",
+    "cad_files": "http://127.0.0.1:9000/products/fisker-ocean-skreddersydd-oppbevaring-for-senterkonsoll/cad-files/",
+    "documentation": "http://127.0.0.1:9000/products/fisker-ocean-skreddersydd-oppbevaring-for-senterkonsoll/documentation/"
+  }
+}

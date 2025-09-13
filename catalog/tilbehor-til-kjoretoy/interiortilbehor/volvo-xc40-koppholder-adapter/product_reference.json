@@ -1,0 +1,20 @@
+{
+  "product_id": 9580400804121,
+  "handle": "volvo-xc40-koppholder-adapter",
+  "title": "Volvo XC40/EX40/C40/EC40 Koppholder adapter",
+  "status": "active",
+  "vendor": "PROTONORD",
+  "last_updated": "2025-09-11T19:45:25.707232",
+  "minio_location": {
+    "bucket": "products",
+    "path": "volvo-xc40-koppholder-adapter",
+    "full_data_url": "http://127.0.0.1:9000/products/volvo-xc40-koppholder-adapter/"
+  },
+  "files": {
+    "product_json": "http://127.0.0.1:9000/products/volvo-xc40-koppholder-adapter/product.json",
+    "description": "http://127.0.0.1:9000/products/volvo-xc40-koppholder-adapter/description.md",
+    "images": "http://127.0.0.1:9000/products/volvo-xc40-koppholder-adapter/images/",
+    "cad_files": "http://127.0.0.1:9000/products/volvo-xc40-koppholder-adapter/cad-files/",
+    "documentation": "http://127.0.0.1:9000/products/volvo-xc40-koppholder-adapter/documentation/"
+  }
+}

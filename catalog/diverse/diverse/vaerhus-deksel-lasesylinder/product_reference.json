@@ -1,0 +1,20 @@
+{
+  "product_id": 9835093098777,
+  "handle": "vaerhus-deksel-lasesylinder",
+  "title": "Værhus deksel låsesylinder",
+  "status": "active",
+  "vendor": "PROTONORD",
+  "last_updated": "2025-09-11T19:45:25.668316",
+  "minio_location": {
+    "bucket": "products",
+    "path": "vaerhus-deksel-lasesylinder",
+    "full_data_url": "http://127.0.0.1:9000/products/vaerhus-deksel-lasesylinder/"
+  },
+  "files": {
+    "product_json": "http://127.0.0.1:9000/products/vaerhus-deksel-lasesylinder/product.json",
+    "description": "http://127.0.0.1:9000/products/vaerhus-deksel-lasesylinder/description.md",
+    "images": "http://127.0.0.1:9000/products/vaerhus-deksel-lasesylinder/images/",
+    "cad_files": "http://127.0.0.1:9000/products/vaerhus-deksel-lasesylinder/cad-files/",
+    "documentation": "http://127.0.0.1:9000/products/vaerhus-deksel-lasesylinder/documentation/"
+  }
+}

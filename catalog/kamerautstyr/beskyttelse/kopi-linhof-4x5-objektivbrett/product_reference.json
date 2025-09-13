@@ -1,0 +1,20 @@
+{
+  "product_id": 9162120102169,
+  "handle": "kopi-linhof-4x5-objektivbrett",
+  "title": "Deksel til objektiv 4x5 8x10 o.l.",
+  "status": "draft",
+  "vendor": "PROTONORD",
+  "last_updated": "2025-09-11T19:45:25.991835",
+  "minio_location": {
+    "bucket": "products",
+    "path": "kopi-linhof-4x5-objektivbrett",
+    "full_data_url": "http://127.0.0.1:9000/products/kopi-linhof-4x5-objektivbrett/"
+  },
+  "files": {
+    "product_json": "http://127.0.0.1:9000/products/kopi-linhof-4x5-objektivbrett/product.json",
+    "description": "http://127.0.0.1:9000/products/kopi-linhof-4x5-objektivbrett/description.md",
+    "images": "http://127.0.0.1:9000/products/kopi-linhof-4x5-objektivbrett/images/",
+    "cad_files": "http://127.0.0.1:9000/products/kopi-linhof-4x5-objektivbrett/cad-files/",
+    "documentation": "http://127.0.0.1:9000/products/kopi-linhof-4x5-objektivbrett/documentation/"
+  }
+}

@@ -2,30 +2,31 @@
 
 **Handle:** `festebraketter-for-netatmo-regnsensor-og-vindmaler`  
 **Status:** active  
-**Type:** Smarthus  
-**Vendor:** PROTONORD  
-**Shopify ID:** 9580799263001  
+**Leverandør:** PROTONORD
 
-## Folder Structure
+## 📁 Filstruktur (Lagret i MinIO)
 
-- `product.json` - Product data synchronized with Shopify
-- `description.md` - Editable product description (HTML)
-- `images/` - Product images (stored in MinIO)
-- `cad/` - CAD files and technical drawings (stored in MinIO)
-- `documentation/` - Additional documentation and notes
+Alle produktfiler er lagret i MinIO object storage og kan nås via:
 
-## Editing
+### 🔗 Direktelenker:
+- **Produktdata:** [product.json](http://127.0.0.1:9000/products/festebraketter-for-netatmo-regnsensor-og-vindmaler/product.json)
+- **Beskrivelse:** [description.md](http://127.0.0.1:9000/products/festebraketter-for-netatmo-regnsensor-og-vindmaler/description.md)
+- **Bilder:** [images/](http://127.0.0.1:9000/products/festebraketter-for-netatmo-regnsensor-og-vindmaler/images/)
+- **CAD-filer:** [cad-files/](http://127.0.0.1:9000/products/festebraketter-for-netatmo-regnsensor-og-vindmaler/cad-files/)
+- **Dokumentasjon:** [documentation/](http://127.0.0.1:9000/products/festebraketter-for-netatmo-regnsensor-og-vindmaler/documentation/)
 
-1. Edit `product.json` or `description.md` to change product info
-2. Upload files to MinIO using the web interface or CLI
-3. Run sync script to push changes back to Shopify
+### 📊 MinIO Web Interface:
+Tilgang til filer via MinIO web interface på:
+`http://127.0.0.1:9000:9001`
 
-## Variants
+**Mappe:** `products/festebraketter-for-netatmo-regnsensor-og-vindmaler/`
 
-- **Sort / Komplett Adapterpakke regn og vindmåler med 50mm mastrør adapter** (SKU: PVE-SS-N-F-0225-S) - $999.00
-- **Sort / Komplett Adapterpakke regn og vindmåler** (SKU: PVE-SS-N-F-0225-S-4) - $699.00
-- **Sort / Lås med brakett** (SKU: PVE-SS-N-F-0225-S) - $399.00
-- **Sort / Lås** (SKU: PVE-SS-N-F-0225-S-1) - $160.00
-- **Sort / brakett** (SKU: PVE-SS-N-F-0225-S-2) - $246.00
-- **Sort / Kobling for vindmåler og regnsensor** (SKU: PVE-SS-N-F-0225-S-3) - $370.00
-- **Sort / 50mm mastrør adapter** (SKU: PVE-SS-N-F-0225-S) - $397.00
+### 🔄 Synkronisering:
+- **GitHub → MinIO:** Referanser og metadata
+- **MinIO → Shopify:** Produktdata og bilder synkroniseres automatisk
+- **Last oppdatert:** 2025-09-11 19:45:25
+
+## 💡 Redigering:
+1. **Bilder/CAD-filer:** Last opp direkte til MinIO via web interface
+2. **Produktdata:** Rediger JSON-filer i MinIO og kjør synkronisering
+3. **Synkroniser til Shopify:** `python tools/sync_product_data.py --to-shopify --product festebraketter-for-netatmo-regnsensor-og-vindmaler`

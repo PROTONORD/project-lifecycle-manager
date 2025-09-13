@@ -1,0 +1,200 @@
+.cloudExplorer {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+  font-family: var(--ifm-font-family-base);
+}
+
+.header {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.header h2 {
+  color: var(--ifm-color-primary);
+  margin-bottom: 10px;
+}
+
+.lastUpdated {
+  color: var(--ifm-color-emphasis-600);
+  font-size: 0.9em;
+  margin: 0;
+}
+
+.loading {
+  text-align: center;
+  padding: 40px;
+}
+
+.spinner {
+  border: 4px solid var(--ifm-color-emphasis-300);
+  border-top: 4px solid var(--ifm-color-primary);
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  animation: spin 1s linear infinite;
+  margin: 0 auto 20px;
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+.error {
+  text-align: center;
+  padding: 40px;
+  color: var(--ifm-color-danger);
+}
+
+.cloudSelector {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  margin-bottom: 30px;
+  flex-wrap: wrap;
+}
+
+.cloudButton {
+  background: var(--ifm-color-emphasis-200);
+  border: 2px solid var(--ifm-color-emphasis-300);
+  border-radius: 8px;
+  padding: 12px 20px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  font-size: 1em;
+  font-weight: 500;
+}
+
+.cloudButton:hover {
+  background: var(--ifm-color-emphasis-300);
+  transform: translateY(-2px);
+}
+
+.cloudButton.active {
+  background: var(--ifm-color-primary);
+  color: white;
+  border-color: var(--ifm-color-primary);
+}
+
+.content {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  gap: 30px;
+  margin-top: 20px;
+}
+
+@media (max-width: 768px) {
+  .content {
+    grid-template-columns: 1fr;
+  }
+}
+
+.treeStructure {
+  background: var(--ifm-color-emphasis-100);
+  border-radius: 8px;
+  padding: 20px;
+  height: fit-content;
+}
+
+.treeStructure h3 {
+  margin-top: 0;
+  color: var(--ifm-color-primary);
+}
+
+.tree {
+  background: var(--ifm-color-emphasis-0);
+  border: 1px solid var(--ifm-color-emphasis-200);
+  border-radius: 4px;
+  padding: 15px;
+  font-family: var(--ifm-font-family-monospace);
+  font-size: 0.9em;
+  line-height: 1.4;
+  overflow-x: auto;
+  white-space: pre;
+}
+
+.fileList {
+  background: var(--ifm-color-emphasis-100);
+  border-radius: 8px;
+  padding: 20px;
+}
+
+.fileList h3 {
+  margin-top: 0;
+  color: var(--ifm-color-primary);
+}
+
+.noFiles {
+  text-align: center;
+  color: var(--ifm-color-emphasis-600);
+  font-style: italic;
+  padding: 40px;
+}
+
+.files {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.fileItem {
+  display: flex;
+  align-items: flex-start;
+  gap: 12px;
+  padding: 15px;
+  background: var(--ifm-color-emphasis-0);
+  border: 1px solid var(--ifm-color-emphasis-200);
+  border-radius: 6px;
+  transition: all 0.2s ease;
+}
+
+.fileItem:hover {
+  border-color: var(--ifm-color-primary);
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+.fileIcon {
+  font-size: 1.5em;
+  flex-shrink: 0;
+}
+
+.fileDetails {
+  flex: 1;
+  min-width: 0;
+}
+
+.fileName {
+  font-weight: 600;
+  color: var(--ifm-color-emphasis-900);
+  margin-bottom: 4px;
+  word-break: break-word;
+}
+
+.fileMeta {
+  display: flex;
+  gap: 15px;
+  font-size: 0.85em;
+  color: var(--ifm-color-emphasis-600);
+  margin-bottom: 4px;
+  flex-wrap: wrap;
+}
+
+.fileSize {
+  background: var(--ifm-color-primary-lightest);
+  color: var(--ifm-color-primary-dark);
+  padding: 2px 6px;
+  border-radius: 3px;
+  font-weight: 500;
+}
+
+.fileDate {
+  font-family: var(--ifm-font-family-monospace);
+}
+
+.filePath {
+  font-size: 0.8em;
+  color: var(--ifm-color-emphasis-500);
+  font-family: var(--ifm-font-family-monospace);
+  word-break: break-all;
+}

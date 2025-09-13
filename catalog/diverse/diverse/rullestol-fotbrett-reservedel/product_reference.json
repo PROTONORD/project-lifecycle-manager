@@ -1,0 +1,20 @@
+{
+  "product_id": 9568820429081,
+  "handle": "rullestol-fotbrett-reservedel",
+  "title": "Rullestol fotbrett reservedel",
+  "status": "active",
+  "vendor": "PROTONORD",
+  "last_updated": "2025-09-11T19:45:25.663334",
+  "minio_location": {
+    "bucket": "products",
+    "path": "rullestol-fotbrett-reservedel",
+    "full_data_url": "http://127.0.0.1:9000/products/rullestol-fotbrett-reservedel/"
+  },
+  "files": {
+    "product_json": "http://127.0.0.1:9000/products/rullestol-fotbrett-reservedel/product.json",
+    "description": "http://127.0.0.1:9000/products/rullestol-fotbrett-reservedel/description.md",
+    "images": "http://127.0.0.1:9000/products/rullestol-fotbrett-reservedel/images/",
+    "cad_files": "http://127.0.0.1:9000/products/rullestol-fotbrett-reservedel/cad-files/",
+    "documentation": "http://127.0.0.1:9000/products/rullestol-fotbrett-reservedel/documentation/"
+  }
+}

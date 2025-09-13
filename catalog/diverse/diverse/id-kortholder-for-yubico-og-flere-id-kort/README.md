@@ -2,31 +2,31 @@
 
 **Handle:** `id-kortholder-for-yubico-og-flere-id-kort`  
 **Status:** active  
-**Type:** Diverse  
-**Vendor:** PROTONORD  
-**Shopify ID:** 9178345505049  
+**Leverandør:** PROTONORD
 
-## Folder Structure
+## 📁 Filstruktur (Lagret i MinIO)
 
-- `product.json` - Product data synchronized with Shopify
-- `description.md` - Editable product description (HTML)
-- `images/` - Product images (stored in MinIO)
-- `cad/` - CAD files and technical drawings (stored in MinIO)
-- `documentation/` - Additional documentation and notes
+Alle produktfiler er lagret i MinIO object storage og kan nås via:
 
-## Editing
+### 🔗 Direktelenker:
+- **Produktdata:** [product.json](http://127.0.0.1:9000/products/id-kortholder-for-yubico-og-flere-id-kort/product.json)
+- **Beskrivelse:** [description.md](http://127.0.0.1:9000/products/id-kortholder-for-yubico-og-flere-id-kort/description.md)
+- **Bilder:** [images/](http://127.0.0.1:9000/products/id-kortholder-for-yubico-og-flere-id-kort/images/)
+- **CAD-filer:** [cad-files/](http://127.0.0.1:9000/products/id-kortholder-for-yubico-og-flere-id-kort/cad-files/)
+- **Dokumentasjon:** [documentation/](http://127.0.0.1:9000/products/id-kortholder-for-yubico-og-flere-id-kort/documentation/)
 
-1. Edit `product.json` or `description.md` to change product info
-2. Upload files to MinIO using the web interface or CLI
-3. Run sync script to push changes back to Shopify
+### 📊 MinIO Web Interface:
+Tilgang til filer via MinIO web interface på:
+`http://127.0.0.1:9000:9001`
 
-## Variants
+**Mappe:** `products/id-kortholder-for-yubico-og-flere-id-kort/`
 
-- **Yubico Fido2 usb holder / Sort** (SKU: PID-YS-K-P-0082-S) - $115.00
-- **Yubico Fido2 usb holder / Rød** (SKU: PID-YR-K-P-0083-S) - $115.00
-- **Yubico Fido2 usb holder / Oransje** (SKU: PID-YO-K-P-0084-S) - $115.00
-- **1 ID kortholder / Sort** (SKU: PID-1S-K-P-0085-S) - $92.00
-- **1 ID kortholder / Rød** (SKU: PID-1R-K-P-0086-S) - $92.00
-- **1 ID kortholder / Oransje** (SKU: PID-1O-K-P-0087-S) - $92.00
-- **Krok og hylse for Yubico holder + 3 kortholder eller 4 kortholdere uten Yubico holder / Sort** (SKU: PID-KS-K-P-0088-S) - $40.00
-- **Krok og hylse for Yubico holder + 5 kortholder eller 6 kortholdere uten Yubico holder / Sort** (SKU: PID-KS-K-P-0089-S) - $40.00
+### 🔄 Synkronisering:
+- **GitHub → MinIO:** Referanser og metadata
+- **MinIO → Shopify:** Produktdata og bilder synkroniseres automatisk
+- **Last oppdatert:** 2025-09-11 19:45:25
+
+## 💡 Redigering:
+1. **Bilder/CAD-filer:** Last opp direkte til MinIO via web interface
+2. **Produktdata:** Rediger JSON-filer i MinIO og kjør synkronisering
+3. **Synkroniser til Shopify:** `python tools/sync_product_data.py --to-shopify --product id-kortholder-for-yubico-og-flere-id-kort`

@@ -1,0 +1,20 @@
+{
+  "product_id": 9590098755865,
+  "handle": "netatmo-veggfeste-smart-vaerstasjon",
+  "title": "Netatmo veggfeste som passer flere type modeller",
+  "status": "active",
+  "vendor": "PROTONORD",
+  "last_updated": "2025-09-11T19:45:26.016975",
+  "minio_location": {
+    "bucket": "products",
+    "path": "netatmo-veggfeste-smart-vaerstasjon",
+    "full_data_url": "http://127.0.0.1:9000/products/netatmo-veggfeste-smart-vaerstasjon/"
+  },
+  "files": {
+    "product_json": "http://127.0.0.1:9000/products/netatmo-veggfeste-smart-vaerstasjon/product.json",
+    "description": "http://127.0.0.1:9000/products/netatmo-veggfeste-smart-vaerstasjon/description.md",
+    "images": "http://127.0.0.1:9000/products/netatmo-veggfeste-smart-vaerstasjon/images/",
+    "cad_files": "http://127.0.0.1:9000/products/netatmo-veggfeste-smart-vaerstasjon/cad-files/",
+    "documentation": "http://127.0.0.1:9000/products/netatmo-veggfeste-smart-vaerstasjon/documentation/"
+  }
+}

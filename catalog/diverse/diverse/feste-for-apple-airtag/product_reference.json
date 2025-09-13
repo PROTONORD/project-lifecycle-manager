@@ -1,0 +1,20 @@
+{
+  "product_id": 8985536364825,
+  "handle": "feste-for-apple-airtag",
+  "title": "Halsbånd eller reimfeste for Apple airtag",
+  "status": "draft",
+  "vendor": "PROTONORD",
+  "last_updated": "2025-09-11T19:45:25.671999",
+  "minio_location": {
+    "bucket": "products",
+    "path": "feste-for-apple-airtag",
+    "full_data_url": "http://127.0.0.1:9000/products/feste-for-apple-airtag/"
+  },
+  "files": {
+    "product_json": "http://127.0.0.1:9000/products/feste-for-apple-airtag/product.json",
+    "description": "http://127.0.0.1:9000/products/feste-for-apple-airtag/description.md",
+    "images": "http://127.0.0.1:9000/products/feste-for-apple-airtag/images/",
+    "cad_files": "http://127.0.0.1:9000/products/feste-for-apple-airtag/cad-files/",
+    "documentation": "http://127.0.0.1:9000/products/feste-for-apple-airtag/documentation/"
+  }
+}

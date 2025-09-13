@@ -2,32 +2,31 @@
 
 **Handle:** `volvo-xc40-koppholder-adapter`  
 **Status:** active  
-**Type:** Tilbehør til kjøretøy  
-**Vendor:** PROTONORD  
-**Shopify ID:** 9580400804121  
+**Leverandør:** PROTONORD
 
-## Folder Structure
+## 📁 Filstruktur (Lagret i MinIO)
 
-- `product.json` - Product data synchronized with Shopify
-- `description.md` - Editable product description (HTML)
-- `images/` - Product images (stored in MinIO)
-- `cad/` - CAD files and technical drawings (stored in MinIO)
-- `documentation/` - Additional documentation and notes
+Alle produktfiler er lagret i MinIO object storage og kan nås via:
 
-## Editing
+### 🔗 Direktelenker:
+- **Produktdata:** [product.json](http://127.0.0.1:9000/products/volvo-xc40-koppholder-adapter/product.json)
+- **Beskrivelse:** [description.md](http://127.0.0.1:9000/products/volvo-xc40-koppholder-adapter/description.md)
+- **Bilder:** [images/](http://127.0.0.1:9000/products/volvo-xc40-koppholder-adapter/images/)
+- **CAD-filer:** [cad-files/](http://127.0.0.1:9000/products/volvo-xc40-koppholder-adapter/cad-files/)
+- **Dokumentasjon:** [documentation/](http://127.0.0.1:9000/products/volvo-xc40-koppholder-adapter/documentation/)
 
-1. Edit `product.json` or `description.md` to change product info
-2. Upload files to MinIO using the web interface or CLI
-3. Run sync script to push changes back to Shopify
+### 📊 MinIO Web Interface:
+Tilgang til filer via MinIO web interface på:
+`http://127.0.0.1:9000:9001`
 
-## Variants
+**Mappe:** `products/volvo-xc40-koppholder-adapter/`
 
-- **Front / Sort** (SKU: PUT-P-0218-S-1) - $169.00
-- **Bak / Sort** (SKU: PUT-P-0218-S-2) - $169.00
-- **Begge / Sort** (SKU: PUT-P-0218-S-3) - $328.00
-- **Front / Carbonfiber sort** (SKU: PUT-P-0218-S-1) - $199.00
-- **Front / Carbonfiber purpur** (SKU: PUT-P-0218-S-2) - $199.00
-- **Bak / Carbonfiber sort** (SKU: PUT-P-0218-S-3) - $199.00
-- **Bak / Carbonfiber purpur** (SKU: PUT-P-0218-S-4) - $199.00
-- **Begge / Carbonfiber sort** (SKU: PUT-P-0218-S-5) - $394.00
-- **Begge / Carbonfiber purpur** (SKU: PUT-P-0218-S-6) - $394.00
+### 🔄 Synkronisering:
+- **GitHub → MinIO:** Referanser og metadata
+- **MinIO → Shopify:** Produktdata og bilder synkroniseres automatisk
+- **Last oppdatert:** 2025-09-11 19:45:25
+
+## 💡 Redigering:
+1. **Bilder/CAD-filer:** Last opp direkte til MinIO via web interface
+2. **Produktdata:** Rediger JSON-filer i MinIO og kjør synkronisering
+3. **Synkroniser til Shopify:** `python tools/sync_product_data.py --to-shopify --product volvo-xc40-koppholder-adapter`

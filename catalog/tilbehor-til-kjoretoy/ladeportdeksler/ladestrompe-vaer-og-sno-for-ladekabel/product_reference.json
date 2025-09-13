@@ -1,0 +1,20 @@
+{
+  "product_id": 9829854282009,
+  "handle": "ladestrompe-vaer-og-sno-for-ladekabel",
+  "title": "Ladestrømpe vær og snø for ladekabel",
+  "status": "active",
+  "vendor": "Fladby 3Dprint",
+  "last_updated": "2025-09-11T19:45:25.755577",
+  "minio_location": {
+    "bucket": "products",
+    "path": "ladestrompe-vaer-og-sno-for-ladekabel",
+    "full_data_url": "http://127.0.0.1:9000/products/ladestrompe-vaer-og-sno-for-ladekabel/"
+  },
+  "files": {
+    "product_json": "http://127.0.0.1:9000/products/ladestrompe-vaer-og-sno-for-ladekabel/product.json",
+    "description": "http://127.0.0.1:9000/products/ladestrompe-vaer-og-sno-for-ladekabel/description.md",
+    "images": "http://127.0.0.1:9000/products/ladestrompe-vaer-og-sno-for-ladekabel/images/",
+    "cad_files": "http://127.0.0.1:9000/products/ladestrompe-vaer-og-sno-for-ladekabel/cad-files/",
+    "documentation": "http://127.0.0.1:9000/products/ladestrompe-vaer-og-sno-for-ladekabel/documentation/"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "product_id": 8071711228185,
+  "handle": "lommebok-adapter-for-apple-airtag",
+  "title": "Lommebok adapter for Apple airtag",
+  "status": "archived",
+  "vendor": "PROTONORD",
+  "last_updated": "2025-09-11T19:45:25.997258",
+  "minio_location": {
+    "bucket": "products",
+    "path": "lommebok-adapter-for-apple-airtag",
+    "full_data_url": "http://127.0.0.1:9000/products/lommebok-adapter-for-apple-airtag/"
+  },
+  "files": {
+    "product_json": "http://127.0.0.1:9000/products/lommebok-adapter-for-apple-airtag/product.json",
+    "description": "http://127.0.0.1:9000/products/lommebok-adapter-for-apple-airtag/description.md",
+    "images": "http://127.0.0.1:9000/products/lommebok-adapter-for-apple-airtag/images/",
+    "cad_files": "http://127.0.0.1:9000/products/lommebok-adapter-for-apple-airtag/cad-files/",
+    "documentation": "http://127.0.0.1:9000/products/lommebok-adapter-for-apple-airtag/documentation/"
+  }
+}

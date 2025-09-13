@@ -1,0 +1,20 @@
+{
+  "product_id": 8984066097433,
+  "handle": "zenitel-stentofon-spesialtilpasset-koblingsboks",
+  "title": "Zenitel Turbine spesialtilpasset koblingsboks",
+  "status": "active",
+  "vendor": "PROTONORD",
+  "last_updated": "2025-09-11T19:45:25.681695",
+  "minio_location": {
+    "bucket": "products",
+    "path": "zenitel-stentofon-spesialtilpasset-koblingsboks",
+    "full_data_url": "http://127.0.0.1:9000/products/zenitel-stentofon-spesialtilpasset-koblingsboks/"
+  },
+  "files": {
+    "product_json": "http://127.0.0.1:9000/products/zenitel-stentofon-spesialtilpasset-koblingsboks/product.json",
+    "description": "http://127.0.0.1:9000/products/zenitel-stentofon-spesialtilpasset-koblingsboks/description.md",
+    "images": "http://127.0.0.1:9000/products/zenitel-stentofon-spesialtilpasset-koblingsboks/images/",
+    "cad_files": "http://127.0.0.1:9000/products/zenitel-stentofon-spesialtilpasset-koblingsboks/cad-files/",
+    "documentation": "http://127.0.0.1:9000/products/zenitel-stentofon-spesialtilpasset-koblingsboks/documentation/"
+  }
+}
