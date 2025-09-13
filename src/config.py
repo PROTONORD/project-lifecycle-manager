@@ -7,7 +7,7 @@ load_dotenv()
 SHOPIFY_SHOP = os.getenv("SHOPIFY_SHOP", "")
 SHOPIFY_ACCESS_TOKEN = os.getenv("SHOPIFY_ACCESS_TOKEN", "")
 
-# MinIO configuration
+# Cloud storage configuration
 MINIO_ENDPOINT = os.getenv("MINIO_ENDPOINT", "127.0.0.1:9000")
 MINIO_ACCESS_KEY = os.getenv("MINIO_ACCESS_KEY", "")
 MINIO_SECRET_KEY = os.getenv("MINIO_SECRET_KEY", "")

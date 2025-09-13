@@ -1,4 +1,4 @@
-# Denne mappen inneholder bare referanser til filer i MinIO
-# Faktiske CAD-filer ligger i MinIO object storage
+# Denne mappen inneholder bare referanser til filer i cloud backup
+# Faktiske CAD-filer ligger i cloud backup object storage
 
 Se README.md for fullstendig filkatalog med nedlastingslenker.

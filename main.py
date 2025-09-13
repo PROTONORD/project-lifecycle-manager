@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-Shopify-MinIO-GitHub Integration CLI
+Shopify-Cloud-GitHub Integration CLI
 
 Main command-line interface for managing the product catalog workflow.
 """
@@ -11,7 +11,7 @@ from pathlib import Path
 
 def main():
     parser = argparse.ArgumentParser(
-        description="Shopify-MinIO-GitHub Product Catalog Management",
+        description="Shopify-Cloud-GitHub Product Catalog Management",
         epilog="Examples:\n"
                "  %(prog)s bootstrap    # Import all products from Shopify\n"
                "  %(prog)s sync         # Sync all local changes to Shopify\n"
@@ -91,7 +91,7 @@ def main():
             )
             print(f"\n✨ Next steps:")
             print(f"   1. Edit product details: catalog/{handle}/product.json")
-            print(f"   2. Upload files to MinIO bucket")
+            print(f"   2. Upload files to cloud bucket")
             print(f"   3. Sync to Shopify: python main.py sync {handle}")
             
         elif args.command == 'status':
@@ -106,7 +106,7 @@ def main():
 
 def show_status():
     """Show current catalog status"""
-    from src.config import DATA_ROOT, MINIO_BUCKET
+    from src.config import DATA_ROOT
     import json
     
     catalog_path = Path(DATA_ROOT)
@@ -124,7 +124,7 @@ def show_status():
     
     print(f"📁 Catalog path: {catalog_path.resolve()}")
     print(f"📦 Products found: {len(product_dirs)}")
-    print(f"🗄️ MinIO bucket: {MINIO_BUCKET}")
+    print(f"☁️ Cloud backup: Google Drive + Jottacloud")
     
     if product_dirs:
         print("\n📋 Products:")

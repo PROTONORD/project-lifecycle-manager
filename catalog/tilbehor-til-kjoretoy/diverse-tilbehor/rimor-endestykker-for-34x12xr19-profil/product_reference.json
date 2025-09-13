@@ -5,7 +5,7 @@
   "status": "active",
   "vendor": "Fladby 3Dprint",
   "last_updated": "2025-09-11T19:45:25.973363",
-  "minio_location": {
+  "cloud_location": {
     "bucket": "products",
     "path": "rimor-endestykker-for-34x12xr19-profil",
     "full_data_url": "http://127.0.0.1:9000/products/rimor-endestykker-for-34x12xr19-profil/"

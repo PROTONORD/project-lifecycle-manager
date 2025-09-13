@@ -5,7 +5,7 @@
   "status": "active",
   "vendor": "Fladby 3Dprint",
   "last_updated": "2025-09-11T19:45:25.755577",
-  "minio_location": {
+  "cloud_location": {
     "bucket": "products",
     "path": "ladestrompe-vaer-og-sno-for-ladekabel",
     "full_data_url": "http://127.0.0.1:9000/products/ladestrompe-vaer-og-sno-for-ladekabel/"

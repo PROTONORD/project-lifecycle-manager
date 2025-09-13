@@ -1,7 +1,7 @@
 {
   "total_products": 205,
   "catalog_path": "/home/kau005/prototype-workflow-med-github/catalog",
-  "minio_bucket": "products",
+  "cloud_bucket": "products",
   "products": [
     {
       "handle": "135-til-120-film-adapter",

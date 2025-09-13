@@ -5,7 +5,7 @@
   "status": "draft",
   "vendor": "PROTONORD",
   "last_updated": "2025-09-11T19:45:25.705441",
-  "minio_location": {
+  "cloud_location": {
     "bucket": "products",
     "path": "polestar-2-midtkonsoll-festebrakett",
     "full_data_url": "http://127.0.0.1:9000/products/polestar-2-midtkonsoll-festebrakett/"

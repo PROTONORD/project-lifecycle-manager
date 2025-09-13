@@ -1,12 +1,11 @@
 import json
+import subprocess
 from pathlib import Path
 from .config import (
     SHOPIFY_SHOP, SHOPIFY_ACCESS_TOKEN, DATA_ROOT,
-    MINIO_ENDPOINT, MINIO_ACCESS_KEY, MINIO_SECRET_KEY, MINIO_BUCKET, MINIO_SECURE,
     validate
 )
 from .shopify_client import ShopifyClient
-from .minio_client import create_minio_client, ensure_bucket_exists, upload_file_to_minio
 from .bootstrap_catalog import normalize_handle, create_product_folder
 
 def create_new_product(
@@ -33,15 +32,8 @@ def create_new_product(
         print(f"Warning: Product directory {handle} already exists")
         return handle
     
-    # Initialize clients
+    # Initialize Shopify client
     shopify_client = ShopifyClient(SHOPIFY_SHOP, SHOPIFY_ACCESS_TOKEN)
-    minio_client = create_minio_client(
-        MINIO_ENDPOINT, 
-        MINIO_ACCESS_KEY, 
-        MINIO_SECRET_KEY, 
-        MINIO_SECURE
-    )
-    ensure_bucket_exists(minio_client, MINIO_BUCKET)
     
     # Create product in Shopify first
     product_data = {
@@ -61,7 +53,7 @@ def create_new_product(
         product_info = create_product_folder(catalog_path, created_product)
         
         print(f"📁 Created local structure at: {product_info['directory']}")
-        print(f"🗄️ MinIO path ready: {MINIO_BUCKET}/{handle}/")
+        print(f"☁️ Cloud backup path ready: {handle}/")
         
         return handle
         
@@ -70,15 +62,16 @@ def create_new_product(
         raise
 
 def add_files_to_product(handle: str, files: list) -> None:
-    """Add files to a product's MinIO storage"""
+    """Add files to a product's cloud storage"""
     validate()
     
-    minio_client = create_minio_client(
-        MINIO_ENDPOINT, 
-        MINIO_ACCESS_KEY, 
-        MINIO_SECRET_KEY, 
-        MINIO_SECURE
-    )
+    # Setup local product directory
+    catalog_path = Path(DATA_ROOT)
+    product_dir = catalog_path / handle
+    
+    if not product_dir.exists():
+        print(f"❌ Product directory {handle} not found")
+        return
     
     for file_path in files:
         file_path = Path(file_path)
@@ -95,19 +88,45 @@ def add_files_to_product(handle: str, files: list) -> None:
         else:
             category = 'documentation'
         
-        # Upload to MinIO
-        object_name = f"{handle}/{category}/{file_path.name}"
+        # Create local category directory
+        category_dir = product_dir / category
+        category_dir.mkdir(exist_ok=True)
         
+        # Copy file to local structure
+        destination = category_dir / file_path.name
         try:
-            upload_file_to_minio(
-                minio_client,
-                MINIO_BUCKET,
-                object_name,
-                str(file_path)
-            )
-            print(f"📎 Uploaded {file_path.name} to {category}/")
+            import shutil
+            shutil.copy2(file_path, destination)
+            print(f"📎 Added {file_path.name} to {category}/")
+            
+            # Sync to cloud backup
+            cloud_path = f"catalog/{handle}/{category}/"
+            try:
+                # Sync to Google Drive
+                result = subprocess.run([
+                    "rclone", "copy", str(destination), f"gdrive:backup/{cloud_path}"
+                ], capture_output=True, text=True)
+                
+                if result.returncode == 0:
+                    print(f"☁️ Synced {file_path.name} to Google Drive")
+                else:
+                    print(f"⚠️ Google Drive sync warning: {result.stderr}")
+                
+                # Sync to Jottacloud as backup
+                result = subprocess.run([
+                    "rclone", "copy", str(destination), f"jottacloud:backup/{cloud_path}"
+                ], capture_output=True, text=True)
+                
+                if result.returncode == 0:
+                    print(f"☁️ Synced {file_path.name} to Jottacloud backup")
+                else:
+                    print(f"⚠️ Jottacloud sync warning: {result.stderr}")
+                    
+            except Exception as e:
+                print(f"⚠️ Cloud sync error for {file_path.name}: {e}")
+                
         except Exception as e:
-            print(f"❌ Failed to upload {file_path.name}: {e}")
+            print(f"❌ Failed to add {file_path.name}: {e}")
 
 if __name__ == "__main__":
     import sys
@@ -125,5 +144,6 @@ if __name__ == "__main__":
     print(f"\n🎉 Product '{title}' created successfully!")
     print(f"   Handle: {handle}")
     print(f"   Edit files in: catalog/{handle}/")
-    print(f"   Upload assets to MinIO bucket: {MINIO_BUCKET}/{handle}/")
+    print(f"   Upload assets to: catalog/{handle}/images/ or catalog/{handle}/cad/")
     print(f"   Sync changes: python -m src.sync_to_shopify {handle}")
+    print(f"   Backup to cloud: bash scripts/protonord_cloud_backup.sh")

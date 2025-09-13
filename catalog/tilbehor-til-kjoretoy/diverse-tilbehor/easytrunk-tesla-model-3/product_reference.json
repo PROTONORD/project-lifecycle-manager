@@ -5,7 +5,7 @@
   "status": "active",
   "vendor": "Fladby 3Dprint",
   "last_updated": "2025-09-11T19:45:25.971476",
-  "minio_location": {
+  "cloud_location": {
     "bucket": "products",
     "path": "easytrunk-tesla-model-3",
     "full_data_url": "http://127.0.0.1:9000/products/easytrunk-tesla-model-3/"

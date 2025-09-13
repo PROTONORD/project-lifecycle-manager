@@ -5,7 +5,7 @@
   "status": "active",
   "vendor": "PROTONORD",
   "last_updated": "2025-09-11T19:45:25.784768",
-  "minio_location": {
+  "cloud_location": {
     "bucket": "products",
     "path": "nissan-leaf-ze1-v2-vaer-og-sno-deksel-for-ladeport",
     "full_data_url": "http://127.0.0.1:9000/products/nissan-leaf-ze1-v2-vaer-og-sno-deksel-for-ladeport/"

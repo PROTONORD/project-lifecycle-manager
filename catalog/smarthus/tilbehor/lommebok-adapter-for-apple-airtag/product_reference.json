@@ -5,7 +5,7 @@
   "status": "archived",
   "vendor": "PROTONORD",
   "last_updated": "2025-09-11T19:45:25.997258",
-  "minio_location": {
+  "cloud_location": {
     "bucket": "products",
     "path": "lommebok-adapter-for-apple-airtag",
     "full_data_url": "http://127.0.0.1:9000/products/lommebok-adapter-for-apple-airtag/"

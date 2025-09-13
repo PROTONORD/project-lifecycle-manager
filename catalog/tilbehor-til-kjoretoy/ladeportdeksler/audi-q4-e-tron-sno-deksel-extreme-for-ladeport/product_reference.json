@@ -5,7 +5,7 @@
   "status": "archived",
   "vendor": "PROTONORD",
   "last_updated": "2025-09-11T19:45:25.832902",
-  "minio_location": {
+  "cloud_location": {
     "bucket": "products",
     "path": "audi-q4-e-tron-sno-deksel-extreme-for-ladeport",
     "full_data_url": "http://127.0.0.1:9000/products/audi-q4-e-tron-sno-deksel-extreme-for-ladeport/"

@@ -5,7 +5,7 @@
   "status": "active",
   "vendor": "PROTONORD",
   "last_updated": "2025-09-11T19:45:25.681695",
-  "minio_location": {
+  "cloud_location": {
     "bucket": "products",
     "path": "zenitel-stentofon-spesialtilpasset-koblingsboks",
     "full_data_url": "http://127.0.0.1:9000/products/zenitel-stentofon-spesialtilpasset-koblingsboks/"

@@ -5,7 +5,7 @@
   "status": "archived",
   "vendor": "PROTONORD",
   "last_updated": "2025-09-11T19:45:25.738533",
-  "minio_location": {
+  "cloud_location": {
     "bucket": "products",
     "path": "audi-q8-e-tron-vaer-og-sno-deksel-for-ladeport",
     "full_data_url": "http://127.0.0.1:9000/products/audi-q8-e-tron-vaer-og-sno-deksel-for-ladeport/"

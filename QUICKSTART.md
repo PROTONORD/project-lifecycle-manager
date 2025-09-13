@@ -27,25 +27,23 @@ nano .env
 Required settings in `.env`:
 - `SHOPIFY_SHOP` - Your Shopify store URL (yourstore.myshopify.com)
 - `SHOPIFY_ACCESS_TOKEN` - Admin API access token from a Custom App
-- `MINIO_ENDPOINT` - MinIO server address (e.g., localhost:9000)
-- `MINIO_ACCESS_KEY` - MinIO access key
-- `MINIO_SECRET_KEY` - MinIO secret key
+- `CLOUD_ENDPOINT` - MinIO server address (e.g., localhost:9000)
+- `CLOUD_ACCESS_KEY` - MinIO access key
+- `CLOUD_SECRET_KEY` - MinIO secret key
 - `MINIO_BUCKET` - Bucket name for storing files (e.g., "products")
 
-### 3. Setup MinIO Server
+### 3. Setup Cloud Storage
 
-Install and run MinIO locally:
+Setup cloud storage with rclone:
 
 ```bash
-# Download MinIO (Linux)
-wget https://dl.min.io/server/minio/release/linux-amd64/minio
-chmod +x minio
+# Setup rclone for cloud storage
+curl https://rclone.org/install.sh | sudo bash
+rclone config  # Configure Google Drive and Jottacloud
 
-# Start MinIO server
-./minio server ./minio-data --console-address ":9001"
-```
-
-Access MinIO console at http://localhost:9001 (default: minioadmin/minioadmin)
+# Test cloud connection
+rclone lsd gdrive:
+rclone lsd jottacloud:
 
 ### 4. Setup Shopify Custom App
 
@@ -71,7 +69,7 @@ python main.py bootstrap
 This creates:
 - Local folder structure in `catalog/`
 - Product JSON files with metadata
-- Images stored in MinIO
+- Images stored in cloud backup
 - Git-ready structure
 
 ### Sync Changes to Shopify
@@ -110,8 +108,8 @@ catalog/
 │   ├── product.json      # Shopify product data
 │   ├── description.md    # Editable description
 │   ├── README.md        # Product documentation
-│   ├── images/          # Product images (in MinIO)
-│   ├── cad/            # CAD files (in MinIO)
+│   ├── images/          # Product images (in cloud backup)
+│   ├── cad/            # CAD files (in cloud backup)
 │   └── documentation/   # Additional docs
 ├── product-handle-2/
 │   └── ...
@@ -122,16 +120,16 @@ catalog/
 
 1. **Bootstrap**: Import existing products from Shopify
 2. **Edit**: Modify `product.json` or `description.md` files
-3. **Upload**: Add files to MinIO via web interface or CLI
+3. **Upload**: Add files to cloud backup via rclone
 4. **Sync**: Push changes back to Shopify
 5. **Commit**: Save changes to Git for version control
 
 ## 🆘 Troubleshooting
 
 - **Connection errors**: Check `.env` file and network connectivity
-- **Permission errors**: Verify Shopify app scopes and MinIO credentials
+- **Permission errors**: Verify Shopify app scopes and cloud storage credentials
 - **Missing products**: Ensure products exist in Shopify and are not archived
-- **File upload issues**: Check MinIO bucket permissions and storage space
+- **File upload issues**: Check cloud storage permissions and quota
 
 ## 🔗 Next Steps
 

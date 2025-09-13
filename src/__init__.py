@@ -1,9 +1,9 @@
 """
-Shopify-MinIO-GitHub Integration Tools
+Shopify-Cloud-GitHub Integration Tools
 
 This package provides tools for synchronizing product catalogs between:
 - Shopify (e-commerce platform)  
-- MinIO (object storage for assets)
+- Cloud Storage (Google Drive and Jottacloud for assets)
 - GitHub (version control and collaboration)
 """
 

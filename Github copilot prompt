@@ -1,15 +1,15 @@
 # ## Instruksjoner for GitHub Copilot: Generer en komplett README.md-fil.
 #
 # MÅL: Skriv en profesjonell, teknisk og veiledende README.md for et GitHub-repositorium som heter "prototype-workflow-med-github".
-# KONSEPT: Filen skal være en A-til-Å guide og blåkopi for et helautomatisert system som tar et CAD-design til et publisert produkt i Shopify, ved hjelp av MinIO for fillagring.
+# KONSEPT: Filen skal være en A-til-Å guide og blåkopi for et helautomatisert system som tar et CAD-design til et publisert produkt i Shopify, ved hjelp av cloud storage for fillagring.
 # STRUKTUR: Følg strukturen under nøyaktig, med de spesifiserte titlene og innholdspunktene.
 
 # --- START PÅ FIL ---
 
 # 1. HOVEDTITTEL OG INTRODUKSJON
-# Start med hovedtittelen: "# Komplett Guide for Automatisert CAD til E-handel med MinIO"
+# Start med hovedtittelen: "# Komplett Guide for Automatisert CAD til E-handel med Cloud Storage"
 # Skriv en kort introduksjon som forklarer at dette dokumentet er en komplett guide for et automatisert system for CAD-design, fra idé til publisering i Shopify.
-# Nevn at systemet bruker MinIO for lagring og GitHub som "Single Source of Truth".
+# Nevn at systemet bruker cloud storage for lagring og GitHub som "Single Source of Truth".
 
 # 2. INNHOLDSFORTEGNELSE
 # Lag en nummerert innholdsfortegnelse med 7 hoveddeler:
@@ -25,7 +25,7 @@
 # Lag en H2-tittel: "## 1. Systemarkitektur: En oversikt 🏗️"
 # Forklar systemet med en punktliste. Dekk følgende punkter:
 # - Kjerne: Linux-server.
-# - Lagring: MinIO med versjonering, datasikkerhet og API-tilgang.
+# - Lagring: Cloud storage med versjonering, datasikkerhet og API-tilgang.
 # - Nettverk: Tailscale for et sikkert, privat nettverk.
 # - Versjonskontroll: Git og GitHub, hvor .gitignore ekskluderer store filer og kun metadata spores.
 # - Integrasjon: Python-skript som limer alt sammen.
@@ -33,27 +33,27 @@
 # 4. SEKSJON 2: SERVEROPPSETT
 # Lag en H2-tittel: "## 2. Del 1: Grunnoppsett av Server 🐧"
 # Lag tre H4-undertitler:
-# - "2.1. Installasjon av Programvare": Inkluder en bash-kodeblokk for `apt update` og installasjon av `git`, `python3`, `python3-pip`. Inkluder også en `pip3 install`-kommando for `watchdog`, `ShopifyAPI`, `PyGithub`, og `minio`.
-# - "2.2. Oppsett av MinIO (Objektlagring)": Beskriv stegene: installer MinIO server, start den som en tjeneste, opprett en bucket kalt "cad-projects", og aktiver versjonering.
+# - "2.1. Installasjon av Programvare": Inkluder en bash-kodeblokk for `apt update` og installasjon av `git`, `python3`, `python3-pip`. Inkluder også en `pip3 install`-kommando for `watchdog`, `ShopifyAPI`, `PyGithub`, og .
+# - "2.2. Oppsett av Cloud Storage (rclone)": Beskriv stegene: installer rclone, konfigurer Google Drive og Jottacloud, test tilkoblinger, og aktiver versjonering.
 # - "2.3. Sikker Tilgang (Tailscale)": Forklar kort hvordan man installerer og starter Tailscale på server og klienter.
 
 # 5. SEKSJON 3: VERSJONSKONTROLL
 # Lag en H2-tittel: "## 3. Del 2: Konfigurasjon av Versjonskontroll 🔄"
 # Lag to H4-undertitler:
 # - "3.1. Git & SSH-oppsett": Forklar hvordan man genererer en SSH-nøkkel på serveren og legger den til på GitHub.
-# - "3.2. Automatisering av Fillogg (watcher.py)": Forklar at et Python-skript må konfigureres til å lytte på MinIO-hendelser (via webhooks) og deretter oppdatere en `fil-logg.md` i det relevante GitHub-repoet.
+# - "3.2. Automatisering av Fillogg (watcher.py)": Forklar at et Python-skript må konfigureres til å lytte på cloud storage hendelser og deretter oppdatere en `fil-logg.md` i det relevante GitHub-repoet.
 
 # 6. SEKSJON 4: SHOPIFY-INTEGRASJON
 # Lag en H2-tittel: "## 4. Del 3: Shopify-integrasjon 🛒"
 # Lag to H4-undertitler:
-# - "4.1. API-tilganger": List opp de tre nødvendige API-tilgangene: Shopify (Privat App), GitHub (Personal Access Token), og MinIO (Access/Secret Key).
+# - "4.1. API-tilganger": List opp de tre nødvendige API-tilgangene: Shopify (Privat App), GitHub (Personal Access Token), og Cloud Storage (rclone config).
 # - "4.2. Skriptene: Import og Publiser": Beskriv de to Python-skriptene (`importer_fra_shopify.py` og `publiser_til_shopify.py`) og deres formål.
 
 # 7. SEKSJON 5: ARBEIDSFLYT
 # Lag en H2-tittel: "## 5. Del 4: Arbeidsflyt i Praksis ⚙️"
 # Lag to H4-undertitler:
 # - "5.1. Éngangsimport: Få oversikt over gamle design": Forklar at man kjører import-skriptet for å bygge arkivet.
-# - "5.2. Daglig bruk: Fra nytt design til publisert produkt": List opp stegene: Opprett Git-repo, legg til `gitignore` og `product.json`, last opp CAD-filer til MinIO, push metadata til GitHub, og kjør publiseringsskriptet.
+# - "5.2. Daglig bruk: Fra nytt design til publisert produkt": List opp stegene: Opprett Git-repo, legg til `gitignore` og `product.json`, last opp CAD-filer til cloud backup, push metadata til GitHub, og kjør publiseringsskriptet.
 
 # 8. SEKSJON 6: FREMTIDSPLANER
 # Lag en H2-tittel: "## 6. Del 5: Fremtidsplaner og Utvidelser 🚀"

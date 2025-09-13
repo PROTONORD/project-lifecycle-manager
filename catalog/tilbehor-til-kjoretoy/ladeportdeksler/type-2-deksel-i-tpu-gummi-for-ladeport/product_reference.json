@@ -5,7 +5,7 @@
   "status": "active",
   "vendor": "PROTONORD",
   "last_updated": "2025-09-11T19:45:25.786432",
-  "minio_location": {
+  "cloud_location": {
     "bucket": "products",
     "path": "type-2-deksel-i-tpu-gummi-for-ladeport",
     "full_data_url": "http://127.0.0.1:9000/products/type-2-deksel-i-tpu-gummi-for-ladeport/"

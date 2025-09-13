@@ -5,7 +5,7 @@
   "status": "active",
   "vendor": "PROTONORD",
   "last_updated": "2025-09-11T19:45:25.685179",
-  "minio_location": {
+  "cloud_location": {
     "bucket": "products",
     "path": "skaplas-til-bobil",
     "full_data_url": "http://127.0.0.1:9000/products/skaplas-til-bobil/"

@@ -5,7 +5,7 @@
   "status": "active",
   "vendor": "Fladby 3Dprint",
   "last_updated": "2025-09-11T19:45:26.011596",
-  "minio_location": {
+  "cloud_location": {
     "bucket": "products",
     "path": "rainlock-for-netatmo-regnsensor",
     "full_data_url": "http://127.0.0.1:9000/products/rainlock-for-netatmo-regnsensor/"

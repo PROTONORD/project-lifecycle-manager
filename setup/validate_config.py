@@ -8,7 +8,6 @@ import os
 sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 
 from src.config import *
-from src.minio_client import create_minio_client, ensure_bucket_exists
 
 def validate_config():
     """Validate all configuration settings"""
@@ -49,31 +48,22 @@ def validate_config():
     for var_name, var_value in optional_vars.items():
         print(f"   ℹ️ {var_name}: {var_value}")
     
-    # Test MinIO connection
-    print("\n🗄️ Testing MinIO connection...")
+    # Test cloud storage connection
+    print("\n☁️ Testing cloud storage connection...")
     try:
-        minio_client = create_minio_client(
-            MINIO_ENDPOINT,
-            MINIO_ACCESS_KEY,
-            MINIO_SECRET_KEY,
-            MINIO_SECURE
-        )
-        
-        # Test basic connection
-        buckets = minio_client.list_buckets()
-        print(f"   ✅ Connected to MinIO successfully")
-        print(f"   📦 Found {len(buckets)} existing buckets")
-        
-        # Test bucket creation/access
-        try:
-            ensure_bucket_exists(minio_client, MINIO_BUCKET)
-            print(f"   ✅ Bucket '{MINIO_BUCKET}' ready")
-        except Exception as e:
-            errors.append(f"Cannot access/create MinIO bucket '{MINIO_BUCKET}': {e}")
-            print(f"   ❌ Bucket error: {e}")
-        
+        result = subprocess.run(["rclone", "lsd", "gdrive:"], capture_output=True, text=True)
+        if result.returncode == 0:
+            print("   ✅ Google Drive connection successful")
+        else:
+            errors.append("Google Drive connection failed")
+            
+        result = subprocess.run(["rclone", "lsd", "jottacloud:"], capture_output=True, text=True)
+        if result.returncode == 0:
+            print("   ✅ Jottacloud connection successful")
+        else:
+            errors.append("Jottacloud connection failed")
     except Exception as e:
-        errors.append(f"MinIO connection failed: {e}")
+        errors.append(f"Cloud storage validation failed: {e}")
         print(f"   ❌ Connection failed: {e}")
     
     # Validate Shopify settings

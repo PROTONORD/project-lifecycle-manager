@@ -34,13 +34,13 @@ pip install -r requirements.txt
 - [ ] Virtuelt miljø opprettet
 - [ ] Dependencies installert
 
-### 4. MinIO-oppsett
+### 4. Cloud Storage-oppsett
 ```bash
-sudo ./setup/install_minio.sh
+# Cloud storage settes opp via rclone config
 ```
-- [ ] MinIO installert og startet
+- [ ] rclone konfigurert med Google Drive og Jottacloud
 - [ ] Web-konsoll tilgjengelig på http://localhost:9001
-- [ ] Standard-credentials endret (minioadmin/minioadmin123 → dine credentials)
+- [ ] Cloud storage tilganger verifisert
 - [ ] "products" bucket opprettet
 
 ### 5. Miljøkonfigurasjon
@@ -64,7 +64,7 @@ python setup/test_shopify_connection.py
 ```
 - [ ] Alle konfigurasjonstester passert
 - [ ] Shopify API-tilkobling verifisert
-- [ ] MinIO-tilkobling verifisert
+- [ ] Cloud backup-tilkobling verifisert
 
 ## 🚀 Første import (5-30 minutter, avhengig av antall produkter)
 
@@ -74,7 +74,7 @@ python main.py bootstrap
 ```
 - [ ] Alle produkter importert fra Shopify
 - [ ] Lokale mapper opprettet i `catalog/`
-- [ ] Produktbilder lastet opp til MinIO
+- [ ] Produktbilder synkronisert til cloud backup
 - [ ] `catalog_summary.json` opprettet
 
 ### 8. Verifiser resultatet
@@ -139,8 +139,8 @@ Når alle punkt over er sjekket av, er systemet klart for bruk:
 3. **Sync til Shopify**: `python main.py sync` eller `python main.py sync produkt-handle`
 4. **Vis status**: `python main.py status`
 
-### Upload filer til MinIO:
-1. Åpne MinIO web-konsoll: http://localhost:9001
+### Upload filer til cloud backup:
+1. Bruk rclone for opplasting: rclone copy lokal_fil gdrive:backup/
 2. Naviger til `products/produkt-handle/`
 3. Last opp filer til `images/`, `cad/`, eller `documentation/`
 
@@ -154,7 +154,7 @@ Når alle punkt over er sjekket av, er systemet klart for bruk:
 ## 🆘 Hvis noe går galt
 
 ### Vanlige problemer:
-1. **MinIO starter ikke**: Sjekk `sudo journalctl -u minio -f`
+1. **Cloud backup feil**: Sjekk `rclone check` og nettverkstilkobling
 2. **Shopify API-feil**: Verifiser access token og tilganger
 3. **Python-import-feil**: Sjekk at virtual environment er aktivert
 4. **Fil-tilgangsfeil**: Sjekk file permissions på data-kataloger

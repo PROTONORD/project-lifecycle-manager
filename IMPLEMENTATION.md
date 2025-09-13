@@ -2,32 +2,24 @@
 
 ## Fase 1: Grunnoppsett (Dag 1-2)
 
-### 1.1 MinIO Server Setup
+### 1.1 Cloud Storage Setup
 
-**Installer MinIO på serveren:**
+**Setup rclone for cloud storage:**
 ```bash
-# Last ned MinIO
-wget https://dl.min.io/server/minio/release/linux-amd64/minio
-chmod +x minio
-sudo mv minio /usr/local/bin/
+# Install rclone
+curl https://rclone.org/install.sh | sudo bash
 
-# Opprett bruker og datakatalog
-sudo useradd -r minio-user -s /sbin/nologin
-sudo mkdir -p /mnt/data
-sudo chown minio-user:minio-user /mnt/data
+# Configure cloud remotes
+rclone config  # Setup Google Drive and Jottacloud
+
+# Test connections
+rclone lsd gdrive:
+rclone lsd jottacloud:
 ```
 
-**Opprett systemd service:**
+**Verifiser cloud storage tilkobling:**
 ```bash
-sudo cp setup/minio.service /etc/systemd/system/
-sudo systemctl daemon-reload
-sudo systemctl enable minio
-sudo systemctl start minio
-```
-
-**Verifiser at MinIO kjører:**
-```bash
-curl http://localhost:9000/minio/health/live
+rclone check gdrive: jottacloud: --one-way
 ```
 
 ### 1.2 Shopify Custom App Setup
@@ -146,8 +138,8 @@ jobs:
 ### 4.1 Fusion 360 Plugin
 
 ```python
-# fusion360_plugin/upload_to_minio.py
-# Plugin for direkteopplasting fra Fusion 360 til MinIO
+# fusion360_plugin/upload_to_cloud.py
+# Plugin for direkteopplasting fra Fusion 360 til cloud backup
 ```
 
 ### 4.2 Web Dashboard
@@ -179,8 +171,8 @@ python tools/health_check.py
 ### 5.2 Backup og Gjenoppretting
 
 ```bash
-# Automatisk backup av MinIO-data
-python tools/backup_minio.py
+# Automatisk cloud backup
+bash scripts/protonord_cloud_backup.sh
 
 # Backup av produktkatalog
 git bundle create backup.bundle --all
@@ -196,7 +188,7 @@ python tools/performance_analysis.py
 ## 📋 Sjekkliste for Implementering
 
 ### Dag 1-2: Grunnoppsett
-- [ ] MinIO server installert og kjører
+- [ ] rclone konfigurert og testet
 - [ ] Shopify Custom App opprettet med riktige tilganger
 - [ ] Miljøvariabler konfigurert og testet
 - [ ] Python-miljø satt opp på server
@@ -229,12 +221,11 @@ python tools/performance_analysis.py
 
 ### Vanlige Problemer
 
-1. **MinIO Connection Error**
+1. **Cloud Storage Connection Error**
    ```bash
-   # Sjekk at MinIO kjører
-   sudo systemctl status minio
-   # Test tilkobling
-   mc alias set local http://localhost:9000 minioadmin minioadmin
+   # Test cloud storage connections
+   rclone lsd gdrive:
+   rclone lsd jottacloud:
    ```
 
 2. **Shopify API Rate Limiting**

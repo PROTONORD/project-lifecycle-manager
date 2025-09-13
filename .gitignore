@@ -25,8 +25,8 @@ node_modules/
 build/
 *.log
 
-# MinIO data - object storage files
-minio-data/
+# Cloud storage data - object storage files
+cloud-data/
 
 # Actual files - only references allowed in Git
 # Images

@@ -5,7 +5,7 @@
   "status": "active",
   "vendor": "PROTONORD",
   "last_updated": "2025-09-11T19:45:25.686837",
-  "minio_location": {
+  "cloud_location": {
     "bucket": "products",
     "path": "torkestang-til-bergans-wiglo-telt",
     "full_data_url": "http://127.0.0.1:9000/products/torkestang-til-bergans-wiglo-telt/"

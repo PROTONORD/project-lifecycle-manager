@@ -5,7 +5,7 @@
   "status": "active",
   "vendor": "PROTONORD",
   "last_updated": "2025-09-11T19:45:25.683503",
-  "minio_location": {
+  "cloud_location": {
     "bucket": "products",
     "path": "badekar-stottearm",
     "full_data_url": "http://127.0.0.1:9000/products/badekar-stottearm/"

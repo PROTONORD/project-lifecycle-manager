@@ -5,7 +5,7 @@
   "status": "archived",
   "vendor": "PROTONORD",
   "last_updated": "2025-09-11T19:45:25.701376",
-  "minio_location": {
+  "cloud_location": {
     "bucket": "products",
     "path": "fisker-ocean-deksel-til-hengerfeste-europeisk",
     "full_data_url": "http://127.0.0.1:9000/products/fisker-ocean-deksel-til-hengerfeste-europeisk/"

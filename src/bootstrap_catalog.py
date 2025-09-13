@@ -1,17 +1,16 @@
 import os
 import json
 import re
+import subprocess
 from pathlib import Path
 from typing import Dict, List, Optional
 from slugify import slugify
 
 from .config import (
     SHOPIFY_SHOP, SHOPIFY_ACCESS_TOKEN, DATA_ROOT,
-    MINIO_ENDPOINT, MINIO_ACCESS_KEY, MINIO_SECRET_KEY, MINIO_BUCKET, MINIO_SECURE,
     validate
 )
 from .shopify_client import ShopifyClient
-from .minio_client import create_minio_client, ensure_bucket_exists, upload_bytes_to_minio
 import requests
 
 def normalize_handle(text: str) -> str:
@@ -94,14 +93,15 @@ def create_product_folder(root_path: Path, product: Dict) -> Dict:
         f.write("## Folder Structure\n\n")
         f.write("- `product.json` - Product data synchronized with Shopify\n")
         f.write("- `description.md` - Editable product description (HTML)\n")
-        f.write("- `images/` - Product images (stored in MinIO)\n")
-        f.write("- `cad/` - CAD files and technical drawings (stored in MinIO)\n")
+        f.write("- `images/` - Product images (stored in cloud backup)\n")
+        f.write("- `cad/` - CAD files and technical drawings (stored in cloud backup)\n")
         f.write("- `documentation/` - Additional documentation and notes\n\n")
         
         f.write("## Editing\n\n")
         f.write("1. Edit `product.json` or `description.md` to change product info\n")
-        f.write("2. Upload files to MinIO using the web interface or CLI\n")
-        f.write("3. Run sync script to push changes back to Shopify\n\n")
+        f.write("2. Add files to local folders (images/, cad/, documentation/)\n")
+        f.write("3. Run backup script to sync to cloud storage\n")
+        f.write("4. Run sync script to push changes back to Shopify\n\n")
         
         if product.get("variants"):
             f.write("## Variants\n\n")
@@ -119,8 +119,11 @@ def create_product_folder(root_path: Path, product: Dict) -> Dict:
         "product_id": product.get("id")
     }
 
-def download_and_store_images(images: List[Dict], handle: str, minio_client, bucket: str) -> None:
-    """Download product images and store them in MinIO"""
+def download_and_store_images(images: List[Dict], handle: str, product_dir: Path) -> None:
+    """Download product images and store them locally"""
+    images_dir = product_dir / "images"
+    images_dir.mkdir(exist_ok=True)
+    
     for index, image in enumerate(images or []):
         image_url = image.get("src")
         if not image_url:
@@ -141,17 +144,37 @@ def download_and_store_images(images: List[Dict], handle: str, minio_client, buc
             elif "gif" in content_type:
                 extension = "gif"
             
-            # Create object name
-            object_name = f"{handle}/images/{index + 1}.{extension}"
+            # Save to local images directory
+            filename = f"{index + 1}.{extension}"
+            image_path = images_dir / filename
             
-            # Upload to MinIO
-            upload_bytes_to_minio(
-                minio_client, 
-                bucket, 
-                object_name, 
-                response.content, 
-                content_type or "application/octet-stream"
-            )
+            with open(image_path, "wb") as f:
+                f.write(response.content)
+            
+            print(f"  └─ Downloaded image: {filename}")
+            
+            # Sync to cloud storage
+            try:
+                cloud_path = f"catalog/{handle}/images/"
+                
+                # Sync to Google Drive
+                result = subprocess.run([
+                    "rclone", "copy", str(image_path), f"gdrive:backup/{cloud_path}"
+                ], capture_output=True, text=True)
+                
+                if result.returncode == 0:
+                    print(f"  └─ Synced {filename} to Google Drive")
+                
+                # Sync to Jottacloud as backup
+                result = subprocess.run([
+                    "rclone", "copy", str(image_path), f"jottacloud:backup/{cloud_path}"
+                ], capture_output=True, text=True)
+                
+                if result.returncode == 0:
+                    print(f"  └─ Synced {filename} to Jottacloud")
+                    
+            except Exception as e:
+                print(f"  ⚠️ Cloud sync warning for {filename}: {e}")
             
         except Exception as e:
             print(f"Warning: Failed to download/store image {image_url}: {e}")
@@ -167,18 +190,11 @@ def bootstrap_from_shopify():
     catalog_path = Path(DATA_ROOT)
     catalog_path.mkdir(exist_ok=True)
     
-    # Initialize clients
+    # Initialize Shopify client
     print("📡 Connecting to Shopify...")
     shopify_client = ShopifyClient(SHOPIFY_SHOP, SHOPIFY_ACCESS_TOKEN)
     
-    print("🗄️ Connecting to MinIO...")
-    minio_client = create_minio_client(
-        MINIO_ENDPOINT, 
-        MINIO_ACCESS_KEY, 
-        MINIO_SECRET_KEY, 
-        MINIO_SECURE
-    )
-    ensure_bucket_exists(minio_client, MINIO_BUCKET)
+    print("☁️ Preparing cloud storage...")
     
     # Fetch products from Shopify
     print("📦 Fetching products from Shopify...")
@@ -196,14 +212,14 @@ def bootstrap_from_shopify():
         product_info = create_product_folder(catalog_path, product)
         created_products.append(product_info)
         
-        # Download and store images in MinIO
+        # Download and store images locally and sync to cloud
         if product.get("images"):
-            print(f"  └─ Storing {len(product['images'])} images in MinIO...")
+            print(f"  └─ Downloading and syncing {len(product['images'])} images...")
+            product_dir = catalog_path / product_info["handle"]
             download_and_store_images(
                 product["images"], 
                 product_info["handle"], 
-                minio_client, 
-                MINIO_BUCKET
+                product_dir
             )
     
     # Create summary
@@ -211,7 +227,7 @@ def bootstrap_from_shopify():
     summary = {
         "total_products": len(created_products),
         "catalog_path": str(catalog_path.resolve()),
-        "minio_bucket": MINIO_BUCKET,
+        "cloud_backup": "Google Drive + Jottacloud",
         "products": [
             {
                 "handle": p["handle"],
@@ -228,12 +244,13 @@ def bootstrap_from_shopify():
     print(f"\n✅ Bootstrap complete!")
     print(f"   📁 Catalog created in: {catalog_path.resolve()}")
     print(f"   📦 {len(created_products)} products processed")
-    print(f"   🗄️ Images stored in MinIO bucket: {MINIO_BUCKET}")
+    print(f"   ☁️ Images synced to cloud backup (Google Drive + Jottacloud)")
     print(f"\n🔄 Next steps:")
     print(f"   1. Review the created folder structure")
     print(f"   2. Commit and push to GitHub: git add catalog && git commit -m 'Bootstrap catalog from Shopify' && git push")
     print(f"   3. Edit product.json files to make changes")
     print(f"   4. Use sync scripts to push changes back to Shopify")
+    print(f"   5. Run backup script regularly: bash scripts/protonord_cloud_backup.sh")
 
 if __name__ == "__main__":
     bootstrap_from_shopify()

@@ -1,4 +1,4 @@
-# Denne mappen inneholder bare referanser til filer i MinIO
-# Faktiske bildefiler ligger i MinIO object storage
+# Denne mappen inneholder bare referanser til filer i cloud backup
+# Faktiske bildefiler ligger i cloud backup object storage
 
 Se README.md for fullstendig bildekatalog med direkte lenker.

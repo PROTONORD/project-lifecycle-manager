@@ -5,7 +5,7 @@
   "status": "active",
   "vendor": "PROTONORD",
   "last_updated": "2025-09-11T19:45:25.808246",
-  "minio_location": {
+  "cloud_location": {
     "bucket": "products",
     "path": "mg4-vaer-og-sno-deksel-for-ladeport-copy",
     "full_data_url": "http://127.0.0.1:9000/products/mg4-vaer-og-sno-deksel-for-ladeport-copy/"

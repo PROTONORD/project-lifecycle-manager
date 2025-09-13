@@ -5,7 +5,7 @@
   "status": "active",
   "vendor": "PROTONORD",
   "last_updated": "2025-09-11T19:45:25.659947",
-  "minio_location": {
+  "cloud_location": {
     "bucket": "products",
     "path": "gastol-reservedel-til-handtak-justering",
     "full_data_url": "http://127.0.0.1:9000/products/gastol-reservedel-til-handtak-justering/"
