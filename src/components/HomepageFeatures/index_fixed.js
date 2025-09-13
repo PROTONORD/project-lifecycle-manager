@@ -1,19 +1,4 @@
-import React fr  {
-    title: '🛍️ Shopify Integrering', 
-    Svg: () => (
-      <img 
-        src={require('@site/static/img/protonord-logo.svg').default} 
-        alt="ProtoNord Logo"
-        style={{width: '200px', height: '200px', objectFit: 'contain'}}
-      />
-    ),
-    description: (
-      <>
-        Live dashboard med produkter, bestillinger og kunde-data fra ProtoNord Shopify butikken.
-        Automatisk synkronisering hver natt for oppdatert business intelligence.
-      </>
-    ),
-  },;
+import React from 'react';
 import clsx from 'clsx';
 import styles from './styles.module.css';
 
@@ -30,7 +15,7 @@ const FeatureList = [
   },
   {
     title: '🛍️ Shopify Integrering', 
-    Svg: require('@site/static/img/protonord-logo.svg').default,
+    Svg: require('@site/static/img/protonord-logo.png').default,
     description: (
       <>
         Live dashboard med produkter, bestillinger og kunde-data fra ProtoNord Shopify butikken.
