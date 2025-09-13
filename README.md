@@ -1,101 +1,244 @@
-# # prototype-workflow-med-github
+# ProtoNord Wiki
 
-## Komplett Guide for Automatisert CAD til E-handel med MinIO
+Dette er wiki-nettstedet for ProtoNord, bygget med Docusaurus.
 
-Dette dokumentet beskriver A-til-Å-oppsettet for et helautomatisert system som håndterer CAD-design fra idé til publisert produkt i en Shopify-butikk. Systemet er bygget rundt en sentral server som bruker **MinIO** for robust fillagring, og **GitHub** som den definitive sannhetskilden (*Single Source of Truth*) for all produktinformasjon og designhistorikk.
+## 🌐 Tilgang
+- **URL**: https://wiki.protonord.no
+- **Repository**: https://github.com/PROTONORD/prototype-workflow-med-github
 
-## 🚀 Kom i gang (Quick Start)
+## 🏗️ Teknisk oppsett
 
-### 1. Installer og sett opp miljø
+### Docusaurus
+- **Port**: 3001 (lokal utvikling)
+- **Mappe**: `/home/kau005/prototype-workflow-med-github/`
+- **Start kommando**: `npm start`
+
+### Apache Virtual Host
+- **HTTP**: Redirecter til HTTPS
+- **HTTPS**: Proxy til `http://127.0.0.1:3001/`
+- **SSL**: Let's Encrypt sertifikat
+
+### Parallell drift
+Dette nettstedet kjører parallelt med:
+- `wiki.tromsoskapere.no` (port 3000)
+- Separate repositories og konfigurasjon
+
+## 🚀 Utvikling
 
 ```bash
-# Klon prosjektet
-git clone https://github.com/PROTONORD/prototype-workflow-med-github.git
-cd prototype-workflow-med-github
+# Installer dependencies
+npm install
 
-# Opprett Python virtuelt miljø
+# Start utviklingsserver
+npm start
+
+# Bygg for produksjon
+npm run build
+```
+
+## 📁 Struktur
+- `docs/` - Dokumentasjon i Markdown
+- `src/` - React-komponenter og sider
+- `static/` - Statiske filer (bilder, etc.)
+- `docusaurus.config.js` - Hovedkonfigurasjon
+
+---
+
+# Prototype Workflow - GitHub Integration
+
+
+
+## Oversikt## Komplett Guide for Automatisert CAD til E-handel med MinIO
+
+
+
+Dette prosjektet er en dokumentasjonsplattform som bruker **Docusaurus** for å lage en oversiktlig katalog over filer lagret i cloud-tjenester som **Jottacloud** og **Google Drive**. Systemet bruker **rclone** for å synkronisere og kartlegge filstrukturer fra cloud-lagring til en JSON-basert oversikt som vises i Docusaurus.Dette dokumentet beskriver A-til-Å-oppsettet for et helautomatisert system som håndterer CAD-design fra idé til publisert produkt i en Shopify-butikk. Systemet er bygget rundt en sentral server som bruker **MinIO** for robust fillagring, og **GitHub** som den definitive sannhetskilden (*Single Source of Truth*) for all produktinformasjon og designhistorikk.
+
+
+
+## Teknologier## 🚀 Kom i gang (Quick Start)
+
+
+
+- **Docusaurus** - Moderne dokumentasjonsplattform### 1. Installer og sett opp miljø
+
+- **rclone** - Cloud storage synkronisering
+
+- **Node.js** - Runtime for Docusaurus```bash
+
+- **Python** - Scripts for filstruktur-analyse og Shopify-integrasjon# Klon prosjektet
+
+git clone https://github.com/PROTONORD/prototype-workflow-med-github.git
+
+## Miljøvariablercd prototype-workflow-med-github
+
+
+
+Kopier `.env.example` til `.env` og fyll inn dine verdier:# Opprett Python virtuelt miljø
+
 python3 -m venv .venv
-source .venv/bin/activate  # Linux/Mac
-# eller .venv\Scripts\activate  # Windows
+
+```bashsource .venv/bin/activate  # Linux/Mac
+
+cp .env.example .env# eller .venv\Scripts\activate  # Windows
+
+```
 
 # Installer avhengigheter
-pip install -r requirements.txt
+
+### Påkrevde variabler:pip install -r requirements.txt
+
 ```
 
-### 2. Konfigurer miljøvariabler
+- `SHOPIFY_SHOP` - Din Shopify butikk URL
 
-```bash
+- `SHOPIFY_ACCESS_TOKEN` - Shopify API access token### 2. Konfigurer miljøvariabler
+
+- `GITHUB_TOKEN` - GitHub personal access token
+
+- `GITHUB_REPO` - GitHub repository (format: owner/repo)```bash
+
 # Kopier eksempel-konfigurasjon
-cp .env.example .env
 
-# Rediger .env med dine legitimasjoner
-nano .env
-```
+### Valgfrie variabler:cp .env.example .env
 
-Fyll inn disse verdiene i `.env`:
+
+
+- `RCLONE_CONFIG_PATH` - Sti til rclone konfigurasjon# Rediger .env med dine legitimasjoner
+
+- `JOTTACLOUD_USERNAME` - Jottacloud brukernavnnano .env
+
+- `GDRIVE_CLIENT_ID` - Google Drive klient ID```
+
+
+
+## MappestrukturFyll inn disse verdiene i `.env`:
+
 - `SHOPIFY_SHOP` - Din Shopify-butikk URL (minbutikk.myshopify.com)
-- `SHOPIFY_ACCESS_TOKEN` - Admin API tilgangstoken fra Custom App
-- `MINIO_ENDPOINT` - MinIO server adresse (f.eks. localhost:9000)
-- `MINIO_ACCESS_KEY` / `MINIO_SECRET_KEY` - MinIO legitimasjoner
-- `MINIO_BUCKET` - Bucket navn for fillagring (f.eks. "products")
 
-### 3. Kjør bootstrap for å importere eksisterende produkter
+```- `SHOPIFY_ACCESS_TOKEN` - Admin API tilgangstoken fra Custom App
 
-```bash
-python main.py bootstrap
-```
+├── docs/                # Docusaurus dokumentasjon- `MINIO_ENDPOINT` - MinIO server adresse (f.eks. localhost:9000)
 
-Dette oppretter:
+├── src/                 # Python moduler- `MINIO_ACCESS_KEY` / `MINIO_SECRET_KEY` - MinIO legitimasjoner
+
+│   ├── shopify_client.py    # Shopify API klient- `MINIO_BUCKET` - Bucket navn for fillagring (f.eks. "products")
+
+│   └── file_scanner.py      # Cloud storage scanner (planned)
+
+├── tools/               # Utility scripts### 3. Kjør bootstrap for å importere eksisterende produkter
+
+├── static/              # Statiske filer for Docusaurus
+
+├── docusaurus.config.js # Docusaurus konfigurasjon```bash
+
+└── package.json         # Node.js dependenciespython main.py bootstrap
+
+``````
+
+
+
+## InstallasjonDette oppretter:
+
 - Lokal mappestruktur i `catalog/`
-- Produktfiler med metadata (`product.json`, `description.md`)
+
+### 1. Python Environment- Produktfiler med metadata (`product.json`, `description.md`)
+
 - Bilder lagret i MinIO
-- Git-klar struktur
 
-### 4. Bruk systemet
+```bash- Git-klar struktur
 
-```bash
+python -m venv venv
+
+source venv/bin/activate  # På Windows: venv\\Scripts\\activate### 4. Bruk systemet
+
+pip install -r requirements.txt
+
+``````bash
+
 # Vis status
-python main.py status
 
-# Opprett nytt produkt
-python main.py new "Mitt Nye Produkt" --type "Elektronikk" --vendor "ACME Corp"
+### 2. Node.js Dependencies (for Docusaurus)python main.py status
+
+
+
+```bash# Opprett nytt produkt
+
+npm installpython main.py new "Mitt Nye Produkt" --type "Elektronikk" --vendor "ACME Corp"
+
+```
 
 # Synkroniser endringer til Shopify
-python main.py sync
 
-# Synkroniser spesifikt produkt
-python main.py sync produkt-handle
-```
+### 3. rclone Setuppython main.py sync
 
-### 5. Arbeidsflyt
 
-1. **Bootstrap**: Import eksisterende produkter fra Shopify
+
+```bash# Synkroniser spesifikt produkt
+
+# Installer rclonepython main.py sync produkt-handle
+
+curl https://rclone.org/install.sh | sudo bash```
+
+
+
+# Konfigurer cloud providers### 5. Arbeidsflyt
+
+rclone config
+
+```1. **Bootstrap**: Import eksisterende produkter fra Shopify
+
 2. **Rediger**: Endre `product.json` eller `description.md` filer
-3. **Last opp**: Legg til filer i MinIO via web-grensesnitt
+
+## Bruk3. **Last opp**: Legg til filer i MinIO via web-grensesnitt
+
 4. **Synkroniser**: Push endringer tilbake til Shopify
-5. **Commit**: Lagre endringer i Git for versjonskontroll
 
-## 📁 Prosjektstruktur
+### Starte Docusaurus development server5. **Commit**: Lagre endringer i Git for versjonskontroll
 
-```
+
+
+```bash## 📁 Prosjektstruktur
+
+npm start
+
+``````
+
 prototype-workflow-med-github/
-├── src/                     # Python kildekode
-│   ├── config.py           # Miljøkonfigurasjon
-│   ├── shopify_client.py   # Shopify API klient
-│   ├── minio_client.py     # MinIO objekt-lagring klient
-│   ├── bootstrap_catalog.py # Import produkter fra Shopify
-│   ├── sync_to_shopify.py  # Synkroniser til Shopify
-│   └── new_product.py      # Opprett nye produkter
-├── main.py                 # Hoved CLI-grensesnitt
-├── requirements.txt        # Python avhengigheter
-├── .env.example           # Eksempel miljøkonfigurasjon
-├── .gitignore            # Git ignore-fil
-├── QUICKSTART.md         # Detaljert oppstartsguide
-└── README.md             # Denne filen
 
-# Etter bootstrap:
+### Synkronisere filstruktur fra cloud├── src/                     # Python kildekode
+
+│   ├── config.py           # Miljøkonfigurasjon
+
+```bash│   ├── shopify_client.py   # Shopify API klient
+
+python tools/sync_cloud_structure.py│   ├── minio_client.py     # MinIO objekt-lagring klient
+
+```│   ├── bootstrap_catalog.py # Import produkter fra Shopify
+
+│   ├── sync_to_shopify.py  # Synkroniser til Shopify
+
+## Roadmap│   └── new_product.py      # Opprett nye produkter
+
+├── main.py                 # Hoved CLI-grensesnitt
+
+- [ ] Setup Docusaurus├── requirements.txt        # Python avhengigheter
+
+- [ ] Implementer rclone integrasjon├── .env.example           # Eksempel miljøkonfigurasjon
+
+- [ ] Lag filstruktur scanner├── .gitignore            # Git ignore-fil
+
+- [ ] Automatisk JSON generering├── QUICKSTART.md         # Detaljert oppstartsguide
+
+- [ ] Cloud storage dashboard└── README.md             # Denne filen
+
+
+
+## Bidrag# Etter bootstrap:
+
 catalog/                   # Produktkatalog (opprettet automatisk)
-├── produkt-1/
+
+Se [CONTRIBUTING.md](CONTRIBUTING.md) for retningslinjer.├── produkt-1/
 │   ├── product.json      # Shopify produktdata
 │   ├── description.md    # Redigerbar beskrivelse
 │   ├── README.md        # Produktdokumentasjon
