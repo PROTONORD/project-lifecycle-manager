@@ -19,6 +19,12 @@ Thumbs.db
 .idea/
 *.swp
 
+# Docusaurus
+node_modules/
+.docusaurus/
+build/
+*.log
+
 # MinIO data - object storage files
 minio-data/
 
