@@ -1,7 +1,7 @@
 {
   "name": "prototype-workflow-med-github",
   "version": "1.0.0",
-  "description": "",
+  "description": "ProtoNord Wiki - Project management and workflow tracking system with Shopify integration and file server coordination for complete project lifecycle oversight",
   "main": "index.js",
   "scripts": {
     "docusaurus": "docusaurus",

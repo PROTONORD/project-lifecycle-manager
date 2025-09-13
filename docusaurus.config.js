@@ -8,7 +8,7 @@ const darkTheme = themes.dracula;
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: 'Protonord Wiki',
-  tagline: 'Cloud Storage Documentation & File Management',
+  tagline: 'Project Management & Workflow Tracking System',
   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here

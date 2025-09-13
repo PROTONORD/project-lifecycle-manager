@@ -1,24 +1,38 @@
-# ProtoNord - Automatisert E-handel Platform
+# ProtoNord Wiki - Prosjektstyring og Workflow-oversikt
 
-Dette er en helautomatisert e-handelsplattform som integrerer Shopify med cloud-basert fillagring og backup-systemer.
+Dette er en Docusaurus-basert wiki og prosjektstyringsplattform for ProtoNord som holder oversikt over hele arbeidsflyt fra idé til ferdig produkt. Systemet integrerer filserver-innhold med Shopify-produkter for å gi komplett sporbarhet og status på alle prosjekter.
+
+## 🎯 Hovedfunksjoner
+
+- **Prosjektoversikt**: Status på alle prosjekter (planlagt, under arbeid, ferdig)
+- **Shopify-integrasjon**: Kobler produkter i butikk med designfiler og dokumentasjon
+- **Filserver-kobling**: Oversikt over CAD-filer, bilder og dokumentasjon lagret i cloud
+- **Workflow-sporing**: Fra første skisse til publisert produkt i Shopify
+- **Dashboard**: Visuell oversikt over hele produksjonsløypa
 
 ## 🌐 Live nettsteder
 
-- **Hovedside**: <https://wiki.protonord.no>
+- **Wiki og Dashboard**: <https://wiki.protonord.no>
 - **Repository**: <https://github.com/PROTONORD/prototype-workflow-med-github>
 
 ## 🏗️ Systemarkitektur
 
-### Frontend (Docusaurus)
+### Frontend (Docusaurus Wiki)
 
 - **Port**: 3001 (lokal utvikling)
-- **Framework**: Docusaurus v3
-- **Features**: Dark mode, React komponenter, Shopify dashboard
+- **Framework**: Docusaurus v3 med React komponenter
+- **Innhold**:
+  - Prosjektdokumentasjon og workflow-status
+  - Shopify-dashboard for produktoversikt
+  - Filserver-integrasjon og cloud backup-dokumentasjon
+  - Sporbarhet fra designfiler til ferdig produkt
 
-### Backend Integrasjoner
+### Prosjektstyring og Integrasjoner
 
-- **Shopify API**: Automatisk produktsynkronisering
-- **Cloud Storage**: Google Drive + Jottacloud via rclone
+- **Shopify API**: Dashboard som viser produkter som er publisert i butikk
+- **Cloud Storage**: Google Drive + Jottacloud for designfiler og dokumentasjon
+- **Filserver-kobling**: Oversikt over CAD-filer, bilder og prosjektfiler
+- **Status-sporing**: Hvilke prosjekter som er planlagt, under arbeid eller ferdig
 - **Backup System**: GFS strategi med dual-cloud redundans
 
 ### Infrastruktur
@@ -114,10 +128,12 @@ prototype-workflow-med-github/
 
 ### Shopify Integrasjon
 
-- **Produktdata**: Automatisk sync fra Shopify API
-- **Lagerinfo**: Real-time lagerstatus
-- **Bestillinger**: Dashboard med ordre-oversikt
-- **Synkronisering**: Daglig oppdatering via cron
+- **Prosjektstatus-dashboard**: Oversikt over hvilke prosjekter som er publisert som produkter
+- **Produktkobling**: Kobler Shopify-produkter med tilhørende designfiler og dokumentasjon
+- **Workflow-sporing**: Fra første CAD-fil til ferdig produkt i butikk
+- **Lagerstatus**: Real-time oversikt over tilgjengelighet
+- **API Integration**: Sikker tilgang til Shopify-data for prosjektstyring
+- **Status-synkronisering**: Automatisk oppdatering av prosjektstatus basert på Shopify-data
 
 ### Cloud Backup System
 
@@ -126,7 +142,39 @@ prototype-workflow-med-github/
 - **Automatisk cleanup**: Fjerner gamle backuper
 - **Logging**: Detaljert backup-logg
 
-## 🛠️ Utviklingsverktøy
+## � Prosjekt Workflow
+
+### Livssyklus: Fra Idé til Produkt
+
+1. **Planlagt** 📋
+   - Idé registreres i system
+   - Designskisser og krav dokumenteres
+   - Prosjektmappe opprettes i cloud storage
+
+2. **Under arbeid** 🛠️
+   - CAD-design og 3D-modellering
+   - Prototyping og testing
+   - Filer synkroniseres til filserver
+   - Dokumentasjon oppdateres fortløpende
+
+3. **Klar for produksjon** ✅
+   - Design ferdigstilt og validert
+   - Produktbilder og beskrivelser klare
+   - Alle filer organisert i cloud storage
+
+4. **Publisert i Shopify** 🛒
+   - Produkt opprettet i Shopify-butikk
+   - Kobling mellom filserver-filer og Shopify-produkt etablert
+   - Status synkroniseres automatisk
+
+### Filserver-integrasjon
+
+- **CAD-filer**: `.step`, `.stl`, `.dwg` filer i organiserte mapper
+- **Produktbilder**: Høyoppløselige bilder for web og print
+- **Dokumentasjon**: README-filer med produktinformasjon
+- **Status-sporing**: Automatisk deteksjon av prosjektstatus basert på filstruktur
+
+## �🛠️ Utviklingsverktøy
 
 ### Config Manager
 
