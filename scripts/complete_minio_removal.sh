@@ -3,7 +3,7 @@
 # Complete MinIO removal and migration to cloud backup terminology
 # This script removes all remaining MinIO references and updates to cloud-first architecture
 
-WORKSPACE_ROOT="/home/kau005/prototype-workflow-med-github"
+WORKSPACE_ROOT="/home/kau005/project-lifecycle-manager"
 LOG_FILE="${WORKSPACE_ROOT}/complete_minio_removal.log"
 
 echo "🧹 Complete MinIO removal and cloud migration started: $(date)" > "$LOG_FILE"

@@ -20,7 +20,7 @@ const config = {
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
   organizationName: 'PROTONORD', // Usually your GitHub org/user name.
-  projectName: 'prototype-workflow-med-github', // Usually your repo name.
+  projectName: 'project-lifecycle-manager', // Usually your repo name.
 
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
@@ -43,7 +43,7 @@ const config = {
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://github.com/PROTONORD/prototype-workflow-med-github/tree/main/',
+            'https://github.com/PROTONORD/project-lifecycle-manager/tree/main/',
         },
         blog: false,
         theme: {
@@ -74,7 +74,7 @@ const config = {
           {to: '/cloud-files', label: '☁️ Cloud Files', position: 'left'},
           {to: '/shopify', label: '🛍️ Shopify', position: 'left'},
           {
-            href: 'https://github.com/PROTONORD/prototype-workflow-med-github',
+            href: 'https://github.com/PROTONORD/project-lifecycle-manager',
             label: 'GitHub',
             position: 'right',
           },
@@ -101,7 +101,7 @@ const config = {
             items: [
               {
                 label: 'GitHub',
-                href: 'https://github.com/PROTONORD/prototype-workflow-med-github',
+                href: 'https://github.com/PROTONORD/project-lifecycle-manager',
               },
             ],
           },

@@ -31,7 +31,7 @@ logs/
 
 ### 1. Setup Automatisk Synkronisering
 ```bash
-cd /home/kau005/prototype-workflow-med-github
+cd /home/kau005/project-lifecycle-manager
 ./scripts/setup_cron.sh
 ```
 
@@ -122,7 +122,7 @@ rclone config show
 ```bash
 # Manuell restart
 pkill -f "docusaurus start --port 3001"
-cd /home/kau005/prototype-workflow-med-github
+cd /home/kau005/project-lifecycle-manager
 nohup npm start > logs/docusaurus.log 2>&1 &
 ```
 

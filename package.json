@@ -1,7 +1,7 @@
 {
-  "name": "prototype-workflow-med-github",
+  "name": "project-lifecycle-manager",
   "version": "1.0.0",
-  "description": "ProtoNord Wiki - Project management and workflow tracking system with Shopify integration and file server coordination for complete project lifecycle oversight",
+  "description": "Project Lifecycle Manager - Project management and workflow tracking system with Shopify integration and file server coordination for complete project lifecycle oversight",
   "main": "index.js",
   "scripts": {
     "docusaurus": "docusaurus",
@@ -17,15 +17,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/PROTONORD/prototype-workflow-med-github.git"
+    "url": "git+https://github.com/PROTONORD/project-lifecycle-manager.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/PROTONORD/prototype-workflow-med-github/issues"
+    "url": "https://github.com/PROTONORD/project-lifecycle-manager/issues"
   },
-  "homepage": "https://github.com/PROTONORD/prototype-workflow-med-github#readme",
+  "homepage": "https://github.com/PROTONORD/project-lifecycle-manager#readme",
   "dependencies": {
     "@docusaurus/core": "^3.8.1",
     "@docusaurus/module-type-aliases": "^3.8.1",

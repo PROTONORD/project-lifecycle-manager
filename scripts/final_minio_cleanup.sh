@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Script for å fjerne gjenværende MinIO-referanser
-WORKSPACE_ROOT="/home/kau005/prototype-workflow-med-github"
+WORKSPACE_ROOT="/home/kau005/project-lifecycle-manager"
 
 echo "🧹 Cleaning remaining MinIO references..."
 

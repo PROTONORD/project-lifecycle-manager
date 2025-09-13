@@ -13,7 +13,7 @@ REMOTE_2_NAME="jottacloud"
 REMOTE_2_BASE_DIR="ProtoNordBackup"
 
 # ProtoNord spesifikke innstillinger
-PROTONORD_DIR="/home/kau005/prototype-workflow-med-github"
+PROTONORD_DIR="/home/kau005/project-lifecycle-manager"
 TEMP_DIR="/tmp/protonord_backup_temp"
 BACKUP_NAME="protonord-website"
 DATE=$(date +"%Y%m%d_%H%M%S")
@@ -83,7 +83,7 @@ EOF
     log "Pakker backup: $BACKUP_FILENAME"
     
     cd "$TEMP_DIR"
-    tar -czf "$BACKUP_FILENAME" prototype-workflow-med-github/ backup_metadata.txt
+    tar -czf "$BACKUP_FILENAME" project-lifecycle-manager/ backup_metadata.txt
     
     # Sjekk at backup-filen ble opprettet
     if [[ ! -f "$TEMP_DIR/$BACKUP_FILENAME" ]]; then

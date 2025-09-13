@@ -133,10 +133,10 @@ config_manager.sh [OPSJONER] ACTION CONFIG_TYPE [CONTENT]
 ### 1. Cron-jobber
 ```bash
 # ProtoNord backup (allerede implementert)
-./scripts/config_manager.sh -b add crontab "30 1 * * * /home/kau005/prototype-workflow-med-github/scripts/protonord_cloud_backup.sh >> /home/kau005/protonord_backup.log 2>&1"
+./scripts/config_manager.sh -b add crontab "30 1 * * * /home/kau005/project-lifecycle-manager/scripts/protonord_cloud_backup.sh >> /home/kau005/protonord_backup.log 2>&1"
 
 # Shopify sync-jobb
-./scripts/config_manager.sh -b add crontab "0 */6 * * * /home/kau005/prototype-workflow-med-github/scripts/shopify_sync.sh"
+./scripts/config_manager.sh -b add crontab "0 */6 * * * /home/kau005/project-lifecycle-manager/scripts/shopify_sync.sh"
 ```
 
 ### 2. Docusaurus konfigurasjon
@@ -204,7 +204,7 @@ echo "=== HOSTS ===" >> ~/config_status.txt
 #### Tilgangsrettigheter
 ```bash
 # Fiks executable-rettigheter
-chmod +x /home/kau005/prototype-workflow-med-github/scripts/config_manager.sh
+chmod +x /home/kau005/project-lifecycle-manager/scripts/config_manager.sh
 ```
 
 #### Backup-mappe

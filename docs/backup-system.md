@@ -53,10 +53,10 @@ ProtoNordBackup/
 crontab -e
 
 # Legg til daglig backup kl 02:00
-0 2 * * * /home/kau005/prototype-workflow-med-github/scripts/protonord_cloud_backup.sh
+0 2 * * * /home/kau005/project-lifecycle-manager/scripts/protonord_cloud_backup.sh
 
 # Eller ukentlig backup (søndager kl 03:00)
-0 3 * * 0 /home/kau005/prototype-workflow-med-github/scripts/protonord_cloud_backup.sh
+0 3 * * 0 /home/kau005/project-lifecycle-manager/scripts/protonord_cloud_backup.sh
 ```
 
 ## 📦 Hva backupes
@@ -91,7 +91,7 @@ tar -xzf protonord-website_20250115_120000.tar.gz
 
 ### Gjenopprett website
 ```bash
-cd prototype-workflow-med-github/
+cd project-lifecycle-manager/
 npm install
 npm start
 ```
@@ -158,7 +158,7 @@ du -sh /tmp/protonord_backup_temp/
 ```bash
 # Legg til i crontab for email-varsler ved feil
 MAILTO=din@email.com
-0 2 * * * /home/kau005/prototype-workflow-med-github/scripts/protonord_cloud_backup.sh || echo "Backup feilet!" | mail -s "ProtoNord Backup Feil" $MAILTO
+0 2 * * * /home/kau005/project-lifecycle-manager/scripts/protonord_cloud_backup.sh || echo "Backup feilet!" | mail -s "ProtoNord Backup Feil" $MAILTO
 ```
 
 ### Automated testing

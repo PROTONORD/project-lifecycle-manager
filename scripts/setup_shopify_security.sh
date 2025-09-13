@@ -2,7 +2,7 @@
 # ProtoNord Shopify Setup Script
 # Sikker konfigurasjon av API-nøkler
 
-SCRIPT_DIR="/home/kau005/prototype-workflow-med-github"
+SCRIPT_DIR="/home/kau005/project-lifecycle-manager"
 ENV_FILE="$SCRIPT_DIR/.env"
 TEMPLATE_FILE="$SCRIPT_DIR/.env.template"
 

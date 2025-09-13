@@ -13,7 +13,7 @@ Dette er en Docusaurus-basert wiki og prosjektstyringsplattform for ProtoNord so
 ## 🌐 Live nettsteder
 
 - **Wiki og Dashboard**: <https://wiki.protonord.no>
-- **Repository**: <https://github.com/PROTONORD/prototype-workflow-med-github>
+- **Repository**: <https://github.com/PROTONORD/project-lifecycle-manager>
 
 ## 🏗️ Systemarkitektur
 
@@ -47,8 +47,8 @@ Dette er en Docusaurus-basert wiki og prosjektstyringsplattform for ProtoNord so
 
 ```bash
 # Klon prosjektet
-git clone https://github.com/PROTONORD/prototype-workflow-med-github.git
-cd prototype-workflow-med-github
+git clone https://github.com/PROTONORD/project-lifecycle-manager.git
+cd project-lifecycle-manager
 
 # Installer Node.js pakker
 npm install
@@ -91,7 +91,7 @@ npm run serve
 ## 📁 Prosjektstruktur
 
 ```
-prototype-workflow-med-github/
+project-lifecycle-manager/
 ├── docs/                    # Dokumentasjon (Markdown)
 │   ├── backup-system.md     # Backup system guide
 │   └── config-manager-guide.md # Config manager manual

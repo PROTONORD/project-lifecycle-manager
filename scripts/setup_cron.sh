@@ -1,7 +1,7 @@
 #!/bin/bash
 # ProtoNord Cloud Sync - Cron Setup Script
 
-SCRIPT_DIR="/home/kau005/prototype-workflow-med-github"
+SCRIPT_DIR="/home/kau005/project-lifecycle-manager"
 SYNC_SCRIPT="$SCRIPT_DIR/scripts/automated_protonord_sync.py"
 LOG_DIR="$SCRIPT_DIR/logs"
 

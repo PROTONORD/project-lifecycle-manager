@@ -3,7 +3,7 @@
 # Script for å fjerne MinIO-referanser fra catalog README-filer
 # Erstatter alle MinIO-lenker med cloud backup referanser
 
-WORKSPACE_ROOT="/home/kau005/prototype-workflow-med-github"
+WORKSPACE_ROOT="/home/kau005/project-lifecycle-manager"
 CATALOG_DIR="${WORKSPACE_ROOT}/catalog"
 BACKUP_DIR="${WORKSPACE_ROOT}/backup_original_readmes"
 LOG_FILE="${WORKSPACE_ROOT}/minio_cleanup.log"
