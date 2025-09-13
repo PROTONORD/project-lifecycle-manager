@@ -1,15 +1,4 @@
-import React fr  },
-  {
-    title: '🔄 Automatisk Synkronisering',
-    Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
-    description: (
-      <>
-        rclone og Shopify API holder data synkronisert og oppdatert automatisk
-        med daglige scripts og sanntids cloud-oppdateringer.
-      </>
-    ),
-  },
-];;
+import React from 'react';
 import clsx from 'clsx';
 import styles from './styles.module.css';
 
@@ -26,16 +15,7 @@ const FeatureList = [
   },
   {
     title: '🛍️ Shopify Integrering', 
-    Svg: require('@site/static/img/protonord-logo.png').default,
-    description: (
-      <>
-        Live dashboard med produkter, bestillinger og kunde-data fra ProtoNord Shopify butikken.
-        Automatisk synkronisering hver natt for oppdatert business intelligence.
-      </>
-    ),
-  },
-    title: '�️ Shopify Integrering', 
-    Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
+    Svg: require('@site/static/img/protonord-logo.svg').default,
     description: (
       <>
         Live dashboard med produkter, bestillinger og kunde-data fra ProtoNord Shopify butikken.
@@ -44,7 +24,7 @@ const FeatureList = [
     ),
   },
   {
-    title: '� Automatisk Synkronisering',
+    title: '🔄 Automatisk Synkronisering',
     Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
     description: (
       <>
