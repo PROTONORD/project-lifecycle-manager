@@ -1,0 +1,18 @@
+[Unit]
+Description=Project Lifecycle Manager - Docusaurus Wiki
+After=network.target
+
+[Service]
+Type=simple
+User=kau005
+WorkingDirectory=/home/kau005/prototype-workflow-med-github
+ExecStart=/usr/bin/npm start
+Restart=always
+RestartSec=10
+Environment=NODE_ENV=production
+StandardOutput=syslog
+StandardError=syslog
+SyslogIdentifier=project-lifecycle-manager
+
+[Install]
+WantedBy=multi-user.target
