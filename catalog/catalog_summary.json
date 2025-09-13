@@ -1,6 +1,6 @@
 {
   "total_products": 205,
-  "catalog_path": "/home/kau005/prototype-workflow-med-github/catalog",
+  "catalog_path": "/home/kau005/project-lifecycle-manager/catalog",
   "cloud_bucket": "products",
   "products": [
     {

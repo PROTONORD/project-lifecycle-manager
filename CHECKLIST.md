@@ -24,8 +24,8 @@ Bruk denne sjekklisten for å sette opp systemet steg for steg.
 
 ### 3. Klon og sett opp prosjekt
 ```bash
-git clone https://github.com/PROTONORD/prototype-workflow-med-github.git
-cd prototype-workflow-med-github
+git clone https://github.com/PROTONORD/project-lifecycle-manager.git
+cd project-lifecycle-manager
 python3 -m venv .venv
 source .venv/bin/activate
 pip install -r requirements.txt

@@ -1,4 +1,4 @@
-# # prototype-workflow-med-github
+# # project-lifecycle-manager
 
 ## Komplett Guide for Automatisert CAD til E-handel med MinIO
 
@@ -10,8 +10,8 @@ Dette dokumentet beskriver A-til-Å-oppsettet for et helautomatisert system som 
 
 ```bash
 # Klon prosjektet
-git clone https://github.com/PROTONORD/prototype-workflow-med-github.git
-cd prototype-workflow-med-github
+git clone https://github.com/PROTONORD/project-lifecycle-manager.git
+cd project-lifecycle-manager
 
 # Opprett Python virtuelt miljø
 python3 -m venv .venv
@@ -78,7 +78,7 @@ python main.py sync produkt-handle
 ## 📁 Prosjektstruktur
 
 ```
-prototype-workflow-med-github/
+project-lifecycle-manager/
 ├── src/                     # Python kildekode
 │   ├── config.py           # Miljøkonfigurasjon
 │   ├── shopify_client.py   # Shopify API klient
